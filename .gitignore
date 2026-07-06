@@ -1,0 +1,53 @@
+__pycache__/
+*.py[cod]
+.env
+.venv/
+venv/
+.streamlit/secrets.toml
+
+# Secrets and local credentials
+openai key.docx
+*key*.docx
+
+# Local/editor/cache artifacts
+.claude/
+.pytest_cache/
+.ipynb_checkpoints/
+tmp/
+
+# Internal manuscript editing helper, not part of reproducibility package.
+scripts/revise_manuscript_si.py
+
+# Generated model/index artifacts
+outputs/models/
+*.joblib
+*.pkl
+*.gpickle
+*.bin
+
+# Large generated outputs; keep only lightweight report snapshots if desired.
+outputs/*
+!outputs/reports/
+!outputs/reports/*.csv
+!outputs/reports/*.txt
+outputs/reports/streamlit_explanation.html
+
+# Copyrighted/full-text literature and derived full-text chunks.
+data/papers/
+data/chunks.jsonl
+
+# Manuscript/submission binaries are handled separately from the code repository.
+Manuscript Cu/
+Graphic abstract/
+Inskcape/
+
+# Generated figures and binary tables.
+*.tiff
+*.tif
+*.png
+*.pdf
+*.docx
+*.xlsx
+
+# Curated raw/master data prepared for public review.
+!data/raw_data_literature_master.xlsx

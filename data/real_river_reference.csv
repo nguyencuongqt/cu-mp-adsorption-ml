@@ -1,0 +1,15 @@
+﻿AgS,ReT,Temp,pH,rpm,AdC,Ce,real_qe,source,river,country,Resin_percentage,doi
+Aged,PP,25,7,167,Mixed,0.15776,0.000341,"(Zhang et al., 2025a)",Zao River,China,37.0,DOI: 10.1039/d5ew00208g
+Aged,PE,25,7,167,Mixed,0.15776,0.000341,"(Zhang et al., 2025a)",Zao River,China,24.0,DOI: 10.1039/d5ew00208g
+Aged,PET,25,7,167,Mixed,0.15776,0.000341,"(Zhang et al., 2025a)",Zao River,China,18.0,DOI: 10.1039/d5ew00208g
+Aged,PS,25,7,167,Mixed,0.15776,0.000341,"(Zhang et al., 2025a)",Zao River,China,17.0,DOI: 10.1039/d5ew00208g
+Aged,PET,25,7,167,Mixed,0.000218,0.0002905,"(Zhang et al., 2025b)",Urban-rural rivers,China,100.0,DOI: 10.1016/j.emcon.2025.100500
+Aged,PP,25,7,167,Mixed,0.04,0.0005,"(Ta & Babel, 2023)",Chao Phraya River,Thailand,52.22,DOI: 10.1016/j.marpolbul.2023.114919
+Aged,PE,25,7,167,Mixed,0.04,0.0005,"(Ta & Babel, 2023)",Chao Phraya River,Thailand,21.0,DOI: 10.1016/j.marpolbul.2023.114919
+Aged,PS,25,7,167,Mixed,0.04,0.0005,"(Ta & Babel, 2023)",Chao Phraya River,Thailand,19.0,DOI: 10.1016/j.marpolbul.2023.114919
+Aged,PE,25,7,167,Mixed,0.005,0.0145,"(Ta & Babel, 2020)",Chao Phraya River,Thailand,50.0,DOI: 10.1016/j.marpolbul.2020.111747
+Aged,PP,25,7,167,Mixed,0.005,0.0145,"(Ta & Babel, 2020)",Chao Phraya River,Thailand,21.0,DOI: 10.1016/j.marpolbul.2020.111747
+Aged,PS,25,7,167,Mixed,0.005,0.0145,"(Ta & Babel, 2020)",Chao Phraya River,Thailand,7.0,DOI: 10.1016/j.marpolbul.2020.111747
+Aged,PP,25,7,167,Mixed,0.0138,9.1e-05,"(Purwiyanto et al., 2020)",Musi River,Indonesia,36.6,DOI: 10.1016/j.marpolbul.2020.111380
+Aged,PE,25,7,167,Mixed,0.0138,9.1e-05,"(Purwiyanto et al., 2020)",Musi River,Indonesia,27.7,DOI: 10.1016/j.marpolbul.2020.111380
+Aged,PVC,25,7,167,Mixed,0.0138,9.1e-05,"(Purwiyanto et al., 2020)",Musi River,Indonesia,9.09,DOI: 10.1016/j.marpolbul.2020.111380

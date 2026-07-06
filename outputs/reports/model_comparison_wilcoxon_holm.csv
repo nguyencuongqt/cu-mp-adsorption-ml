@@ -1,0 +1,7 @@
+model_a,model_b,wilcoxon_stat,p_value,p_adjusted_holm,significant_0.05
+RandomForest,XGBoost,20.0,0.4921875,0.4921875,False
+RandomForest,LightGBM,15.0,0.232421875,0.46484375,False
+RandomForest,ElasticNet,0.0,0.001953125,0.01171875,True
+XGBoost,LightGBM,9.0,0.064453125,0.193359375,False
+XGBoost,ElasticNet,0.0,0.001953125,0.01171875,True
+LightGBM,ElasticNet,0.0,0.001953125,0.01171875,True

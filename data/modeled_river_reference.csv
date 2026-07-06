@@ -1,0 +1,21 @@
+﻿river,country,MP_type,MP_items_m3,MP_mass_conc_mg_m3,Ce_mg_L,Q_m3_yr,Modeled_river_qe_mg_g,Lo_modeled_river_qe_mg_g,Hi_modeled_river_qe_mg_g,Source
+Yangtze,China,PP,2904.12,36.3015,0.00305,498000000000,0.0037,0.0008,0.0125,Xuan Cuong Nguyen (DTU). Version: 1.3.0
+Ganges,"India, Bangladesh",½ PE and ½  PP,16.775,0.2096875,2.54,656000000000,0.01355,0.0009,0.03025,Xuan Cuong Nguyen (DTU). Version: 1.3.0
+Xi,China,½ PE and ½  PP,480.0,6.0,0.00877,174000000000,0.003,0.0007,0.0099,Xuan Cuong Nguyen (DTU). Version: 1.3.0
+Huangpu,China,PP,1666.7,20.833750000000002,0.00877,12700000000,0.0034,0.0008,0.009,Xuan Cuong Nguyen (DTU). Version: 1.3.0
+Cross,"Nigeri, Cameroon",½ PE and ½  PP,480.0,6.0,0.00877,7570000000,0.003,0.0007,0.0099,Xuan Cuong Nguyen (DTU). Version: 1.3.0
+Brantas,Indonesia,½ PE and ½  PP,3467.41,43.342625,0.00877,25800000000,0.003,0.0007,0.0099,Xuan Cuong Nguyen (DTU). Version: 1.3.0
+Amazon,"Brazil, Peru, Colombia, Ecuador",½ PE and ½  PP,57.0,0.7125,0.00248,4410000000000,0.0039,0.00075,0.0136,Xuan Cuong Nguyen (DTU). Version: 1.3.0
+Pasig,Philippines,½ PE and ½  PP,480.0,6.0,0.00877,6530000000,0.003,0.0007,0.0099,Xuan Cuong Nguyen (DTU). Version: 1.3.0
+Irrawaddy,Myanmar,½ PE and ½  PP,480.0,6.0,0.00877,173000000000,0.003,0.0007,0.0099,Xuan Cuong Nguyen (DTU). Version: 1.3.0
+(Surabaya) Solo,Indonesia,½ PE and ½  PP,13.16,0.1645,0.00877,23500000000,0.003,0.0007,0.0099,Xuan Cuong Nguyen (DTU). Version: 1.3.0
+Mekong,"Thailand, Cambodia, Laos, China, Myanmar, Vietnam",PET,21.5,0.26875,0.00877,190000000000,0.0021,0.0006,0.0065,Xuan Cuong Nguyen (DTU). Version: 1.3.0
+Imo,Nigeria,½ PE and ½  PP,480.0,6.0,0.00877,8800000000,0.003,0.0007,0.0099,Xuan Cuong Nguyen (DTU). Version: 1.3.0
+Dong,China,½ PE and ½  PP,480.0,6.0,0.00877,26900000000,0.003,0.0007,0.0099,Xuan Cuong Nguyen (DTU). Version: 1.3.0
+Serayu,Indonesia,½ PE and ½  PP,480.0,6.0,0.00877,11700000000,0.003,0.0007,0.0099,Xuan Cuong Nguyen (DTU). Version: 1.3.0
+Magdalena,Colombia,½ PE and ½  PP,480.0,6.0,0.00877,187000000000,0.003,0.0007,0.0099,Xuan Cuong Nguyen (DTU). Version: 1.3.0
+Tamsui,Taiwan,½ PE and ½  PP,25.4,0.3175,0.00877,3410000000,0.003,0.0007,0.0099,Xuan Cuong Nguyen (DTU). Version: 1.3.0
+Zhujiang (Pearl),China,PET,1000.0,12.5,0.00100427,4200000000,0.0048,0.0007,0.0165,Xuan Cuong Nguyen (DTU). Version: 1.3.0
+Hanjiang,China,PET,3579.44,44.743,0.00877,23200000000,0.0021,0.0006,0.0065,Xuan Cuong Nguyen (DTU). Version: 1.3.0
+Progo,Indonesia,PE,167.91,2.098875,0.00877,8800000000,0.0026,0.0006,0.0108,Xuan Cuong Nguyen (DTU). Version: 1.3.0
+Kwa Ibo,Nigeria,½ PE and ½  PP,480.0,6.0,0.00877,6060000000,0.003,0.0007,0.0099,Xuan Cuong Nguyen (DTU). Version: 1.3.0

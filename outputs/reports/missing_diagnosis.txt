@@ -1,0 +1,38 @@
+﻿Missing-data diagnosis for pH
+====================================
+DATA_FILE: G:\My Drive\Cu-MP LLM prediction\cu_mp_adsorption\data\dataset.csv
+Dataset shape: 789 rows x 8 columns
+
+Missing-data summary
+column  n_missing pct_missing
+    pH        364       46.13
+   rpm        142       18.00
+  Temp         60        7.60
+   AgS          0        0.00
+   ReT          0        0.00
+   AdC          0        0.00
+    Ce          0        0.00
+    qe          0        0.00
+
+Saved missingness matrix plot: G:\My Drive\Cu-MP LLM prediction\cu_mp_adsorption\outputs\figures\missing_matrix.png
+
+Little's MCAR test
+Variables tested: Temp, pH, rpm, Ce, qe
+chi-square = 560.5844, df = 18, p = 1.81363e-107
+Conclusion: Reject MCAR → likely MAR/MNAR (p=1.81363e-107)
+
+MAR investigation: numeric predictors
+Ce: r = 0.1990, p = 1.74013e-08, n = 789
+Temp: r = -0.0215, p = 0.561633, n = 729
+rpm: r = 0.3991, p = 3.96981e-26, n = 647
+
+Saved missingness correlation plot: G:\My Drive\Cu-MP LLM prediction\cu_mp_adsorption\outputs\figures\missing_correlation.png
+
+MAR investigation: categorical predictors
+AgS: chi2 = 12.3907, df = 1, p = 0.000431487
+ReT: chi2 = 288.3713, df = 12, p = 1.29304e-54
+AdC: chi2 = 4.7990, df = 1, p = 0.0284762
+
+MAR conclusion: MAR supported: pH_missing is associated with Ce, rpm, AgS, ReT, AdC at p < 0.05.
+
+MNAR note: MNAR cannot be tested from the observed dataset alone; external validation data or study-design information would be required. This remains a limitation.
