@@ -47,7 +47,7 @@ from config import (  # noqa: E402
     QRF_LOWER,
     QRF_UPPER,
     RANDOM_SEED,
-    RF_PARAMS,
+    REPORTS_DIR,
     TARGET,
     TEST_SIZE,
 )
@@ -55,17 +55,13 @@ from src.analysis.data_cleaning import clean_model_data  # noqa: E402
 
 
 QRF_QUANTILES = [QRF_LOWER, 0.50, QRF_UPPER]
-PAPER_TARGETS = {
-    "mae": 0.319,
-    "r2": 0.807,
-    "coverage": 0.894,
-    "niw": 0.220,
-}
+RF_MODEL_FILE = MODEL_DIR / "RandomForest_tuned.joblib"
 
 
 def _ensure_output_dirs() -> None:
     FIGURES_DIR.mkdir(parents=True, exist_ok=True)
     MODEL_DIR.mkdir(parents=True, exist_ok=True)
+    REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def _load_raw_dataset() -> pd.DataFrame:
@@ -124,8 +120,26 @@ def _make_preprocessor(x: pd.DataFrame) -> ColumnTransformer:
     )
 
 
+def _load_tuned_rf_params() -> dict[str, Any]:
+    """Return the fitted RF tree-growing parameters for the QRF refit."""
+    if not RF_MODEL_FILE.exists():
+        raise FileNotFoundError(
+            f"Tuned RF model not found: {RF_MODEL_FILE}. Run model training before QRF."
+        )
+    rf_pipeline = joblib.load(RF_MODEL_FILE)
+    if not isinstance(rf_pipeline, Pipeline) or "model" not in rf_pipeline.named_steps:
+        raise TypeError("RandomForest_tuned.joblib does not contain a model pipeline.")
+    rf_model = rf_pipeline.named_steps["model"]
+    available = RandomForestQuantileRegressor().get_params().keys()
+    return {
+        key: value
+        for key, value in rf_model.get_params().items()
+        if key in available and key not in {"random_state", "n_jobs", "default_quantiles"}
+    }
+
+
 def _make_qrf_pipeline(x_train: pd.DataFrame) -> Pipeline:
-    params = dict(RF_PARAMS)
+    params = _load_tuned_rf_params()
     params.update(
         {
             "default_quantiles": QRF_QUANTILES,
@@ -139,6 +153,23 @@ def _make_qrf_pipeline(x_train: pd.DataFrame) -> Pipeline:
             ("model", RandomForestQuantileRegressor(**params)),
         ]
     )
+
+
+def _save_metrics(metrics: dict[str, float], qrf_model: Pipeline) -> Path:
+    """Write the authoritative held-out QRF metrics and fitted parameters."""
+    model = qrf_model.named_steps["model"]
+    row = {
+        **metrics,
+        "n_estimators": model.n_estimators,
+        "max_features": model.max_features,
+        "min_samples_leaf": model.min_samples_leaf,
+        "min_samples_split": model.min_samples_split,
+        "random_state": model.random_state,
+        "quantiles": ";".join(map(str, QRF_QUANTILES)),
+    }
+    output = REPORTS_DIR / "qrf_test_metrics.csv"
+    pd.DataFrame([row]).to_csv(output, index=False)
+    return output
 
 
 def _prepare_inputs(
@@ -293,21 +324,12 @@ def _save_prediction_plot(
 def _print_metrics(metrics: dict[str, float]) -> None:
     print("Quantile Random Forest metrics")
     print("=" * 48)
-    print(f"MAE: {metrics['mae']:.4f} | paper target ≈ {PAPER_TARGETS['mae']:.3f}")
+    print(f"MAE: {metrics['mae']:.4f}")
     print(f"nMAE: {metrics['nmae']:.4f}")
-    print(f"R²: {metrics['r2']:.4f} | paper target ≈ {PAPER_TARGETS['r2']:.3f}")
-    print(
-        f"Coverage: {metrics['coverage'] * 100:.2f}% "
-        f"| paper target ≈ {PAPER_TARGETS['coverage'] * 100:.1f}%"
-    )
-    print(f"NIW: {metrics['niw']:.4f} | paper target ≈ {PAPER_TARGETS['niw']:.3f}")
+    print(f"R²: {metrics['r2']:.4f}")
+    print(f"Coverage: {metrics['coverage'] * 100:.2f}%")
+    print(f"NIW: {metrics['niw']:.4f}")
     print(f"Interval Score: {metrics['interval_score']:.4f}")
-    print("")
-    print("Difference from paper targets")
-    print(f"ΔMAE = {metrics['mae'] - PAPER_TARGETS['mae']:+.4f}")
-    print(f"ΔR² = {metrics['r2'] - PAPER_TARGETS['r2']:+.4f}")
-    print(f"ΔCoverage = {(metrics['coverage'] - PAPER_TARGETS['coverage']) * 100:+.2f} percentage points")
-    print(f"ΔNIW = {metrics['niw'] - PAPER_TARGETS['niw']:+.4f}")
 
 
 def _stratified_bins(y: pd.Series, n_splits: int = 5) -> pd.Series:
@@ -354,9 +376,11 @@ def run(
     figure_path = _save_prediction_plot(y_test_s, y_pred_median, y_pred_lower, y_pred_upper, metrics=metrics)
     model_path = MODEL_DIR / "qrf_model.joblib"
     joblib.dump(qrf_model, model_path)
+    metrics_path = _save_metrics(metrics, qrf_model)
 
     print(f"Saved QRF prediction plot: {figure_path}")
     print(f"Saved QRF model: {model_path}")
+    print(f"Saved QRF test metrics: {metrics_path}")
 
     return qrf_model, y_pred_median, y_pred_lower, y_pred_upper, metrics
 

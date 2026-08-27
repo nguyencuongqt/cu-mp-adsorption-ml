@@ -1,0 +1,2 @@
+mae,nmae,r2,coverage,niw,interval_score,y_range,n_estimators,max_features,min_samples_leaf,min_samples_split,random_state,quantiles
+0.32099824167786134,0.03529764207818733,0.7539342760453743,0.8924050632911392,0.1591173389202359,1.77553143551349,9.09404206,1882,0.8,1,4,42,0.05;0.5;0.95

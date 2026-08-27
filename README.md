@@ -20,6 +20,11 @@ outputs for manuscript review.
 - `data/*.csv` - curated numeric datasets used by the workflow.
 - `outputs/reports/` - optional lightweight result snapshots.
 
+The QRF is refit with the tree-growing hyperparameters of the tuned point RF;
+`outputs/reports/qrf_test_metrics.csv` records its held-out median and interval
+metrics. River and FAF snapshots are regenerated from that refit and include
+the propagated 95% global-mass interval.
+
 Full-text PDFs, generated text chunks, trained model binaries, and API keys are
 not included in the public repository.
 
