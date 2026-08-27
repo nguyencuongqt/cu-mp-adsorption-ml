@@ -78,7 +78,7 @@ MODEL_LABELS = {
     "RandomForest": "RF",
     "LightGBM": "LGBM",
     "XGBoost": "XGB",
-    "ElasticNet": "GLM",
+    "ElasticNet": "ElasticNet",
 }
 
 

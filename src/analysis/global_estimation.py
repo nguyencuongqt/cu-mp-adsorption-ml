@@ -54,9 +54,13 @@ QRF_MODEL_FILE = MODEL_DIR / "qrf_model.joblib"
 FAF_RESULTS_FILE = REPORTS_DIR / "faf_results.csv"
 REQUIRED_RIVER_COLS = ["river", "country", "MP_type", "MP_items_m3", "Ce_mg_L", "Q_m3_yr"]
 PARTICLE_MASS_G = 0.125e-4
-DISSOLVED_CU_FLUX_T_YR = 51_000.0
-DISSOLVED_CU_FLUX_KG_YR = DISSOLVED_CU_FLUX_T_YR * 1000.0
-DISSOLVED_CU_FLUX_MOL_YR = 8.04e8
+# Benchmark dissolved-Cu load implied by the same global discharge and Cu
+# concentration used in the adsorption calculation. Keeping this derived avoids
+# comparing the model output with an uncited external flux constant.
+DISSOLVED_CU_BENCHMARK_T_YR = (
+    GLOBAL_DISCHARGE_M3_YR * 1000.0 * GLOBAL_CU_MG_L / 1e9
+)
+DISSOLVED_CU_BENCHMARK_KG_YR = DISSOLVED_CU_BENCHMARK_T_YR * 1000.0
 
 
 def _ensure_output_dirs() -> None:
@@ -318,7 +322,7 @@ def _save_global_river_summary(
 
 
 def _print_benchmarks(global_mass_kg: float, top20_mass_kg: float) -> None:
-    pct_dissolved = global_mass_kg / DISSOLVED_CU_FLUX_KG_YR * 100
+    pct_dissolved = global_mass_kg / DISSOLVED_CU_BENCHMARK_KG_YR * 100
     top20_pct_global = top20_mass_kg / global_mass_kg * 100 if global_mass_kg > 0 else float("nan")
     global_mass_t = global_mass_kg / 1000.0
 
@@ -326,8 +330,8 @@ def _print_benchmarks(global_mass_kg: float, top20_mass_kg: float) -> None:
     print("=" * 56)
     print(f"Global mass: {global_mass_kg:.6g} kg/yr ({global_mass_t:.6g} t/yr)")
     print(
-        f"Percent of total dissolved Cu global flux "
-        f"({DISSOLVED_CU_FLUX_T_YR:,.0f} t/yr = {DISSOLVED_CU_FLUX_MOL_YR:.2e} mol/yr): "
+        f"Percent of dissolved Cu benchmark implied by global inputs "
+        f"({DISSOLVED_CU_BENCHMARK_T_YR:,.0f} t/yr): "
         f"{pct_dissolved:.6g}%"
     )
     print(f"Top-20 river contribution vs global: {top20_pct_global:.6g}%")
