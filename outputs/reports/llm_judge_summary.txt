@@ -11,7 +11,7 @@ responses saved in llm_judge_raw.csv for manual inspection.
 
 ── Overall scores (mean ± SE) ─────────────────────────────────────
   C0: 2.60 ± 0.00  (n=10)
-  C1: 3.05 ± 0.04  (n=10)
+  C1: 3.06 ± 0.04  (n=10)
   C2: 4.46 ± 0.11  (n=10)
   C3: 4.97 ± 0.03  (n=10)
 

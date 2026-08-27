@@ -40,6 +40,7 @@ import json
 import re
 import sys
 import time
+from decimal import Decimal, ROUND_HALF_UP
 from pathlib import Path
 from typing import Any
 
@@ -335,6 +336,14 @@ _CONDITION_COLORS = {
 }
 
 
+def _format_score(value: float) -> str:
+    """Format reported scores with conventional half-up rounding."""
+    return format(
+        Decimal(str(float(value))).quantize(Decimal("0.01"), rounding=ROUND_HALF_UP),
+        ".2f",
+    )
+
+
 def _bar_chart(scores_df: pd.DataFrame, tests: pd.DataFrame) -> Path:
     """Grouped bar chart: one group per dimension, bars per condition."""
     summary = scores_df.groupby("condition")[DIMENSIONS + ["overall"]].agg(["mean", "sem"])
@@ -489,7 +498,10 @@ def _build_summary(scores_df: pd.DataFrame, tests: pd.DataFrame, n_cases: int) -
     ]
     for cond in CONDITIONS:
         subset = scores_df[scores_df["condition"] == cond]["overall"]
-        lines.append(f"  {cond}: {subset.mean():.2f} ± {subset.sem():.2f}  (n={len(subset)})")
+        lines.append(
+            f"  {cond}: {_format_score(subset.mean())} ± {_format_score(subset.sem())}  "
+            f"(n={len(subset)})"
+        )
 
     lines += [
         "",
