@@ -246,6 +246,77 @@ def _save_river_plot(river_df: pd.DataFrame) -> Path:
     return output
 
 
+def _save_global_river_summary(
+    river_df: pd.DataFrame,
+    global_mass_kg: float,
+    global_mass_low_kg: float,
+    global_mass_high_kg: float,
+) -> Path:
+    """Create the publication Figure 5 source from the same river output CSV."""
+    output = FIGURES_DIR / "river_global_summary.png"
+    plot_df = river_df.sort_values("mass_kg_yr", ascending=False).head(20)
+    plot_df = plot_df.sort_values("mass_kg_yr", ascending=True)
+    values = pd.to_numeric(plot_df["mass_kg_yr"], errors="coerce").clip(lower=0)
+    lows = pd.to_numeric(plot_df["mass_low_kg_yr"], errors="coerce").clip(lower=0)
+    highs = pd.to_numeric(plot_df["mass_high_kg_yr"], errors="coerce").clip(lower=0)
+    positive = pd.concat([values[values > 0], lows[lows > 0], highs[highs > 0]])
+    xmin = float(positive.min() * 0.55) if not positive.empty else 1e-4
+    xmax = float(max(values.max(), highs.max()) * 1.8) if values.max() > 0 else 1.0
+    plot_values = values.mask(values <= 0, xmin)
+    plot_lows = lows.mask(lows <= 0, xmin).clip(upper=plot_values)
+    y_pos = np.arange(len(plot_df))
+
+    fig, (ax_global, ax_rivers) = plt.subplots(
+        1, 2, figsize=(13.2, 7.0), gridspec_kw={"width_ratios": [0.82, 1.55]}
+    )
+    fig.patch.set_facecolor("white")
+    ax_global.errorbar(
+        global_mass_kg,
+        0,
+        xerr=np.array([[global_mass_kg - global_mass_low_kg], [global_mass_high_kg - global_mass_kg]]),
+        fmt="o",
+        color="#2f6f9f",
+        ecolor="#c43c39",
+        elinewidth=1.8,
+        capsize=5,
+        markersize=7,
+    )
+    ax_global.set_xscale("log")
+    ax_global.set_xlim(max(global_mass_low_kg * 0.7, 1e-3), global_mass_high_kg * 1.35)
+    ax_global.set_yticks([0])
+    ax_global.set_yticklabels(["Global rivers"])
+    ax_global.set_xlabel("Cu²⁺ adsorbed onto MPs (kg yr⁻¹)")
+    ax_global.set_title("a  Global estimate", loc="left", fontweight="bold")
+    ax_global.grid(axis="x", which="both", linestyle=":", alpha=0.45)
+    ax_global.annotate(
+        f"{global_mass_kg:.1f} kg yr⁻¹\n95% CI: {global_mass_low_kg:.1f}–{global_mass_high_kg:.1f}",
+        xy=(global_mass_kg, 0),
+        xytext=(0, 12),
+        textcoords="offset points",
+        ha="center",
+        va="bottom",
+        fontsize=9,
+        color="#1f4d78",
+    )
+
+    ax_rivers.hlines(y_pos, xmin, plot_values, color="#c8d3df", linewidth=2.4, zorder=1)
+    xerr = np.vstack([(plot_values - plot_lows).clip(lower=0), (highs - plot_values).clip(lower=0)])
+    ax_rivers.errorbar(plot_values, y_pos, xerr=xerr, fmt="none", ecolor="#c43c39", elinewidth=1.2, capsize=3, zorder=2)
+    ax_rivers.scatter(plot_values, y_pos, s=38, color="#2f6f9f", edgecolor="white", linewidth=0.7, zorder=3)
+    ax_rivers.set_yticks(y_pos)
+    ax_rivers.set_yticklabels(plot_df["river"].astype(str), fontsize=8)
+    ax_rivers.set_xscale("log")
+    ax_rivers.set_xlim(xmin, xmax)
+    ax_rivers.xaxis.set_major_formatter(FuncFormatter(lambda x, _: f"{x:g}"))
+    ax_rivers.set_xlabel("Cu²⁺ adsorbed onto MPs (kg yr⁻¹)")
+    ax_rivers.set_title("b  Twenty rivers with the highest MP pollution", loc="left", fontweight="bold")
+    ax_rivers.grid(axis="x", which="both", linestyle=":", alpha=0.45)
+    fig.tight_layout()
+    fig.savefig(output, dpi=300, bbox_inches="tight")
+    plt.close(fig)
+    return output
+
+
 def _print_benchmarks(global_mass_kg: float, top20_mass_kg: float) -> None:
     pct_dissolved = global_mass_kg / DISSOLVED_CU_FLUX_KG_YR * 100
     top20_pct_global = top20_mass_kg / global_mass_kg * 100 if global_mass_kg > 0 else float("nan")
@@ -343,6 +414,8 @@ def run(
     global_lab_qe = float(np.mean(_predict_median(qrf_model, global_x[CAT_COLS + NUM_COLS])))
     global_qe = global_lab_qe * faf_central
     global_mass_kg = GLOBAL_DISCHARGE_M3_YR * GLOBAL_MP_MASS_MG_M3 * global_qe / 1e9
+    global_mass_low_kg = global_mass_kg * faf_low / faf_central
+    global_mass_high_kg = global_mass_kg * faf_high / faf_central
     top20_mass_kg = float(rivers.sort_values("mass_kg_yr", ascending=False).head(20)["mass_kg_yr"].sum())
 
     rivers["faf_central"] = faf_central
@@ -350,14 +423,20 @@ def run(
     rivers["faf_ci_high"] = faf_high
     rivers["global_qe_mg_g"] = global_qe
     rivers["global_mass_kg_yr"] = global_mass_kg
+    rivers["global_mass_low_kg_yr"] = global_mass_low_kg
+    rivers["global_mass_high_kg_yr"] = global_mass_high_kg
 
     output_csv = REPORTS_DIR / "river_results.csv"
     rivers.to_csv(output_csv, index=False)
     figure_path = _save_river_plot(rivers)
+    summary_figure_path = _save_global_river_summary(
+        rivers, global_mass_kg, global_mass_low_kg, global_mass_high_kg
+    )
 
     _print_benchmarks(global_mass_kg, top20_mass_kg)
     print(f"Saved river results: {output_csv}")
     print(f"Saved river bar plot: {figure_path}")
+    print(f"Saved global/river summary plot: {summary_figure_path}")
 
     return global_mass_kg, rivers
 
