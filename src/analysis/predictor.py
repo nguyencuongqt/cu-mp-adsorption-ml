@@ -193,7 +193,7 @@ def predict(values: dict[str, Any], anchor: tuple[float, float] | None = None) -
     }
     warnings = []
     if flags["outside_lab_range"]:
-        warnings.append(f"Ce = {v['Ce']:.4g} mg/L is outside the laboratory range ({s['ce_min']:.2g}-{s['ce_max']:.3g} mg/L); "
+        warnings.append(f"Ce = {v['Ce']:.4g} mg/L is outside the laboratory range ({s['ce_min']:.2g}–{s['ce_max']:.3g} mg/L); "
                         "the value is an extrapolation along the fitted isotherm.")
     elif flags["below_dense_lab_range"]:
         warnings.append(f"Ce = {v['Ce']:.4g} mg/L is below {s['ce_dense']:.2g} mg/L, where only {DENSE_PERCENTILE}% of the laboratory "

@@ -17,7 +17,7 @@ ENVPOL-D-26-10175), and the web application described in Section 3.2.3.
 | `data/expert_scores_by_item.csv` | Blinded expert scores (raters LVT and PB) of the 60 explanations of 15 cases, with case and condition |
 | `data/templates/` | Extraction templates for new laboratory, field and river data |
 | `src/analysis/` | Model training, study-grouped validation, conformal intervals, interpretation, field-to-laboratory ratio, river and global estimates |
-| `src/analysis/predictor.py` | The model used by the application (pooled Freundlich isotherm with polymer, ageing status and adsorption system) |
+| `src/analysis/predictor.py` | The model used by the application (pooled Freundlich isotherm with polymer, aging status and adsorption system) |
 | `src/rag/` | LLM explanation system (C1 rule-based; C2 retrieval; C3 retrieval + knowledge graph), evaluation and LLM judges |
 | `src/ui/app.py` | Streamlit application (`src/ui/app_submitted_version.py`: interface of the first submission) |
 | `scripts/` | Data curation steps, figures and tables of the manuscript, expert-score analysis |
@@ -75,7 +75,7 @@ streamlit run src/ui/app.py
 Panel E shows the 120 explanations evaluated in the manuscript (30 cases × C0–C3) with their source articles, the checks
 without a judge and the scores of the LLM judges, so the C2 and C3 outputs can be inspected without an API key.
 
-Inputs: polymer, ageing status, adsorption system and equilibrium Cu concentration (Ce); optionally one measured (Ce, qe)
+Inputs: polymer, aging status, adsorption system and equilibrium Cu concentration (Ce); optionally one measured (Ce, qe)
 pair for the material, which narrows the 90% interval from ×/÷29 to ×/÷2.6. Outputs: laboratory-equilibrium qe and its
 interval, the field-scale value (laboratory qe × field-to-laboratory ratio 0.57) with a 90% interval that also includes the
 variation of the ratio between rivers, the contribution of each input, validity warnings, an explanation (C1 without LLM;

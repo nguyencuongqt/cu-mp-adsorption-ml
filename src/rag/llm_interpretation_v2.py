@@ -53,7 +53,7 @@ def facts_text(pred: dict[str, Any]) -> str:
         "Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: "
         + "; ".join(f"{LABELS[d['predictor']]} multiplies qe by {sig(d['factor_on_qe'])}" for d in pred["drivers"]) + ".",
         f"Model: pooled Freundlich isotherm fitted to {s['n_points']} observations from {s['n_studies']} studies; "
-        f"Freundlich exponent {pred['freundlich_exponent']:.2f}; laboratory Ce range {s['ce_min']:.2g}-{s['ce_max']:.3g} mg/L; "
+        f"Freundlich exponent {pred['freundlich_exponent']:.2f}; laboratory Ce range {s['ce_min']:.2g}–{s['ce_max']:.3g} mg/L; "
         f"{v['ReT']} is represented by {pred['polymer_n_studies']} studies.",
     ]
     lines += [f"WARNING: {w}" for w in pred["warnings"]] or ["No validity warning applies to this input."]

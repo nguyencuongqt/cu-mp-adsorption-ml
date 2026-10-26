@@ -2,6 +2,8 @@ cff-version: 1.2.0
 message: "If you use this code or data, please cite the article and this archive."
 title: "Code, data and web application for: From laboratory isotherms to rivers: machine learning prediction of copper adsorption on microplastics, field scaling and LLM-assisted explanation"
 type: software
+version: 2.0.0
+date-released: 2026-10-26
 license: MIT
 repository-code: "https://github.com/nguyencuongqt/cu-mp-adsorption-ml"
 authors:
