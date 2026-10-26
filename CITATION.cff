@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the article and this archive."
+title: "Code, data and web application for: From laboratory isotherms to rivers: machine learning prediction of copper adsorption on microplastics, field scaling and LLM-assisted explanation"
+type: software
+license: MIT
+repository-code: "https://github.com/nguyencuongqt/cu-mp-adsorption-ml"
+authors:
+  - family-names: Bui
+    given-names: Vu Khac Hoang
+  - family-names: Tran
+    given-names: Quoc Ba
+  - family-names: Liu
+    given-names: Chong
+  - family-names: Kravchenko
+    given-names: Ekaterina
+  - family-names: Truong
+    given-names: Hai Bang
+  - family-names: Nguyen
+    given-names: Xuan Cuong
+    orcid: "https://orcid.org/0000-0002-1953-1456"
+keywords:
+  - microplastics
+  - copper
+  - machine learning
+  - large language model

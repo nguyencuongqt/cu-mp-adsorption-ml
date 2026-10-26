@@ -1,0 +1,50 @@
+check,variant,n_points,value,ci95_low,ci95_high,model,design,median_fold_error,n_studies
+"A field ratio, six studies",all 961 points,961,0.5690811542121657,0.15519286643040034,2.086779937302658,,,,
+"A field ratio, six studies",without Turner_2015,951,0.2981700073446642,0.09201938328833964,0.9661589776290413,,,,
+"A field ratio, six studies",Turner_2015 coded single-ion,961,0.46050209277501736,0.1246602012563602,1.70112173181937,,,,
+B low-Ce hold-out 0.1 mg/L,with Turner_2015,56,3.092702768096625,,,freundlich_pooled,same_lab,4.034527511234794,
+B low-Ce hold-out 0.1 mg/L,with Turner_2015,56,2.75449306930199,,,freundlich_pooled,new_lab,6.99471143364091,
+B low-Ce hold-out 0.1 mg/L,with Turner_2015,56,3.092702768096625,,,xgb_blend,same_lab,4.034527511234794,
+B low-Ce hold-out 0.1 mg/L,with Turner_2015,56,2.75449306930199,,,xgb_blend,new_lab,6.99471143364091,
+B low-Ce hold-out 0.1 mg/L,with Turner_2015,56,2.055258390716558,,,xgb_monotone,same_lab,3.2211388989253105,
+B low-Ce hold-out 0.1 mg/L,with Turner_2015,56,2.3268584751826555,,,xgb_monotone,new_lab,8.693650463669888,
+B low-Ce hold-out 0.1 mg/L,with Turner_2015,56,5.843649536528911,,,lgbm_monotone,same_lab,6.628592442163298,
+B low-Ce hold-out 0.1 mg/L,with Turner_2015,56,5.715213407501096,,,lgbm_monotone,new_lab,10.9997834360885,
+B low-Ce hold-out 0.1 mg/L,with Turner_2015,56,23.05609285697323,,,rf_raw,same_lab,18.59527900868084,
+B low-Ce hold-out 0.1 mg/L,with Turner_2015,56,18.8717152413054,,,rf_raw,new_lab,19.03251783653036,
+B low-Ce hold-out 0.3 mg/L,with Turner_2015,122,1.9023797321182097,,,freundlich_pooled,same_lab,3.012489495358261,
+B low-Ce hold-out 0.3 mg/L,with Turner_2015,122,1.6513999268514374,,,freundlich_pooled,new_lab,4.268376237108492,
+B low-Ce hold-out 0.3 mg/L,with Turner_2015,122,1.9023797321182097,,,xgb_blend,same_lab,3.012489495358261,
+B low-Ce hold-out 0.3 mg/L,with Turner_2015,122,1.6513999268514374,,,xgb_blend,new_lab,4.268376237108492,
+B low-Ce hold-out 0.3 mg/L,with Turner_2015,122,2.2853106584676244,,,xgb_monotone,same_lab,2.5915096657582923,
+B low-Ce hold-out 0.3 mg/L,with Turner_2015,122,1.9320679014089488,,,xgb_monotone,new_lab,4.324385128917081,
+B low-Ce hold-out 0.3 mg/L,with Turner_2015,122,3.555238484913013,,,lgbm_monotone,same_lab,3.29924311183228,
+B low-Ce hold-out 0.3 mg/L,with Turner_2015,122,3.262233634778818,,,lgbm_monotone,new_lab,4.648487259303017,
+B low-Ce hold-out 0.3 mg/L,with Turner_2015,122,8.797092863745677,,,rf_raw,same_lab,5.406887886700644,
+B low-Ce hold-out 0.3 mg/L,with Turner_2015,122,8.617811959096581,,,rf_raw,new_lab,5.8641588138553855,
+B low-Ce hold-out 0.1 mg/L,without Turner_2015,46,1.6118574743618597,,,freundlich_pooled,same_lab,3.5850862316634893,10.0
+B low-Ce hold-out 0.1 mg/L,without Turner_2015,46,1.399897109519054,,,freundlich_pooled,new_lab,5.940625181661592,10.0
+B low-Ce hold-out 0.1 mg/L,without Turner_2015,46,1.6118574743618597,,,xgb_blend,same_lab,3.5850862316634893,10.0
+B low-Ce hold-out 0.1 mg/L,without Turner_2015,46,1.399897109519054,,,xgb_blend,new_lab,5.940625181661592,10.0
+B low-Ce hold-out 0.1 mg/L,without Turner_2015,46,1.1375657834953363,,,xgb_monotone,same_lab,2.431019915690486,10.0
+B low-Ce hold-out 0.1 mg/L,without Turner_2015,46,1.3231169123204676,,,xgb_monotone,new_lab,6.235989282675094,10.0
+B low-Ce hold-out 0.1 mg/L,without Turner_2015,46,3.517239739742294,,,lgbm_monotone,same_lab,3.7540556396504683,10.0
+B low-Ce hold-out 0.1 mg/L,without Turner_2015,46,3.4233559911454394,,,lgbm_monotone,new_lab,6.888248003750577,10.0
+B low-Ce hold-out 0.1 mg/L,without Turner_2015,46,10.573774110639556,,,rf_raw,same_lab,11.9413208293822,10.0
+B low-Ce hold-out 0.1 mg/L,without Turner_2015,46,8.286062900113437,,,rf_raw,new_lab,12.33362146934721,10.0
+B low-Ce hold-out 0.3 mg/L,without Turner_2015,112,1.369881292778394,,,freundlich_pooled,same_lab,2.7603865861856143,18.0
+B low-Ce hold-out 0.3 mg/L,without Turner_2015,112,1.174226370513986,,,freundlich_pooled,new_lab,4.032377900894611,18.0
+B low-Ce hold-out 0.3 mg/L,without Turner_2015,112,1.369881292778394,,,xgb_blend,same_lab,2.7603865861856143,18.0
+B low-Ce hold-out 0.3 mg/L,without Turner_2015,112,1.174226370513986,,,xgb_blend,new_lab,4.032377900894611,18.0
+B low-Ce hold-out 0.3 mg/L,without Turner_2015,112,1.6267821447545916,,,xgb_monotone,same_lab,2.52626623311534,18.0
+B low-Ce hold-out 0.3 mg/L,without Turner_2015,112,1.3548635767137398,,,xgb_monotone,new_lab,3.6994198139868373,18.0
+B low-Ce hold-out 0.3 mg/L,without Turner_2015,112,2.5461623002150438,,,lgbm_monotone,same_lab,3.071659445811904,18.0
+B low-Ce hold-out 0.3 mg/L,without Turner_2015,112,2.3184474487916407,,,lgbm_monotone,new_lab,4.122979303542886,18.0
+B low-Ce hold-out 0.3 mg/L,without Turner_2015,112,5.771733087941298,,,rf_raw,same_lab,4.197050982815574,18.0
+B low-Ce hold-out 0.3 mg/L,without Turner_2015,112,5.643722723811681,,,rf_raw,new_lab,4.386672626984257,18.0
+"C leave-one-study-out, Ce < 0.1 mg/L",with Turner_2015,56,1.9352301005724062,,,freundlich_pooled,,11.335662731724643,11.0
+"C leave-one-study-out, Ce >= 0.1 mg/L",with Turner_2015,905,0.9014907531432036,,,freundlich_pooled,,2.1963633658490056,30.0
+"C leave-one-study-out, all",with Turner_2015,961,0.9425284441872352,,,freundlich_pooled,,2.3099937280036844,32.0
+"C leave-one-study-out, Ce < 0.1 mg/L",without Turner_2015,46,0.9406358666728439,,,freundlich_pooled,,8.941295062914108,10.0
+"C leave-one-study-out, Ce >= 0.1 mg/L",without Turner_2015,905,0.9014907531432036,,,freundlich_pooled,,2.1963633658490056,30.0
+"C leave-one-study-out, all",without Turner_2015,951,0.9033461575653285,,,freundlich_pooled,,2.2626471792881526,31.0

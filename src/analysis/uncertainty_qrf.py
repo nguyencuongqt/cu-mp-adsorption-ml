@@ -121,21 +121,29 @@ def _make_preprocessor(x: pd.DataFrame) -> ColumnTransformer:
 
 
 def _load_tuned_rf_params() -> dict[str, Any]:
-    """Return the fitted RF tree-growing parameters for the QRF refit."""
+    """Load the fitted RF hyperparameters used for the point-model benchmark.
+
+    QRF is a different estimator because it returns the conditional response
+    distribution, but matching its tree-growing parameters to the tuned RF
+    makes the median-versus-mean comparison interpretable and reproducible.
+    """
     if not RF_MODEL_FILE.exists():
         raise FileNotFoundError(
             f"Tuned RF model not found: {RF_MODEL_FILE}. Run model training before QRF."
         )
+
     rf_pipeline = joblib.load(RF_MODEL_FILE)
     if not isinstance(rf_pipeline, Pipeline) or "model" not in rf_pipeline.named_steps:
         raise TypeError("RandomForest_tuned.joblib does not contain a model pipeline.")
+
     rf_model = rf_pipeline.named_steps["model"]
     available = RandomForestQuantileRegressor().get_params().keys()
-    return {
+    params = {
         key: value
         for key, value in rf_model.get_params().items()
         if key in available and key not in {"random_state", "n_jobs", "default_quantiles"}
     }
+    return params
 
 
 def _make_qrf_pipeline(x_train: pd.DataFrame) -> Pipeline:
@@ -291,9 +299,9 @@ def _save_prediction_plot(
 
     ax.set_xlim(min_axis - pad, max_axis + pad)
     ax.set_ylim(min_axis - pad, max_axis + pad)
-    ax.set_xlabel("Observed qe (mg/g)", fontsize=20)
-    ax.set_ylabel("Predicted qe, QRF median (mg/g)", fontsize=20)
-    ax.tick_params(axis="both", labelsize=16)
+    ax.set_xlabel("Observed qe (mg/g)", fontsize=24)
+    ax.set_ylabel("Predicted qe, QRF median (mg/g)", fontsize=24)
+    ax.tick_params(axis="both", labelsize=20)
 
     if metrics is not None:
         stats_text = (
@@ -308,13 +316,13 @@ def _save_prediction_plot(
             transform=ax.transAxes,
             ha="left",
             va="top",
-            fontsize=16,
+            fontsize=20,
             bbox={"boxstyle": "round,pad=0.35", "facecolor": "white", "edgecolor": "0.35", "alpha": 0.92},
         )
 
     colorbar = fig.colorbar(scatter, ax=ax)
-    colorbar.set_label("Residual: predicted - observed\nblue=overestimate, red=underestimate", fontsize=16)
-    colorbar.ax.tick_params(labelsize=15)
+    colorbar.set_label("Residual: predicted - observed\nblue=overestimate, red=underestimate", fontsize=20)
+    colorbar.ax.tick_params(labelsize=19)
     fig.tight_layout()
     fig.savefig(output, dpi=300, bbox_inches="tight")
     plt.close(fig)

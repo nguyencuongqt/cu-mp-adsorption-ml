@@ -1,0 +1,15 @@
+Ce_low_mg_L,Ce_high_mg_L,n_obs,n_studies,studies,qe_median_mg_g,subset
+0.0,0.001,76,1,Chen_2021,0.07822349893229474,all
+0.001,0.01,7,3,Chen_2021; Gao_2021; Muthuraja_2024,0.10689,all
+0.01,0.1,36,8,Chen_2025; Dai_2025; Gao_2021; Mao_2020; Muthuraja_2024; Sathyamoorthy_2022; Wang_2021; Yang_2019,0.019025035000000003,all
+0.1,1.0,181,16,Chen_2025; Dai_2025; Gao_2021; Hu_2024; Huang_2024; Lin_2022; Mao_2020; Muthuraja_2024; Qiongjie_2022; Sathyamoorthy_2022; Sun_2023; Tang_2022; Wang_2021; Yang_2019; Zhou_2022; Zhou_2022b,0.15677454,all
+1.0,10.0,273,19,Chen_2025; Dai_2025; Gao_2021; Hu_2024; Huang_2024; Lin_2022; Mao_2020; Muthuraja_2024; Qiongjie_2022; Sathyamoorthy_2022; Sun_2023; Tang_2022; Wang_2020; Wang_2020b; Wang_2021; Xue_2021; Yang_2019; Zhou_2022; Zhou_2022b,0.38729,all
+10.0,100.0,172,11,Dai_2025; Hu_2024; Huang_2024; Lin_2022; Qiongjie_2022; Sathyamoorthy_2022; Sun_2022; Xue_2021; Zhou_2022; Zhou_2022b; Zou_2020,1.7710242935,all
+100.0,inf,43,2,Sun_2022; Zhou_2022,1.5978,all
+0.0,0.001,0,0,,,freshwater
+0.001,0.01,5,1,Muthuraja_2024,0.10689,freshwater
+0.01,0.1,33,7,Chen_2025; Dai_2025; Mao_2020; Muthuraja_2024; Sathyamoorthy_2022; Wang_2021; Yang_2019,0.01837564,freshwater
+0.1,1.0,167,15,Chen_2025; Dai_2025; Hu_2024; Huang_2024; Lin_2022; Mao_2020; Muthuraja_2024; Qiongjie_2022; Sathyamoorthy_2022; Sun_2023; Tang_2022; Wang_2021; Yang_2019; Zhou_2022; Zhou_2022b,0.11437729,freshwater
+1.0,10.0,267,18,Chen_2025; Dai_2025; Hu_2024; Huang_2024; Lin_2022; Mao_2020; Muthuraja_2024; Qiongjie_2022; Sathyamoorthy_2022; Sun_2023; Tang_2022; Wang_2020; Wang_2020b; Wang_2021; Xue_2021; Yang_2019; Zhou_2022; Zhou_2022b,0.3587111525,freshwater
+10.0,100.0,172,11,Dai_2025; Hu_2024; Huang_2024; Lin_2022; Qiongjie_2022; Sathyamoorthy_2022; Sun_2022; Xue_2021; Zhou_2022; Zhou_2022b; Zou_2020,1.7710242935,freshwater
+100.0,inf,43,2,Sun_2022; Zhou_2022,1.5978,freshwater

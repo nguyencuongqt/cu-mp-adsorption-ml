@@ -1,0 +1,5 @@
+condition,n,qe_stated,interval_stated,field_value_stated,unsupported_values_per_item,regenerated,citations_per_item,citations_in_corpus,citations_total,citations_naming_polymer,two_or_more_sources,mechanisms_named,uses_non_input_variable,words,range_warning_recall,range_warning_false_alarm,sparse_warning_recall
+C0,30,1.0,1.0,1.0,0.0,0,0.0,0,0,0,0.0,0.0,0.0,8.0,0.0,0.0,0.0
+C1,30,1.0,1.0,1.0,0.0,0,0.0,0,0,0,0.0,0.0,0.0,107.46666666666667,1.0,0.0,1.0
+C2,30,1.0,1.0,1.0,0.0,3,0.9666666666666667,29,29,26,0.23333333333333334,1.3333333333333333,0.0,204.63333333333333,1.0,0.0,1.0
+C3,30,1.0,1.0,1.0,0.0,2,1.6666666666666667,50,50,50,0.6,2.8333333333333335,0.0,218.96666666666667,1.0,0.0,1.0

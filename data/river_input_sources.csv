@@ -1,0 +1,19 @@
+river,Q_source,MP_source,MP_reference,Ce_source,Ce_reference,check_status,note
+Yangtze,Lebreton et al. (2017) Table 1,measured,"Huang et al. (2023), Water Research 229, 119431",measured,"Zhang et al. (2020), Mar. Pollut. Bull. 156, 111250",source PDF not in project,
+Ganges,Lebreton et al. (2017) Table 1,measured,"Napper et al. (2021), Environ. Pollut. 274, 116348",measured,"Su et al. (2024), J. Environ. Manage. 363, 121389",Ce verified against PDF; MP source PDF not in project,Ce replaced on 2026-10-07 (was 2.54 mg/L from Maurya et al. 2019)
+Amazon,Lebreton et al. (2017) Table 1,measured,"Rico et al. (2023), Water Research 232, 119707",measured,"Viers et al. (2005), Sci. Total Environ. 339, 219-232",source PDF not in project,
+"Pearl River system (Xi, Dong, Zhujiang)","Lebreton et al. (2017) Table 1: sum of Xi (5530), Dong (854) and Zhujiang (133 m3/s)",measured,"Wu et al. (2025), Water Air Soil Pollut. 236, 317",measured,"Niu et al. (2021), Ecotoxicol. Environ. Saf. 225, 112747",source PDF not in project,Three Lebreton catchments merged on 2026-10-07; MP and Cu sources refer to the Pearl basin and estuary
+Huangpu,Lebreton et al. (2017) Table 1,measured,"Li et al. (2025b), Environ. Res. 277, 121616",global default,Jin et al. (2025) median,source PDF not in project,
+Brantas,Lebreton et al. (2017) Table 1,measured,"Buwono et al. (2021), Emerging Contaminants 7, 172-178",global default,Jin et al. (2025) median,source PDF not in project,
+Solo,Lebreton et al. (2017) Table 1,global default,Tan et al. (2023) median,global default,Jin et al. (2025) median,,"MP reset to default on 2026-10-07: Lestari et al. (2020) measured the Surabaya River, a distributary of the Brantas"
+Mekong,Lebreton et al. (2017) Table 1,measured,"Mendrik et al. (2025), J. Hazard. Mater. 484, 136762",global default,Jin et al. (2025) median,source PDF not in project,
+Tamsui,Lebreton et al. (2017) Table 1,measured,"Wong et al. (2020), Environ. Pollut. 260, 113935",global default,Jin et al. (2025) median,source PDF not in project,
+Hanjiang,Lebreton et al. (2017) Table 1,global default,Tan et al. (2023) median,global default,Jin et al. (2025) median,,"MP reset to default on 2026-10-07: Chen et al. (2023) measured the Han River in Hubei, a Yangtze tributary"
+Progo,Lebreton et al. (2017) Table 1,measured,"Lestari et al. (2025), Emerging Contaminants 11, 100510",global default,Jin et al. (2025) median,source PDF not in project,
+Cross,Lebreton et al. (2017) Table 1,global default,Tan et al. (2023) median,global default,Jin et al. (2025) median,,
+Pasig,Lebreton et al. (2017) Table 1,global default,Tan et al. (2023) median,global default,Jin et al. (2025) median,,
+Irrawaddy,Lebreton et al. (2017) Table 1,global default,Tan et al. (2023) median,global default,Jin et al. (2025) median,,
+Imo,Lebreton et al. (2017) Table 1,global default,Tan et al. (2023) median,global default,Jin et al. (2025) median,,
+Serayu,Lebreton et al. (2017) Table 1,global default,Tan et al. (2023) median,global default,Jin et al. (2025) median,,
+Magdalena,Lebreton et al. (2017) Table 1,global default,Tan et al. (2023) median,global default,Jin et al. (2025) median,,
+Kwa Ibo,Lebreton et al. (2017) Table 1,global default,Tan et al. (2023) median,global default,Jin et al. (2025) median,,

@@ -1,0 +1,47 @@
+{
+  "title": "Code, data and web application for: From laboratory isotherms to rivers: machine learning prediction of copper adsorption on microplastics, field scaling and LLM-assisted explanation",
+  "upload_type": "software",
+  "description": "<p>Curated literature dataset (961 laboratory observations from 32 studies; field records of Cu on riverine microplastics with paired water Cu), Python workflow and result tables for the study-grouped validation of machine-learning and isotherm-form models of Cu adsorption on microplastics, the empirical field-to-laboratory ratio, river-scale and global estimates, and the evaluation of an LLM explanation system (rule-based, retrieval and retrieval + knowledge graph; LLM judges and expert scores). Includes the Streamlit web application (src/ui/app.py). Full-text articles and the retrieval index derived from them are not included because they cannot be redistributed.</p>",
+  "creators": [
+    {
+      "name": "Bui, Vu Khac Hoang",
+      "affiliation": "CIRTech Institute, HUTECH University, Ho Chi Minh City, Vietnam"
+    },
+    {
+      "name": "Tran, Quoc Ba",
+      "affiliation": "Faculty of Environmental and Chemical Engineering, Duy Tan University, Da Nang, Vietnam; Institute of Research and Development, Duy Tan University, Da Nang, Vietnam"
+    },
+    {
+      "name": "Liu, Chong",
+      "affiliation": "Department of Chemical & Materials Engineering, University of Auckland, 1010, New Zealand"
+    },
+    {
+      "name": "Kravchenko, Ekaterina",
+      "affiliation": "Southern Federal University, Rostov-on-Don, Russia"
+    },
+    {
+      "name": "Truong, Hai Bang",
+      "affiliation": "Optical Materials Research Group, Science and Technology Advanced Institute, Van Lang University, Ho Chi Minh City, Vietnam; Faculty of Applied Technology, Van Lang School of Technology, Van Lang University, Ho Chi Minh City, Vietnam"
+    },
+    {
+      "name": "Nguyen, Xuan Cuong",
+      "affiliation": "Faculty of Environmental and Chemical Engineering, Duy Tan University, Da Nang, Vietnam; Institute of Research and Development, Duy Tan University, Da Nang, Vietnam",
+      "orcid": "0000-0002-1953-1456"
+    }
+  ],
+  "keywords": [
+    "microplastics",
+    "copper",
+    "adsorption isotherm",
+    "machine learning",
+    "leave-one-study-out validation",
+    "field-to-laboratory ratio",
+    "large language model",
+    "retrieval-augmented generation",
+    "knowledge graph",
+    "Streamlit"
+  ],
+  "license": "MIT",
+  "access_right": "open",
+  "language": "eng"
+}

@@ -1,0 +1,17 @@
+item_id,case_id,stratum,condition,qe_stated,interval_stated,field_value_stated,range_warning_needed,range_warning_given,sparse_warning_needed,sparse_warning_given,n_unsupported_qe_values,n_citations,n_citations_in_corpus,citations_not_in_corpus,n_words
+item_007,case_01,river_level,C0,True,True,True,True,False,False,False,0,0,0,,8
+item_016,case_01,river_level,C1,True,True,True,True,True,False,False,0,0,0,,123
+item_012,case_01,river_level,C2,True,True,True,True,True,False,False,0,2,2,,177
+item_011,case_01,river_level,C3,True,True,True,True,True,False,False,0,1,1,,176
+item_010,case_02,low_laboratory,C0,True,True,True,True,False,False,False,0,0,0,,8
+item_004,case_02,low_laboratory,C1,True,True,True,True,True,False,False,0,0,0,,126
+item_001,case_02,low_laboratory,C2,True,True,True,True,True,False,False,0,0,0,,160
+item_008,case_02,low_laboratory,C3,True,True,True,True,True,False,False,0,1,1,,173
+item_013,case_03,in_range,C0,True,True,True,False,False,False,False,0,0,0,,8
+item_006,case_03,in_range,C1,True,True,True,False,False,False,False,0,0,0,,107
+item_003,case_03,in_range,C2,True,True,True,False,False,False,False,0,2,2,,185
+item_005,case_03,in_range,C3,True,True,True,False,False,False,False,0,2,2,,180
+item_015,case_04,above_range,C0,True,True,True,True,False,False,False,0,0,0,,8
+item_002,case_04,above_range,C1,True,True,True,True,True,False,False,0,0,0,,123
+item_014,case_04,above_range,C2,True,True,True,True,True,False,False,0,2,2,,229
+item_009,case_04,above_range,C3,True,True,True,True,True,False,False,0,0,0,,206

@@ -1,0 +1,5 @@
+condition,n,qe_stated,interval_stated,field_value_stated,unsupported_values_per_item,citations_per_item,citations_in_corpus,citations_total,words,range_warning_recall,range_warning_false_alarm,sparse_warning_recall
+C0,4,1.0,1.0,1.0,0.0,0.0,0,0,8.0,0.0,0.0,
+C1,4,1.0,1.0,1.0,0.0,0.0,0,0,119.75,1.0,0.0,
+C2,4,1.0,1.0,1.0,0.0,1.5,6,6,187.75,1.0,0.0,
+C3,4,1.0,1.0,1.0,0.0,1.0,4,4,183.75,1.0,0.0,

@@ -65,13 +65,26 @@ GLOBAL_CU_MG_L = 8.77e-3
 
 PH_SCENARIOS = [6.0, 7.0, 8.0]
 
+# One field scenario is shared by FAF derivation and river/global application,
+# so the scaling factor is estimated under the conditions it is applied to.
+# rpm is the median of the laboratory dataset.
 RIVER_DEFAULTS = {
     "pH": 7.0,
-    "Temp": 20.0,
-    "rpm": 150.0,
+    "Temp": 25.0,
+    "rpm": 160.0,
     "AgS": "Aged",
-    "AdC": "Single-ion",
+    "AdC": "Mixed",
 }
+
+# Study-grouped dataset (adds source_id, curve_id, matrix) used for
+# leave-one-study-out validation and the revision analyses.
+GROUP_COL = "source_id"
+CURVE_COL = "curve_id"
+DATA_GROUPED_FILE = DATA_DIR / "dataset_grouped.csv"
+MASTER_FILE = DATA_DIR / "raw_data_literature_master.xlsx"
+FIELD_DATA_FILE = DATA_DIR / "field_data.csv"
+TUNED_PARAMS_FILE = REPORTS_DIR / "tuned_hyperparameters.json"
+PARTICLE_MASS_G = 0.125e-4
 
 PAPERS_DIR = DATA_DIR / "papers"
 DATASET_CSV = DATA_DIR / "dataset.csv"

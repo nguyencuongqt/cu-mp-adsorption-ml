@@ -20,6 +20,7 @@ matplotlib.use("Agg")
 
 import matplotlib.pyplot as plt
 from matplotlib.lines import Line2D
+from matplotlib.ticker import LogLocator
 from matplotlib.ticker import FuncFormatter
 import numpy as np
 import pandas as pd
@@ -130,7 +131,9 @@ def _normalize_mp_type(value: Any) -> list[str]:
     upper = text.upper()
     for sep in ["/", ",", ";", "+", "|"]:
         upper = upper.replace(sep, " ")
-    types = [token.strip() for token in upper.split() if token.strip()]
+    # Keep polymer codes only; labels such as "½ PE and ½ PP" otherwise yield
+    # non-polymer tokens ("½", "AND") that the encoder treats as unknown resins.
+    types = [token for token in upper.split() if token.isalpha() and token != "AND"]
     return types if types else ["PP", "PE"]
 
 
@@ -256,7 +259,12 @@ def _save_global_river_summary(
     global_mass_low_kg: float,
     global_mass_high_kg: float,
 ) -> Path:
-    """Create the publication Figure 5 source from the same river output CSV."""
+    """Create the publication Figure 5 source from the same river output CSV.
+
+    The left panel provides both the global estimate and the summed contribution
+    of the 20 displayed rivers. This uses otherwise-unused space to give the
+    river-level results an immediately interpretable global context.
+    """
     output = FIGURES_DIR / "river_global_summary.png"
     plot_df = river_df.sort_values("mass_kg_yr", ascending=False).head(20)
     plot_df = plot_df.sort_values("mass_kg_yr", ascending=True)
@@ -270,54 +278,105 @@ def _save_global_river_summary(
     plot_lows = lows.mask(lows <= 0, xmin).clip(upper=plot_values)
     y_pos = np.arange(len(plot_df))
 
-    fig, (ax_global, ax_rivers) = plt.subplots(
-        1, 2, figsize=(13.2, 7.0), gridspec_kw={"width_ratios": [0.82, 1.55]}
-    )
-    fig.patch.set_facecolor("white")
-    ax_global.errorbar(
-        global_mass_kg,
-        0,
-        xerr=np.array([[global_mass_kg - global_mass_low_kg], [global_mass_high_kg - global_mass_kg]]),
-        fmt="o",
-        color="#2f6f9f",
-        ecolor="#c43c39",
-        elinewidth=1.8,
-        capsize=5,
-        markersize=7,
-    )
-    ax_global.set_xscale("log")
-    ax_global.set_xlim(max(global_mass_low_kg * 0.7, 1e-3), global_mass_high_kg * 1.35)
-    ax_global.set_yticks([0])
-    ax_global.set_yticklabels(["Global rivers"])
-    ax_global.set_xlabel("Cu²⁺ adsorbed onto MPs (kg yr⁻¹)")
-    ax_global.set_title("a  Global estimate", loc="left", fontweight="bold")
-    ax_global.grid(axis="x", which="both", linestyle=":", alpha=0.45)
-    ax_global.annotate(
-        f"{global_mass_kg:.1f} kg yr⁻¹\n95% CI: {global_mass_low_kg:.1f}–{global_mass_high_kg:.1f}",
-        xy=(global_mass_kg, 0),
-        xytext=(0, 12),
-        textcoords="offset points",
-        ha="center",
-        va="bottom",
-        fontsize=9,
-        color="#1f4d78",
-    )
+    top20_mass = float(values.sum())
+    top20_low = float(lows.sum())
+    top20_high = float(highs.sum())
+    top20_share = top20_mass / global_mass_kg * 100 if global_mass_kg > 0 else float("nan")
 
-    ax_rivers.hlines(y_pos, xmin, plot_values, color="#c8d3df", linewidth=2.4, zorder=1)
-    xerr = np.vstack([(plot_values - plot_lows).clip(lower=0), (highs - plot_values).clip(lower=0)])
-    ax_rivers.errorbar(plot_values, y_pos, xerr=xerr, fmt="none", ecolor="#c43c39", elinewidth=1.2, capsize=3, zorder=2)
-    ax_rivers.scatter(plot_values, y_pos, s=38, color="#2f6f9f", edgecolor="white", linewidth=0.7, zorder=3)
-    ax_rivers.set_yticks(y_pos)
-    ax_rivers.set_yticklabels(plot_df["river"].astype(str), fontsize=8)
-    ax_rivers.set_xscale("log")
-    ax_rivers.set_xlim(xmin, xmax)
-    ax_rivers.xaxis.set_major_formatter(FuncFormatter(lambda x, _: f"{x:g}"))
-    ax_rivers.set_xlabel("Cu²⁺ adsorbed onto MPs (kg yr⁻¹)")
-    ax_rivers.set_title("b  Twenty rivers with the highest MP pollution", loc="left", fontweight="bold")
-    ax_rivers.grid(axis="x", which="both", linestyle=":", alpha=0.45)
-    fig.tight_layout()
-    fig.savefig(output, dpi=300, bbox_inches="tight")
-    plt.close(fig)
+    colors = {
+        "global": "#1B4965",   # deep blue
+        "top20": "#168AAD",    # teal blue
+        "ci": "#E76F51",       # warm red-orange
+        "guide": "#D5E3EC",
+        "accent": "#F4A261",   # warm highlight
+        "panel": "#F6FAFC",
+    }
+    with plt.rc_context(
+        {
+            "font.family": "Times New Roman",
+            "font.size": 20,
+            "axes.titlesize": 23,
+            "axes.labelsize": 22,
+            "xtick.labelsize": 18,
+            "ytick.labelsize": 19,
+        }
+    ):
+        fig, (ax_global, ax_rivers) = plt.subplots(
+            1,
+            2,
+            figsize=(13.2, 7.5),
+            gridspec_kw={"width_ratios": [1.05, 1.65]},
+        )
+        fig.patch.set_facecolor("white")
+
+        # Panel a: a two-level summary makes the global context of panel b explicit.
+        global_xerr = np.array([[global_mass_kg - global_mass_low_kg], [global_mass_high_kg - global_mass_kg]])
+        top20_xerr = np.array([[top20_mass - top20_low], [top20_high - top20_mass]])
+        ax_global.set_facecolor(colors["panel"])
+        ax_global.errorbar(
+            global_mass_kg, 1, xerr=global_xerr, fmt="o", color=colors["global"],
+            ecolor=colors["ci"], elinewidth=2.4, capsize=6, markersize=10, zorder=3,
+        )
+        ax_global.errorbar(
+            top20_mass, 0, xerr=top20_xerr, fmt="o", color=colors["top20"],
+            ecolor=colors["accent"], elinewidth=2.4, capsize=6, markersize=10, zorder=3,
+        )
+        ax_global.axhspan(-0.43, 0.43, color="#E8F4F7", zorder=0)
+        ax_global.set_xscale("log")
+        ax_global.set_xlim(max(min(global_mass_low_kg, top20_low) * 0.62, 1e-3), global_mass_high_kg * 1.35)
+        ax_global.set_ylim(-0.7, 1.7)
+        ax_global.set_yticks([1, 0])
+        ax_global.set_yticklabels(["Global rivers", "Top 20 rivers"])
+        ax_global.set_xlabel("MP-bound Cu²⁺ mass (kg yr⁻¹)")
+        ax_global.set_title("a  Global context", loc="left", pad=10)
+        ax_global.grid(axis="x", which="both", linestyle=":", linewidth=1.0, color="#AABBC8", alpha=0.65)
+        ax_global.xaxis.set_major_locator(LogLocator(base=10))
+        ax_global.annotate(
+            f"{global_mass_kg:.1f} kg yr⁻¹\n95% CI: {global_mass_low_kg:.1f}–{global_mass_high_kg:.1f}",
+            xy=(global_mass_kg, 1), xytext=(0, 18), textcoords="offset points",
+            ha="center", va="bottom", fontsize=19, color=colors["global"],
+            bbox={"boxstyle": "round,pad=0.30", "facecolor": "white", "edgecolor": "#B8CCD9", "alpha": 0.96},
+        )
+        ax_global.annotate(
+            f"{top20_mass:.2f} kg yr⁻¹\n95% CI: {top20_low:.2f}–{top20_high:.2f}",
+            xy=(top20_mass, 0), xytext=(28, -48), textcoords="offset points",
+            ha="left", va="top", fontsize=18, color=colors["top20"],
+            bbox={"boxstyle": "round,pad=0.30", "facecolor": "white", "edgecolor": "#A9D6E5", "alpha": 0.96},
+        )
+        ax_global.text(
+            0.05, 0.012, f"Top 20 = {top20_share:.1f}%\nof global median estimate",
+            transform=ax_global.transAxes, fontsize=14, color="#495057", fontstyle="italic",
+            ha="left", va="bottom",
+        )
+
+        ax_rivers.set_facecolor("#FBFCFD")
+        ax_rivers.hlines(y_pos, xmin, plot_values, color=colors["guide"], linewidth=3.0, zorder=1)
+        xerr = np.vstack([(plot_values - plot_lows).clip(lower=0), (highs - plot_values).clip(lower=0)])
+        ax_rivers.errorbar(
+            plot_values, y_pos, xerr=xerr, fmt="none", ecolor=colors["ci"],
+            elinewidth=1.7, capsize=4, zorder=2,
+        )
+        river_colors = np.where(plot_values >= np.quantile(plot_values, 0.85), colors["accent"], colors["top20"])
+        ax_rivers.scatter(plot_values, y_pos, s=68, color=river_colors, edgecolor="white", linewidth=1.0, zorder=3)
+        ax_rivers.set_yticks(y_pos)
+        ax_rivers.set_yticklabels(plot_df["river"].astype(str))
+        ax_rivers.set_xscale("log")
+        ax_rivers.set_xlim(xmin, xmax)
+        ax_rivers.xaxis.set_major_formatter(FuncFormatter(lambda x, _: f"{x:g}"))
+        ax_rivers.set_xlabel("MP-bound Cu²⁺ mass (kg yr⁻¹)")
+        ax_rivers.set_title("b  River-scale estimates (20 highest-MP rivers)", loc="left", pad=10)
+        ax_rivers.grid(axis="x", which="both", linestyle=":", linewidth=0.9, color="#AABBC8", alpha=0.58)
+        legend_handles = [
+            Line2D([0], [0], marker="o", color="none", markerfacecolor=colors["top20"], markeredgecolor="white", markersize=8, label="Median estimate"),
+            Line2D([0], [0], color=colors["ci"], marker="|", markersize=10, linewidth=1.7, label="95% CI"),
+            Line2D([0], [0], marker="o", color="none", markerfacecolor=colors["accent"], markeredgecolor="white", markersize=8, label="Three highest estimates"),
+        ]
+        ax_rivers.legend(handles=legend_handles, loc="lower right", frameon=True, framealpha=0.97, fontsize=17)
+        # Reserve ample space for the river names on panel b so they do not
+        # encroach on the global-context panel.
+        fig.subplots_adjust(left=0.065, right=0.985, top=0.93, bottom=0.105, wspace=0.42)
+        fig.savefig(output, dpi=600, bbox_inches="tight", facecolor="white")
+        plt.close(fig)
     return output
 
 

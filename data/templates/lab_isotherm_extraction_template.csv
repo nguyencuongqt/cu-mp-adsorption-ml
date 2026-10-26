@@ -1,0 +1,2 @@
+﻿source_id,source_author_year,first_author,year,doi,raw_row_id,model_include,exclusion_reason,matrix,AgS,ReT,AdC,Temp,pH,rpm,Ce,qe,particle_size_um,ssa_m2_g,C0_mg_L,dose_g_L,contact_time_h,ionic_strength_or_salinity,coexisting_solutes,ageing_method,data_origin,figure_or_table,original_Ce_unit,original_qe_unit,extracted_by,checked_by
+Author_2024,"(Author et al., 2024)",Author,2024,10.xxxx/xxxxx,1,TRUE,,freshwater,Aged,PE,Single-ion,25,6,150,0.52,0.031,150,1.2,1,2,24,0.01 M NaNO3,none,UV 30 d,digitized,Fig. 3a,mg/L,mg/g,XCN,VKHB

@@ -1,0 +1,5 @@
+model,Ce_basis,n_points,median_fold_error,mean_log10_error,bias_as_factor
+freundlich_pooled,dissolved Cu (as measured),10,67.57135021419522,1.727963559766811,53.451950772717495
+freundlich_pooled,free Cu2+ (1.7 % of dissolved),10,9.283254176495168,0.865901204306064,7.343467959123327
+xgb_blend,dissolved Cu (as measured),10,67.57135021419522,1.727963559766811,53.451950772717495
+xgb_blend,free Cu2+ (1.7 % of dissolved),10,9.283254176495168,0.865901204306064,7.343467959123327

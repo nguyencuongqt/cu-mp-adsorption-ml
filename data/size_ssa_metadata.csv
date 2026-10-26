@@ -1,0 +1,154 @@
+﻿source_id,curve_id,series_label,ReT,AgS,n_points,ssa_m2_g,ssa_source,size_um,size_kind
+Chen_2025,Chen_2025_01,PBAT | virgin | V-PPT,PBAT,Virgin,5,,,150.0,upper
+Chen_2025,Chen_2025_02,PBAT | (biofilm) real wastewater | B-PPT,PBAT,Aged,5,,,150.0,upper
+Chen_2025,Chen_2025_03,PBAT | biodegraded MP | D-PPT,PBAT,Aged,5,,,150.0,upper
+Chen_2025,Chen_2025_04,PBAT | virgin | V-PPT | mixed,PBAT,Virgin,6,,,150.0,upper
+Chen_2025,Chen_2025_05,PBAT | (biofilm) real wastewater | B-PPT | mixed,PBAT,Aged,5,,,150.0,upper
+Chen_2025,Chen_2025_06,PBAT | biodegraded MP | D-PPT | mixed,PBAT,Aged,6,,,150.0,upper
+Cheng_2025,Cheng_2025_PA_biofilm,PA | biofilm,PA,Aged,8,2.214,"Cheng et al. (2025), SI Table S3",118.0,value
+Cheng_2025,Cheng_2025_PA_chemox,PA | K2S2O8 oxidation,PA,Aged,8,3.546,"Cheng et al. (2025), SI Table S3",118.0,value
+Cheng_2025,Cheng_2025_PA_virgin,PA | virgin,PA,Virgin,8,2.098,"Cheng et al. (2025), SI Table S3",118.0,value
+Cheng_2025,Cheng_2025_PLA_biofilm,PLA | biofilm,PLA,Aged,8,2.215,"Cheng et al. (2025), SI Table S3",132.0,value
+Cheng_2025,Cheng_2025_PLA_chemox,PLA | K2S2O8 oxidation,PLA,Aged,8,2.93,"Cheng et al. (2025), SI Table S3",132.0,value
+Cheng_2025,Cheng_2025_PLA_virgin,PLA | virgin,PLA,Virgin,8,1.962,"Cheng et al. (2025), SI Table S3",132.0,value
+Dai_2025,Dai_2025_01,PA | virgin | PA,PA,Virgin,5,,,75.0,value
+Dai_2025,Dai_2025_02,PA | UV 300 h in distilled water; biofilm reported on all aged samples | PA-D,PA,Aged,4,,,75.0,value
+Dai_2025,Dai_2025_03,PA | UV 300 h in tap water; biofilm reported on all aged samples | PA-T,PA,Aged,5,,,75.0,value
+Dai_2025,Dai_2025_04,PA | UV 300 h in surface water; biofilm reported on all aged samples | PA-S,PA,Aged,5,,,75.0,value
+Dai_2025,Dai_2025_05,PA | UV 300 h in wastewater; biofilm reported on all aged samples | PA-W,PA,Aged,5,,,75.0,value
+Dai_2025,Dai_2025_06,PLA | virgin | PLA,PLA,Virgin,4,,,75.0,value
+Dai_2025,Dai_2025_07,PLA | UV 300 h in distilled water; biofilm reported on all aged samples | PLA-D,PLA,Aged,4,,,75.0,value
+Dai_2025,Dai_2025_08,PLA | UV 300 h in tap water; biofilm reported on all aged samples | PLA-T,PLA,Aged,5,,,75.0,value
+Dai_2025,Dai_2025_09,PLA | UV 300 h in surface water; biofilm reported on all aged samples | PLA-S,PLA,Aged,4,,,75.0,value
+Dai_2025,Dai_2025_10,PLA | UV 300 h in wastewater; biofilm reported on all aged samples | PLAW,PLA,Aged,5,,,75.0,value
+Feng_2025,PLA_UV30d,PLA | UV_30d | 25 °C,PLA,Aged,5,3.15,"Feng et al. (2025), SI Table S1",25.0,value
+Feng_2025,PLA_virgin,PLA | virgin | 25 °C,PLA,Virgin,5,3.07,"Feng et al. (2025), SI Table S1",25.0,value
+Godoy_2019,Godoy_2019_PE_virgin,PE <5 mm fragments | virgin,PE,Virgin,7,1.4,"Godoy et al. (2019), Table 1",5000.0,upper
+Godoy_2019,Godoy_2019_PP_virgin,PP <5 mm fragments | virgin,PP,Virgin,7,2.7,"Godoy et al. (2019), Table 1",5000.0,upper
+Godoy_2019,Godoy_2019_PS_virgin,PS <5 mm fragments | virgin,PS,Virgin,7,3.2,"Godoy et al. (2019), Table 1",5000.0,upper
+Hu_2024,Hu_2024_01,PA | virgin,PA,Virgin,5,0.4482,"Hu et al. (2024), Table 1 and text",70.71,range
+Hu_2024,Hu_2024_02,PA | UV,PA,Aged,5,0.6716,"Hu et al. (2024), Table 1 and text",70.71,range
+Hu_2024,Hu_2024_03,PLA | virgin,PLA,Virgin,5,0.2789,"Hu et al. (2024), Table 1 and text",70.71,range
+Hu_2024,Hu_2024_04,PLA | UV,PLA,Aged,5,0.3357,"Hu et al. (2024), Table 1 and text",70.71,range
+Huang_2024,Huang_2024_01,PLA | virgin | PLA,PLA,Virgin,8,0.64,"Huang et al. (2024), SI Table S3",103.63,value
+Huang_2024,Huang_2024_02,PLA | UV | aged-PLA,PLA,Aged,7,1.61,"Huang et al. (2024), SI Table S3",99.39,value
+Huang_2024,Huang_2024_03,PS | virgin | PS,PS,Virgin,8,0.58,"Huang et al. (2024), SI Table S3",74.52,value
+Huang_2024,Huang_2024_04,PS | UV | aged-PS,PS,Aged,8,3.26,"Huang et al. (2024), SI Table S3",68.73,value
+Jiang_2026,Jiang_2026_PP_200um_biofilm,PP 200um | biofilm,PP,Aged,5,3.647,"Jiang et al. (2026), SI Table S5",200.0,value
+Jiang_2026,Jiang_2026_PP_200um_chemox,PP 200um | chemical oxidation,PP,Aged,5,3.095,"Jiang et al. (2026), SI Table S5",200.0,value
+Jiang_2026,Jiang_2026_PP_200um_chemox_biofilm,PP 200um | chemical oxidation + biofilm,PP,Aged,5,4.817,"Jiang et al. (2026), SI Table S5",200.0,value
+Jiang_2026,Jiang_2026_PP_200um_virgin,PP 200um | virgin,PP,Virgin,4,1.385,"Jiang et al. (2026), SI Table S5",200.0,value
+Jiang_2026,Jiang_2026_PP_50um_biofilm,PP 50um | biofilm,PP,Aged,5,6.158,"Jiang et al. (2026), SI Table S5",50.0,value
+Jiang_2026,Jiang_2026_PP_50um_chemox,PP 50um | chemical oxidation,PP,Aged,5,1.491,"Jiang et al. (2026), SI Table S5",50.0,value
+Jiang_2026,Jiang_2026_PP_50um_chemox_biofilm,PP 50um | chemical oxidation + biofilm,PP,Aged,5,8.444,"Jiang et al. (2026), SI Table S5",50.0,value
+Jiang_2026,Jiang_2026_PP_50um_virgin,PP 50um | virgin,PP,Virgin,5,7.437,"Jiang et al. (2026), SI Table S5",50.0,value
+Lin_2022,Lin_2022_01,PS | virgin | 15 C,PS,Virgin,7,,,,mesh class only
+Lin_2022,Lin_2022_02,PS | virgin | 25 C,PS,Virgin,7,,,,mesh class only
+Lin_2022,Lin_2022_03,PS | virgin | 35 C,PS,Virgin,7,,,,mesh class only
+Lin_2023,BPB_PLA_Cu,PLA | virgin | temperature not reported,PLA,Virgin,6,0.4637,"Lin et al. (2023), Section 3.1",,mesh class only
+Lin_2023,CPB_PE_Cu,PE | virgin | temperature not reported,PE,Virgin,6,0.1755,"Lin et al. (2023), Section 3.1",,mesh class only
+LiuZhou_2025,LiuZhou_2025_PLA_UV,PLA 150um | UV 30 d,PLA,Aged,6,1.223,"Liu Y et al. (2025), Table 1; Zhou W et al. (2025), Table 1 (CK values identical)",150.0,value
+LiuZhou_2025,LiuZhou_2025_PLA_acid,PLA 150um | acid HNO3 pH 5.6 30 d,PLA,Aged,6,0.854,"Liu Y et al. (2025), Table 1; Zhou W et al. (2025), Table 1 (CK values identical)",150.0,value
+LiuZhou_2025,LiuZhou_2025_PLA_thermal,PLA 150um | thermal 40 C/RT 30 d,PLA,Aged,6,1.029,"Liu Y et al. (2025), Table 1; Zhou W et al. (2025), Table 1 (CK values identical)",150.0,value
+LiuZhou_2025,LiuZhou_2025_PLA_virgin,PLA 150um | virgin (CK),PLA,Virgin,6,0.799,"Liu Y et al. (2025), Table 1; Zhou W et al. (2025), Table 1 (CK values identical)",150.0,value
+LiuZhou_2025,LiuZhou_2025_PS_UV,PS 150um | UV 30 d,PS,Aged,6,1.212,"Liu Y et al. (2025), Table 1; Zhou W et al. (2025), Table 1 (CK values identical)",150.0,value
+LiuZhou_2025,LiuZhou_2025_PS_acid,PS 150um | acid HNO3 pH 5.6 30 d,PS,Aged,6,1.041,"Liu Y et al. (2025), Table 1; Zhou W et al. (2025), Table 1 (CK values identical)",150.0,value
+LiuZhou_2025,LiuZhou_2025_PS_thermal,PS 150um | thermal 40 C/RT 30 d,PS,Aged,6,0.829,"Liu Y et al. (2025), Table 1; Zhou W et al. (2025), Table 1 (CK values identical)",150.0,value
+LiuZhou_2025,LiuZhou_2025_PS_virgin,PS 150um | virgin (CK),PS,Virgin,6,0.707,"Liu Y et al. (2025), Table 1; Zhou W et al. (2025), Table 1 (CK values identical)",150.0,value
+Liu_2022,Liu_2022_PP_virgin,PP <=100um | virgin,PP,Virgin,4,0.2335,"Liu et al. (2022), SI Table S2",100.0,upper
+Liu_2022,Liu_2022_PS_virgin,PS <=100um | virgin,PS,Virgin,4,0.7215,"Liu et al. (2022), SI Table S2",100.0,upper
+Liu_2022,Liu_2022_PVC_virgin,PVC <=100um | virgin,PVC,Virgin,4,0.7399,"Liu et al. (2022), SI Table S2",100.0,upper
+Muthuraja_2024,Muthuraja_2024_01,PP | virgin | Ppa: 500 and 1000 μm,PP,Virgin,5,,,707.11,range
+Muthuraja_2024,Muthuraja_2024_02,PP | virgin | PPb: 250–500 μm,PP,Virgin,5,,,353.55,range
+Muthuraja_2024,Muthuraja_2024_03,"PP | Fenton reagent, 7 d | Aged PPb",PP,Aged,5,,,353.55,range
+Muthuraja_2024,Muthuraja_2024_04,PS | virgin | PSa: 500 and 1000 μm,PS,Virgin,5,,,707.11,range
+Muthuraja_2024,Muthuraja_2024_05,PS | virgin | PSb: 250–500 μm,PS,Virgin,5,,,353.55,range
+Muthuraja_2024,Muthuraja_2024_06,"PS | Fenton reagent, 7 d | Aged PSb",PS,Aged,5,,,353.55,range
+Qiongjie_2022,Qiongjie_2022_01,PS | virgin | Pb(II) = 0,PS,Virgin,5,,,50.0,value
+Qiongjie_2022,Qiongjie_2022_02,PS | virgin | Pb(II) = 0.005 mmol/L | mixed,PS,Virgin,5,,,50.0,value
+Qiongjie_2022,Qiongjie_2022_03,PS | virgin | Pb(II) = 0.01 mmol/L | mixed,PS,Virgin,5,,,50.0,value
+Qiongjie_2022,Qiongjie_2022_04,PS | virgin | Pb(II) = 0.05 mmol/L | mixed,PS,Virgin,5,,,50.0,value
+Qiongjie_2022,Qiongjie_2022_05,PS | virgin | Pb(II) = 0.1 mmol/L | mixed,PS,Virgin,5,,,50.0,value
+Qiongjie_2022,Qiongjie_2022_06,PS | UV | Pb(II) = 0,PS,Aged,6,,,50.0,value
+Qiongjie_2022,Qiongjie_2022_07,PS | UV | Pb(II) = 0.005 mmol/L | mixed,PS,Aged,6,,,50.0,value
+Qiongjie_2022,Qiongjie_2022_08,PS | UV | Pb(II) = 0.01 mmol/L | mixed,PS,Aged,6,,,50.0,value
+Qiongjie_2022,Qiongjie_2022_09,PS | UV | Pb(II) = 0.05 mmol/L | mixed,PS,Aged,6,,,50.0,value
+Qiongjie_2022,Qiongjie_2022_10,PS | UV | Pb(II) = 0.1 mmol/L | mixed,PS,Aged,6,,,50.0,value
+Qiongjie_2022,Qiongjie_2022_11,"PS | wastewater, aeration | Pb(II) = 0",PS,Aged,6,,,50.0,value
+Qiongjie_2022,Qiongjie_2022_12,"PS | wastewater, aeration | Pb(II) = 0.005 mmol/L | mixed",PS,Aged,6,,,50.0,value
+Qiongjie_2022,Qiongjie_2022_13,"PS | wastewater, aeration | Pb(II) = 0.01 mmol/L | mixed",PS,Aged,6,,,50.0,value
+Qiongjie_2022,Qiongjie_2022_14,"PS | wastewater, aeration | Pb(II) = 0.05 mmol/L | mixed",PS,Aged,6,,,50.0,value
+Qiongjie_2022,Qiongjie_2022_15,"PS | wastewater, aeration | Pb(II) = 0.1 mmol/L | mixed",PS,Aged,6,,,50.0,value
+Sathyamoorthy_2022,Sathyamoorthy_2022_01,PE | virgin,PE,Virgin,7,,,125.0,value
+Sun_2022,Sun_2022_01,PLA | virgin | P-PLA,PLA,Virgin,6,1.4,"Sun et al. (2022), SI BET table",106.07,range
+Sun_2022,Sun_2022_02,"PLA | sewage incubation 35 d, biofilm-covered | S-PLA",PLA,Aged,6,1.05,"Sun et al. (2022), SI BET table",106.07,range
+Sun_2023,Sun_2023_01,PBAT | virgin | P-PBAT,PBAT,Virgin,6,0.1145,"Sun et al. (2023), SI BET table",200.0,upper
+Sun_2023,Sun_2023_02,PBAT | biodegraded in sewage (D-PBAT) | D-PBAT,PBAT,Aged,5,0.1253,"Sun et al. (2023), SI BET table",200.0,upper
+Tang_2022,Tang_2022_01,PA | virgin,PA,Virgin,6,,,,mesh class only
+Turner_2015,Turner_2015_PE_beached,PE pellets 2-6 mm | beached (photo-oxidised),PE,Aged,5,,,4000.0,value
+Turner_2015,Turner_2015_PE_virgin,PE pellets ~4 mm | virgin,PE,Virgin,5,,,4000.0,value
+Wang_2020,Wang_2020_01,PET | UV | 15 C,PET,Aged,6,,,1000.0,value
+Wang_2020,Wang_2020_02,PET | UV | 25 C,PET,Aged,6,,,1000.0,value
+Wang_2020,Wang_2020_03,PET | UV | 35 C,PET,Aged,6,,,1000.0,value
+Wang_2020b,Wang_2020b_01,PE | virgin | PE+0 mg/L TC,PE,Virgin,7,0.2354,"Wang et al. (2020b), SI Table S1",94.87,range
+Wang_2021,Wang_2021_01,PE | virgin,PE,Virgin,6,0.23,"Wang et al. (2021), SI Table S2",102.47,range
+Wang_2021,Wang_2021_02,PE | air incubating,PE,Aged,7,0.35,"Wang et al. (2021), SI Table S2",102.47,range
+Wang_2021,Wang_2021_03,PE | water incubating,PE,Aged,6,0.76,"Wang et al. (2021), SI Table S2",102.47,range
+Wang_2021,Wang_2021_04,PE | soil incubating,PE,Aged,6,1.16,"Wang et al. (2021), SI Table S2",102.47,range
+Wang_2021,Wang_2021_05,PE | virgin | mixed,PE,Virgin,6,0.23,"Wang et al. (2021), SI Table S2",102.47,range
+Wang_2021,Wang_2021_06,PE | air incubating | mixed,PE,Aged,7,0.35,"Wang et al. (2021), SI Table S2",102.47,range
+Wang_2021,Wang_2021_07,PE | water incubating | mixed,PE,Aged,6,0.76,"Wang et al. (2021), SI Table S2",102.47,range
+Wang_2021,Wang_2021_08,PE | soil incubating | mixed,PE,Aged,6,1.16,"Wang et al. (2021), SI Table S2",102.47,range
+Wang_2023,Wang_2023_PE_UV,PE | UV (UV-11),PE,Aged,5,,,44.72,range
+Wang_2023,Wang_2023_PE_virgin,PE | virgin,PE,Virgin,5,,,44.72,range
+Wang_2023,Wang_2023_PP_UV,PP | UV (UV-11),PP,Aged,5,,,44.72,range
+Wang_2023,Wang_2023_PP_virgin,PP | virgin,PP,Virgin,5,,,44.72,range
+Wang_2023,Wang_2023_PS_UV,PS | UV (UV-11),PS,Aged,5,,,44.72,range
+Wang_2023,Wang_2023_PS_virgin,PS | virgin,PS,Virgin,5,,,44.72,range
+Xiao_2026,Xiao_2026_PET_biofilm,PET | biofilm,PET,Aged,6,,no numeric SSA: only the increase after biofilm formation is given (values in Fig. 3c),60.83,range
+Xiao_2026,Xiao_2026_PET_virgin,PET | virgin,PET,Virgin,6,,no numeric SSA: only the increase after biofilm formation is given (values in Fig. 3c),60.83,range
+Xiao_2026,Xiao_2026_PLA_biofilm,PLA | biofilm,PLA,Aged,6,,no numeric SSA: only the increase after biofilm formation is given (values in Fig. 3c),60.83,range
+Xiao_2026,Xiao_2026_PLA_virgin,PLA | virgin,PLA,Virgin,6,,no numeric SSA: only the increase after biofilm formation is given (values in Fig. 3c),60.83,range
+Xiao_2026,Xiao_2026_PP_biofilm,PP | biofilm,PP,Aged,6,,no numeric SSA: only the increase after biofilm formation is given (values in Fig. 3c),60.83,range
+Xiao_2026,Xiao_2026_PP_virgin,PP | virgin,PP,Virgin,6,,no numeric SSA: only the increase after biofilm formation is given (values in Fig. 3c),60.83,range
+Xue_2021,Xue_2021_01,TPU | virgin,TPU,Virgin,9,0.543,"Xue et al. (2021), Table 1 (pristine value printed as 05430)",,mesh class only
+Xue_2021,Xue_2021_02,TPU | UV,TPU,Aged,9,0.7573,"Xue et al. (2021), Table 1 (pristine value printed as 05430)",,mesh class only
+Xue_2021,Xue_2021_03,TPU | virgin | mixed,TPU,Virgin,9,0.543,"Xue et al. (2021), Table 1 (pristine value printed as 05430)",,mesh class only
+Xue_2021,Xue_2021_04,TPU | UV | mixed,TPU,Aged,9,0.7573,"Xue et al. (2021), Table 1 (pristine value printed as 05430)",,mesh class only
+Yan_2023,Yan_2023_PE_virgin,PE 125um | virgin,PE,Virgin,7,,,125.0,value
+Yan_2023,Yan_2023_PLA_virgin,PLA 125um | virgin,PLA,Virgin,7,,,125.0,value
+Yan_2023,Yan_2023_PP_virgin,PP 125um | virgin,PP,Virgin,9,,,125.0,value
+Yan_2023,Yan_2023_PVC_virgin,PVC 125um | virgin,PVC,Virgin,9,,,125.0,value
+Yang_2019,Yang_2019_01,PA | virgin,PA,Virgin,6,8.71,"Yang et al. (2019), Table 1 (virgin materials only)",69.86,value
+Yang_2019,Yang_2019_02,PA | UV,PA,Aged,6,,,69.86,value
+Yang_2019,Yang_2019_03,PMMA | virgin,PMMA,Virgin,6,0.11,"Yang et al. (2019), Table 1 (virgin materials only)",74.76,value
+Yang_2019,Yang_2019_04,PMMA | UV,PMMA,Aged,6,,,74.76,value
+Yu_2026,PP_UV7d_15C,PP | UV_7d | 15 °C,PP,Aged,7,14.9448,"Yu et al. (2026), SI Table S8",50.0,value
+Yu_2026,PP_UV7d_25C,PP | UV_7d | 25 °C,PP,Aged,7,14.9448,"Yu et al. (2026), SI Table S8",50.0,value
+Yu_2026,PP_UV7d_35C,PP | UV_7d | 35 °C,PP,Aged,7,14.9448,"Yu et al. (2026), SI Table S8",50.0,value
+Yu_2026,PP_fresh_15C,PP | virgin | 15 °C,PP,Virgin,7,14.2922,"Yu et al. (2026), SI Table S8",50.0,value
+Yu_2026,PP_fresh_25C,PP | virgin | 25 °C,PP,Virgin,7,14.2922,"Yu et al. (2026), SI Table S8",50.0,value
+Yu_2026,PP_fresh_35C,PP | virgin | 35 °C,PP,Virgin,7,14.2922,"Yu et al. (2026), SI Table S8",50.0,value
+Zhou_2022,Zhou_2022_01,PP | virgin | PPw (CK),PP,Virgin,11,,,,film (width and thickness)
+Zhou_2022,Zhou_2022_02,PP | air-sun | PPw-30d,PP,Aged,9,,,,film (width and thickness)
+Zhou_2022,Zhou_2022_03,PP | air-sun | PPw-60d,PP,Aged,8,,,,film (width and thickness)
+Zhou_2022,Zhou_2022_04,PP | air-sun | PPw-90d,PP,Aged,9,,,,film (width and thickness)
+Zhou_2022,Zhou_2022_05,PP | air-sun | PPw-120d,PP,Aged,10,,,,film (width and thickness)
+Zhou_2022,Zhou_2022_06,PP | air-sun | PPw-180d,PP,Aged,9,,,,film (width and thickness)
+Zhou_2022,Zhou_2022_07,PP | air-sun | PPw-250d,PP,Aged,10,,,,film (width and thickness)
+Zhou_2022,Zhou_2022_08,PE | virgin | PEf-CK,PE,Virgin,7,,,,film (width and thickness)
+Zhou_2022,Zhou_2022_09,PE | air-sun | Pef-30d,PE,Aged,8,,,,film (width and thickness)
+Zhou_2022,Zhou_2022_10,PE | air-sun | Pef-60d,PE,Aged,8,,,,film (width and thickness)
+Zhou_2022,Zhou_2022_11,PE | air-sun | Pef-90d,PE,Aged,10,,,,film (width and thickness)
+Zhou_2022,Zhou_2022_12,PE | air-sun | Pef-120d,PE,Aged,10,,,,film (width and thickness)
+Zhou_2022,Zhou_2022_13,PE | air-sun | Pef-180d,PE,Aged,9,,,,film (width and thickness)
+Zhou_2022,Zhou_2022_14,PE | air-sun | Pef-250d,PE,Aged,9,,,,film (width and thickness)
+Zhou_2022b,Zhou_2022b_01,PS | UV | PS-CIP0,PS,Aged,8,,,75.0,value
+Zhou_2022b,Zhou_2022b_02,PS | UV | PS-CIP2 | mixed,PS,Aged,9,,,75.0,value
+Zhou_2022b,Zhou_2022b_03,PVC | UV | PVC-CIP0,PVC,Aged,7,,,75.0,value
+Zhou_2022b,Zhou_2022b_04,PVC | UV | PVC-CIP2 | mixed,PVC,Aged,7,,,75.0,value
+Zou_2020,Zou_2020_01,CPE | virgin,CPE,Virgin,5,2.3,"Zou et al. (2020), Table 3",280.0,upper
+Zou_2020,Zou_2020_02,PVC | virgin,PVC,Virgin,5,8.9,"Zou et al. (2020), Table 3",280.0,upper
+Zou_2020,Zou_2020_03,PE (HDPE) | virgin,PE,Virgin,5,3.1,"Zou et al. (2020), Table 3",280.0,upper
+Zou_2020,Zou_2020_04,PE (LDPE) | virgin,PE,Virgin,5,1.3,"Zou et al. (2020), Table 3",280.0,upper
+Zou_2026,Zou_2026_PA_virgin,PA 75-150um | virgin,PA,Virgin,7,,,106.07,range

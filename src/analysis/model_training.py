@@ -419,7 +419,7 @@ def _add_significance_brackets(
             transform=ax.transAxes,
             ha="center",
             va="top",
-            fontsize=13,
+            fontsize=19,
         )
         return
 
@@ -430,14 +430,14 @@ def _add_significance_brackets(
         if x1 > x2:
             x1, x2 = x2, x1
 
-        ax.plot([x1, x1, x2, x2], [current_y, current_y + step / 3, current_y + step / 3, current_y], color="black", linewidth=0.8)
+        ax.plot([x1, x1, x2, x2], [current_y, current_y + step / 3, current_y + step / 3, current_y], color="black", linewidth=1.1)
         ax.text(
             (x1 + x2) / 2,
             current_y + step / 2.5,
             _significance_label(row["p_adjusted_holm"]),
             ha="center",
             va="bottom",
-            fontsize=12,
+            fontsize=18,
         )
         current_y += step
 
@@ -453,16 +453,19 @@ def _save_mae_boxplot(
     data = [per_fold_mae[name] for name in PLOT_MODEL_ORDER]
     labels = [MODEL_LABELS[name] for name in PLOT_MODEL_ORDER]
 
-    fig, ax = plt.subplots(figsize=(7.2, 5.6))
+    # This panel is printed at roughly half the page width in the composite.
+    # Use a publication-scale type hierarchy so labels remain >= 8 pt after
+    # placement in the manuscript.
+    fig, ax = plt.subplots(figsize=(7.6, 6.0))
     box = ax.boxplot(data, labels=labels, patch_artist=True, showmeans=True, widths=0.45)
     colors = ["#4c78a8", "#54a24b", "#f58518", "#b279a2"]
     for patch, color in zip(box["boxes"], colors):
         patch.set_facecolor(color)
         patch.set_alpha(0.72)
 
-    ax.set_ylabel("Per-fold MAE", fontsize=17)
-    ax.set_xlabel("Model", fontsize=17)
-    ax.tick_params(axis="both", labelsize=15)
+    ax.set_ylabel("Per-fold MAE", fontsize=22)
+    ax.set_xlabel("Model", fontsize=22)
+    ax.tick_params(axis="both", labelsize=19)
     ax.grid(axis="y", linestyle=":", alpha=0.45)
     _add_significance_brackets(ax, per_fold_mae, significance)
     fig.tight_layout()

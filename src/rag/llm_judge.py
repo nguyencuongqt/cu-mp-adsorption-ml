@@ -14,14 +14,11 @@ Method
 4. Run Friedman + Wilcoxon–Holm statistical tests across conditions.
 5. Save scores, raw responses, summary text, and two manuscript-ready figures.
 
-Limitation (must be reported in the manuscript)
+Design note (must be reported in the manuscript)
 -------------------------------------------------
-When the same OpenAI model family is used for both generation and judging, the
-judge evaluates related C2/C3 outputs. This introduces potential self-preference
-bias. Mitigations applied here: (a) a blinded rubric that scores observable
-criteria (citations present, mechanism named, values consistent); (b) C1 is
-generated without the LLM, providing an independent reference; (c) raw judge
-responses are saved for manual inspection.
+C2/C3 explanations are generated with GPT-4o-mini.  By default the judge uses
+Claude Haiku 4.5, an independent provider.  A blinded rubric and saved raw
+responses remain important safeguards against rubric and model variability.
 
 Run with:
     python src/rag/llm_judge.py
@@ -37,6 +34,7 @@ Outputs:
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 import time
@@ -60,7 +58,10 @@ for path in (PROJECT_ROOT, MODULE_DIR):
 
 from config import FIGURES_DIR, REPORTS_DIR, TEST_CASES_FILE  # noqa: E402
 from llm_interpretation import explain, predict_single  # noqa: E402
-from llm_provider import mask_key, resolve_provider  # noqa: E402
+from llm_provider import (  # noqa: E402
+    judge_label,
+    resolve_judge_provider,
+)
 
 # ── Constants ──────────────────────────────────────────────────────────────────
 
@@ -160,25 +161,53 @@ def _parse_json_response(text: str) -> dict[str, Any]:
 
 def _is_auth_error(message: str) -> bool:
     text = str(message).lower()
-    return "401" in text or "invalid_api_key" in text or "incorrect api key" in text
+    return (
+        "401" in text
+        or "403" in text
+        or "invalid_api_key" in text
+        or "incorrect api key" in text
+        or "authentication_error" in text
+    )
 
 
 def _call_llm_judge(system: str, user: str) -> str:
-    """Call the OpenAI API for the judge role."""
-    provider, api_key = resolve_provider()
+    """Call the configured independent LLM judge without recording its key."""
+    provider, api_key, model = resolve_judge_provider()
     if provider == "openai" and api_key:
         from openai import OpenAI
+
         client = OpenAI(api_key=api_key)
         resp = client.chat.completions.create(
-            model="gpt-4o-mini",
+            model=model,
             temperature=0.0,
+            max_tokens=350,
             messages=[
                 {"role": "system", "content": system},
                 {"role": "user", "content": user},
             ],
         )
         return resp.choices[0].message.content or ""
-    raise RuntimeError("No API key found. Set OPENAI_API_KEY or add it to .env.")
+    if provider == "anthropic" and api_key:
+        from anthropic import Anthropic
+
+        client_options: dict[str, Any] = {"api_key": api_key, "timeout": 30.0}
+        workspace_id = os.getenv("ANTHROPIC_WORKSPACE_ID", "").strip()
+        if workspace_id:
+            client_options["default_headers"] = {"anthropic-workspace-id": workspace_id}
+        client = Anthropic(**client_options)
+        resp = client.messages.create(
+            model=model,
+            max_tokens=350,
+            system=system,
+            messages=[{"role": "user", "content": user}],
+        )
+        return "".join(
+            block.text for block in resp.content if getattr(block, "type", "") == "text"
+        )
+    raise RuntimeError(
+        "No usable LLM judge credential found. Set ANTHROPIC_API_KEY "
+        "(recommended) or OPENAI_API_KEY in the project .env."
+    )
 
 
 def _judge_explanation(
@@ -355,7 +384,8 @@ def _bar_chart(scores_df: pd.DataFrame, tests: pd.DataFrame) -> Path:
     width = 0.14
     offsets = np.linspace(-(n_conditions - 1) / 2, (n_conditions - 1) / 2, n_conditions) * width
 
-    fig, ax = plt.subplots(figsize=(16.5, 8.8))
+    # Designed for a ~4.5 in wide panel in the manuscript composite.
+    fig, ax = plt.subplots(figsize=(11.6, 7.0))
     sig = tests[(tests["contrast"] == "C3>C0") & (tests["p_holm"] < 0.05)]
     for i, cond in enumerate(CONDITIONS):
         means = [summary.loc[cond, (dim, "mean")] for dim in dims_to_plot]
@@ -373,25 +403,26 @@ def _bar_chart(scores_df: pd.DataFrame, tests: pd.DataFrame) -> Path:
     # Annotate significant contrasts (p_holm < 0.05 for C3>C0 on each dim)
     for j, dim in enumerate(dims_to_plot):
         if not sig[sig["metric"] == dim].empty:
-            ax.text(x[j], 5.23, "*", ha="center", va="bottom", fontsize=28, color="#e45756", weight="bold")
+            ax.text(x[j], 5.14, "*", ha="center", va="bottom", fontsize=28, color="#e45756", weight="bold")
 
     ax.set_xticks(x)
     ax.set_xticklabels(
         [d.replace("_", "\n") for d in dims_to_plot],
-        fontsize=20,
+        # Six multi-line categories share one panel; this size keeps adjacent
+        # labels separate at the final print width.
+        fontsize=18,
     )
     ax.set_ylim(0, 5.5)
-    ax.set_ylabel("Mean score (1-5 Likert)", fontsize=22, labelpad=12)
+    ax.set_ylabel("Mean score (1-5 Likert)", fontsize=22, labelpad=14)
     ax.set_title(
-        "LLM-as-Judge scores by condition and dimension\n(* = C3>C0, Holm-adjusted p<0.05)",
-        fontsize=26,
+        "a  LLM-as-Judge scores by condition and dimension\n(* = C3>C0, Holm-adjusted p<0.05)",
+        fontsize=20,
         pad=22,
     )
     ax.legend(
-        title="Condition",
         frameon=False,
-        fontsize=19,
-        title_fontsize=20,
+        fontsize=21,
+        title_fontsize=25,
         ncol=4,
         loc="upper center",
         bbox_to_anchor=(0.5, -0.12),
@@ -399,8 +430,8 @@ def _bar_chart(scores_df: pd.DataFrame, tests: pd.DataFrame) -> Path:
     ax.grid(axis="y", linestyle=":", alpha=0.45)
     ax.spines["top"].set_visible(False)
     ax.spines["right"].set_visible(False)
-    ax.tick_params(axis="y", labelsize=19, pad=8)
-    fig.subplots_adjust(top=0.83, bottom=0.25, left=0.08, right=0.98)
+    ax.tick_params(axis="y", labelsize=24, pad=8)
+    fig.subplots_adjust(top=0.83, bottom=0.31, left=0.08, right=0.98)
 
     output = FIGURES_DIR / "llm_judge_bars.png"
     fig.savefig(output, dpi=300, bbox_inches="tight")
@@ -416,15 +447,32 @@ def _radar_chart(scores_df: pd.DataFrame) -> Path:
     angles = np.linspace(0, 2 * np.pi, N, endpoint=False).tolist()
     angles += angles[:1]  # close the polygon
 
-    fig, ax = plt.subplots(figsize=(10.8, 9.4), subplot_kw={"polar": True})
+    # A compact source canvas avoids shrinking the radar labels excessively
+    # when it is placed next to the bar-chart panel.
+    fig, ax = plt.subplots(figsize=(7.0, 6.5), subplot_kw={"polar": True})
     ax.set_theta_offset(np.pi / 2)
     ax.set_theta_direction(-1)
     ax.set_xticks(angles[:-1])
-    ax.set_xticklabels(categories, fontsize=22)
-    ax.tick_params(axis="x", pad=22)
+    ax.set_xticklabels(categories, fontsize=27)
+    # Keep the two-line category names completely outside the radar frame.
+    # This is especially important after journal-scale rasterization.
+    ax.tick_params(axis="x", pad=46)
+    # Push only the two side labels away from the radar boundary.
+    radar_labels = ax.get_xticklabels()
+    radar_labels[1].set_horizontalalignment("left")   # mechanistic depth → right
+    radar_labels[4].set_horizontalalignment("right")  # readability → left
+    # Fine horizontal shifts keep both labels clear of the circular frame.
+    radar_labels[1].set_transform(
+        radar_labels[1].get_transform()
+        + matplotlib.transforms.ScaledTranslation(-5 / 72, 0, fig.dpi_scale_trans)
+    )
+    radar_labels[4].set_transform(
+        radar_labels[4].get_transform()
+        + matplotlib.transforms.ScaledTranslation(5 / 72, 0, fig.dpi_scale_trans)
+    )
     ax.set_ylim(0, 5)
     ax.set_yticks([1, 2, 3, 4, 5])
-    ax.set_yticklabels(["1", "2", "3", "4", "5"], fontsize=17)
+    ax.set_yticklabels(["1", "2", "3", "4", "5"], fontsize=21)
 
     for cond in CONDITIONS:
         if cond not in summary.index:
@@ -434,8 +482,8 @@ def _radar_chart(scores_df: pd.DataFrame) -> Path:
         ax.plot(angles, values, linewidth=2.6, label=cond, color=_CONDITION_COLORS[cond])
         ax.fill(angles, values, alpha=0.11, color=_CONDITION_COLORS[cond])
 
-    ax.legend(loc="upper right", bbox_to_anchor=(1.36, 1.18), frameon=False, fontsize=19)
-    ax.set_title("LLM-as-Judge: mean score per dimension", fontsize=26, pad=40)
+    ax.legend(loc="upper right", bbox_to_anchor=(1.48, 1.22), frameon=False, fontsize=24)
+    ax.set_title("b  LLM-as-Judge: mean score per dimension", fontsize=29, pad=44)
     fig.subplots_adjust(top=0.85, bottom=0.06, left=0.02, right=0.80)
 
     output = FIGURES_DIR / "llm_judge_radar.png"
@@ -447,11 +495,8 @@ def _radar_chart(scores_df: pd.DataFrame) -> Path:
 # ── Narrative summary ─────────────────────────────────────────────────────────
 
 def _build_summary(scores_df: pd.DataFrame, tests: pd.DataFrame, n_cases: int) -> str:
-    provider, api_key = resolve_provider()
-    provider_label = {
-        "openai": "GPT-4o-mini",
-        None: "None",
-    }[provider]
+    provider, _, model = resolve_judge_provider()
+    provider_label = judge_label(provider, model)
     means = scores_df.groupby("condition")["overall"].mean().reindex(CONDITIONS)
     dims_present = [d for d in DIMENSIONS if d in scores_df.columns]
     dim_means = (
@@ -489,10 +534,10 @@ def _build_summary(scores_df: pd.DataFrame, tests: pd.DataFrame, n_cases: int) -
         f"Judge model: {provider_label}",
         "Judge key: provided locally, not recorded",
         "",
-        "IMPORTANT: When the same API provider generates C2/C3 explanations",
-        "and acts as judge, self-preference bias may exist. C1 (rule-based,",
-        "no LLM) serves as an unbiased reference for generation. Raw judge",
-        "responses saved in llm_judge_raw.csv for manual inspection.",
+        "C2/C3 explanations are generated with GPT-4o-mini; the configured",
+        "judge is recorded above. When the judge is an independent provider,",
+        "provider self-preference is reduced but not eliminated. C1 is rule-",
+        "based, and raw judge responses are saved for manual inspection.",
         "",
         "── Overall scores (mean ± SE) ─────────────────────────────────────",
     ]
@@ -552,12 +597,12 @@ def run_llm_judge(n_cases: int = N_CASES) -> dict[str, Any]:
     cases = _sample_diverse_cases(all_cases, n_cases).reset_index(drop=True)
     n_actual = len(cases)
     print(f"Selected {n_actual} diverse cases for LLM-as-Judge evaluation.")
-    provider, api_key = resolve_provider()
-    provider_label = {
-        "openai": "GPT-4o-mini",
-        None: "None",
-    }[provider]
-    print(f"Judge provider: {provider_label} | key={mask_key(api_key)}")
+    provider, api_key, model = resolve_judge_provider()
+    provider_label = judge_label(provider, model)
+    print(
+        f"Judge provider: {provider_label} | "
+        f"credential={'configured' if api_key else 'missing'}"
+    )
 
     # Build input dicts from columns or pre-built 'input_dict' column
     def _row_to_input(row: pd.Series) -> dict[str, Any]:
@@ -643,15 +688,12 @@ def run_llm_judge(n_cases: int = N_CASES) -> dict[str, Any]:
         except Exception as exc:
             print(f"error: {exc}")
             if _is_auth_error(str(exc)):
-                provider, api_key = resolve_provider()
-                provider_label = {
-                    "openai": "GPT-4o-mini",
-                    None: "None",
-                }[provider]
+                provider, api_key, model = resolve_judge_provider()
+                provider_label = judge_label(provider, model)
                 raise RuntimeError(
                     "LLM judge authentication failed. "
-                    f"Provider={provider_label}, key={mask_key(api_key)}. "
-                    "Update OPENAI_API_KEY or project .env, then rerun."
+                    f"Provider={provider_label}, credential={'configured' if api_key else 'missing'}. "
+                    "Update the configured judge key or project .env, then rerun."
                 ) from exc
             raw_rows.append({"case_id": case_idx, "condition": condition, "raw_response": str(exc)})
             score_rows.append({"case_id": case_idx, "condition": condition,

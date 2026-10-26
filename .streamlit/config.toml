@@ -1,0 +1,13 @@
+[server]
+# The retrieval libraries import several thousand modules; watching them slows the first explanation and fills the log.
+fileWatcherType = "none"
+
+[browser]
+gatherUsageStats = false
+
+[client]
+toolbarMode = "minimal"
+
+[theme]
+base = "light"
+primaryColor = "#1b4f72"

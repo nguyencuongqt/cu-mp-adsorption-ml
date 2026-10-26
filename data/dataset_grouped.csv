@@ -1,0 +1,962 @@
+source_id,curve_id,series_label,ageing_type,matrix,year,doi,AgS,ReT,AdC,Temp,pH,rpm,Ce,qe
+Yang_2019,Yang_2019_01,PA | virgin,none,freshwater,2019,10.1007/s11356-019-05643-8,Virgin,PA,Single-ion,25.0,6.0,200.0,0.07321,0.00379953
+Yang_2019,Yang_2019_01,PA | virgin,none,freshwater,2019,10.1007/s11356-019-05643-8,Virgin,PA,Single-ion,25.0,6.0,200.0,0.13948,0.02062459
+Yang_2019,Yang_2019_01,PA | virgin,none,freshwater,2019,10.1007/s11356-019-05643-8,Virgin,PA,Single-ion,25.0,6.0,200.0,0.2178,0.03615541000000001
+Yang_2019,Yang_2019_01,PA | virgin,none,freshwater,2019,10.1007/s11356-019-05643-8,Virgin,PA,Single-ion,25.0,6.0,200.0,0.7138,0.07415046
+Yang_2019,Yang_2019_01,PA | virgin,none,freshwater,2019,10.1007/s11356-019-05643-8,Virgin,PA,Single-ion,25.0,6.0,200.0,2.14157,0.12897056
+Yang_2019,Yang_2019_01,PA | virgin,none,freshwater,2019,10.1007/s11356-019-05643-8,Virgin,PA,Single-ion,25.0,6.0,200.0,6.05339,0.21365052
+Yang_2019,Yang_2019_02,PA | UV,UV,freshwater,2019,10.1007/s11356-019-05643-8,Aged,PA,Single-ion,25.0,6.0,200.0,0.06719,0.00426176
+Yang_2019,Yang_2019_02,PA | UV,UV,freshwater,2019,10.1007/s11356-019-05643-8,Aged,PA,Single-ion,25.0,6.0,200.0,0.11739,0.02136415
+Yang_2019,Yang_2019_02,PA | UV,UV,freshwater,2019,10.1007/s11356-019-05643-8,Aged,PA,Single-ion,25.0,6.0,200.0,0.25796,0.03948345
+Yang_2019,Yang_2019_02,PA | UV,UV,freshwater,2019,10.1007/s11356-019-05643-8,Aged,PA,Single-ion,25.0,6.0,200.0,0.60536,0.07470513
+Yang_2019,Yang_2019_02,PA | UV,UV,freshwater,2019,10.1007/s11356-019-05643-8,Aged,PA,Single-ion,25.0,6.0,200.0,2.40464,0.13599641
+Yang_2019,Yang_2019_02,PA | UV,UV,freshwater,2019,10.1007/s11356-019-05643-8,Aged,PA,Single-ion,25.0,6.0,200.0,6.05339,0.21365052
+Yang_2019,Yang_2019_03,PMMA | virgin,none,freshwater,2019,10.1007/s11356-019-05643-8,Virgin,PMMA,Single-ion,25.0,6.0,200.0,0.04665999999999999,0.00131782
+Yang_2019,Yang_2019_03,PMMA | virgin,none,freshwater,2019,10.1007/s11356-019-05643-8,Virgin,PMMA,Single-ion,25.0,6.0,200.0,0.09238,0.00312163
+Yang_2019,Yang_2019_03,PMMA | virgin,none,freshwater,2019,10.1007/s11356-019-05643-8,Virgin,PMMA,Single-ion,25.0,6.0,200.0,0.4892,0.01093249
+Yang_2019,Yang_2019_03,PMMA | virgin,none,freshwater,2019,10.1007/s11356-019-05643-8,Virgin,PMMA,Single-ion,25.0,6.0,200.0,1.00522,0.01712673
+Yang_2019,Yang_2019_03,PMMA | virgin,none,freshwater,2019,10.1007/s11356-019-05643-8,Virgin,PMMA,Single-ion,25.0,6.0,200.0,2.01603,0.02626493
+Yang_2019,Yang_2019_03,PMMA | virgin,none,freshwater,2019,10.1007/s11356-019-05643-8,Virgin,PMMA,Single-ion,25.0,6.0,200.0,5.0501,0.03227197
+Yang_2019,Yang_2019_04,PMMA | UV,UV,freshwater,2019,10.1007/s11356-019-05643-8,Aged,PMMA,Single-ion,25.0,6.0,200.0,0.06952,0.00145395
+Yang_2019,Yang_2019_04,PMMA | UV,UV,freshwater,2019,10.1007/s11356-019-05643-8,Aged,PMMA,Single-ion,25.0,6.0,200.0,0.05483,0.00283234
+Yang_2019,Yang_2019_04,PMMA | UV,UV,freshwater,2019,10.1007/s11356-019-05643-8,Aged,PMMA,Single-ion,25.0,6.0,200.0,0.37489,0.007069600000000001
+Yang_2019,Yang_2019_04,PMMA | UV,UV,freshwater,2019,10.1007/s11356-019-05643-8,Aged,PMMA,Single-ion,25.0,6.0,200.0,0.7913,0.01093249
+Yang_2019,Yang_2019_04,PMMA | UV,UV,freshwater,2019,10.1007/s11356-019-05643-8,Aged,PMMA,Single-ion,25.0,6.0,200.0,1.6829,0.02046208
+Yang_2019,Yang_2019_04,PMMA | UV,UV,freshwater,2019,10.1007/s11356-019-05643-8,Aged,PMMA,Single-ion,25.0,6.0,200.0,4.32343,0.03788762
+Wang_2020,Wang_2020_01,PET | UV | 15 C,UV,freshwater,2020,10.1016/j.jes.2019.07.006,Aged,PET,Single-ion,15.0,7.0,150.0,1.958047,0.039778
+Wang_2020,Wang_2020_01,PET | UV | 15 C,UV,freshwater,2020,10.1016/j.jes.2019.07.006,Aged,PET,Single-ion,15.0,7.0,150.0,3.888483,0.111744
+Wang_2020,Wang_2020_01,PET | UV | 15 C,UV,freshwater,2020,10.1016/j.jes.2019.07.006,Aged,PET,Single-ion,15.0,7.0,150.0,4.875407,0.132018
+Wang_2020,Wang_2020_01,PET | UV | 15 C,UV,freshwater,2020,10.1016/j.jes.2019.07.006,Aged,PET,Single-ion,15.0,7.0,150.0,5.856543,0.151225
+Wang_2020,Wang_2020_01,PET | UV | 15 C,UV,freshwater,2020,10.1016/j.jes.2019.07.006,Aged,PET,Single-ion,15.0,7.0,150.0,7.839074,0.160591
+Wang_2020,Wang_2020_01,PET | UV | 15 C,UV,freshwater,2020,10.1016/j.jes.2019.07.006,Aged,PET,Single-ion,15.0,7.0,150.0,9.833183,0.17221
+Wang_2020,Wang_2020_02,PET | UV | 25 C,UV,freshwater,2020,10.1016/j.jes.2019.07.006,Aged,PET,Single-ion,25.0,7.0,150.0,1.952259,0.059696
+Wang_2020,Wang_2020_02,PET | UV | 25 C,UV,freshwater,2020,10.1016/j.jes.2019.07.006,Aged,PET,Single-ion,25.0,7.0,150.0,3.853752,0.157864
+Wang_2020,Wang_2020_02,PET | UV | 25 C,UV,freshwater,2020,10.1016/j.jes.2019.07.006,Aged,PET,Single-ion,25.0,7.0,150.0,4.834888,0.178494
+Wang_2020,Wang_2020_02,PET | UV | 25 C,UV,freshwater,2020,10.1016/j.jes.2019.07.006,Aged,PET,Single-ion,25.0,7.0,150.0,5.824707,0.192128
+Wang_2020,Wang_2020_02,PET | UV | 25 C,UV,freshwater,2020,10.1016/j.jes.2019.07.006,Aged,PET,Single-ion,25.0,7.0,150.0,7.798556,0.206711
+Wang_2020,Wang_2020_02,PET | UV | 25 C,UV,freshwater,2020,10.1016/j.jes.2019.07.006,Aged,PET,Single-ion,25.0,7.0,150.0,9.801346,0.212639
+Wang_2020,Wang_2020_03,PET | UV | 35 C,UV,freshwater,2020,10.1016/j.jes.2019.07.006,Aged,PET,Single-ion,35.0,7.0,150.0,1.952259,0.07997
+Wang_2020,Wang_2020_03,PET | UV | 35 C,UV,freshwater,2020,10.1016/j.jes.2019.07.006,Aged,PET,Single-ion,35.0,7.0,150.0,3.807445,0.217619
+Wang_2020,Wang_2020_03,PET | UV | 35 C,UV,freshwater,2020,10.1016/j.jes.2019.07.006,Aged,PET,Single-ion,35.0,7.0,150.0,4.771216,0.242872
+Wang_2020,Wang_2020_03,PET | UV | 35 C,UV,freshwater,2020,10.1016/j.jes.2019.07.006,Aged,PET,Single-ion,35.0,7.0,150.0,5.749457,0.258404
+Wang_2020,Wang_2020_03,PET | UV | 35 C,UV,freshwater,2020,10.1016/j.jes.2019.07.006,Aged,PET,Single-ion,35.0,7.0,150.0,7.734883,0.272394
+Wang_2020,Wang_2020_03,PET | UV | 35 C,UV,freshwater,2020,10.1016/j.jes.2019.07.006,Aged,PET,Single-ion,35.0,7.0,150.0,9.743462,0.277729
+Wang_2020b,Wang_2020b_01,PE | virgin | PE+0 mg/L TC,none,freshwater,2020,10.1016/j.cej.2019.123808,Virgin,PE,Single-ion,25.0,5.8,,0.263512,0.00128
+Wang_2020b,Wang_2020b_01,PE | virgin | PE+0 mg/L TC,none,freshwater,2020,10.1016/j.cej.2019.123808,Virgin,PE,Single-ion,25.0,5.8,,0.503028,0.015151
+Wang_2020b,Wang_2020b_01,PE | virgin | PE+0 mg/L TC,none,freshwater,2020,10.1016/j.cej.2019.123808,Virgin,PE,Single-ion,25.0,5.8,,0.702155,0.018494
+Wang_2020b,Wang_2020b_01,PE | virgin | PE+0 mg/L TC,none,freshwater,2020,10.1016/j.cej.2019.123808,Virgin,PE,Single-ion,25.0,5.8,,1.508438,0.022333
+Wang_2020b,Wang_2020b_01,PE | virgin | PE+0 mg/L TC,none,freshwater,2020,10.1016/j.cej.2019.123808,Virgin,PE,Single-ion,25.0,5.8,,2.226988,0.023861
+Wang_2020b,Wang_2020b_01,PE | virgin | PE+0 mg/L TC,none,freshwater,2020,10.1016/j.cej.2019.123808,Virgin,PE,Single-ion,25.0,5.8,,3.519258,0.027205
+Wang_2020b,Wang_2020b_01,PE | virgin | PE+0 mg/L TC,none,freshwater,2020,10.1016/j.cej.2019.123808,Virgin,PE,Single-ion,25.0,5.8,,4.875578,0.029145
+Zou_2020,Zou_2020_01,CPE | virgin,none,freshwater,2020,10.1016/j.chemosphere.2020.126064,Virgin,CPE,Single-ion,25.0,6.5,20.0,0.043981,0.77978
+Zou_2020,Zou_2020_01,CPE | virgin,none,freshwater,2020,10.1016/j.chemosphere.2020.126064,Virgin,CPE,Single-ion,25.0,6.5,20.0,0.109377,1.350523
+Zou_2020,Zou_2020_01,CPE | virgin,none,freshwater,2020,10.1016/j.chemosphere.2020.126064,Virgin,CPE,Single-ion,25.0,6.5,20.0,0.260801,2.277668
+Zou_2020,Zou_2020_01,CPE | virgin,none,freshwater,2020,10.1016/j.chemosphere.2020.126064,Virgin,CPE,Single-ion,25.0,6.5,20.0,0.942377,3.11938
+Zou_2020,Zou_2020_01,CPE | virgin,none,freshwater,2020,10.1016/j.chemosphere.2020.126064,Virgin,CPE,Single-ion,25.0,6.5,20.0,3.334413,3.642464
+Zou_2020,Zou_2020_02,PVC | virgin,none,freshwater,2020,10.1016/j.chemosphere.2020.126064,Virgin,PVC,Single-ion,25.0,6.5,20.0,0.050307,0.231685
+Zou_2020,Zou_2020_02,PVC | virgin,none,freshwater,2020,10.1016/j.chemosphere.2020.126064,Virgin,PVC,Single-ion,25.0,6.5,20.0,0.214104,0.343637
+Zou_2020,Zou_2020_02,PVC | virgin,none,freshwater,2020,10.1016/j.chemosphere.2020.126064,Virgin,PVC,Single-ion,25.0,6.5,20.0,0.583945,0.413898
+Zou_2020,Zou_2020_02,PVC | virgin,none,freshwater,2020,10.1016/j.chemosphere.2020.126064,Virgin,PVC,Single-ion,25.0,6.5,20.0,1.482918,0.428827
+Zou_2020,Zou_2020_02,PVC | virgin,none,freshwater,2020,10.1016/j.chemosphere.2020.126064,Virgin,PVC,Single-ion,25.0,6.5,20.0,3.977262,0.413898
+Zou_2020,Zou_2020_03,PE (HDPE) | virgin,none,freshwater,2020,10.1016/j.chemosphere.2020.126064,Virgin,PE,Single-ion,25.0,6.5,20.0,0.174301,0.136164
+Zou_2020,Zou_2020_03,PE (HDPE) | virgin,none,freshwater,2020,10.1016/j.chemosphere.2020.126064,Virgin,PE,Single-ion,25.0,6.5,20.0,0.374214,0.140452
+Zou_2020,Zou_2020_03,PE (HDPE) | virgin,none,freshwater,2020,10.1016/j.chemosphere.2020.126064,Virgin,PE,Single-ion,25.0,6.5,20.0,0.74182,0.170674
+Zou_2020,Zou_2020_03,PE (HDPE) | virgin,none,freshwater,2020,10.1016/j.chemosphere.2020.126064,Virgin,PE,Single-ion,25.0,6.5,20.0,1.533621,0.253145
+Zou_2020,Zou_2020_03,PE (HDPE) | virgin,none,freshwater,2020,10.1016/j.chemosphere.2020.126064,Virgin,PE,Single-ion,25.0,6.5,20.0,4.095859,0.351333
+Zou_2020,Zou_2020_04,PE (LDPE) | virgin,none,freshwater,2020,10.1016/j.chemosphere.2020.126064,Virgin,PE,Single-ion,25.0,6.5,20.0,0.209654,0.028135
+Zou_2020,Zou_2020_04,PE (LDPE) | virgin,none,freshwater,2020,10.1016/j.chemosphere.2020.126064,Virgin,PE,Single-ion,25.0,6.5,20.0,0.433435,0.037027
+Zou_2020,Zou_2020_04,PE (LDPE) | virgin,none,freshwater,2020,10.1016/j.chemosphere.2020.126064,Virgin,PE,Single-ion,25.0,6.5,20.0,0.830886,0.040816
+Zou_2020,Zou_2020_04,PE (LDPE) | virgin,none,freshwater,2020,10.1016/j.chemosphere.2020.126064,Virgin,PE,Single-ion,25.0,6.5,20.0,1.754211,0.045596
+Zou_2020,Zou_2020_04,PE (LDPE) | virgin,none,freshwater,2020,10.1016/j.chemosphere.2020.126064,Virgin,PE,Single-ion,25.0,6.5,20.0,4.217993,0.057406
+Wang_2021,Wang_2021_01,PE | virgin,none,freshwater,2021,10.1016/j.cej.2020.126412,Virgin,PE,Single-ion,25.0,,,0.7188,0.00402
+Wang_2021,Wang_2021_01,PE | virgin,none,freshwater,2021,10.1016/j.cej.2020.126412,Virgin,PE,Single-ion,25.0,,,1.3777,0.00453
+Wang_2021,Wang_2021_01,PE | virgin,none,freshwater,2021,10.1016/j.cej.2020.126412,Virgin,PE,Single-ion,25.0,,,1.9967,0.0062
+Wang_2021,Wang_2021_01,PE | virgin,none,freshwater,2021,10.1016/j.cej.2020.126412,Virgin,PE,Single-ion,25.0,,,3.2895,0.00838
+Wang_2021,Wang_2021_01,PE | virgin,none,freshwater,2021,10.1016/j.cej.2020.126412,Virgin,PE,Single-ion,25.0,,,5.0017,0.01341
+Wang_2021,Wang_2021_01,PE | virgin,none,freshwater,2021,10.1016/j.cej.2020.126412,Virgin,PE,Single-ion,25.0,,,6.4842,0.01693
+Wang_2021,Wang_2021_02,PE | air incubating,air_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Single-ion,25.0,,,0.0998,0.00134
+Wang_2021,Wang_2021_02,PE | air incubating,air_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Single-ion,25.0,,,0.2596,0.00302
+Wang_2021,Wang_2021_02,PE | air incubating,air_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Single-ion,25.0,,,0.7088,0.00637
+Wang_2021,Wang_2021_02,PE | air incubating,air_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Single-ion,25.0,,,1.4676,0.01542
+Wang_2021,Wang_2021_02,PE | air incubating,air_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Single-ion,25.0,,,2.2276,0.02059
+Wang_2021,Wang_2021_02,PE | air incubating,air_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Single-ion,25.0,,,3.6739,0.03503
+Wang_2021,Wang_2021_02,PE | air incubating,air_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Single-ion,25.0,,,4.8519,0.04056
+Wang_2021,Wang_2021_03,PE | water incubating,water_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Single-ion,25.0,,,0.3394,0.01575
+Wang_2021,Wang_2021_03,PE | water incubating,water_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Single-ion,25.0,,,0.5641,0.0295
+Wang_2021,Wang_2021_03,PE | water incubating,water_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Single-ion,25.0,,,0.9915,0.0415
+Wang_2021,Wang_2021_03,PE | water incubating,water_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Single-ion,25.0,,,1.9269,0.06204
+Wang_2021,Wang_2021_03,PE | water incubating,water_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Single-ion,25.0,,,3.9983,0.08045
+Wang_2021,Wang_2021_03,PE | water incubating,water_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Single-ion,25.0,,,5.4859,0.08363
+Wang_2021,Wang_2021_04,PE | soil incubating,soil_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Single-ion,25.0,,,0.3444,0.01944
+Wang_2021,Wang_2021_04,PE | soil incubating,soil_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Single-ion,25.0,,,0.5591,0.0424
+Wang_2021,Wang_2021_04,PE | soil incubating,soil_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Single-ion,25.0,,,1.0033,0.08413
+Wang_2021,Wang_2021_04,PE | soil incubating,soil_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Single-ion,25.0,,,1.8369,0.12168
+Wang_2021,Wang_2021_04,PE | soil incubating,soil_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Single-ion,25.0,,,3.0003,0.1441
+Wang_2021,Wang_2021_04,PE | soil incubating,soil_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Single-ion,25.0,,,4.4848,0.15298
+Wang_2021,Wang_2021_05,PE | virgin | mixed,none,freshwater,2021,10.1016/j.cej.2020.126412,Virgin,PE,Mixed,25.0,,,0.49104,0.00727579
+Wang_2021,Wang_2021_05,PE | virgin | mixed,none,freshwater,2021,10.1016/j.cej.2020.126412,Virgin,PE,Mixed,25.0,,,0.99033,0.01103073
+Wang_2021,Wang_2021_05,PE | virgin | mixed,none,freshwater,2021,10.1016/j.cej.2020.126412,Virgin,PE,Mixed,25.0,,,1.99166,0.01700013
+Wang_2021,Wang_2021_05,PE | virgin | mixed,none,freshwater,2021,10.1016/j.cej.2020.126412,Virgin,PE,Mixed,25.0,,,2.74335,0.02104391
+Wang_2021,Wang_2021_05,PE | virgin | mixed,none,freshwater,2021,10.1016/j.cej.2020.126412,Virgin,PE,Mixed,25.0,,,3.98884,0.0250877
+Wang_2021,Wang_2021_05,PE | virgin | mixed,none,freshwater,2021,10.1016/j.cej.2020.126412,Virgin,PE,Mixed,25.0,,,5.85434,0.03019057
+Wang_2021,Wang_2021_06,PE | air incubating | mixed,air_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Mixed,25.0,,,0.24688,0.00506134
+Wang_2021,Wang_2021_06,PE | air incubating | mixed,air_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Mixed,25.0,,,0.68307,0.0126675
+Wang_2021,Wang_2021_06,PE | air incubating | mixed,air_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Mixed,25.0,,,1.14396,0.02345093
+Wang_2021,Wang_2021_06,PE | air incubating | mixed,air_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Mixed,25.0,,,1.71458,0.03827813
+Wang_2021,Wang_2021_06,PE | air incubating | mixed,air_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Mixed,25.0,,,2.81193,0.05849706
+Wang_2021,Wang_2021_06,PE | air incubating | mixed,air_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Mixed,25.0,,,3.98061,0.06629578
+Wang_2021,Wang_2021_06,PE | air incubating | mixed,air_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Mixed,25.0,,,5.00115,0.07948622
+Wang_2021,Wang_2021_07,PE | water incubating | mixed,water_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Mixed,25.0,,,0.20847,0.04395868999999999
+Wang_2021,Wang_2021_07,PE | water incubating | mixed,water_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Mixed,25.0,,,0.46086,0.06196316
+Wang_2021,Wang_2021_07,PE | water incubating | mixed,water_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Mixed,25.0,,,0.7983,0.07900481999999999
+Wang_2021,Wang_2021_07,PE | water incubating | mixed,water_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Mixed,25.0,,,2.3291,0.0954688
+Wang_2021,Wang_2021_07,PE | water incubating | mixed,water_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Mixed,25.0,,,3.88185,0.09999398
+Wang_2021,Wang_2021_07,PE | water incubating | mixed,water_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Mixed,25.0,,,5.27823,0.10268984
+Wang_2021,Wang_2021_08,PE | soil incubating | mixed,soil_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Mixed,25.0,,,0.29352,0.05474211
+Wang_2021,Wang_2021_08,PE | soil incubating | mixed,soil_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Mixed,25.0,,,0.5678499999999999,0.09161757
+Wang_2021,Wang_2021_08,PE | soil incubating | mixed,soil_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Mixed,25.0,,,0.98485,0.1197315
+Wang_2021,Wang_2021_08,PE | soil incubating | mixed,soil_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Mixed,25.0,,,2.03007,0.14534213
+Wang_2021,Wang_2021_08,PE | soil incubating | mixed,soil_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Mixed,25.0,,,3.48132,0.16498337
+Wang_2021,Wang_2021_08,PE | soil incubating | mixed,soil_exposure,freshwater,2021,10.1016/j.cej.2020.126412,Aged,PE,Mixed,25.0,,,5.07248,0.18192875
+Xue_2021,Xue_2021_01,TPU | virgin,none,freshwater,2021,10.1016/j.jhazmat.2020.124835,Virgin,TPU,Single-ion,,,100.0,2.09389,0.11454
+Xue_2021,Xue_2021_01,TPU | virgin,none,freshwater,2021,10.1016/j.jhazmat.2020.124835,Virgin,TPU,Single-ion,,,100.0,4.45659,0.18561
+Xue_2021,Xue_2021_01,TPU | virgin,none,freshwater,2021,10.1016/j.jhazmat.2020.124835,Virgin,TPU,Single-ion,,,100.0,6.72085,0.24878
+Xue_2021,Xue_2021_01,TPU | virgin,none,freshwater,2021,10.1016/j.jhazmat.2020.124835,Virgin,TPU,Single-ion,,,100.0,9.05893,0.27868
+Xue_2021,Xue_2021_01,TPU | virgin,none,freshwater,2021,10.1016/j.jhazmat.2020.124835,Virgin,TPU,Single-ion,,,100.0,13.80895,0.34185
+Xue_2021,Xue_2021_01,TPU | virgin,none,freshwater,2021,10.1016/j.jhazmat.2020.124835,Virgin,TPU,Single-ion,,,100.0,18.70662,0.37062
+Xue_2021,Xue_2021_01,TPU | virgin,none,freshwater,2021,10.1016/j.jhazmat.2020.124835,Virgin,TPU,Single-ion,,,100.0,28.69887,0.39261
+Xue_2021,Xue_2021_01,TPU | virgin,none,freshwater,2021,10.1016/j.jhazmat.2020.124835,Virgin,TPU,Single-ion,,,100.0,38.61729,0.38641
+Xue_2021,Xue_2021_01,TPU | virgin,none,freshwater,2021,10.1016/j.jhazmat.2020.124835,Virgin,TPU,Single-ion,,,100.0,48.56032,0.3802
+Xue_2021,Xue_2021_02,TPU | UV,UV,freshwater,2021,10.1016/j.jhazmat.2020.124835,Aged,TPU,Single-ion,,,100.0,2.04467,0.18392
+Xue_2021,Xue_2021_02,TPU | UV,UV,freshwater,2021,10.1016/j.jhazmat.2020.124835,Aged,TPU,Single-ion,,,100.0,4.30892,0.23638
+Xue_2021,Xue_2021_02,TPU | UV,UV,freshwater,2021,10.1016/j.jhazmat.2020.124835,Aged,TPU,Single-ion,,,100.0,6.52396,0.28375
+Xue_2021,Xue_2021_02,TPU | UV,UV,freshwater,2021,10.1016/j.jhazmat.2020.124835,Aged,TPU,Single-ion,,,100.0,8.86204,0.32606
+Xue_2021,Xue_2021_02,TPU | UV,UV,freshwater,2021,10.1016/j.jhazmat.2020.124835,Aged,TPU,Single-ion,,,100.0,13.75972,0.40389
+Xue_2021,Xue_2021_02,TPU | UV,UV,freshwater,2021,10.1016/j.jhazmat.2020.124835,Aged,TPU,Single-ion,,,100.0,18.50973,0.43548
+Xue_2021,Xue_2021_02,TPU | UV,UV,freshwater,2021,10.1016/j.jhazmat.2020.124835,Aged,TPU,Single-ion,,,100.0,28.42815,0.46989
+Xue_2021,Xue_2021_02,TPU | UV,UV,freshwater,2021,10.1016/j.jhazmat.2020.124835,Aged,TPU,Single-ion,,,100.0,38.34656,0.47778
+Xue_2021,Xue_2021_02,TPU | UV,UV,freshwater,2021,10.1016/j.jhazmat.2020.124835,Aged,TPU,Single-ion,,,100.0,48.26498,0.48568
+Xue_2021,Xue_2021_03,TPU | virgin | mixed,none,freshwater,2021,10.1016/j.jhazmat.2020.124835,Virgin,TPU,Mixed,,,100.0,2.04467,0.1114
+Xue_2021,Xue_2021_03,TPU | virgin | mixed,none,freshwater,2021,10.1016/j.jhazmat.2020.124835,Virgin,TPU,Mixed,,,100.0,3.89053,0.2361
+Xue_2021,Xue_2021_03,TPU | virgin | mixed,none,freshwater,2021,10.1016/j.jhazmat.2020.124835,Virgin,TPU,Mixed,,,100.0,6.30245,0.29282
+Xue_2021,Xue_2021_03,TPU | virgin | mixed,none,freshwater,2021,10.1016/j.jhazmat.2020.124835,Virgin,TPU,Mixed,,,100.0,8.78821,0.32433
+Xue_2021,Xue_2021_03,TPU | virgin | mixed,none,freshwater,2021,10.1016/j.jhazmat.2020.124835,Virgin,TPU,Mixed,,,100.0,13.53822,0.39276
+Xue_2021,Xue_2021_03,TPU | virgin | mixed,none,freshwater,2021,10.1016/j.jhazmat.2020.124835,Virgin,TPU,Mixed,,,100.0,18.28823,0.45939
+Xue_2021,Xue_2021_03,TPU | virgin | mixed,none,freshwater,2021,10.1016/j.jhazmat.2020.124835,Virgin,TPU,Mixed,,,100.0,28.35431,0.4819
+Xue_2021,Xue_2021_03,TPU | virgin | mixed,none,freshwater,2021,10.1016/j.jhazmat.2020.124835,Virgin,TPU,Mixed,,,100.0,38.22351,0.4936
+Xue_2021,Xue_2021_03,TPU | virgin | mixed,none,freshwater,2021,10.1016/j.jhazmat.2020.124835,Virgin,TPU,Mixed,,,100.0,47.99425,0.53502
+Xue_2021,Xue_2021_04,TPU | UV | mixed,UV,freshwater,2021,10.1016/j.jhazmat.2020.124835,Aged,TPU,Mixed,,,100.0,1.70011,0.21854
+Xue_2021,Xue_2021_04,TPU | UV | mixed,UV,freshwater,2021,10.1016/j.jhazmat.2020.124835,Aged,TPU,Mixed,,,100.0,3.96436,0.30183
+Xue_2021,Xue_2021_04,TPU | UV | mixed,UV,freshwater,2021,10.1016/j.jhazmat.2020.124835,Aged,TPU,Mixed,,,100.0,6.30245,0.34324
+Xue_2021,Xue_2021_04,TPU | UV | mixed,UV,freshwater,2021,10.1016/j.jhazmat.2020.124835,Aged,TPU,Mixed,,,100.0,8.51748,0.39906
+Xue_2021,Xue_2021_04,TPU | UV | mixed,UV,freshwater,2021,10.1016/j.jhazmat.2020.124835,Aged,TPU,Mixed,,,100.0,13.46438,0.45039
+Xue_2021,Xue_2021_04,TPU | UV | mixed,UV,freshwater,2021,10.1016/j.jhazmat.2020.124835,Aged,TPU,Mixed,,,100.0,18.23901,0.4945
+Xue_2021,Xue_2021_04,TPU | UV | mixed,UV,freshwater,2021,10.1016/j.jhazmat.2020.124835,Aged,TPU,Mixed,,,100.0,28.00975,0.52872
+Xue_2021,Xue_2021_04,TPU | UV | mixed,UV,freshwater,2021,10.1016/j.jhazmat.2020.124835,Aged,TPU,Mixed,,,100.0,38.002,0.54492
+Xue_2021,Xue_2021_04,TPU | UV | mixed,UV,freshwater,2021,10.1016/j.jhazmat.2020.124835,Aged,TPU,Mixed,,,100.0,48.06809,0.55393
+Lin_2022,Lin_2022_01,PS | virgin | 15 C,none,freshwater,2022,10.1016/j.watres.2022.119144,Virgin,PS,Single-ion,15.0,5.0,170.0,0.1126913085,0.232167215
+Lin_2022,Lin_2022_01,PS | virgin | 15 C,none,freshwater,2022,10.1016/j.watres.2022.119144,Virgin,PS,Single-ion,15.0,5.0,170.0,0.39034952,0.359931948
+Lin_2022,Lin_2022_01,PS | virgin | 15 C,none,freshwater,2022,10.1016/j.watres.2022.119144,Virgin,PS,Single-ion,15.0,5.0,170.0,1.3423215295,0.6811689365
+Lin_2022,Lin_2022_01,PS | virgin | 15 C,none,freshwater,2022,10.1016/j.watres.2022.119144,Virgin,PS,Single-ion,15.0,5.0,170.0,3.285930916499999,1.1776253495
+Lin_2022,Lin_2022_01,PS | virgin | 15 C,none,freshwater,2022,10.1016/j.watres.2022.119144,Virgin,PS,Single-ion,15.0,5.0,170.0,4.9221324305,1.509813274
+Lin_2022,Lin_2022_01,PS | virgin | 15 C,none,freshwater,2022,10.1016/j.watres.2022.119144,Virgin,PS,Single-ion,15.0,5.0,170.0,10.9512874315,1.7452653885
+Lin_2022,Lin_2022_01,PS | virgin | 15 C,none,freshwater,2022,10.1016/j.watres.2022.119144,Virgin,PS,Single-ion,15.0,5.0,170.0,17.0597731685,1.847477302
+Lin_2022,Lin_2022_02,PS | virgin | 25 C,none,freshwater,2022,10.1016/j.watres.2022.119144,Virgin,PS,Single-ion,25.0,5.0,170.0,0.1126913085,0.263196138
+Lin_2022,Lin_2022_02,PS | virgin | 25 C,none,freshwater,2022,10.1016/j.watres.2022.119144,Virgin,PS,Single-ion,25.0,5.0,170.0,0.3407678099999999,0.4165136904999999
+Lin_2022,Lin_2022_02,PS | virgin | 25 C,none,freshwater,2022,10.1016/j.watres.2022.119144,Virgin,PS,Single-ion,25.0,5.0,170.0,0.9754156044999999,0.8198846055
+Lin_2022,Lin_2022_02,PS | virgin | 25 C,none,freshwater,2022,10.1016/j.watres.2022.119144,Virgin,PS,Single-ion,25.0,5.0,170.0,2.839693619999999,1.371097605
+Lin_2022,Lin_2022_02,PS | virgin | 25 C,none,freshwater,2022,10.1016/j.watres.2022.119144,Virgin,PS,Single-ion,25.0,5.0,170.0,4.416397082,1.7507408565
+Lin_2022,Lin_2022_02,PS | virgin | 25 C,none,freshwater,2022,10.1016/j.watres.2022.119144,Virgin,PS,Single-ion,25.0,5.0,170.0,9.840653314499999,2.0884048845
+Lin_2022,Lin_2022_02,PS | virgin | 25 C,none,freshwater,2022,10.1016/j.watres.2022.119144,Virgin,PS,Single-ion,25.0,5.0,170.0,15.8598919735,2.2818765045
+Lin_2022,Lin_2022_03,PS | virgin | 35 C,none,freshwater,2022,10.1016/j.watres.2022.119144,Virgin,PS,Single-ion,35.0,5.0,170.0,0.1126913085,0.3033502055
+Lin_2022,Lin_2022_03,PS | virgin | 35 C,none,freshwater,2022,10.1016/j.watres.2022.119144,Virgin,PS,Single-ion,35.0,5.0,170.0,0.4795972335,0.5077740325
+Lin_2022,Lin_2022_03,PS | virgin | 35 C,none,freshwater,2022,10.1016/j.watres.2022.119144,Virgin,PS,Single-ion,35.0,5.0,170.0,0.836586181,1.0352593685
+Lin_2022,Lin_2022_03,PS | virgin | 35 C,none,freshwater,2022,10.1016/j.watres.2022.119144,Virgin,PS,Single-ion,35.0,5.0,170.0,2.423205985,1.719712569
+Lin_2022,Lin_2022_03,PS | virgin | 35 C,none,freshwater,2022,10.1016/j.watres.2022.119144,Virgin,PS,Single-ion,35.0,5.0,170.0,3.7817492875,2.205218046
+Lin_2022,Lin_2022_03,PS | virgin | 35 C,none,freshwater,2022,10.1016/j.watres.2022.119144,Virgin,PS,Single-ion,35.0,5.0,170.0,8.888681305,2.522804087
+Lin_2022,Lin_2022_03,PS | virgin | 35 C,none,freshwater,2022,10.1016/j.watres.2022.119144,Virgin,PS,Single-ion,35.0,5.0,170.0,15.3640736025,2.741829162
+Qiongjie_2022,Qiongjie_2022_01,PS | virgin | Pb(II) = 0,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Single-ion,25.0,6.0,,0.195734,0.0477254145
+Qiongjie_2022,Qiongjie_2022_01,PS | virgin | Pb(II) = 0,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Single-ion,25.0,6.0,,0.327918,0.1262795695
+Qiongjie_2022,Qiongjie_2022_01,PS | virgin | Pb(II) = 0,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Single-ion,25.0,6.0,,0.6583779999999999,0.2472050515
+Qiongjie_2022,Qiongjie_2022_01,PS | virgin | Pb(II) = 0,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Single-ion,25.0,6.0,,1.8270625,0.5471394445
+Qiongjie_2022,Qiongjie_2022_01,PS | virgin | Pb(II) = 0,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Single-ion,25.0,6.0,,4.487901,0.7466190815
+Qiongjie_2022,Qiongjie_2022_02,PS | virgin | Pb(II) = 0.005 mmol/L | mixed,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Mixed,25.0,6.0,,0.210986,0.041059655
+Qiongjie_2022,Qiongjie_2022_02,PS | virgin | Pb(II) = 0.005 mmol/L | mixed,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Mixed,25.0,6.0,,0.3971875,0.09485790749999999
+Qiongjie_2022,Qiongjie_2022_02,PS | virgin | Pb(II) = 0.005 mmol/L | mixed,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Mixed,25.0,6.0,,0.7873844999999999,0.197215986
+Qiongjie_2022,Qiongjie_2022_02,PS | virgin | Pb(II) = 0.005 mmol/L | mixed,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Mixed,25.0,6.0,,2.0609265,0.4771543715
+Qiongjie_2022,Qiongjie_2022_02,PS | virgin | Pb(II) = 0.005 mmol/L | mixed,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Mixed,25.0,6.0,,4.7490915,0.6409278055
+Qiongjie_2022,Qiongjie_2022_03,PS | virgin | Pb(II) = 0.01 mmol/L | mixed,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Mixed,25.0,6.0,,0.2319575,0.0315379585
+Qiongjie_2022,Qiongjie_2022_03,PS | virgin | Pb(II) = 0.01 mmol/L | mixed,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Mixed,25.0,6.0,,0.451205,0.07057735899999999
+Qiongjie_2022,Qiongjie_2022_03,PS | virgin | Pb(II) = 0.01 mmol/L | mixed,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Mixed,25.0,6.0,,0.856654,0.1643663555
+Qiongjie_2022,Qiongjie_2022_03,PS | virgin | Pb(II) = 0.01 mmol/L | mixed,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Mixed,25.0,6.0,,2.3761345,0.3552762749999999
+Qiongjie_2022,Qiongjie_2022_03,PS | virgin | Pb(II) = 0.01 mmol/L | mixed,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Mixed,25.0,6.0,,4.974694,0.54618683
+Qiongjie_2022,Qiongjie_2022_04,PS | virgin | Pb(II) = 0.05 mmol/L | mixed,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Mixed,25.0,6.0,,0.2230605,0.029158011
+Qiongjie_2022,Qiongjie_2022_04,PS | virgin | Pb(II) = 0.05 mmol/L | mixed,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Mixed,25.0,6.0,,0.477896,0.0620076415
+Qiongjie_2022,Qiongjie_2022_04,PS | virgin | Pb(II) = 0.05 mmol/L | mixed,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Mixed,25.0,6.0,,0.979941,0.11437729
+Qiongjie_2022,Qiongjie_2022_04,PS | virgin | Pb(II) = 0.05 mmol/L | mixed,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Mixed,25.0,6.0,,2.658932,0.241967896
+Qiongjie_2022,Qiongjie_2022_04,PS | virgin | Pb(II) = 0.05 mmol/L | mixed,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Mixed,25.0,6.0,,5.305154,0.4128830789999999
+Qiongjie_2022,Qiongjie_2022_05,PS | virgin | Pb(II) = 0.1 mmol/L | mixed,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Mixed,25.0,6.0,,0.270723,0.0196363145
+Qiongjie_2022,Qiongjie_2022_05,PS | virgin | Pb(II) = 0.1 mmol/L | mixed,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Mixed,25.0,6.0,,0.499503,0.0510579765
+Qiongjie_2022,Qiongjie_2022_05,PS | virgin | Pb(II) = 0.1 mmol/L | mixed,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Mixed,25.0,6.0,,1.048575,0.0891447625
+Qiongjie_2022,Qiongjie_2022_05,PS | virgin | Pb(II) = 0.1 mmol/L | mixed,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Mixed,25.0,6.0,,2.7879385,0.196264007
+Qiongjie_2022,Qiongjie_2022_05,PS | virgin | Pb(II) = 0.1 mmol/L | mixed,none,freshwater,2022,10.1016/j.jhazmat.2021.127340,Virgin,PS,Mixed,25.0,6.0,,5.559989499999999,0.313856927
+Qiongjie_2022,Qiongjie_2022_06,PS | UV | Pb(II) = 0,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Single-ion,25.0,6.0,,0.1124835,0.0776587355
+Qiongjie_2022,Qiongjie_2022_06,PS | UV | Pb(II) = 0,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Single-ion,25.0,6.0,,0.130913,0.1906595325
+Qiongjie_2022,Qiongjie_2022_06,PS | UV | Pb(II) = 0,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Single-ion,25.0,6.0,,0.363506,0.321044432
+Qiongjie_2022,Qiongjie_2022_06,PS | UV | Pb(II) = 0,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Single-ion,25.0,6.0,,1.456566,0.693367359
+Qiongjie_2022,Qiongjie_2022_06,PS | UV | Pb(II) = 0,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Single-ion,25.0,6.0,,4.236243,0.889669496
+Qiongjie_2022,Qiongjie_2022_06,PS | UV | Pb(II) = 0,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Single-ion,25.0,6.0,,9.758738,1.180863222
+Qiongjie_2022,Qiongjie_2022_07,PS | UV | Pb(II) = 0.005 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,0.130913,0.0704153065
+Qiongjie_2022,Qiongjie_2022_07,PS | UV | Pb(II) = 0.005 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,0.1862015,0.1884861225
+Qiongjie_2022,Qiongjie_2022_07,PS | UV | Pb(II) = 0.005 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,0.4734475,0.3282884965
+Qiongjie_2022,Qiongjie_2022_07,PS | UV | Pb(II) = 0.005 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,1.7253825,0.586885521
+Qiongjie_2022,Qiongjie_2022_07,PS | UV | Pb(II) = 0.005 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,4.4682005,0.7600084309999999
+Qiongjie_2022,Qiongjie_2022_07,PS | UV | Pb(II) = 0.005 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,10.2105785,1.002670293
+Qiongjie_2022,Qiongjie_2022_08,PS | UV | Pb(II) = 0.01 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,0.130913,0.05882505749999999
+Qiongjie_2022,Qiongjie_2022_08,PS | UV | Pb(II) = 0.01 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,0.2230605,0.1609600755
+Qiongjie_2022,Qiongjie_2022_08,PS | UV | Pb(II) = 0.01 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,0.4912415,0.3159737775
+Qiongjie_2022,Qiongjie_2022_08,PS | UV | Pb(II) = 0.01 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,1.933191,0.5057569555
+Qiongjie_2022,Qiongjie_2022_08,PS | UV | Pb(II) = 0.01 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,4.65186,0.691193949
+Qiongjie_2022,Qiongjie_2022_08,PS | UV | Pb(II) = 0.01 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,10.4736755,0.9012591094999999
+Qiongjie_2022,Qiongjie_2022_09,PS | UV | Pb(II) = 0.05 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,0.1798465,0.05013268849999999
+Qiongjie_2022,Qiongjie_2022_09,PS | UV | Pb(II) = 0.05 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,0.2167055,0.177620979
+Qiongjie_2022,Qiongjie_2022_09,PS | UV | Pb(II) = 0.05 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,0.668546,0.2413648065
+Qiongjie_2022,Qiongjie_2022_09,PS | UV | Pb(II) = 0.05 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,2.159429,0.406519182
+Qiongjie_2022,Qiongjie_2022_09,PS | UV | Pb(II) = 0.05 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,5.0185435,0.5369047169999999
+Qiongjie_2022,Qiongjie_2022_09,PS | UV | Pb(II) = 0.05 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,11.053887,0.6651168419999999
+Qiongjie_2022,Qiongjie_2022_10,PS | UV | Pb(II) = 0.1 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,0.198276,0.04288925949999999
+Qiongjie_2022,Qiongjie_2022_10,PS | UV | Pb(II) = 0.1 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,0.265639,0.150094932
+Qiongjie_2022,Qiongjie_2022_10,PS | UV | Pb(II) = 0.1 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,0.7174794999999999,0.229050723
+Qiongjie_2022,Qiongjie_2022_10,PS | UV | Pb(II) = 0.1 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,2.281445,0.3587111525
+Qiongjie_2022,Qiongjie_2022_10,PS | UV | Pb(II) = 0.1 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,5.1952125,0.4644685205
+Qiongjie_2022,Qiongjie_2022_10,PS | UV | Pb(II) = 0.1 mmol/L | mixed,UV,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,11.1701835,0.6194822225
+Qiongjie_2022,Qiongjie_2022_11,"PS | wastewater, aeration | Pb(II) = 0",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Single-ion,25.0,6.0,,0.208444,0.301946386
+Qiongjie_2022,Qiongjie_2022_11,"PS | wastewater, aeration | Pb(II) = 0",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Single-ion,25.0,6.0,,0.995193,0.7827472565000001
+Qiongjie_2022,Qiongjie_2022_11,"PS | wastewater, aeration | Pb(II) = 0",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Single-ion,25.0,6.0,,2.993205,1.268568577
+Qiongjie_2022,Qiongjie_2022_11,"PS | wastewater, aeration | Pb(II) = 0",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Single-ion,25.0,6.0,,5.7938535,1.446828869
+Qiongjie_2022,Qiongjie_2022_11,"PS | wastewater, aeration | Pb(II) = 0",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Single-ion,25.0,6.0,,8.466766499999999,1.6690269955
+Qiongjie_2022,Qiongjie_2022_11,"PS | wastewater, aeration | Pb(II) = 0",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Single-ion,25.0,6.0,,14.052176,1.9878865785
+Qiongjie_2022,Qiongjie_2022_12,"PS | wastewater, aeration | Pb(II) = 0.005 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,0.2484805,0.2843716335000001
+Qiongjie_2022,Qiongjie_2022_12,"PS | wastewater, aeration | Pb(II) = 0.005 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,1.0593785,0.755129062
+Qiongjie_2022,Qiongjie_2022_12,"PS | wastewater, aeration | Pb(II) = 0.005 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,3.2022845,1.1857152645
+Qiongjie_2022,Qiongjie_2022_12,"PS | wastewater, aeration | Pb(II) = 0.005 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,5.898711,1.406657643
+Qiongjie_2022,Qiongjie_2022_12,"PS | wastewater, aeration | Pb(II) = 0.005 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,8.5951375,1.593705629
+Qiongjie_2022,Qiongjie_2022_12,"PS | wastewater, aeration | Pb(II) = 0.005 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,14.284769,1.8899687385
+Qiongjie_2022,Qiongjie_2022_13,"PS | wastewater, aeration | Pb(II) = 0.01 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,0.280891,0.265541133
+Qiongjie_2022,Qiongjie_2022_13,"PS | wastewater, aeration | Pb(II) = 0.01 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,1.2360475,0.6823185559999999
+Qiongjie_2022,Qiongjie_2022_13,"PS | wastewater, aeration | Pb(II) = 0.01 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,3.402467,1.1103945335
+Qiongjie_2022,Qiongjie_2022_13,"PS | wastewater, aeration | Pb(II) = 0.01 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,6.179601999999999,1.281122244
+Qiongjie_2022,Qiongjie_2022_13,"PS | wastewater, aeration | Pb(II) = 0.01 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,8.771171,1.53344879
+Qiongjie_2022,Qiongjie_2022_13,"PS | wastewater, aeration | Pb(II) = 0.01 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,14.6056965,1.746858587
+Qiongjie_2022,Qiongjie_2022_14,"PS | wastewater, aeration | Pb(II) = 0.05 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,0.489335,0.177666735
+Qiongjie_2022,Qiongjie_2022_14,"PS | wastewater, aeration | Pb(II) = 0.05 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,1.58875,0.529165598
+Qiongjie_2022,Qiongjie_2022_14,"PS | wastewater, aeration | Pb(II) = 0.05 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,3.804103,0.942177048
+Qiongjie_2022,Qiongjie_2022_14,"PS | wastewater, aeration | Pb(II) = 0.05 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,6.5005295,1.144288926
+Qiongjie_2022,Qiongjie_2022_14,"PS | wastewater, aeration | Pb(II) = 0.05 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,9.277028999999999,1.3602095835
+Qiongjie_2022,Qiongjie_2022_14,"PS | wastewater, aeration | Pb(II) = 0.05 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,14.918998,1.497043537
+Qiongjie_2022,Qiongjie_2022_15,"PS | wastewater, aeration | Pb(II) = 0.1 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,0.6742655,0.09983450799999999
+Qiongjie_2022,Qiongjie_2022_15,"PS | wastewater, aeration | Pb(II) = 0.1 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,1.837866,0.4136730055
+Qiongjie_2022,Qiongjie_2022_15,"PS | wastewater, aeration | Pb(II) = 0.1 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,3.932474,0.8743876275
+Qiongjie_2022,Qiongjie_2022_15,"PS | wastewater, aeration | Pb(II) = 0.1 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,6.7890465,1.011221581
+Qiongjie_2022,Qiongjie_2022_15,"PS | wastewater, aeration | Pb(II) = 0.1 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,9.613844,1.2145885715
+Qiongjie_2022,Qiongjie_2022_15,"PS | wastewater, aeration | Pb(II) = 0.1 mmol/L | mixed",biofilm,freshwater,2022,10.1016/j.jhazmat.2021.127340,Aged,PS,Mixed,25.0,6.0,,15.0950315,1.371508138
+Sathyamoorthy_2022,Sathyamoorthy_2022_01,PE | virgin,none,freshwater,2022,10.1002/wer.10809,Virgin,PE,Single-ion,30.0,5.0,160.0,0.07531,0.38241
+Sathyamoorthy_2022,Sathyamoorthy_2022_01,PE | virgin,none,freshwater,2022,10.1002/wer.10809,Virgin,PE,Single-ion,30.0,5.0,160.0,0.45938,0.9032
+Sathyamoorthy_2022,Sathyamoorthy_2022_01,PE | virgin,none,freshwater,2022,10.1002/wer.10809,Virgin,PE,Single-ion,30.0,5.0,160.0,2.60029,1.07948
+Sathyamoorthy_2022,Sathyamoorthy_2022_01,PE | virgin,none,freshwater,2022,10.1002/wer.10809,Virgin,PE,Single-ion,30.0,5.0,160.0,4.38755,1.11856
+Sathyamoorthy_2022,Sathyamoorthy_2022_01,PE | virgin,none,freshwater,2022,10.1002/wer.10809,Virgin,PE,Single-ion,30.0,5.0,160.0,9.09528,1.18058
+Sathyamoorthy_2022,Sathyamoorthy_2022_01,PE | virgin,none,freshwater,2022,10.1002/wer.10809,Virgin,PE,Single-ion,30.0,5.0,160.0,14.00454,1.19969
+Sathyamoorthy_2022,Sathyamoorthy_2022_01,PE | virgin,none,freshwater,2022,10.1002/wer.10809,Virgin,PE,Single-ion,30.0,5.0,160.0,18.92522,1.21966
+Sun_2022,Sun_2022_01,PLA | virgin | P-PLA,none,freshwater,2022,10.1016/j.cej.2021.132306,Virgin,PLA,Single-ion,25.0,5.5,150.0,0.0828,0.030648
+Sun_2022,Sun_2022_01,PLA | virgin | P-PLA,none,freshwater,2022,10.1016/j.cej.2021.132306,Virgin,PLA,Single-ion,25.0,5.5,150.0,0.7728,0.108482
+Sun_2022,Sun_2022_01,PLA | virgin | P-PLA,none,freshwater,2022,10.1016/j.cej.2021.132306,Virgin,PLA,Single-ion,25.0,5.5,150.0,1.7917,0.13762
+Sun_2022,Sun_2022_01,PLA | virgin | P-PLA,none,freshwater,2022,10.1016/j.cej.2021.132306,Virgin,PLA,Single-ion,25.0,5.5,150.0,5.0587,0.139615
+Sun_2022,Sun_2022_01,PLA | virgin | P-PLA,none,freshwater,2022,10.1016/j.cej.2021.132306,Virgin,PLA,Single-ion,25.0,5.5,150.0,8.1896,0.14201
+Sun_2022,Sun_2022_01,PLA | virgin | P-PLA,none,freshwater,2022,10.1016/j.cej.2021.132306,Virgin,PLA,Single-ion,25.0,5.5,150.0,10.366,0.14201
+Sun_2022,Sun_2022_02,"PLA | sewage incubation 35 d, biofilm-covered | S-PLA",biofilm,freshwater,2022,10.1016/j.cej.2021.132306,Aged,PLA,Single-ion,25.0,5.5,150.0,0.0951,0.437778
+Sun_2022,Sun_2022_02,"PLA | sewage incubation 35 d, biofilm-covered | S-PLA",biofilm,freshwater,2022,10.1016/j.cej.2021.132306,Aged,PLA,Single-ion,25.0,5.5,150.0,0.5502,0.740332
+Sun_2022,Sun_2022_02,"PLA | sewage incubation 35 d, biofilm-covered | S-PLA",biofilm,freshwater,2022,10.1016/j.cej.2021.132306,Aged,PLA,Single-ion,25.0,5.5,150.0,3.2533,1.067632
+Sun_2022,Sun_2022_02,"PLA | sewage incubation 35 d, biofilm-covered | S-PLA",biofilm,freshwater,2022,10.1016/j.cej.2021.132306,Aged,PLA,Single-ion,25.0,5.5,150.0,6.2161,1.258823
+Sun_2022,Sun_2022_02,"PLA | sewage incubation 35 d, biofilm-covered | S-PLA",biofilm,freshwater,2022,10.1016/j.cej.2021.132306,Aged,PLA,Single-ion,25.0,5.5,150.0,8.4369,1.163427
+Sun_2022,Sun_2022_02,"PLA | sewage incubation 35 d, biofilm-covered | S-PLA",biofilm,freshwater,2022,10.1016/j.cej.2021.132306,Aged,PLA,Single-ion,25.0,5.5,150.0,10.366,1.18538
+Tang_2022,Tang_2022_01,PA | virgin,none,freshwater,2022,10.1016/j.gr.2022.06.017,Virgin,PA,Single-ion,25.0,,185.0,0.26942,0.05951
+Tang_2022,Tang_2022_01,PA | virgin,none,freshwater,2022,10.1016/j.gr.2022.06.017,Virgin,PA,Single-ion,25.0,,185.0,1.15386,0.11406
+Tang_2022,Tang_2022_01,PA | virgin,none,freshwater,2022,10.1016/j.gr.2022.06.017,Virgin,PA,Single-ion,25.0,,185.0,2.15775,0.12018
+Tang_2022,Tang_2022_01,PA | virgin,none,freshwater,2022,10.1016/j.gr.2022.06.017,Virgin,PA,Single-ion,25.0,,185.0,2.79478,0.1292
+Tang_2022,Tang_2022_01,PA | virgin,none,freshwater,2022,10.1016/j.gr.2022.06.017,Virgin,PA,Single-ion,25.0,,185.0,3.66216,0.13034
+Tang_2022,Tang_2022_01,PA | virgin,none,freshwater,2022,10.1016/j.gr.2022.06.017,Virgin,PA,Single-ion,25.0,,185.0,6.09083,0.13874
+Zhou_2022,Zhou_2022_01,PP | virgin | PPw (CK),none,freshwater,2022,10.1016/j.scitotenv.2022.155142,Virgin,PP,Single-ion,25.0,,200.0,1.51311,0.51313
+Zhou_2022,Zhou_2022_01,PP | virgin | PPw (CK),none,freshwater,2022,10.1016/j.scitotenv.2022.155142,Virgin,PP,Single-ion,25.0,,200.0,1.33393,0.80446
+Zhou_2022,Zhou_2022_01,PP | virgin | PPw (CK),none,freshwater,2022,10.1016/j.scitotenv.2022.155142,Virgin,PP,Single-ion,25.0,,200.0,1.51311,1.05342
+Zhou_2022,Zhou_2022_01,PP | virgin | PPw (CK),none,freshwater,2022,10.1016/j.scitotenv.2022.155142,Virgin,PP,Single-ion,25.0,,200.0,6.53012,1.92742
+Zhou_2022,Zhou_2022_01,PP | virgin | PPw (CK),none,freshwater,2022,10.1016/j.scitotenv.2022.155142,Virgin,PP,Single-ion,25.0,,200.0,11.90548,2.73256
+Zhou_2022,Zhou_2022_01,PP | virgin | PPw (CK),none,freshwater,2022,10.1016/j.scitotenv.2022.155142,Virgin,PP,Single-ion,25.0,,200.0,20.59566,3.99854
+Zhou_2022,Zhou_2022_01,PP | virgin | PPw (CK),none,freshwater,2022,10.1016/j.scitotenv.2022.155142,Virgin,PP,Single-ion,25.0,,200.0,32.69023,5.96372
+Zhou_2022,Zhou_2022_01,PP | virgin | PPw (CK),none,freshwater,2022,10.1016/j.scitotenv.2022.155142,Virgin,PP,Single-ion,25.0,,200.0,53.38539,6.73708
+Zhou_2022,Zhou_2022_01,PP | virgin | PPw (CK),none,freshwater,2022,10.1016/j.scitotenv.2022.155142,Virgin,PP,Single-ion,25.0,,200.0,68.6156,7.55811
+Zhou_2022,Zhou_2022_01,PP | virgin | PPw (CK),none,freshwater,2022,10.1016/j.scitotenv.2022.155142,Virgin,PP,Single-ion,25.0,,200.0,87.07102,7.31445
+Zhou_2022,Zhou_2022_01,PP | virgin | PPw (CK),none,freshwater,2022,10.1016/j.scitotenv.2022.155142,Virgin,PP,Single-ion,25.0,,200.0,131.32821,9.09424
+Zhou_2022,Zhou_2022_02,PP | air-sun | PPw-30d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,4.29038,1.00045
+Zhou_2022,Zhou_2022_02,PP | air-sun | PPw-30d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,11.63671,1.25471
+Zhou_2022,Zhou_2022_02,PP | air-sun | PPw-30d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,17.01208,1.9592
+Zhou_2022,Zhou_2022_02,PP | air-sun | PPw-30d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,29.28583,2.87029
+Zhou_2022,Zhou_2022_02,PP | air-sun | PPw-30d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,52.75827,3.35761
+Zhou_2022,Zhou_2022_02,PP | air-sun | PPw-30d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,75.06604,3.90849
+Zhou_2022,Zhou_2022_02,PP | air-sun | PPw-30d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,89.8483,4.76131
+Zhou_2022,Zhou_2022_02,PP | air-sun | PPw-30d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,101.22615,5.41284
+Zhou_2022,Zhou_2022_02,PP | air-sun | PPw-30d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,155.9653,5.59823
+Zhou_2022,Zhou_2022_03,PP | air-sun | PPw-60d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,8.68026,1.74203
+Zhou_2022,Zhou_2022_03,PP | air-sun | PPw-60d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,17.81839,1.9698
+Zhou_2022,Zhou_2022_03,PP | air-sun | PPw-60d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,35.55709,2.01747
+Zhou_2022,Zhou_2022_03,PP | air-sun | PPw-60d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,60.19419,2.30881
+Zhou_2022,Zhou_2022_03,PP | air-sun | PPw-60d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,82.05401,2.95504
+Zhou_2022,Zhou_2022_03,PP | air-sun | PPw-60d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,101.6741,3.13513
+Zhou_2022,Zhou_2022_03,PP | air-sun | PPw-60d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,116.9939,3.33642
+Zhou_2022,Zhou_2022_03,PP | air-sun | PPw-60d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,176.48128,3.08216
+Zhou_2022,Zhou_2022_04,PP | air-sun | PPw-90d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,2.31941,1.18055
+Zhou_2022,Zhou_2022_04,PP | air-sun | PPw-90d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,10.83041,1.40302
+Zhou_2022,Zhou_2022_04,PP | air-sun | PPw-90d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,12.71179,2.82261
+Zhou_2022,Zhou_2022_04,PP | air-sun | PPw-90d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,35.01956,2.80672
+Zhou_2022,Zhou_2022_04,PP | air-sun | PPw-90d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,55.98349,3.45825
+Zhou_2022,Zhou_2022_04,PP | air-sun | PPw-90d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,88.32527,2.30351
+Zhou_2022,Zhou_2022_04,PP | air-sun | PPw-90d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,108.4829,2.36707
+Zhou_2022,Zhou_2022_04,PP | air-sun | PPw-90d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,136.88275,2.37237
+Zhou_2022,Zhou_2022_04,PP | air-sun | PPw-90d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,182.39419,2.42004
+Zhou_2022,Zhou_2022_05,PP | air-sun | PPw-120d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,2.76736,0.29066
+Zhou_2022,Zhou_2022_05,PP | air-sun | PPw-120d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,7.60519,0.44957
+Zhou_2022,Zhou_2022_05,PP | air-sun | PPw-120d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,14.59317,0.88921
+Zhou_2022,Zhou_2022_05,PP | air-sun | PPw-120d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,21.58114,1.46659
+Zhou_2022,Zhou_2022_05,PP | air-sun | PPw-120d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,44.96399,0.7885699999999999
+Zhou_2022,Zhou_2022_05,PP | air-sun | PPw-120d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,68.6156,1.29179
+Zhou_2022,Zhou_2022_05,PP | air-sun | PPw-120d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,95.31325,1.20174
+Zhou_2022,Zhou_2022_05,PP | air-sun | PPw-120d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,115.65005,1.31827
+Zhou_2022,Zhou_2022_05,PP | air-sun | PPw-120d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,132.58246,1.25471
+Zhou_2022,Zhou_2022_05,PP | air-sun | PPw-120d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,189.20298,1.34475
+Zhou_2022,Zhou_2022_06,PP | air-sun | PPw-180d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,4.02161,1.04283
+Zhou_2022,Zhou_2022_06,PP | air-sun | PPw-180d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,8.05314,1.73143
+Zhou_2022,Zhou_2022_06,PP | air-sun | PPw-180d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,18.89346,2.01747
+Zhou_2022,Zhou_2022_06,PP | air-sun | PPw-180d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,37.70724,2.54187
+Zhou_2022,Zhou_2022_06,PP | air-sun | PPw-180d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,69.95944,1.67846
+Zhou_2022,Zhou_2022_06,PP | air-sun | PPw-180d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,89.04199,2.11811
+Zhou_2022,Zhou_2022_06,PP | air-sun | PPw-180d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,111.8873,2.01747
+Zhou_2022,Zhou_2022_06,PP | air-sun | PPw-180d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,138.31618,2.28232
+Zhou_2022,Zhou_2022_06,PP | air-sun | PPw-180d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,185.97776,1.95391
+Zhou_2022,Zhou_2022_07,PP | air-sun | PPw-250d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,2.76736,0.48135
+Zhou_2022,Zhou_2022_07,PP | air-sun | PPw-250d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,3.84243,0.86803
+Zhou_2022,Zhou_2022_07,PP | air-sun | PPw-250d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,6.35094,1.80559
+Zhou_2022,Zhou_2022_07,PP | air-sun | PPw-250d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,14.05563,2.11811
+Zhou_2022,Zhou_2022_07,PP | air-sun | PPw-250d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,28.38994,2.90736
+Zhou_2022,Zhou_2022_07,PP | air-sun | PPw-250d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,61.0005,2.54717
+Zhou_2022,Zhou_2022_07,PP | air-sun | PPw-250d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,83.66662,2.11811
+Zhou_2022,Zhou_2022_07,PP | air-sun | PPw-250d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,103.3763,2.17108
+Zhou_2022,Zhou_2022_07,PP | air-sun | PPw-250d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,139.66002,1.40302
+Zhou_2022,Zhou_2022_07,PP | air-sun | PPw-250d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PP,Single-ion,25.0,,200.0,192.15944,1.02694
+Zhou_2022,Zhou_2022_08,PE | virgin | PEf-CK,none,freshwater,2022,10.1016/j.scitotenv.2022.155142,Virgin,PE,Single-ion,25.0,,200.0,9.46112,1.58817
+Zhou_2022,Zhou_2022_08,PE | virgin | PEf-CK,none,freshwater,2022,10.1016/j.scitotenv.2022.155142,Virgin,PE,Single-ion,25.0,,200.0,17.45339,1.79519
+Zhou_2022,Zhou_2022_08,PE | virgin | PEf-CK,none,freshwater,2022,10.1016/j.scitotenv.2022.155142,Virgin,PE,Single-ion,25.0,,200.0,24.37353,3.47545
+Zhou_2022,Zhou_2022_08,PE | virgin | PEf-CK,none,freshwater,2022,10.1016/j.scitotenv.2022.155142,Virgin,PE,Single-ion,25.0,,200.0,54.58821,6.30156
+Zhou_2022,Zhou_2022_08,PE | virgin | PEf-CK,none,freshwater,2022,10.1016/j.scitotenv.2022.155142,Virgin,PE,Single-ion,25.0,,200.0,68.42849,7.1778
+Zhou_2022,Zhou_2022_08,PE | virgin | PEf-CK,none,freshwater,2022,10.1016/j.scitotenv.2022.155142,Virgin,PE,Single-ion,25.0,,200.0,99.13051,6.6771
+Zhou_2022,Zhou_2022_08,PE | virgin | PEf-CK,none,freshwater,2022,10.1016/j.scitotenv.2022.155142,Virgin,PE,Single-ion,25.0,,200.0,146.79174,7.43779
+Zhou_2022,Zhou_2022_09,PE | air-sun | Pef-30d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,10.14339,1.33781
+Zhou_2022,Zhou_2022_09,PE | air-sun | Pef-30d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,14.23699,2.27183
+Zhou_2022,Zhou_2022_09,PE | air-sun | Pef-30d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,29.63673,2.80624
+Zhou_2022,Zhou_2022_09,PE | air-sun | Pef-30d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,49.71488,3.9906
+Zhou_2022,Zhou_2022_09,PE | air-sun | Pef-30d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,69.79302,4.31799
+Zhou_2022,Zhou_2022_09,PE | air-sun | Pef-30d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,81.78143,5.4831
+Zhou_2022,Zhou_2022_09,PE | air-sun | Pef-30d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,111.70372,5.05942
+Zhou_2022,Zhou_2022_09,PE | air-sun | Pef-30d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,155.36881,6.23416
+Zhou_2022,Zhou_2022_10,PE | air-sun | Pef-60d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,11.99526,1.15486
+Zhou_2022,Zhou_2022_10,PE | air-sun | Pef-60d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,16.38126,1.8963
+Zhou_2022,Zhou_2022_10,PE | air-sun | Pef-60d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,30.6114,2.74846
+Zhou_2022,Zhou_2022_10,PE | air-sun | Pef-60d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,55.27048,3.54767
+Zhou_2022,Zhou_2022_10,PE | air-sun | Pef-60d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,70.96262,3.91839
+Zhou_2022,Zhou_2022_10,PE | air-sun | Pef-60d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,80.90423,4.76092
+Zhou_2022,Zhou_2022_10,PE | air-sun | Pef-60d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,108.09745,4.95832
+Zhou_2022,Zhou_2022_10,PE | air-sun | Pef-60d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,159.46241,5.34348
+Zhou_2022,Zhou_2022_11,PE | air-sun | Pef-90d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,0.49418,0.50491
+Zhou_2022,Zhou_2022_11,PE | air-sun | Pef-90d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,2.44352,0.95265
+Zhou_2022,Zhou_2022_11,PE | air-sun | Pef-90d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,8.68139,1.55447
+Zhou_2022,Zhou_2022_11,PE | air-sun | Pef-90d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,18.13566,1.68927
+Zhou_2022,Zhou_2022_11,PE | air-sun | Pef-90d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,35.97207,2.0311
+Zhou_2022,Zhou_2022_11,PE | air-sun | Pef-90d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,62.87289,2.55588
+Zhou_2022,Zhou_2022_11,PE | air-sun | Pef-90d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,82.26876,2.45478
+Zhou_2022,Zhou_2022_11,PE | air-sun | Pef-90d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,95.32931,3.16732
+Zhou_2022,Zhou_2022_11,PE | air-sun | Pef-90d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,127.00599,2.98919
+Zhou_2022,Zhou_2022_11,PE | air-sun | Pef-90d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,174.66722,3.40805
+Zhou_2022,Zhou_2022_12,PE | air-sun | Pef-120d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,3.41818,0.32196
+Zhou_2022,Zhou_2022_12,PE | air-sun | Pef-120d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,5.95232,0.67823
+Zhou_2022,Zhou_2022_12,PE | air-sun | Pef-120d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,14.52939,0.77933
+Zhou_2022,Zhou_2022_12,PE | air-sun | Pef-120d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,25.73806,0.78896
+Zhou_2022,Zhou_2022_12,PE | air-sun | Pef-120d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,42.89221,0.98154
+Zhou_2022,Zhou_2022_12,PE | air-sun | Pef-120d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,65.69942,1.87222
+Zhou_2022,Zhou_2022_12,PE | air-sun | Pef-120d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,86.16743,2.17072
+Zhou_2022,Zhou_2022_12,PE | air-sun | Pef-120d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,109.94931,1.68927
+Zhou_2022,Zhou_2022_12,PE | air-sun | Pef-120d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,137.72733,1.5978
+Zhou_2022,Zhou_2022_12,PE | air-sun | Pef-120d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,191.4315,1.42929
+Zhou_2022,Zhou_2022_13,PE | air-sun | Pef-180d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,3.71058,0.27862
+Zhou_2022,Zhou_2022_13,PE | air-sun | Pef-180d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,6.82952,0.57231
+Zhou_2022,Zhou_2022_13,PE | air-sun | Pef-180d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,14.72432,0.736
+Zhou_2022,Zhou_2022_13,PE | air-sun | Pef-180d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,20.76726,1.22227
+Zhou_2022,Zhou_2022_13,PE | air-sun | Pef-180d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,39.87074,1.54484
+Zhou_2022,Zhou_2022_13,PE | air-sun | Pef-180d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,90.9433,1.5641
+Zhou_2022,Zhou_2022_13,PE | air-sun | Pef-180d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,113.55558,1.32337
+Zhou_2022,Zhou_2022_13,PE | air-sun | Pef-180d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,139.5792,1.34744
+Zhou_2022,Zhou_2022_13,PE | air-sun | Pef-180d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,195.42763,0.99599
+Zhou_2022,Zhou_2022_14,PE | air-sun | Pef-250d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,1.37138,0.44713
+Zhou_2022,Zhou_2022_14,PE | air-sun | Pef-250d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,13.06739,0.87081
+Zhou_2022,Zhou_2022_14,PE | air-sun | Pef-250d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,23.98366,0.82748
+Zhou_2022,Zhou_2022_14,PE | air-sun | Pef-250d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,43.76941,0.95265
+Zhou_2022,Zhou_2022_14,PE | air-sun | Pef-250d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,74.17903,1.03932
+Zhou_2022,Zhou_2022_14,PE | air-sun | Pef-250d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,94.74451,0.99599
+Zhou_2022,Zhou_2022_14,PE | air-sun | Pef-250d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,115.69985,0.91895
+Zhou_2022,Zhou_2022_14,PE | air-sun | Pef-250d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,142.40573,0.90451
+Zhou_2022,Zhou_2022_14,PE | air-sun | Pef-250d,outdoor_weathering,freshwater,2022,10.1016/j.scitotenv.2022.155142,Aged,PE,Single-ion,25.0,,200.0,194.55043,1.01524
+Zhou_2022b,Zhou_2022b_01,PS | UV | PS-CIP0,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PS,Single-ion,25.0,,150.0,0.7871,0.48767
+Zhou_2022b,Zhou_2022b_01,PS | UV | PS-CIP0,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PS,Single-ion,25.0,,150.0,1.57981,0.9265
+Zhou_2022b,Zhou_2022b_01,PS | UV | PS-CIP0,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PS,Single-ion,25.0,,150.0,2.53686,0.96025
+Zhou_2022b,Zhou_2022b_01,PS | UV | PS-CIP0,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PS,Single-ion,25.0,,150.0,2.93321,2.27298
+Zhou_2022b,Zhou_2022b_01,PS | UV | PS-CIP0,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PS,Single-ion,25.0,,150.0,4.87631,2.27298
+Zhou_2022b,Zhou_2022b_01,PS | UV | PS-CIP0,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PS,Single-ion,25.0,,150.0,8.0858,3.75073
+Zhou_2022b,Zhou_2022b_01,PS | UV | PS-CIP0,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PS,Single-ion,25.0,,150.0,13.97309,4.06204
+Zhou_2022b,Zhou_2022b_01,PS | UV | PS-CIP0,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PS,Single-ion,25.0,,150.0,17.26959,5.47978
+Zhou_2022b,Zhou_2022b_02,PS | UV | PS-CIP2 | mixed,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PS,Mixed,25.0,,150.0,0.87411,0.10135
+Zhou_2022b,Zhou_2022b_02,PS | UV | PS-CIP2 | mixed,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PS,Mixed,25.0,,150.0,1.85049,0.35265
+Zhou_2022b,Zhou_2022b_02,PS | UV | PS-CIP2 | mixed,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PS,Mixed,25.0,,150.0,3.08788,0.19512
+Zhou_2022b,Zhou_2022b_02,PS | UV | PS-CIP2 | mixed,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PS,Mixed,25.0,,150.0,3.86126,0.98651
+Zhou_2022b,Zhou_2022b_02,PS | UV | PS-CIP2 | mixed,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PS,Mixed,25.0,,150.0,5.21466,1.57911
+Zhou_2022b,Zhou_2022b_02,PS | UV | PS-CIP2 | mixed,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PS,Mixed,25.0,,150.0,9.64221,2.17921
+Zhou_2022b,Zhou_2022b_02,PS | UV | PS-CIP2 | mixed,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PS,Mixed,25.0,,150.0,11.32429,2.05169
+Zhou_2022b,Zhou_2022b_02,PS | UV | PS-CIP2 | mixed,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PS,Mixed,25.0,,150.0,15.10415,2.56553
+Zhou_2022b,Zhou_2022b_02,PS | UV | PS-CIP2 | mixed,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PS,Mixed,25.0,,150.0,19.57037,2.49052
+Zhou_2022b,Zhou_2022b_03,PVC | UV | PVC-CIP0,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PVC,Single-ion,25.0,,150.0,0.83807,0.42729
+Zhou_2022b,Zhou_2022b_03,PVC | UV | PVC-CIP0,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PVC,Single-ion,25.0,,150.0,1.73315,0.59836
+Zhou_2022b,Zhou_2022b_03,PVC | UV | PVC-CIP0,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PVC,Single-ion,25.0,,150.0,2.47027,1.11427
+Zhou_2022b,Zhou_2022b_03,PVC | UV | PVC-CIP0,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PVC,Single-ion,25.0,,150.0,2.97423,2.11133
+Zhou_2022b,Zhou_2022b_03,PVC | UV | PVC-CIP0,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PVC,Single-ion,25.0,,150.0,4.76439,2.50963
+Zhou_2022b,Zhou_2022b_03,PVC | UV | PVC-CIP0,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PVC,Single-ion,25.0,,150.0,8.54779,2.90792
+Zhou_2022b,Zhou_2022b_03,PVC | UV | PVC-CIP0,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PVC,Single-ion,25.0,,150.0,14.24923,3.54411
+Zhou_2022b,Zhou_2022b_04,PVC | UV | PVC-CIP2 | mixed,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PVC,Mixed,25.0,,150.0,0.89072,0.12255
+Zhou_2022b,Zhou_2022b_04,PVC | UV | PVC-CIP2 | mixed,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PVC,Mixed,25.0,,150.0,1.92119,0.18403
+Zhou_2022b,Zhou_2022b_04,PVC | UV | PVC-CIP2 | mixed,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PVC,Mixed,25.0,,150.0,2.80123,0.77211
+Zhou_2022b,Zhou_2022b_04,PVC | UV | PVC-CIP2 | mixed,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PVC,Mixed,25.0,,150.0,3.764,1.13833
+Zhou_2022b,Zhou_2022b_04,PVC | UV | PVC-CIP2 | mixed,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PVC,Mixed,25.0,,150.0,5.27586,1.49385
+Zhou_2022b,Zhou_2022b_04,PVC | UV | PVC-CIP2 | mixed,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PVC,Mixed,25.0,,150.0,9.68357,2.0258
+Zhou_2022b,Zhou_2022b_04,PVC | UV | PVC-CIP2 | mixed,UV,freshwater,2022,10.1016/j.chemosphere.2021.132794,Aged,PVC,Mixed,25.0,,150.0,14.97131,2.82238
+Sun_2023,Sun_2023_01,PBAT | virgin | P-PBAT,none,freshwater,2023,10.1016/j.cej.2023.142714,Virgin,PBAT,Single-ion,25.0,5.5,200.0,0.13484,0.01184204
+Sun_2023,Sun_2023_01,PBAT | virgin | P-PBAT,none,freshwater,2023,10.1016/j.cej.2023.142714,Virgin,PBAT,Single-ion,25.0,5.5,200.0,0.85373,0.03497362
+Sun_2023,Sun_2023_01,PBAT | virgin | P-PBAT,none,freshwater,2023,10.1016/j.cej.2023.142714,Virgin,PBAT,Single-ion,25.0,5.5,200.0,1.81836,0.05634666
+Sun_2023,Sun_2023_01,PBAT | virgin | P-PBAT,none,freshwater,2023,10.1016/j.cej.2023.142714,Virgin,PBAT,Single-ion,25.0,5.5,200.0,4.75407,0.0904353
+Sun_2023,Sun_2023_01,PBAT | virgin | P-PBAT,none,freshwater,2023,10.1016/j.cej.2023.142714,Virgin,PBAT,Single-ion,25.0,5.5,200.0,7.59567,0.1024069
+Sun_2023,Sun_2023_01,PBAT | virgin | P-PBAT,none,freshwater,2023,10.1016/j.cej.2023.142714,Virgin,PBAT,Single-ion,25.0,5.5,200.0,9.67393,0.11282288
+Sun_2023,Sun_2023_02,PBAT | biodegraded in sewage (D-PBAT) | D-PBAT,biodegradation,freshwater,2023,10.1016/j.cej.2023.142714,Aged,PBAT,Single-ion,25.0,5.5,200.0,0.46422,0.06601863
+Sun_2023,Sun_2023_02,PBAT | biodegraded in sewage (D-PBAT) | D-PBAT,biodegradation,freshwater,2023,10.1016/j.cej.2023.142714,Aged,PBAT,Single-ion,25.0,5.5,200.0,1.37918,0.09537274
+Sun_2023,Sun_2023_02,PBAT | biodegraded in sewage (D-PBAT) | D-PBAT,biodegradation,freshwater,2023,10.1016/j.cej.2023.142714,Aged,PBAT,Single-ion,25.0,5.5,200.0,4.02995,0.13000247
+Sun_2023,Sun_2023_02,PBAT | biodegraded in sewage (D-PBAT) | D-PBAT,biodegradation,freshwater,2023,10.1016/j.cej.2023.142714,Aged,PBAT,Single-ion,25.0,5.5,200.0,7.3238,0.16206203
+Sun_2023,Sun_2023_02,PBAT | biodegraded in sewage (D-PBAT) | D-PBAT,biodegradation,freshwater,2023,10.1016/j.cej.2023.142714,Aged,PBAT,Single-ion,25.0,5.5,200.0,8.99948,0.17356018
+Huang_2024,Huang_2024_01,PLA | virgin | PLA,none,freshwater,2024,10.1016/j.envpol.2023.123061,Virgin,PLA,Single-ion,25.0,6.0,160.0,0.83093,0.16907
+Huang_2024,Huang_2024_01,PLA | virgin | PLA,none,freshwater,2024,10.1016/j.envpol.2023.123061,Virgin,PLA,Single-ion,25.0,6.0,160.0,2.40851,0.59149
+Huang_2024,Huang_2024_01,PLA | virgin | PLA,none,freshwater,2024,10.1016/j.envpol.2023.123061,Virgin,PLA,Single-ion,25.0,6.0,160.0,4.05468,0.94532
+Huang_2024,Huang_2024_01,PLA | virgin | PLA,none,freshwater,2024,10.1016/j.envpol.2023.123061,Virgin,PLA,Single-ion,25.0,6.0,160.0,8.72734,1.27266
+Huang_2024,Huang_2024_01,PLA | virgin | PLA,none,freshwater,2024,10.1016/j.envpol.2023.123061,Virgin,PLA,Single-ion,25.0,6.0,160.0,13.18646,1.81354
+Huang_2024,Huang_2024_01,PLA | virgin | PLA,none,freshwater,2024,10.1016/j.envpol.2023.123061,Virgin,PLA,Single-ion,25.0,6.0,160.0,17.71884,2.28116
+Huang_2024,Huang_2024_01,PLA | virgin | PLA,none,freshwater,2024,10.1016/j.envpol.2023.123061,Virgin,PLA,Single-ion,25.0,6.0,160.0,22.42579,2.57421
+Huang_2024,Huang_2024_01,PLA | virgin | PLA,none,freshwater,2024,10.1016/j.envpol.2023.123061,Virgin,PLA,Single-ion,25.0,6.0,160.0,27.27304,2.72696
+Huang_2024,Huang_2024_02,PLA | UV | aged-PLA,UV,freshwater,2024,10.1016/j.envpol.2023.123061,Aged,PLA,Single-ion,25.0,6.0,160.0,0.61271,0.38729
+Huang_2024,Huang_2024_02,PLA | UV | aged-PLA,UV,freshwater,2024,10.1016/j.envpol.2023.123061,Aged,PLA,Single-ion,25.0,6.0,160.0,1.94557,1.05443
+Huang_2024,Huang_2024_02,PLA | UV | aged-PLA,UV,freshwater,2024,10.1016/j.envpol.2023.123061,Aged,PLA,Single-ion,25.0,6.0,160.0,3.47794,1.52206
+Huang_2024,Huang_2024_02,PLA | UV | aged-PLA,UV,freshwater,2024,10.1016/j.envpol.2023.123061,Aged,PLA,Single-ion,25.0,6.0,160.0,12.20757,2.79243
+Huang_2024,Huang_2024_02,PLA | UV | aged-PLA,UV,freshwater,2024,10.1016/j.envpol.2023.123061,Aged,PLA,Single-ion,25.0,6.0,160.0,16.43599,3.56401
+Huang_2024,Huang_2024_02,PLA | UV | aged-PLA,UV,freshwater,2024,10.1016/j.envpol.2023.123061,Aged,PLA,Single-ion,25.0,6.0,160.0,20.82497,4.17503
+Huang_2024,Huang_2024_02,PLA | UV | aged-PLA,UV,freshwater,2024,10.1016/j.envpol.2023.123061,Aged,PLA,Single-ion,25.0,6.0,160.0,25.59739,4.40261
+Huang_2024,Huang_2024_03,PS | virgin | PS,none,freshwater,2024,10.1016/j.envpol.2023.123061,Virgin,PS,Single-ion,25.0,6.0,160.0,0.87925,0.12075
+Huang_2024,Huang_2024_03,PS | virgin | PS,none,freshwater,2024,10.1016/j.envpol.2023.123061,Virgin,PS,Single-ion,25.0,6.0,160.0,2.81378,0.18622
+Huang_2024,Huang_2024_03,PS | virgin | PS,none,freshwater,2024,10.1016/j.envpol.2023.123061,Virgin,PS,Single-ion,25.0,6.0,160.0,4.77014,0.22986
+Huang_2024,Huang_2024_03,PS | virgin | PS,none,freshwater,2024,10.1016/j.envpol.2023.123061,Virgin,PS,Single-ion,25.0,6.0,160.0,9.73585,0.26415
+Huang_2024,Huang_2024_03,PS | virgin | PS,none,freshwater,2024,10.1016/j.envpol.2023.123061,Virgin,PS,Single-ion,25.0,6.0,160.0,14.69688,0.30312
+Huang_2024,Huang_2024_03,PS | virgin | PS,none,freshwater,2024,10.1016/j.envpol.2023.123061,Virgin,PS,Single-ion,25.0,6.0,160.0,19.66103,0.33897
+Huang_2024,Huang_2024_03,PS | virgin | PS,none,freshwater,2024,10.1016/j.envpol.2023.123061,Virgin,PS,Single-ion,25.0,6.0,160.0,24.62674,0.37326
+Huang_2024,Huang_2024_03,PS | virgin | PS,none,freshwater,2024,10.1016/j.envpol.2023.123061,Virgin,PS,Single-ion,25.0,6.0,160.0,29.61271,0.38729
+Huang_2024,Huang_2024_04,PS | UV | aged-PS,UV,freshwater,2024,10.1016/j.envpol.2023.123061,Aged,PS,Single-ion,25.0,6.0,160.0,0.86678,0.13322
+Huang_2024,Huang_2024_04,PS | UV | aged-PS,UV,freshwater,2024,10.1016/j.envpol.2023.123061,Aged,PS,Single-ion,25.0,6.0,160.0,2.77014,0.22986
+Huang_2024,Huang_2024_04,PS | UV | aged-PS,UV,freshwater,2024,10.1016/j.envpol.2023.123061,Aged,PS,Single-ion,25.0,6.0,160.0,4.69688,0.30312
+Huang_2024,Huang_2024_04,PS | UV | aged-PS,UV,freshwater,2024,10.1016/j.envpol.2023.123061,Aged,PS,Single-ion,25.0,6.0,160.0,9.62206,0.37794
+Huang_2024,Huang_2024_04,PS | UV | aged-PS,UV,freshwater,2024,10.1016/j.envpol.2023.123061,Aged,PS,Single-ion,25.0,6.0,160.0,14.54412,0.45588
+Huang_2024,Huang_2024_04,PS | UV | aged-PS,UV,freshwater,2024,10.1016/j.envpol.2023.123061,Aged,PS,Single-ion,25.0,6.0,160.0,19.48177,0.51823
+Huang_2024,Huang_2024_04,PS | UV | aged-PS,UV,freshwater,2024,10.1016/j.envpol.2023.123061,Aged,PS,Single-ion,25.0,6.0,160.0,24.42098,0.57902
+Huang_2024,Huang_2024_04,PS | UV | aged-PS,UV,freshwater,2024,10.1016/j.envpol.2023.123061,Aged,PS,Single-ion,25.0,6.0,160.0,29.39448,0.60552
+Hu_2024,Hu_2024_01,PA | virgin,none,freshwater,2024,10.1007/s11356-024-33131-1,Virgin,PA,Single-ion,25.0,5.0,200.0,0.6086,0.11387
+Hu_2024,Hu_2024_01,PA | virgin,none,freshwater,2024,10.1007/s11356-024-33131-1,Virgin,PA,Single-ion,25.0,5.0,200.0,1.30219,0.20443
+Hu_2024,Hu_2024_01,PA | virgin,none,freshwater,2024,10.1007/s11356-024-33131-1,Virgin,PA,Single-ion,25.0,5.0,200.0,3.62242,0.32728
+Hu_2024,Hu_2024_01,PA | virgin,none,freshwater,2024,10.1007/s11356-024-33131-1,Virgin,PA,Single-ion,25.0,5.0,200.0,6.41742,0.5522699999999999
+Hu_2024,Hu_2024_01,PA | virgin,none,freshwater,2024,10.1007/s11356-024-33131-1,Virgin,PA,Single-ion,25.0,5.0,200.0,13.73315,0.67898
+Hu_2024,Hu_2024_02,PA | UV,UV,freshwater,2024,10.1007/s11356-024-33131-1,Aged,PA,Single-ion,25.0,5.0,200.0,0.50126,0.14722
+Hu_2024,Hu_2024_02,PA | UV,UV,freshwater,2024,10.1007/s11356-024-33131-1,Aged,PA,Single-ion,25.0,5.0,200.0,1.07926,0.28691
+Hu_2024,Hu_2024_02,PA | UV,UV,freshwater,2024,10.1007/s11356-024-33131-1,Aged,PA,Single-ion,25.0,5.0,200.0,3.03204,0.5807
+Hu_2024,Hu_2024_02,PA | UV,UV,freshwater,2024,10.1007/s11356-024-33131-1,Aged,PA,Single-ion,25.0,5.0,200.0,6.25641,0.93626
+Hu_2024,Hu_2024_02,PA | UV,UV,freshwater,2024,10.1007/s11356-024-33131-1,Aged,PA,Single-ion,25.0,5.0,200.0,12.63497,1.01874
+Hu_2024,Hu_2024_03,PLA | virgin,none,freshwater,2024,10.1007/s11356-024-33131-1,Virgin,PLA,Single-ion,25.0,5.0,200.0,0.71762,0.09808
+Hu_2024,Hu_2024_03,PLA | virgin,none,freshwater,2024,10.1007/s11356-024-33131-1,Virgin,PLA,Single-ion,25.0,5.0,200.0,1.43502,0.16687
+Hu_2024,Hu_2024_03,PLA | virgin,none,freshwater,2024,10.1007/s11356-024-33131-1,Virgin,PLA,Single-ion,25.0,5.0,200.0,3.60662,0.31815
+Hu_2024,Hu_2024_03,PLA | virgin,none,freshwater,2024,10.1007/s11356-024-33131-1,Virgin,PLA,Single-ion,25.0,5.0,200.0,6.76319,0.43714
+Hu_2024,Hu_2024_03,PLA | virgin,none,freshwater,2024,10.1007/s11356-024-33131-1,Virgin,PLA,Single-ion,25.0,5.0,200.0,13.01429,0.63756
+Hu_2024,Hu_2024_04,PLA | UV,UV,freshwater,2024,10.1007/s11356-024-33131-1,Aged,PLA,Single-ion,25.0,5.0,200.0,0.5974,0.11773
+Hu_2024,Hu_2024_04,PLA | UV,UV,freshwater,2024,10.1007/s11356-024-33131-1,Aged,PLA,Single-ion,25.0,5.0,200.0,1.29154,0.2111
+Hu_2024,Hu_2024_04,PLA | UV,UV,freshwater,2024,10.1007/s11356-024-33131-1,Aged,PLA,Single-ion,25.0,5.0,200.0,3.1374,0.55893
+Hu_2024,Hu_2024_04,PLA | UV,UV,freshwater,2024,10.1007/s11356-024-33131-1,Aged,PLA,Single-ion,25.0,5.0,200.0,6.04579,0.88115
+Hu_2024,Hu_2024_04,PLA | UV,UV,freshwater,2024,10.1007/s11356-024-33131-1,Aged,PLA,Single-ion,25.0,5.0,200.0,12.07973,0.95486
+Muthuraja_2024,Muthuraja_2024_01,PP | virgin | Ppa: 500 and 1000 μm,none,freshwater,2024,10.1016/j.chemosphere.2024.143843,Virgin,PP,Single-ion,25.0,6.0,150.0,0.01364,0.10844
+Muthuraja_2024,Muthuraja_2024_01,PP | virgin | Ppa: 500 and 1000 μm,none,freshwater,2024,10.1016/j.chemosphere.2024.143843,Virgin,PP,Single-ion,25.0,6.0,150.0,0.09333,0.43854
+Muthuraja_2024,Muthuraja_2024_01,PP | virgin | Ppa: 500 and 1000 μm,none,freshwater,2024,10.1016/j.chemosphere.2024.143843,Virgin,PP,Single-ion,25.0,6.0,150.0,0.33241,0.72148
+Muthuraja_2024,Muthuraja_2024_01,PP | virgin | Ppa: 500 and 1000 μm,none,freshwater,2024,10.1016/j.chemosphere.2024.143843,Virgin,PP,Single-ion,25.0,6.0,150.0,0.42254,1.66461
+Muthuraja_2024,Muthuraja_2024_01,PP | virgin | Ppa: 500 and 1000 μm,none,freshwater,2024,10.1016/j.chemosphere.2024.143843,Virgin,PP,Single-ion,25.0,6.0,150.0,1.92912,3.21841
+Muthuraja_2024,Muthuraja_2024_02,PP | virgin | PPb: 250–500 μm,none,freshwater,2024,10.1016/j.chemosphere.2024.143843,Virgin,PP,Single-ion,25.0,6.0,150.0,0.00514,0.07543
+Muthuraja_2024,Muthuraja_2024_02,PP | virgin | PPb: 250–500 μm,none,freshwater,2024,10.1016/j.chemosphere.2024.143843,Virgin,PP,Single-ion,25.0,6.0,150.0,0.16683,0.38431
+Muthuraja_2024,Muthuraja_2024_02,PP | virgin | PPb: 250–500 μm,none,freshwater,2024,10.1016/j.chemosphere.2024.143843,Virgin,PP,Single-ion,25.0,6.0,150.0,0.46865,0.69554
+Muthuraja_2024,Muthuraja_2024_02,PP | virgin | PPb: 250–500 μm,none,freshwater,2024,10.1016/j.chemosphere.2024.143843,Virgin,PP,Single-ion,25.0,6.0,150.0,0.50687,1.65282
+Muthuraja_2024,Muthuraja_2024_02,PP | virgin | PPb: 250–500 μm,none,freshwater,2024,10.1016/j.chemosphere.2024.143843,Virgin,PP,Single-ion,25.0,6.0,150.0,1.59951,3.9234
+Muthuraja_2024,Muthuraja_2024_03,"PP | Fenton reagent, 7 d | Aged PPb",chemical_oxidation,freshwater,2024,10.1016/j.chemosphere.2024.143843,Aged,PP,Single-ion,25.0,6.0,150.0,0.00738,0.10844
+Muthuraja_2024,Muthuraja_2024_03,"PP | Fenton reagent, 7 d | Aged PPb",chemical_oxidation,freshwater,2024,10.1016/j.chemosphere.2024.143843,Aged,PP,Single-ion,25.0,6.0,150.0,0.16115,0.41024
+Muthuraja_2024,Muthuraja_2024_03,"PP | Fenton reagent, 7 d | Aged PPb",chemical_oxidation,freshwater,2024,10.1016/j.chemosphere.2024.143843,Aged,PP,Single-ion,25.0,6.0,150.0,0.40361,0.74741
+Muthuraja_2024,Muthuraja_2024_03,"PP | Fenton reagent, 7 d | Aged PPb",chemical_oxidation,freshwater,2024,10.1016/j.chemosphere.2024.143843,Aged,PP,Single-ion,25.0,6.0,150.0,0.52779,1.65282
+Muthuraja_2024,Muthuraja_2024_03,"PP | Fenton reagent, 7 d | Aged PPb",chemical_oxidation,freshwater,2024,10.1016/j.chemosphere.2024.143843,Aged,PP,Single-ion,25.0,6.0,150.0,1.61785,3.93755
+Muthuraja_2024,Muthuraja_2024_04,PS | virgin | PSa: 500 and 1000 μm,none,freshwater,2024,10.1016/j.chemosphere.2024.143843,Virgin,PS,Single-ion,25.0,6.0,150.0,0.00303,0.08077
+Muthuraja_2024,Muthuraja_2024_04,PS | virgin | PSa: 500 and 1000 μm,none,freshwater,2024,10.1016/j.chemosphere.2024.143843,Virgin,PS,Single-ion,25.0,6.0,150.0,0.04832,0.46776
+Muthuraja_2024,Muthuraja_2024_04,PS | virgin | PSa: 500 and 1000 μm,none,freshwater,2024,10.1016/j.chemosphere.2024.143843,Virgin,PS,Single-ion,25.0,6.0,150.0,0.1304,0.89986
+Muthuraja_2024,Muthuraja_2024_04,PS | virgin | PSa: 500 and 1000 μm,none,freshwater,2024,10.1016/j.chemosphere.2024.143843,Virgin,PS,Single-ion,25.0,6.0,150.0,0.40968,1.66434
+Muthuraja_2024,Muthuraja_2024_04,PS | virgin | PSa: 500 and 1000 μm,none,freshwater,2024,10.1016/j.chemosphere.2024.143843,Virgin,PS,Single-ion,25.0,6.0,150.0,1.83437,3.32626
+Muthuraja_2024,Muthuraja_2024_05,PS | virgin | PSb: 250–500 μm,none,freshwater,2024,10.1016/j.chemosphere.2024.143843,Virgin,PS,Single-ion,25.0,6.0,150.0,0.0072,0.10791
+Muthuraja_2024,Muthuraja_2024_05,PS | virgin | PSb: 250–500 μm,none,freshwater,2024,10.1016/j.chemosphere.2024.143843,Virgin,PS,Single-ion,25.0,6.0,150.0,0.03959,0.50585
+Muthuraja_2024,Muthuraja_2024_05,PS | virgin | PSb: 250–500 μm,none,freshwater,2024,10.1016/j.chemosphere.2024.143843,Virgin,PS,Single-ion,25.0,6.0,150.0,0.11962,0.95686
+Muthuraja_2024,Muthuraja_2024_05,PS | virgin | PSb: 250–500 μm,none,freshwater,2024,10.1016/j.chemosphere.2024.143843,Virgin,PS,Single-ion,25.0,6.0,150.0,0.45306,1.68763
+Muthuraja_2024,Muthuraja_2024_05,PS | virgin | PSb: 250–500 μm,none,freshwater,2024,10.1016/j.chemosphere.2024.143843,Virgin,PS,Single-ion,25.0,6.0,150.0,1.94115,3.32041
+Muthuraja_2024,Muthuraja_2024_06,"PS | Fenton reagent, 7 d | Aged PSb",chemical_oxidation,freshwater,2024,10.1016/j.chemosphere.2024.143843,Aged,PS,Single-ion,25.0,6.0,150.0,0.00483,0.10689
+Muthuraja_2024,Muthuraja_2024_06,"PS | Fenton reagent, 7 d | Aged PSb",chemical_oxidation,freshwater,2024,10.1016/j.chemosphere.2024.143843,Aged,PS,Single-ion,25.0,6.0,150.0,0.03212,0.49388
+Muthuraja_2024,Muthuraja_2024_06,"PS | Fenton reagent, 7 d | Aged PSb",chemical_oxidation,freshwater,2024,10.1016/j.chemosphere.2024.143843,Aged,PS,Single-ion,25.0,6.0,150.0,0.10981,0.9331
+Muthuraja_2024,Muthuraja_2024_06,"PS | Fenton reagent, 7 d | Aged PSb",chemical_oxidation,freshwater,2024,10.1016/j.chemosphere.2024.143843,Aged,PS,Single-ion,25.0,6.0,150.0,0.43004,1.63111
+Muthuraja_2024,Muthuraja_2024_06,"PS | Fenton reagent, 7 d | Aged PSb",chemical_oxidation,freshwater,2024,10.1016/j.chemosphere.2024.143843,Aged,PS,Single-ion,25.0,6.0,150.0,1.70905,3.40461
+Chen_2025,Chen_2025_01,PBAT | virgin | V-PPT,none,freshwater,2025,10.1016/j.envpol.2024.125538,Virgin,PBAT,Single-ion,25.0,5.5,180.0,0.05543,0.08059473
+Chen_2025,Chen_2025_01,PBAT | virgin | V-PPT,none,freshwater,2025,10.1016/j.envpol.2024.125538,Virgin,PBAT,Single-ion,25.0,5.5,180.0,0.31618,0.35959355
+Chen_2025,Chen_2025_01,PBAT | virgin | V-PPT,none,freshwater,2025,10.1016/j.envpol.2024.125538,Virgin,PBAT,Single-ion,25.0,5.5,180.0,0.48837,0.76596141
+Chen_2025,Chen_2025_01,PBAT | virgin | V-PPT,none,freshwater,2025,10.1016/j.envpol.2024.125538,Virgin,PBAT,Single-ion,25.0,5.5,180.0,1.98398,1.5150126
+Chen_2025,Chen_2025_01,PBAT | virgin | V-PPT,none,freshwater,2025,10.1016/j.envpol.2024.125538,Virgin,PBAT,Single-ion,25.0,5.5,180.0,5.08836,2.65223608
+Chen_2025,Chen_2025_02,PBAT | (biofilm) real wastewater | B-PPT,biofilm,freshwater,2025,10.1016/j.envpol.2024.125538,Aged,PBAT,Single-ion,25.0,5.5,180.0,0.08249,0.38385432
+Chen_2025,Chen_2025_02,PBAT | (biofilm) real wastewater | B-PPT,biofilm,freshwater,2025,10.1016/j.envpol.2024.125538,Aged,PBAT,Single-ion,25.0,5.5,180.0,0.25468,0.89333044
+Chen_2025,Chen_2025_02,PBAT | (biofilm) real wastewater | B-PPT,biofilm,freshwater,2025,10.1016/j.envpol.2024.125538,Aged,PBAT,Single-ion,25.0,5.5,180.0,0.73682,2.3368461
+Chen_2025,Chen_2025_02,PBAT | (biofilm) real wastewater | B-PPT,biofilm,freshwater,2025,10.1016/j.envpol.2024.125538,Aged,PBAT,Single-ion,25.0,5.5,180.0,1.41083,3.54078668
+Chen_2025,Chen_2025_02,PBAT | (biofilm) real wastewater | B-PPT,biofilm,freshwater,2025,10.1016/j.envpol.2024.125538,Aged,PBAT,Single-ion,25.0,5.5,180.0,3.09093,3.71061206
+Chen_2025,Chen_2025_03,PBAT | biodegraded MP | D-PPT,biodegradation,freshwater,2025,10.1016/j.envpol.2024.125538,Aged,PBAT,Single-ion,25.0,5.5,180.0,0.02837,0.08665992
+Chen_2025,Chen_2025_03,PBAT | biodegraded MP | D-PPT,biodegradation,freshwater,2025,10.1016/j.envpol.2024.125538,Aged,PBAT,Single-ion,25.0,5.5,180.0,0.62612,0.65678795
+Chen_2025,Chen_2025_03,PBAT | biodegraded MP | D-PPT,biodegradation,freshwater,2025,10.1016/j.envpol.2024.125538,Aged,PBAT,Single-ion,25.0,5.5,180.0,2.81542,0.9266889899999999
+Chen_2025,Chen_2025_03,PBAT | biodegraded MP | D-PPT,biodegradation,freshwater,2025,10.1016/j.envpol.2024.125538,Aged,PBAT,Single-ion,25.0,5.5,180.0,5.37617,1.34518723
+Chen_2025,Chen_2025_03,PBAT | biodegraded MP | D-PPT,biodegradation,freshwater,2025,10.1016/j.envpol.2024.125538,Aged,PBAT,Single-ion,25.0,5.5,180.0,7.01446,1.70909874
+Chen_2025,Chen_2025_04,PBAT | virgin | V-PPT | mixed,none,freshwater,2025,10.1016/j.envpol.2024.125538,Virgin,PBAT,Mixed,25.0,5.5,180.0,0.05811,0.06690438
+Chen_2025,Chen_2025_04,PBAT | virgin | V-PPT | mixed,none,freshwater,2025,10.1016/j.envpol.2024.125538,Virgin,PBAT,Mixed,25.0,5.5,180.0,0.2669,0.37504329
+Chen_2025,Chen_2025_04,PBAT | virgin | V-PPT | mixed,none,freshwater,2025,10.1016/j.envpol.2024.125538,Virgin,PBAT,Mixed,25.0,5.5,180.0,0.41851,0.75705112
+Chen_2025,Chen_2025_04,PBAT | virgin | V-PPT | mixed,none,freshwater,2025,10.1016/j.envpol.2024.125538,Virgin,PBAT,Mixed,25.0,5.5,180.0,1.40777,1.68568894
+Chen_2025,Chen_2025_04,PBAT | virgin | V-PPT | mixed,none,freshwater,2025,10.1016/j.envpol.2024.125538,Virgin,PBAT,Mixed,25.0,5.5,180.0,3.54286,2.2935246
+Chen_2025,Chen_2025_04,PBAT | virgin | V-PPT | mixed,none,freshwater,2025,10.1016/j.envpol.2024.125538,Virgin,PBAT,Mixed,25.0,5.5,180.0,4.33575,2.64809541
+Chen_2025,Chen_2025_05,PBAT | (biofilm) real wastewater | B-PPT | mixed,biofilm,freshwater,2025,10.1016/j.envpol.2024.125538,Aged,PBAT,Mixed,25.0,5.5,180.0,0.1625,0.28640059
+Chen_2025,Chen_2025_05,PBAT | (biofilm) real wastewater | B-PPT | mixed,biofilm,freshwater,2025,10.1016/j.envpol.2024.125538,Aged,PBAT,Mixed,25.0,5.5,180.0,0.29424,0.79926193
+Chen_2025,Chen_2025_05,PBAT | (biofilm) real wastewater | B-PPT | mixed,biofilm,freshwater,2025,10.1016/j.envpol.2024.125538,Aged,PBAT,Mixed,25.0,5.5,180.0,0.42597,1.50840354
+Chen_2025,Chen_2025_05,PBAT | (biofilm) real wastewater | B-PPT | mixed,biofilm,freshwater,2025,10.1016/j.envpol.2024.125538,Aged,PBAT,Mixed,25.0,5.5,180.0,1.15672,3.06809296
+Chen_2025,Chen_2025_05,PBAT | (biofilm) real wastewater | B-PPT | mixed,biofilm,freshwater,2025,10.1016/j.envpol.2024.125538,Aged,PBAT,Mixed,25.0,5.5,180.0,2.2976,3.5809543
+Chen_2025,Chen_2025_06,PBAT | biodegraded MP | D-PPT | mixed,biodegradation,freshwater,2025,10.1016/j.envpol.2024.125538,Aged,PBAT,Mixed,25.0,5.5,180.0,0.05811,0.09012033
+Chen_2025,Chen_2025_06,PBAT | biodegraded MP | D-PPT | mixed,biodegradation,freshwater,2025,10.1016/j.envpol.2024.125538,Aged,PBAT,Mixed,25.0,5.5,180.0,0.14759,0.43835951
+Chen_2025,Chen_2025_06,PBAT | biodegraded MP | D-PPT | mixed,biodegradation,freshwater,2025,10.1016/j.envpol.2024.125538,Aged,PBAT,Mixed,25.0,5.5,180.0,0.68447,0.72328248
+Chen_2025,Chen_2025_06,PBAT | biodegraded MP | D-PPT | mixed,biodegradation,freshwater,2025,10.1016/j.envpol.2024.125538,Aged,PBAT,Mixed,25.0,5.5,180.0,2.81956,1.0947376
+Chen_2025,Chen_2025_06,PBAT | biodegraded MP | D-PPT | mixed,biodegradation,freshwater,2025,10.1016/j.envpol.2024.125538,Aged,PBAT,Mixed,25.0,5.5,180.0,4.74587,1.52528786
+Chen_2025,Chen_2025_06,PBAT | biodegraded MP | D-PPT | mixed,biodegradation,freshwater,2025,10.1016/j.envpol.2024.125538,Aged,PBAT,Mixed,25.0,5.5,180.0,6.86108,1.7511157
+Dai_2025,Dai_2025_01,PA | virgin | PA,none,freshwater,2025,10.1016/j.envres.2025.121169,Virgin,PA,Single-ion,25.0,,250.0,0.192675,0.01465
+Dai_2025,Dai_2025_01,PA | virgin | PA,none,freshwater,2025,10.1016/j.envres.2025.121169,Virgin,PA,Single-ion,25.0,,250.0,0.96818,0.06364
+Dai_2025,Dai_2025_01,PA | virgin | PA,none,freshwater,2025,10.1016/j.envres.2025.121169,Virgin,PA,Single-ion,25.0,,250.0,1.969815,0.06037
+Dai_2025,Dai_2025_01,PA | virgin | PA,none,freshwater,2025,10.1016/j.envres.2025.121169,Virgin,PA,Single-ion,25.0,,250.0,9.957835,0.08433
+Dai_2025,Dai_2025_01,PA | virgin | PA,none,freshwater,2025,10.1016/j.envres.2025.121169,Virgin,PA,Single-ion,25.0,,250.0,19.956205,0.08759
+Dai_2025,Dai_2025_02,PA | UV 300 h in distilled water; biofilm reported on all aged samples | PA-D,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PA,Single-ion,25.0,,250.0,0.482625,1.03475
+Dai_2025,Dai_2025_02,PA | UV 300 h in distilled water; biofilm reported on all aged samples | PA-D,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PA,Single-ion,25.0,,250.0,1.47228,1.05544
+Dai_2025,Dai_2025_02,PA | UV 300 h in distilled water; biofilm reported on all aged samples | PA-D,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PA,Single-ion,25.0,,250.0,9.466295,1.06741
+Dai_2025,Dai_2025_02,PA | UV 300 h in distilled water; biofilm reported on all aged samples | PA-D,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PA,Single-ion,25.0,,250.0,19.52345,0.9531
+Dai_2025,Dai_2025_03,PA | UV 300 h in tap water; biofilm reported on all aged samples | PA-T,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PA,Single-ion,25.0,,250.0,0.106125,0.18775
+Dai_2025,Dai_2025_03,PA | UV 300 h in tap water; biofilm reported on all aged samples | PA-T,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PA,Single-ion,25.0,,250.0,0.85169,0.29662
+Dai_2025,Dai_2025_03,PA | UV 300 h in tap water; biofilm reported on all aged samples | PA-T,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PA,Single-ion,25.0,,250.0,1.81794,0.36412
+Dai_2025,Dai_2025_03,PA | UV 300 h in tap water; biofilm reported on all aged samples | PA-T,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PA,Single-ion,25.0,,250.0,9.785825,0.42835
+Dai_2025,Dai_2025_03,PA | UV 300 h in tap water; biofilm reported on all aged samples | PA-T,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PA,Single-ion,25.0,,250.0,19.70635,0.5873
+Dai_2025,Dai_2025_04,PA | UV 300 h in surface water; biofilm reported on all aged samples | PA-S,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PA,Single-ion,25.0,,250.0,0.101225,0.19755
+Dai_2025,Dai_2025_04,PA | UV 300 h in surface water; biofilm reported on all aged samples | PA-S,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PA,Single-ion,25.0,,250.0,0.9083,0.1834
+Dai_2025,Dai_2025_04,PA | UV 300 h in surface water; biofilm reported on all aged samples | PA-S,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PA,Single-ion,25.0,,250.0,1.873465,0.25307
+Dai_2025,Dai_2025_04,PA | UV 300 h in surface water; biofilm reported on all aged samples | PA-S,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PA,Single-ion,25.0,,250.0,9.86149,0.27702
+Dai_2025,Dai_2025_04,PA | UV 300 h in surface water; biofilm reported on all aged samples | PA-S,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PA,Single-ion,25.0,,250.0,19.818485,0.36303
+Dai_2025,Dai_2025_05,PA | UV 300 h in wastewater; biofilm reported on all aged samples | PA-W,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PA,Single-ion,25.0,,250.0,0.1083,0.1834
+Dai_2025,Dai_2025_05,PA | UV 300 h in wastewater; biofilm reported on all aged samples | PA-W,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PA,Single-ion,25.0,,250.0,0.534335,0.93133
+Dai_2025,Dai_2025_05,PA | UV 300 h in wastewater; biofilm reported on all aged samples | PA-W,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PA,Single-ion,25.0,,250.0,1.480445,1.03911
+Dai_2025,Dai_2025_05,PA | UV 300 h in wastewater; biofilm reported on all aged samples | PA-W,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PA,Single-ion,25.0,,250.0,9.40587,1.18826
+Dai_2025,Dai_2025_05,PA | UV 300 h in wastewater; biofilm reported on all aged samples | PA-W,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PA,Single-ion,25.0,,250.0,19.34926,1.30148
+Dai_2025,Dai_2025_06,PLA | virgin | PLA,none,freshwater,2025,10.1016/j.envres.2025.121169,Virgin,PLA,Single-ion,25.0,,250.0,0.40128,1.19744
+Dai_2025,Dai_2025_06,PLA | virgin | PLA,none,freshwater,2025,10.1016/j.envres.2025.121169,Virgin,PLA,Single-ion,25.0,,250.0,1.389295,1.22141
+Dai_2025,Dai_2025_06,PLA | virgin | PLA,none,freshwater,2025,10.1016/j.envres.2025.121169,Virgin,PLA,Single-ion,25.0,,250.0,9.343355,1.31329
+Dai_2025,Dai_2025_06,PLA | virgin | PLA,none,freshwater,2025,10.1016/j.envres.2025.121169,Virgin,PLA,Single-ion,25.0,,250.0,19.266455,1.46709
+Dai_2025,Dai_2025_07,PLA | UV 300 h in distilled water; biofilm reported on all aged samples | PLA-D,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PLA,Single-ion,25.0,,250.0,0.186555,1.62689
+Dai_2025,Dai_2025_07,PLA | UV 300 h in distilled water; biofilm reported on all aged samples | PLA-D,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PLA,Single-ion,25.0,,250.0,0.846995,2.30601
+Dai_2025,Dai_2025_07,PLA | UV 300 h in distilled water; biofilm reported on all aged samples | PLA-D,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PLA,Single-ion,25.0,,250.0,8.87396,2.25208
+Dai_2025,Dai_2025_07,PLA | UV 300 h in distilled water; biofilm reported on all aged samples | PLA-D,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PLA,Single-ion,25.0,,250.0,18.83601,2.32798
+Dai_2025,Dai_2025_08,PLA | UV 300 h in tap water; biofilm reported on all aged samples | PLA-T,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PLA,Single-ion,25.0,,250.0,0.101635,0.19673
+Dai_2025,Dai_2025_08,PLA | UV 300 h in tap water; biofilm reported on all aged samples | PLA-T,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PLA,Single-ion,25.0,,250.0,0.49316,1.01368
+Dai_2025,Dai_2025_08,PLA | UV 300 h in tap water; biofilm reported on all aged samples | PLA-T,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PLA,Single-ion,25.0,,250.0,1.443225,1.11355
+Dai_2025,Dai_2025_08,PLA | UV 300 h in tap water; biofilm reported on all aged samples | PLA-T,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PLA,Single-ion,25.0,,250.0,9.45621,1.08758
+Dai_2025,Dai_2025_08,PLA | UV 300 h in tap water; biofilm reported on all aged samples | PLA-T,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PLA,Single-ion,25.0,,250.0,19.40727,1.18546
+Dai_2025,Dai_2025_09,PLA | UV 300 h in surface water; biofilm reported on all aged samples | PLA-S,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PLA,Single-ion,25.0,,250.0,0.09964,0.20072
+Dai_2025,Dai_2025_09,PLA | UV 300 h in surface water; biofilm reported on all aged samples | PLA-S,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PLA,Single-ion,25.0,,250.0,0.6959,0.6082
+Dai_2025,Dai_2025_09,PLA | UV 300 h in surface water; biofilm reported on all aged samples | PLA-S,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PLA,Single-ion,25.0,,250.0,1.64297,0.71406
+Dai_2025,Dai_2025_09,PLA | UV 300 h in surface water; biofilm reported on all aged samples | PLA-S,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PLA,Single-ion,25.0,,250.0,9.44023,1.11954
+Dai_2025,Dai_2025_10,PLA | UV 300 h in wastewater; biofilm reported on all aged samples | PLAW,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PLA,Single-ion,25.0,,250.0,0.09964,0.20072
+Dai_2025,Dai_2025_10,PLA | UV 300 h in wastewater; biofilm reported on all aged samples | PLAW,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PLA,Single-ion,25.0,,250.0,0.901635,0.19673
+Dai_2025,Dai_2025_10,PLA | UV 300 h in wastewater; biofilm reported on all aged samples | PLAW,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PLA,Single-ion,25.0,,250.0,1.83572,0.32856
+Dai_2025,Dai_2025_10,PLA | UV 300 h in wastewater; biofilm reported on all aged samples | PLAW,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PLA,Single-ion,25.0,,250.0,9.731855,0.53629
+Dai_2025,Dai_2025_10,PLA | UV 300 h in wastewater; biofilm reported on all aged samples | PLAW,UV,freshwater,2025,10.1016/j.envres.2025.121169,Aged,PLA,Single-ion,25.0,,250.0,19.75982,0.48036
+Xiao_2026,Xiao_2026_PP_virgin,PP | virgin,none,freshwater,2026,10.1016/j.envres.2026.124709,Virgin,PP,Single-ion,25.0,6.0,150.0,0.794466,0.102767
+Xiao_2026,Xiao_2026_PP_virgin,PP | virgin,none,freshwater,2026,10.1016/j.envres.2026.124709,Virgin,PP,Single-ion,25.0,6.0,150.0,1.736583,0.131708
+Xiao_2026,Xiao_2026_PP_virgin,PP | virgin,none,freshwater,2026,10.1016/j.envres.2026.124709,Virgin,PP,Single-ion,25.0,6.0,150.0,3.703237,0.148381
+Xiao_2026,Xiao_2026_PP_virgin,PP | virgin,none,freshwater,2026,10.1016/j.envres.2026.124709,Virgin,PP,Single-ion,25.0,6.0,150.0,4.681374,0.159313
+Xiao_2026,Xiao_2026_PP_virgin,PP | virgin,none,freshwater,2026,10.1016/j.envres.2026.124709,Virgin,PP,Single-ion,25.0,6.0,150.0,7.676969,0.161515
+Xiao_2026,Xiao_2026_PP_virgin,PP | virgin,none,freshwater,2026,10.1016/j.envres.2026.124709,Virgin,PP,Single-ion,25.0,6.0,150.0,9.671779,0.164111
+Xiao_2026,Xiao_2026_PP_biofilm,PP | biofilm,biofilm,freshwater,2026,10.1016/j.envres.2026.124709,Aged,PP,Single-ion,25.0,6.0,150.0,0.65951,0.170245
+Xiao_2026,Xiao_2026_PP_biofilm,PP | biofilm,biofilm,freshwater,2026,10.1016/j.envres.2026.124709,Aged,PP,Single-ion,25.0,6.0,150.0,1.556799,0.221601
+Xiao_2026,Xiao_2026_PP_biofilm,PP | biofilm,biofilm,freshwater,2026,10.1016/j.envres.2026.124709,Aged,PP,Single-ion,25.0,6.0,150.0,3.493725,0.253138
+Xiao_2026,Xiao_2026_PP_biofilm,PP | biofilm,biofilm,freshwater,2026,10.1016/j.envres.2026.124709,Aged,PP,Single-ion,25.0,6.0,150.0,4.450784,0.274608
+Xiao_2026,Xiao_2026_PP_biofilm,PP | biofilm,biofilm,freshwater,2026,10.1016/j.envres.2026.124709,Aged,PP,Single-ion,25.0,6.0,150.0,7.443706,0.278147
+Xiao_2026,Xiao_2026_PP_biofilm,PP | biofilm,biofilm,freshwater,2026,10.1016/j.envres.2026.124709,Aged,PP,Single-ion,25.0,6.0,150.0,9.441976,0.279012
+Xiao_2026,Xiao_2026_PET_virgin,PET | virgin,none,freshwater,2026,10.1016/j.envres.2026.124709,Virgin,PET,Single-ion,25.0,6.0,150.0,0.876983,0.061508
+Xiao_2026,Xiao_2026_PET_virgin,PET | virgin,none,freshwater,2026,10.1016/j.envres.2026.124709,Virgin,PET,Single-ion,25.0,6.0,150.0,1.84242,0.07879
+Xiao_2026,Xiao_2026_PET_virgin,PET | virgin,none,freshwater,2026,10.1016/j.envres.2026.124709,Virgin,PET,Single-ion,25.0,6.0,150.0,3.821857,0.089071
+Xiao_2026,Xiao_2026_PET_virgin,PET | virgin,none,freshwater,2026,10.1016/j.envres.2026.124709,Virgin,PET,Single-ion,25.0,6.0,150.0,4.811045,0.094478
+Xiao_2026,Xiao_2026_PET_virgin,PET | virgin,none,freshwater,2026,10.1016/j.envres.2026.124709,Virgin,PET,Single-ion,25.0,6.0,150.0,7.807232,0.096384
+Xiao_2026,Xiao_2026_PET_virgin,PET | virgin,none,freshwater,2026,10.1016/j.envres.2026.124709,Virgin,PET,Single-ion,25.0,6.0,150.0,9.803732,0.098134
+Xiao_2026,Xiao_2026_PET_biofilm,PET | biofilm,biofilm,freshwater,2026,10.1016/j.envres.2026.124709,Aged,PET,Single-ion,25.0,6.0,150.0,0.849045,0.075477
+Xiao_2026,Xiao_2026_PET_biofilm,PET | biofilm,biofilm,freshwater,2026,10.1016/j.envres.2026.124709,Aged,PET,Single-ion,25.0,6.0,150.0,1.782419,0.10879
+Xiao_2026,Xiao_2026_PET_biofilm,PET | biofilm,biofilm,freshwater,2026,10.1016/j.envres.2026.124709,Aged,PET,Single-ion,25.0,6.0,150.0,3.743356,0.128322
+Xiao_2026,Xiao_2026_PET_biofilm,PET | biofilm,biofilm,freshwater,2026,10.1016/j.envres.2026.124709,Aged,PET,Single-ion,25.0,6.0,150.0,4.719668,0.140166
+Xiao_2026,Xiao_2026_PET_biofilm,PET | biofilm,biofilm,freshwater,2026,10.1016/j.envres.2026.124709,Aged,PET,Single-ion,25.0,6.0,150.0,7.712293,0.143853
+Xiao_2026,Xiao_2026_PET_biofilm,PET | biofilm,biofilm,freshwater,2026,10.1016/j.envres.2026.124709,Aged,PET,Single-ion,25.0,6.0,150.0,9.708168,0.145916
+Xiao_2026,Xiao_2026_PLA_virgin,PLA | virgin,none,freshwater,2026,10.1016/j.envres.2026.124709,Virgin,PLA,Single-ion,25.0,6.0,150.0,0.822113,0.088943
+Xiao_2026,Xiao_2026_PLA_virgin,PLA | virgin,none,freshwater,2026,10.1016/j.envres.2026.124709,Virgin,PLA,Single-ion,25.0,6.0,150.0,1.772467,0.113767
+Xiao_2026,Xiao_2026_PLA_virgin,PLA | virgin,none,freshwater,2026,10.1016/j.envres.2026.124709,Virgin,PLA,Single-ion,25.0,6.0,150.0,3.737366,0.131317
+Xiao_2026,Xiao_2026_PLA_virgin,PLA | virgin,none,freshwater,2026,10.1016/j.envres.2026.124709,Virgin,PLA,Single-ion,25.0,6.0,150.0,4.722257,0.138872
+Xiao_2026,Xiao_2026_PLA_virgin,PLA | virgin,none,freshwater,2026,10.1016/j.envres.2026.124709,Virgin,PLA,Single-ion,25.0,6.0,150.0,7.71747,0.141265
+Xiao_2026,Xiao_2026_PLA_virgin,PLA | virgin,none,freshwater,2026,10.1016/j.envres.2026.124709,Virgin,PLA,Single-ion,25.0,6.0,150.0,9.714373,0.142813
+Xiao_2026,Xiao_2026_PLA_biofilm,PLA | biofilm,biofilm,freshwater,2026,10.1016/j.envres.2026.124709,Aged,PLA,Single-ion,25.0,6.0,150.0,0.728451,0.135775
+Xiao_2026,Xiao_2026_PLA_biofilm,PLA | biofilm,biofilm,freshwater,2026,10.1016/j.envres.2026.124709,Aged,PLA,Single-ion,25.0,6.0,150.0,1.643704,0.178148
+Xiao_2026,Xiao_2026_PLA_biofilm,PLA | biofilm,biofilm,freshwater,2026,10.1016/j.envres.2026.124709,Aged,PLA,Single-ion,25.0,6.0,150.0,3.592462,0.203769
+Xiao_2026,Xiao_2026_PLA_biofilm,PLA | biofilm,biofilm,freshwater,2026,10.1016/j.envres.2026.124709,Aged,PLA,Single-ion,25.0,6.0,150.0,4.557925,0.221038
+Xiao_2026,Xiao_2026_PLA_biofilm,PLA | biofilm,biofilm,freshwater,2026,10.1016/j.envres.2026.124709,Aged,PLA,Single-ion,25.0,6.0,150.0,7.5522,0.2239
+Xiao_2026,Xiao_2026_PLA_biofilm,PLA | biofilm,biofilm,freshwater,2026,10.1016/j.envres.2026.124709,Aged,PLA,Single-ion,25.0,6.0,150.0,9.547976,0.226012
+Jiang_2026,Jiang_2026_PP_50um_virgin,PP 50um | virgin,none,freshwater,2026,10.1016/j.cej.2026.179560,Virgin,PP,Single-ion,25.0,5.3,180.0,0.77097,0.21057
+Jiang_2026,Jiang_2026_PP_50um_virgin,PP 50um | virgin,none,freshwater,2026,10.1016/j.cej.2026.179560,Virgin,PP,Single-ion,25.0,5.3,180.0,1.49035,0.38517
+Jiang_2026,Jiang_2026_PP_50um_virgin,PP 50um | virgin,none,freshwater,2026,10.1016/j.cej.2026.179560,Virgin,PP,Single-ion,25.0,5.3,180.0,4.14175,0.67618
+Jiang_2026,Jiang_2026_PP_50um_virgin,PP 50um | virgin,none,freshwater,2026,10.1016/j.cej.2026.179560,Virgin,PP,Single-ion,25.0,5.3,180.0,7.52897,1.9465
+Jiang_2026,Jiang_2026_PP_50um_virgin,PP 50um | virgin,none,freshwater,2026,10.1016/j.cej.2026.179560,Virgin,PP,Single-ion,25.0,5.3,180.0,15.61473,3.47493
+Jiang_2026,Jiang_2026_PP_50um_chemox,PP 50um | chemical oxidation,chemical_oxidation,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,0.52433,0.37252
+Jiang_2026,Jiang_2026_PP_50um_chemox,PP 50um | chemical oxidation,chemical_oxidation,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,1.09161,0.72426
+Jiang_2026,Jiang_2026_PP_50um_chemox,PP 50um | chemical oxidation,chemical_oxidation,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,2.8921,1.67826
+Jiang_2026,Jiang_2026_PP_50um_chemox,PP 50um | chemical oxidation,chemical_oxidation,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,5.44895,3.63688
+Jiang_2026,Jiang_2026_PP_50um_chemox,PP 50um | chemical oxidation,chemical_oxidation,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,12.62624,5.87638
+Jiang_2026,Jiang_2026_PP_50um_biofilm,PP 50um | biofilm,biofilm,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,0.52433,0.3624
+Jiang_2026,Jiang_2026_PP_50um_biofilm,PP 50um | biofilm,biofilm,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,1.2437,0.60533
+Jiang_2026,Jiang_2026_PP_50um_biofilm,PP 50um | biofilm,biofilm,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,3.21273,1.42268
+Jiang_2026,Jiang_2026_PP_50um_biofilm,PP 50um | biofilm,biofilm,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,5.71204,3.41672
+Jiang_2026,Jiang_2026_PP_50um_biofilm,PP 50um | biofilm,biofilm,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,13.74024,4.9907
+Jiang_2026,Jiang_2026_PP_50um_chemox_biofilm,PP 50um | chemical oxidation + biofilm,chemical_oxidation_plus_biofilm,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,0.45034,0.44337
+Jiang_2026,Jiang_2026_PP_50um_chemox_biofilm,PP 50um | chemical oxidation + biofilm,chemical_oxidation_plus_biofilm,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,0.82852,0.93176
+Jiang_2026,Jiang_2026_PP_50um_chemox_biofilm,PP 50um | chemical oxidation + biofilm,chemical_oxidation_plus_biofilm,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,2.55091,1.9465
+Jiang_2026,Jiang_2026_PP_50um_chemox_biofilm,PP 50um | chemical oxidation + biofilm,chemical_oxidation_plus_biofilm,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,4.65148,4.3024
+Jiang_2026,Jiang_2026_PP_50um_chemox_biofilm,PP 50um | chemical oxidation + biofilm,chemical_oxidation_plus_biofilm,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,11.31904,6.93667
+Jiang_2026,Jiang_2026_PP_200um_virgin,PP 200um | virgin,none,freshwater,2026,10.1016/j.cej.2026.179560,Virgin,PP,Single-ion,25.0,5.3,180.0,0.71817,0.19954
+Jiang_2026,Jiang_2026_PP_200um_virgin,PP 200um | virgin,none,freshwater,2026,10.1016/j.cej.2026.179560,Virgin,PP,Single-ion,25.0,5.3,180.0,4.03984,0.74646
+Jiang_2026,Jiang_2026_PP_200um_virgin,PP 200um | virgin,none,freshwater,2026,10.1016/j.cej.2026.179560,Virgin,PP,Single-ion,25.0,5.3,180.0,7.78349,1.79602
+Jiang_2026,Jiang_2026_PP_200um_virgin,PP 200um | virgin,none,freshwater,2026,10.1016/j.cej.2026.179560,Virgin,PP,Single-ion,25.0,5.3,180.0,15.87308,3.29951
+Jiang_2026,Jiang_2026_PP_200um_chemox,PP 200um | chemical oxidation,chemical_oxidation,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,0.58473,0.30361
+Jiang_2026,Jiang_2026_PP_200um_chemox,PP 200um | chemical oxidation,chemical_oxidation,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,1.23031,0.61804
+Jiang_2026,Jiang_2026_PP_200um_chemox,PP 200um | chemical oxidation,chemical_oxidation,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,3.05524,1.5281
+Jiang_2026,Jiang_2026_PP_200um_chemox,PP 200um | chemical oxidation,chemical_oxidation,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,6.05593,3.16001
+Jiang_2026,Jiang_2026_PP_200um_chemox,PP 200um | chemical oxidation,chemical_oxidation,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,13.61535,5.13071
+Jiang_2026,Jiang_2026_PP_200um_biofilm,PP 200um | biofilm,biofilm,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,0.58473,0.30361
+Jiang_2026,Jiang_2026_PP_200um_biofilm,PP 200um | biofilm,biofilm,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,1.39982,0.47854
+Jiang_2026,Jiang_2026_PP_200um_biofilm,PP 200um | biofilm,biofilm,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,3.37623,1.30667
+Jiang_2026,Jiang_2026_PP_200um_biofilm,PP 200um | biofilm,biofilm,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,6.30118,2.93859
+Jiang_2026,Jiang_2026_PP_200um_biofilm,PP 200um | biofilm,biofilm,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,14.59995,4.31364
+Jiang_2026,Jiang_2026_PP_200um_chemox_biofilm,PP 200um | chemical oxidation + biofilm,chemical_oxidation_plus_biofilm,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,0.46932,0.42097
+Jiang_2026,Jiang_2026_PP_200um_chemox_biofilm,PP 200um | chemical oxidation + biofilm,chemical_oxidation_plus_biofilm,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,0.96342,0.82839
+Jiang_2026,Jiang_2026_PP_200um_chemox_biofilm,PP 200um | chemical oxidation + biofilm,chemical_oxidation_plus_biofilm,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,2.84606,1.72517
+Jiang_2026,Jiang_2026_PP_200um_chemox_biofilm,PP 200um | chemical oxidation + biofilm,chemical_oxidation_plus_biofilm,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,5.94052,3.24194
+Jiang_2026,Jiang_2026_PP_200um_chemox_biofilm,PP 200um | chemical oxidation + biofilm,chemical_oxidation_plus_biofilm,freshwater,2026,10.1016/j.cej.2026.179560,Aged,PP,Single-ion,25.0,5.3,180.0,12.55141,5.96991
+Yu_2026,PP_fresh_15C,PP | virgin | 15 °C,none,freshwater,2026,10.1016/j.cej.2026.175301,Virgin,PP,Single-ion,15.0,,180.0,0.09759,0.0017
+Yu_2026,PP_fresh_15C,PP | virgin | 15 °C,none,freshwater,2026,10.1016/j.cej.2026.175301,Virgin,PP,Single-ion,15.0,,180.0,0.81396,0.17694
+Yu_2026,PP_fresh_15C,PP | virgin | 15 °C,none,freshwater,2026,10.1016/j.cej.2026.175301,Virgin,PP,Single-ion,15.0,,180.0,1.59463,0.40895
+Yu_2026,PP_fresh_15C,PP | virgin | 15 °C,none,freshwater,2026,10.1016/j.cej.2026.175301,Virgin,PP,Single-ion,15.0,,180.0,3.36262,0.63673
+Yu_2026,PP_fresh_15C,PP | virgin | 15 °C,none,freshwater,2026,10.1016/j.cej.2026.175301,Virgin,PP,Single-ion,15.0,,180.0,5.29593,0.69597
+Yu_2026,PP_fresh_15C,PP | virgin | 15 °C,none,freshwater,2026,10.1016/j.cej.2026.175301,Virgin,PP,Single-ion,15.0,,180.0,7.305,0.69597
+Yu_2026,PP_fresh_15C,PP | virgin | 15 °C,none,freshwater,2026,10.1016/j.cej.2026.175301,Virgin,PP,Single-ion,15.0,,180.0,9.3026,0.70161
+Yu_2026,PP_fresh_25C,PP | virgin | 25 °C,none,freshwater,2026,10.1016/j.cej.2026.175301,Virgin,PP,Single-ion,25.0,,180.0,0.11136,0.02955
+Yu_2026,PP_fresh_25C,PP | virgin | 25 °C,none,freshwater,2026,10.1016/j.cej.2026.175301,Virgin,PP,Single-ion,25.0,,180.0,0.71294,0.28484
+Yu_2026,PP_fresh_25C,PP | virgin | 25 °C,none,freshwater,2026,10.1016/j.cej.2026.175301,Virgin,PP,Single-ion,25.0,,180.0,1.49361,0.50909
+Yu_2026,PP_fresh_25C,PP | virgin | 25 °C,none,freshwater,2026,10.1016/j.cej.2026.175301,Virgin,PP,Single-ion,25.0,,180.0,3.22256,0.77848
+Yu_2026,PP_fresh_25C,PP | virgin | 25 °C,none,freshwater,2026,10.1016/j.cej.2026.175301,Virgin,PP,Single-ion,25.0,,180.0,5.20638,0.79611
+Yu_2026,PP_fresh_25C,PP | virgin | 25 °C,none,freshwater,2026,10.1016/j.cej.2026.175301,Virgin,PP,Single-ion,25.0,,180.0,7.21545,0.79223
+Yu_2026,PP_fresh_25C,PP | virgin | 25 °C,none,freshwater,2026,10.1016/j.cej.2026.175301,Virgin,PP,Single-ion,25.0,,180.0,9.21305,0.79011
+Yu_2026,PP_fresh_35C,PP | virgin | 35 °C,none,freshwater,2026,10.1016/j.cej.2026.175301,Virgin,PP,Single-ion,35.0,,180.0,0.0333,0.05882
+Yu_2026,PP_fresh_35C,PP | virgin | 35 °C,none,freshwater,2026,10.1016/j.cej.2026.175301,Virgin,PP,Single-ion,35.0,,180.0,0.59584,0.40684
+Yu_2026,PP_fresh_35C,PP | virgin | 35 °C,none,freshwater,2026,10.1016/j.cej.2026.175301,Virgin,PP,Single-ion,35.0,,180.0,1.30073,0.69773
+Yu_2026,PP_fresh_35C,PP | virgin | 35 °C,none,freshwater,2026,10.1016/j.cej.2026.175301,Virgin,PP,Single-ion,35.0,,180.0,3.06872,0.92763
+Yu_2026,PP_fresh_35C,PP | virgin | 35 °C,none,freshwater,2026,10.1016/j.cej.2026.175301,Virgin,PP,Single-ion,35.0,,180.0,5.00203,0.98863
+Yu_2026,PP_fresh_35C,PP | virgin | 35 °C,none,freshwater,2026,10.1016/j.cej.2026.175301,Virgin,PP,Single-ion,35.0,,180.0,7.0111,0.98686
+Yu_2026,PP_fresh_35C,PP | virgin | 35 °C,none,freshwater,2026,10.1016/j.cej.2026.175301,Virgin,PP,Single-ion,35.0,,180.0,8.95818,1.04363
+Yu_2026,PP_UV7d_15C,PP | UV_7d | 15 °C,UV,freshwater,2026,10.1016/j.cej.2026.175301,Aged,PP,Single-ion,15.0,,180.0,0.09806,0.0034
+Yu_2026,PP_UV7d_15C,PP | UV_7d | 15 °C,UV,freshwater,2026,10.1016/j.cej.2026.175301,Aged,PP,Single-ion,15.0,,180.0,0.37545,0.61092
+Yu_2026,PP_UV7d_15C,PP | UV_7d | 15 °C,UV,freshwater,2026,10.1016/j.cej.2026.175301,Aged,PP,Single-ion,15.0,,180.0,1.19337,0.80978
+Yu_2026,PP_UV7d_15C,PP | UV_7d | 15 °C,UV,freshwater,2026,10.1016/j.cej.2026.175301,Aged,PP,Single-ion,15.0,,180.0,3.08289,0.91825
+Yu_2026,PP_UV7d_15C,PP | UV_7d | 15 °C,UV,freshwater,2026,10.1016/j.cej.2026.175301,Aged,PP,Single-ion,15.0,,180.0,4.93211,1.05906
+Yu_2026,PP_UV7d_15C,PP | UV_7d | 15 °C,UV,freshwater,2026,10.1016/j.cej.2026.175301,Aged,PP,Single-ion,15.0,,180.0,6.92832,1.0643
+Yu_2026,PP_UV7d_15C,PP | UV_7d | 15 °C,UV,freshwater,2026,10.1016/j.cej.2026.175301,Aged,PP,Single-ion,15.0,,180.0,8.93638,1.06668
+Yu_2026,PP_UV7d_25C,PP | UV_7d | 25 °C,UV,freshwater,2026,10.1016/j.cej.2026.175301,Aged,PP,Single-ion,25.0,,180.0,0.08384,0.02433
+Yu_2026,PP_UV7d_25C,PP | UV_7d | 25 °C,UV,freshwater,2026,10.1016/j.cej.2026.175301,Aged,PP,Single-ion,25.0,,180.0,0.29484,0.70607
+Yu_2026,PP_UV7d_25C,PP | UV_7d | 25 °C,UV,freshwater,2026,10.1016/j.cej.2026.175301,Aged,PP,Single-ion,25.0,,180.0,1.10091,0.90255
+Yu_2026,PP_UV7d_25C,PP | UV_7d | 25 °C,UV,freshwater,2026,10.1016/j.cej.2026.175301,Aged,PP,Single-ion,25.0,,180.0,2.95013,1.05906
+Yu_2026,PP_UV7d_25C,PP | UV_7d | 25 °C,UV,freshwater,2026,10.1016/j.cej.2026.175301,Aged,PP,Single-ion,25.0,,180.0,4.85387,1.14898
+Yu_2026,PP_UV7d_25C,PP | UV_7d | 25 °C,UV,freshwater,2026,10.1016/j.cej.2026.175301,Aged,PP,Single-ion,25.0,,180.0,6.76947,1.24175
+Yu_2026,PP_UV7d_25C,PP | UV_7d | 25 °C,UV,freshwater,2026,10.1016/j.cej.2026.175301,Aged,PP,Single-ion,25.0,,180.0,8.75145,1.24984
+Yu_2026,PP_UV7d_35C,PP | UV_7d | 35 °C,UV,freshwater,2026,10.1016/j.cej.2026.175301,Aged,PP,Single-ion,35.0,,180.0,0.04354,0.04859
+Yu_2026,PP_UV7d_35C,PP | UV_7d | 35 °C,UV,freshwater,2026,10.1016/j.cej.2026.175301,Aged,PP,Single-ion,35.0,,180.0,0.1763,0.81739
+Yu_2026,PP_UV7d_35C,PP | UV_7d | 35 °C,UV,freshwater,2026,10.1016/j.cej.2026.175301,Aged,PP,Single-ion,35.0,,180.0,0.82353,1.17277
+Yu_2026,PP_UV7d_35C,PP | UV_7d | 35 °C,UV,freshwater,2026,10.1016/j.cej.2026.175301,Aged,PP,Single-ion,35.0,,180.0,2.70119,1.3055
+Yu_2026,PP_UV7d_35C,PP | UV_7d | 35 °C,UV,freshwater,2026,10.1016/j.cej.2026.175301,Aged,PP,Single-ion,35.0,,180.0,4.64287,1.35878
+Yu_2026,PP_UV7d_35C,PP | UV_7d | 35 °C,UV,freshwater,2026,10.1016/j.cej.2026.175301,Aged,PP,Single-ion,35.0,,180.0,6.59878,1.40112
+Yu_2026,PP_UV7d_35C,PP | UV_7d | 35 °C,UV,freshwater,2026,10.1016/j.cej.2026.175301,Aged,PP,Single-ion,35.0,,180.0,8.59261,1.39827
+Lin_2023,CPB_PE_Cu,PE | virgin | temperature not reported,none,freshwater,2023,10.1016/j.chemosphere.2023.138920,Virgin,PE,Single-ion,,6.0,200.0,5.63263,0.01480299
+Lin_2023,CPB_PE_Cu,PE | virgin | temperature not reported,none,freshwater,2023,10.1016/j.chemosphere.2023.138920,Virgin,PE,Single-ion,,6.0,200.0,10.50537,0.02687525
+Lin_2023,CPB_PE_Cu,PE | virgin | temperature not reported,none,freshwater,2023,10.1016/j.chemosphere.2023.138920,Virgin,PE,Single-ion,,6.0,200.0,15.54235,0.03302527
+Lin_2023,CPB_PE_Cu,PE | virgin | temperature not reported,none,freshwater,2023,10.1016/j.chemosphere.2023.138920,Virgin,PE,Single-ion,,6.0,200.0,20.87498,0.04259197
+Lin_2023,CPB_PE_Cu,PE | virgin | temperature not reported,none,freshwater,2023,10.1016/j.chemosphere.2023.138920,Virgin,PE,Single-ion,,6.0,200.0,31.54024,0.045097535
+Lin_2023,CPB_PE_Cu,PE | virgin | temperature not reported,none,freshwater,2023,10.1016/j.chemosphere.2023.138920,Virgin,PE,Single-ion,,6.0,200.0,42.19455,0.046236425
+Lin_2023,BPB_PLA_Cu,PLA | virgin | temperature not reported,none,freshwater,2023,10.1016/j.chemosphere.2023.138920,Virgin,PLA,Single-ion,,6.0,200.0,5.22749,0.11115331
+Lin_2023,BPB_PLA_Cu,PLA | virgin | temperature not reported,none,freshwater,2023,10.1016/j.chemosphere.2023.138920,Virgin,PLA,Single-ion,,6.0,200.0,9.92502,0.12208668
+Lin_2023,BPB_PLA_Cu,PLA | virgin | temperature not reported,none,freshwater,2023,10.1016/j.chemosphere.2023.138920,Virgin,PLA,Single-ion,,6.0,200.0,13.867,0.20636473
+Lin_2023,BPB_PLA_Cu,PLA | virgin | temperature not reported,none,freshwater,2023,10.1016/j.chemosphere.2023.138920,Virgin,PLA,Single-ion,,6.0,200.0,18.95874,0.23893706
+Lin_2023,BPB_PLA_Cu,PLA | virgin | temperature not reported,none,freshwater,2023,10.1016/j.chemosphere.2023.138920,Virgin,PLA,Single-ion,,6.0,200.0,29.91965,0.27150938
+Lin_2023,BPB_PLA_Cu,PLA | virgin | temperature not reported,none,freshwater,2023,10.1016/j.chemosphere.2023.138920,Virgin,PLA,Single-ion,,6.0,200.0,40.05931,0.3063595
+Feng_2025,PLA_virgin,PLA | virgin | 25 °C,none,freshwater,2025,10.1016/j.jece.2025.117033,Virgin,PLA,Single-ion,25.0,,150.0,0.49713,0.50287
+Feng_2025,PLA_virgin,PLA | virgin | 25 °C,none,freshwater,2025,10.1016/j.jece.2025.117033,Virgin,PLA,Single-ion,25.0,,150.0,2.40584,0.59416
+Feng_2025,PLA_virgin,PLA | virgin | 25 °C,none,freshwater,2025,10.1016/j.jece.2025.117033,Virgin,PLA,Single-ion,25.0,,150.0,4.37604,0.62396
+Feng_2025,PLA_virgin,PLA | virgin | 25 °C,none,freshwater,2025,10.1016/j.jece.2025.117033,Virgin,PLA,Single-ion,25.0,,150.0,7.37013,0.62987
+Feng_2025,PLA_virgin,PLA | virgin | 25 °C,none,freshwater,2025,10.1016/j.jece.2025.117033,Virgin,PLA,Single-ion,25.0,,150.0,9.35349,0.64651
+Feng_2025,PLA_UV30d,PLA | UV_30d | 25 °C,UV,freshwater,2025,10.1016/j.jece.2025.117033,Aged,PLA,Single-ion,25.0,,150.0,0.38356,0.61644
+Feng_2025,PLA_UV30d,PLA | UV_30d | 25 °C,UV,freshwater,2025,10.1016/j.jece.2025.117033,Aged,PLA,Single-ion,25.0,,150.0,2.34597,0.65403
+Feng_2025,PLA_UV30d,PLA | UV_30d | 25 °C,UV,freshwater,2025,10.1016/j.jece.2025.117033,Aged,PLA,Single-ion,25.0,,150.0,4.32798,0.67202
+Feng_2025,PLA_UV30d,PLA | UV_30d | 25 °C,UV,freshwater,2025,10.1016/j.jece.2025.117033,Aged,PLA,Single-ion,25.0,,150.0,7.30865,0.69135
+Feng_2025,PLA_UV30d,PLA | UV_30d | 25 °C,UV,freshwater,2025,10.1016/j.jece.2025.117033,Aged,PLA,Single-ion,25.0,,150.0,9.29362,0.70638
+Zou_2026,Zou_2026_PA_virgin,PA 75-150um | virgin,none,freshwater,2026,10.1021/acsestwater.5c00734,Virgin,PA,Single-ion,,,,0.14853,0.025868
+Zou_2026,Zou_2026_PA_virgin,PA 75-150um | virgin,none,freshwater,2026,10.1021/acsestwater.5c00734,Virgin,PA,Single-ion,,,,0.35494,0.064362
+Zou_2026,Zou_2026_PA_virgin,PA 75-150um | virgin,none,freshwater,2026,10.1021/acsestwater.5c00734,Virgin,PA,Single-ion,,,,0.75328,0.122102
+Zou_2026,Zou_2026_PA_virgin,PA 75-150um | virgin,none,freshwater,2026,10.1021/acsestwater.5c00734,Virgin,PA,Single-ion,,,,0.89995,0.203168
+Zou_2026,Zou_2026_PA_virgin,PA 75-150um | virgin,none,freshwater,2026,10.1021/acsestwater.5c00734,Virgin,PA,Single-ion,,,,1.53548,0.252749
+Zou_2026,Zou_2026_PA_virgin,PA 75-150um | virgin,none,freshwater,2026,10.1021/acsestwater.5c00734,Virgin,PA,Single-ion,,,,1.80346,0.289464
+Zou_2026,Zou_2026_PA_virgin,PA 75-150um | virgin,none,freshwater,2026,10.1021/acsestwater.5c00734,Virgin,PA,Single-ion,,,,2.60014,0.329736
+Wang_2023,Wang_2023_PP_virgin,PP | virgin,none,freshwater,2023,10.1016/j.chemosphere.2022.137439,Virgin,PP,Single-ion,25.0,,150.0,2.7631,0.2369
+Wang_2023,Wang_2023_PP_virgin,PP | virgin,none,freshwater,2023,10.1016/j.chemosphere.2022.137439,Virgin,PP,Single-ion,25.0,,150.0,4.66886,0.33114
+Wang_2023,Wang_2023_PP_virgin,PP | virgin,none,freshwater,2023,10.1016/j.chemosphere.2022.137439,Virgin,PP,Single-ion,25.0,,150.0,9.27136,0.72864
+Wang_2023,Wang_2023_PP_virgin,PP | virgin,none,freshwater,2023,10.1016/j.chemosphere.2022.137439,Virgin,PP,Single-ion,25.0,,150.0,14.23149,0.76851
+Wang_2023,Wang_2023_PP_virgin,PP | virgin,none,freshwater,2023,10.1016/j.chemosphere.2022.137439,Virgin,PP,Single-ion,25.0,,150.0,19.2037,0.7963
+Wang_2023,Wang_2023_PP_UV,PP | UV (UV-11),UV,freshwater,2023,10.1016/j.chemosphere.2022.137439,Aged,PP,Single-ion,25.0,,150.0,2.61449,0.38551
+Wang_2023,Wang_2023_PP_UV,PP | UV (UV-11),UV,freshwater,2023,10.1016/j.chemosphere.2022.137439,Aged,PP,Single-ion,25.0,,150.0,4.43326,0.56674
+Wang_2023,Wang_2023_PP_UV,PP | UV (UV-11),UV,freshwater,2023,10.1016/j.chemosphere.2022.137439,Aged,PP,Single-ion,25.0,,150.0,9.02851,0.97149
+Wang_2023,Wang_2023_PP_UV,PP | UV (UV-11),UV,freshwater,2023,10.1016/j.chemosphere.2022.137439,Aged,PP,Single-ion,25.0,,150.0,13.84728,1.15272
+Wang_2023,Wang_2023_PP_UV,PP | UV (UV-11),UV,freshwater,2023,10.1016/j.chemosphere.2022.137439,Aged,PP,Single-ion,25.0,,150.0,18.39541,1.60459
+Wang_2023,Wang_2023_PE_virgin,PE | virgin,none,freshwater,2023,10.1016/j.chemosphere.2022.137439,Virgin,PE,Single-ion,25.0,,150.0,2.68215,0.31785
+Wang_2023,Wang_2023_PE_virgin,PE | virgin,none,freshwater,2023,10.1016/j.chemosphere.2022.137439,Virgin,PE,Single-ion,25.0,,150.0,4.56737,0.43263
+Wang_2023,Wang_2023_PE_virgin,PE | virgin,none,freshwater,2023,10.1016/j.chemosphere.2022.137439,Virgin,PE,Single-ion,25.0,,150.0,9.27136,0.72864
+Wang_2023,Wang_2023_PE_virgin,PE | virgin,none,freshwater,2023,10.1016/j.chemosphere.2022.137439,Virgin,PE,Single-ion,25.0,,150.0,14.13,0.87
+Wang_2023,Wang_2023_PE_virgin,PE | virgin,none,freshwater,2023,10.1016/j.chemosphere.2022.137439,Virgin,PE,Single-ion,25.0,,150.0,18.92098,1.07902
+Wang_2023,Wang_2023_PE_UV,PE | UV (UV-11),UV,freshwater,2023,10.1016/j.chemosphere.2022.137439,Aged,PE,Single-ion,25.0,,150.0,2.35956,0.64044
+Wang_2023,Wang_2023_PE_UV,PE | UV (UV-11),UV,freshwater,2023,10.1016/j.chemosphere.2022.137439,Aged,PE,Single-ion,25.0,,150.0,3.91494,1.08506
+Wang_2023,Wang_2023_PE_UV,PE | UV (UV-11),UV,freshwater,2023,10.1016/j.chemosphere.2022.137439,Aged,PE,Single-ion,25.0,,150.0,8.55127,1.44873
+Wang_2023,Wang_2023_PE_UV,PE | UV (UV-11),UV,freshwater,2023,10.1016/j.chemosphere.2022.137439,Aged,PE,Single-ion,25.0,,150.0,13.11993,1.88007
+Wang_2023,Wang_2023_PE_UV,PE | UV (UV-11),UV,freshwater,2023,10.1016/j.chemosphere.2022.137439,Aged,PE,Single-ion,25.0,,150.0,17.62819,2.37181
+Wang_2023,Wang_2023_PS_virgin,PS | virgin,none,freshwater,2023,10.1016/j.chemosphere.2022.137439,Virgin,PS,Single-ion,25.0,,150.0,2.50092,0.49908
+Wang_2023,Wang_2023_PS_virgin,PS | virgin,none,freshwater,2023,10.1016/j.chemosphere.2022.137439,Virgin,PS,Single-ion,25.0,,150.0,4.22424,0.77576
+Wang_2023,Wang_2023_PS_virgin,PS | virgin,none,freshwater,2023,10.1016/j.chemosphere.2022.137439,Virgin,PS,Single-ion,25.0,,150.0,9.01522,0.98478
+Wang_2023,Wang_2023_PS_virgin,PS | virgin,none,freshwater,2023,10.1016/j.chemosphere.2022.137439,Virgin,PS,Single-ion,25.0,,150.0,13.57785,1.42215
+Wang_2023,Wang_2023_PS_virgin,PS | virgin,none,freshwater,2023,10.1016/j.chemosphere.2022.137439,Virgin,PS,Single-ion,25.0,,150.0,18.23351,1.76649
+Wang_2023,Wang_2023_PS_UV,PS | UV (UV-11),UV,freshwater,2023,10.1016/j.chemosphere.2022.137439,Aged,PS,Single-ion,25.0,,150.0,2.22424,0.77576
+Wang_2023,Wang_2023_PS_UV,PS | UV (UV-11),UV,freshwater,2023,10.1016/j.chemosphere.2022.137439,Aged,PS,Single-ion,25.0,,150.0,3.69263,1.30737
+Wang_2023,Wang_2023_PS_UV,PS | UV (UV-11),UV,freshwater,2023,10.1016/j.chemosphere.2022.137439,Aged,PS,Single-ion,25.0,,150.0,7.86379,2.13621
+Wang_2023,Wang_2023_PS_UV,PS | UV (UV-11),UV,freshwater,2023,10.1016/j.chemosphere.2022.137439,Aged,PS,Single-ion,25.0,,150.0,12.60765,2.39235
+Wang_2023,Wang_2023_PS_UV,PS | UV (UV-11),UV,freshwater,2023,10.1016/j.chemosphere.2022.137439,Aged,PS,Single-ion,25.0,,150.0,16.91414,3.08586
+Cheng_2025,Cheng_2025_PA_virgin,PA | virgin,none,freshwater,2025,10.1016/j.envres.2025.122040,Virgin,PA,Single-ion,,,180.0,0.89078,0.10922
+Cheng_2025,Cheng_2025_PA_virgin,PA | virgin,none,freshwater,2025,10.1016/j.envres.2025.122040,Virgin,PA,Single-ion,,,180.0,1.69939,0.30061
+Cheng_2025,Cheng_2025_PA_virgin,PA | virgin,none,freshwater,2025,10.1016/j.envres.2025.122040,Virgin,PA,Single-ion,,,180.0,4.56774,0.43226
+Cheng_2025,Cheng_2025_PA_virgin,PA | virgin,none,freshwater,2025,10.1016/j.envres.2025.122040,Virgin,PA,Single-ion,,,180.0,7.30442,0.69558
+Cheng_2025,Cheng_2025_PA_virgin,PA | virgin,none,freshwater,2025,10.1016/j.envres.2025.122040,Virgin,PA,Single-ion,,,180.0,9.12118,0.87882
+Cheng_2025,Cheng_2025_PA_virgin,PA | virgin,none,freshwater,2025,10.1016/j.envres.2025.122040,Virgin,PA,Single-ion,,,180.0,14.06146,0.93854
+Cheng_2025,Cheng_2025_PA_virgin,PA | virgin,none,freshwater,2025,10.1016/j.envres.2025.122040,Virgin,PA,Single-ion,,,180.0,18.84157,1.15843
+Cheng_2025,Cheng_2025_PA_virgin,PA | virgin,none,freshwater,2025,10.1016/j.envres.2025.122040,Virgin,PA,Single-ion,,,180.0,38.1602,1.8398
+Cheng_2025,Cheng_2025_PA_chemox,PA | K2S2O8 oxidation,chemical_oxidation,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PA,Single-ion,,,180.0,0.57588,0.42412
+Cheng_2025,Cheng_2025_PA_chemox,PA | K2S2O8 oxidation,chemical_oxidation,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PA,Single-ion,,,180.0,0.93794,1.06206
+Cheng_2025,Cheng_2025_PA_chemox,PA | K2S2O8 oxidation,chemical_oxidation,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PA,Single-ion,,,180.0,3.46017,1.53983
+Cheng_2025,Cheng_2025_PA_chemox,PA | K2S2O8 oxidation,chemical_oxidation,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PA,Single-ion,,,180.0,6.19685,1.80315
+Cheng_2025,Cheng_2025_PA_chemox,PA | K2S2O8 oxidation,chemical_oxidation,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PA,Single-ion,,,180.0,7.88059,2.11941
+Cheng_2025,Cheng_2025_PA_chemox,PA | K2S2O8 oxidation,chemical_oxidation,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PA,Single-ion,,,180.0,12.51412,2.48588
+Cheng_2025,Cheng_2025_PA_chemox,PA | K2S2O8 oxidation,chemical_oxidation,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PA,Single-ion,,,180.0,16.583,3.417
+Cheng_2025,Cheng_2025_PA_chemox,PA | K2S2O8 oxidation,chemical_oxidation,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PA,Single-ion,,,180.0,35.23383,4.76617
+Cheng_2025,Cheng_2025_PA_biofilm,PA | biofilm,biofilm,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PA,Single-ion,,,180.0,0.86091,0.13909
+Cheng_2025,Cheng_2025_PA_biofilm,PA | biofilm,biofilm,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PA,Single-ion,,,180.0,1.3845,0.6155
+Cheng_2025,Cheng_2025_PA_biofilm,PA | biofilm,biofilm,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PA,Single-ion,,,180.0,4.05467,0.94533
+Cheng_2025,Cheng_2025_PA_biofilm,PA | biofilm,biofilm,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PA,Single-ion,,,180.0,6.73163,1.26837
+Cheng_2025,Cheng_2025_PA_biofilm,PA | biofilm,biofilm,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PA,Single-ion,,,180.0,8.32851,1.67149
+Cheng_2025,Cheng_2025_PA_biofilm,PA | biofilm,biofilm,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PA,Single-ion,,,180.0,12.90367,2.09633
+Cheng_2025,Cheng_2025_PA_biofilm,PA | biofilm,biofilm,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PA,Single-ion,,,180.0,17.59556,2.40444
+Cheng_2025,Cheng_2025_PA_biofilm,PA | biofilm,biofilm,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PA,Single-ion,,,180.0,36.4147,3.5853
+Cheng_2025,Cheng_2025_PLA_virgin,PLA | virgin,none,freshwater,2025,10.1016/j.envres.2025.122040,Virgin,PLA,Single-ion,,,180.0,0.94986,0.05014
+Cheng_2025,Cheng_2025_PLA_virgin,PLA | virgin,none,freshwater,2025,10.1016/j.envres.2025.122040,Virgin,PLA,Single-ion,,,180.0,1.82229,0.17771
+Cheng_2025,Cheng_2025_PLA_virgin,PLA | virgin,none,freshwater,2025,10.1016/j.envres.2025.122040,Virgin,PLA,Single-ion,,,180.0,4.69583,0.30417
+Cheng_2025,Cheng_2025_PLA_virgin,PLA | virgin,none,freshwater,2025,10.1016/j.envres.2025.122040,Virgin,PLA,Single-ion,,,180.0,7.50783,0.49217
+Cheng_2025,Cheng_2025_PLA_virgin,PLA | virgin,none,freshwater,2025,10.1016/j.envres.2025.122040,Virgin,PLA,Single-ion,,,180.0,9.4295,0.5705
+Cheng_2025,Cheng_2025_PLA_virgin,PLA | virgin,none,freshwater,2025,10.1016/j.envres.2025.122040,Virgin,PLA,Single-ion,,,180.0,14.30864,0.69136
+Cheng_2025,Cheng_2025_PLA_virgin,PLA | virgin,none,freshwater,2025,10.1016/j.envres.2025.122040,Virgin,PLA,Single-ion,,,180.0,18.69651,1.30349
+Cheng_2025,Cheng_2025_PLA_virgin,PLA | virgin,none,freshwater,2025,10.1016/j.envres.2025.122040,Virgin,PLA,Single-ion,,,180.0,38.422,1.578
+Cheng_2025,Cheng_2025_PLA_chemox,PLA | K2S2O8 oxidation,chemical_oxidation,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PLA,Single-ion,,,180.0,0.453,0.547
+Cheng_2025,Cheng_2025_PLA_chemox,PLA | K2S2O8 oxidation,chemical_oxidation,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PLA,Single-ion,,,180.0,1.13295,0.86705
+Cheng_2025,Cheng_2025_PLA_chemox,PLA | K2S2O8 oxidation,chemical_oxidation,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PLA,Single-ion,,,180.0,3.84199,1.15801
+Cheng_2025,Cheng_2025_PLA_chemox,PLA | K2S2O8 oxidation,chemical_oxidation,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PLA,Single-ion,,,180.0,6.75806,1.24194
+Cheng_2025,Cheng_2025_PLA_chemox,PLA | K2S2O8 oxidation,chemical_oxidation,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PLA,Single-ion,,,180.0,8.42458,1.57542
+Cheng_2025,Cheng_2025_PLA_chemox,PLA | K2S2O8 oxidation,chemical_oxidation,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PLA,Single-ion,,,180.0,12.77776,2.22224
+Cheng_2025,Cheng_2025_PLA_chemox,PLA | K2S2O8 oxidation,chemical_oxidation,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PLA,Single-ion,,,180.0,17.39617,2.60383
+Cheng_2025,Cheng_2025_PLA_chemox,PLA | K2S2O8 oxidation,chemical_oxidation,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PLA,Single-ion,,,180.0,36.21556,3.78444
+Cheng_2025,Cheng_2025_PLA_biofilm,PLA | biofilm,biofilm,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PLA,Single-ion,,,180.0,0.79207,0.20793
+Cheng_2025,Cheng_2025_PLA_biofilm,PLA | biofilm,biofilm,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PLA,Single-ion,,,180.0,1.59848,0.40152
+Cheng_2025,Cheng_2025_PLA_biofilm,PLA | biofilm,biofilm,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PLA,Single-ion,,,180.0,4.20569,0.79431
+Cheng_2025,Cheng_2025_PLA_biofilm,PLA | biofilm,biofilm,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PLA,Single-ion,,,180.0,7.12623,0.87377
+Cheng_2025,Cheng_2025_PLA_biofilm,PLA | biofilm,biofilm,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PLA,Single-ion,,,180.0,8.81178,1.18822
+Cheng_2025,Cheng_2025_PLA_biofilm,PLA | biofilm,biofilm,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PLA,Single-ion,,,180.0,13.29813,1.70187
+Cheng_2025,Cheng_2025_PLA_biofilm,PLA | biofilm,biofilm,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PLA,Single-ion,,,180.0,18.05529,1.94471
+Cheng_2025,Cheng_2025_PLA_biofilm,PLA | biofilm,biofilm,freshwater,2025,10.1016/j.envres.2025.122040,Aged,PLA,Single-ion,,,180.0,37.32343,2.67657
+Godoy_2019,Godoy_2019_PE_virgin,PE <5 mm fragments | virgin,none,freshwater,2019,10.1016/j.envpol.2019.113363,Virgin,PE,Single-ion,,,5.0,0.3397,0.0704
+Godoy_2019,Godoy_2019_PE_virgin,PE <5 mm fragments | virgin,none,freshwater,2019,10.1016/j.envpol.2019.113363,Virgin,PE,Single-ion,,,5.0,0.7989,0.1998
+Godoy_2019,Godoy_2019_PE_virgin,PE <5 mm fragments | virgin,none,freshwater,2019,10.1016/j.envpol.2019.113363,Virgin,PE,Single-ion,,,5.0,1.8798,0.211
+Godoy_2019,Godoy_2019_PE_virgin,PE <5 mm fragments | virgin,none,freshwater,2019,10.1016/j.envpol.2019.113363,Virgin,PE,Single-ion,,,5.0,4.1084,0.2213
+Godoy_2019,Godoy_2019_PE_virgin,PE <5 mm fragments | virgin,none,freshwater,2019,10.1016/j.envpol.2019.113363,Virgin,PE,Single-ion,,,5.0,7.7723,0.227
+Godoy_2019,Godoy_2019_PE_virgin,PE <5 mm fragments | virgin,none,freshwater,2019,10.1016/j.envpol.2019.113363,Virgin,PE,Single-ion,,,5.0,15.7596,0.241
+Godoy_2019,Godoy_2019_PE_virgin,PE <5 mm fragments | virgin,none,freshwater,2019,10.1016/j.envpol.2019.113363,Virgin,PE,Single-ion,,,5.0,31.7389,0.256
+Godoy_2019,Godoy_2019_PP_virgin,PP <5 mm fragments | virgin,none,freshwater,2019,10.1016/j.envpol.2019.113363,Virgin,PP,Single-ion,,,5.0,0.1674,0.1192
+Godoy_2019,Godoy_2019_PP_virgin,PP <5 mm fragments | virgin,none,freshwater,2019,10.1016/j.envpol.2019.113363,Virgin,PP,Single-ion,,,5.0,0.9592,0.1999
+Godoy_2019,Godoy_2019_PP_virgin,PP <5 mm fragments | virgin,none,freshwater,2019,10.1016/j.envpol.2019.113363,Virgin,PP,Single-ion,,,5.0,1.1976,0.4924
+Godoy_2019,Godoy_2019_PP_virgin,PP <5 mm fragments | virgin,none,freshwater,2019,10.1016/j.envpol.2019.113363,Virgin,PP,Single-ion,,,5.0,2.9624,1.0401
+Godoy_2019,Godoy_2019_PP_virgin,PP <5 mm fragments | virgin,none,freshwater,2019,10.1016/j.envpol.2019.113363,Virgin,PP,Single-ion,,,5.0,7.2931,1.5934
+Godoy_2019,Godoy_2019_PP_virgin,PP <5 mm fragments | virgin,none,freshwater,2019,10.1016/j.envpol.2019.113363,Virgin,PP,Single-ion,,,5.0,18.1585,2.0491
+Godoy_2019,Godoy_2019_PP_virgin,PP <5 mm fragments | virgin,none,freshwater,2019,10.1016/j.envpol.2019.113363,Virgin,PP,Single-ion,,,5.0,29.4912,2.5048
+Godoy_2019,Godoy_2019_PS_virgin,PS <5 mm fragments | virgin,none,freshwater,2019,10.1016/j.envpol.2019.113363,Virgin,PS,Single-ion,,,5.0,0.2808,0.1239
+Godoy_2019,Godoy_2019_PS_virgin,PS <5 mm fragments | virgin,none,freshwater,2019,10.1016/j.envpol.2019.113363,Virgin,PS,Single-ion,,,5.0,1.0244,0.267
+Godoy_2019,Godoy_2019_PS_virgin,PS <5 mm fragments | virgin,none,freshwater,2019,10.1016/j.envpol.2019.113363,Virgin,PS,Single-ion,,,5.0,1.4821,0.2676
+Godoy_2019,Godoy_2019_PS_virgin,PS <5 mm fragments | virgin,none,freshwater,2019,10.1016/j.envpol.2019.113363,Virgin,PS,Single-ion,,,5.0,3.5986,0.3031
+Godoy_2019,Godoy_2019_PS_virgin,PS <5 mm fragments | virgin,none,freshwater,2019,10.1016/j.envpol.2019.113363,Virgin,PS,Single-ion,,,5.0,7.6603,0.3359
+Godoy_2019,Godoy_2019_PS_virgin,PS <5 mm fragments | virgin,none,freshwater,2019,10.1016/j.envpol.2019.113363,Virgin,PS,Single-ion,,,5.0,15.65,0.3497
+Godoy_2019,Godoy_2019_PS_virgin,PS <5 mm fragments | virgin,none,freshwater,2019,10.1016/j.envpol.2019.113363,Virgin,PS,Single-ion,,,5.0,31.6486,0.3523
+Liu_2022,Liu_2022_PP_virgin,PP <=100um | virgin,none,freshwater,2022,10.1016/j.envres.2022.113777,Virgin,PP,Single-ion,25.0,,180.0,0.019268,0.011464
+Liu_2022,Liu_2022_PP_virgin,PP <=100um | virgin,none,freshwater,2022,10.1016/j.envres.2022.113777,Virgin,PP,Single-ion,25.0,,180.0,0.04228,0.015441
+Liu_2022,Liu_2022_PP_virgin,PP <=100um | virgin,none,freshwater,2022,10.1016/j.envres.2022.113777,Virgin,PP,Single-ion,25.0,,180.0,0.06568,0.018641
+Liu_2022,Liu_2022_PP_virgin,PP <=100um | virgin,none,freshwater,2022,10.1016/j.envres.2022.113777,Virgin,PP,Single-ion,25.0,,180.0,0.089357,0.021286
+Liu_2022,Liu_2022_PS_virgin,PS <=100um | virgin,none,freshwater,2022,10.1016/j.envres.2022.113777,Virgin,PS,Single-ion,25.0,,180.0,0.02164,0.00672
+Liu_2022,Liu_2022_PS_virgin,PS <=100um | virgin,none,freshwater,2022,10.1016/j.envres.2022.113777,Virgin,PS,Single-ion,25.0,,180.0,0.044106,0.011789
+Liu_2022,Liu_2022_PS_virgin,PS <=100um | virgin,none,freshwater,2022,10.1016/j.envres.2022.113777,Virgin,PS,Single-ion,25.0,,180.0,0.067506,0.014989
+Liu_2022,Liu_2022_PS_virgin,PS <=100um | virgin,none,freshwater,2022,10.1016/j.envres.2022.113777,Virgin,PS,Single-ion,25.0,,180.0,0.091755,0.01649
+Liu_2022,Liu_2022_PVC_virgin,PVC <=100um | virgin,none,freshwater,2022,10.1016/j.envres.2022.113777,Virgin,PVC,Single-ion,25.0,,180.0,0.020637,0.008725
+Liu_2022,Liu_2022_PVC_virgin,PVC <=100um | virgin,none,freshwater,2022,10.1016/j.envres.2022.113777,Virgin,PVC,Single-ion,25.0,,180.0,0.042437,0.015125
+Liu_2022,Liu_2022_PVC_virgin,PVC <=100um | virgin,none,freshwater,2022,10.1016/j.envres.2022.113777,Virgin,PVC,Single-ion,25.0,,180.0,0.066115,0.01777
+Liu_2022,Liu_2022_PVC_virgin,PVC <=100um | virgin,none,freshwater,2022,10.1016/j.envres.2022.113777,Virgin,PVC,Single-ion,25.0,,180.0,0.090658,0.018684
+Yan_2023,Yan_2023_PLA_virgin,PLA 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PLA,Single-ion,23.0,5.5,160.0,1.8063,0.21937
+Yan_2023,Yan_2023_PLA_virgin,PLA 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PLA,Single-ion,23.0,5.5,160.0,3.2706,0.27294
+Yan_2023,Yan_2023_PLA_virgin,PLA 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PLA,Single-ion,23.0,5.5,160.0,4.2599,0.37401
+Yan_2023,Yan_2023_PLA_virgin,PLA 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PLA,Single-ion,23.0,5.5,160.0,5.024,0.4976
+Yan_2023,Yan_2023_PLA_virgin,PLA 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PLA,Single-ion,23.0,5.5,160.0,14.7013,0.52987
+Yan_2023,Yan_2023_PLA_virgin,PLA 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PLA,Single-ion,23.0,5.5,160.0,34.0986,0.59014
+Yan_2023,Yan_2023_PLA_virgin,PLA 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PLA,Single-ion,23.0,5.5,160.0,54.0499,0.59501
+Yan_2023,Yan_2023_PE_virgin,PE 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PE,Single-ion,23.0,5.5,160.0,1.9862,0.20138
+Yan_2023,Yan_2023_PE_virgin,PE 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PE,Single-ion,23.0,5.5,160.0,3.6479,0.23521
+Yan_2023,Yan_2023_PE_virgin,PE 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PE,Single-ion,23.0,5.5,160.0,5.242,0.2758
+Yan_2023,Yan_2023_PE_virgin,PE 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PE,Single-ion,23.0,5.5,160.0,7.0575,0.29425
+Yan_2023,Yan_2023_PE_virgin,PE 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PE,Single-ion,23.0,5.5,160.0,17.2789,0.27211
+Yan_2023,Yan_2023_PE_virgin,PE 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PE,Single-ion,23.0,5.5,160.0,37.2604,0.27396
+Yan_2023,Yan_2023_PE_virgin,PE 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PE,Single-ion,23.0,5.5,160.0,57.1067,0.28933
+Yan_2023,Yan_2023_PP_virgin,PP 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PP,Single-ion,23.0,5.5,160.0,0.4312,0.05688
+Yan_2023,Yan_2023_PP_virgin,PP 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PP,Single-ion,23.0,5.5,160.0,1.2627,0.07373
+Yan_2023,Yan_2023_PP_virgin,PP 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PP,Single-ion,23.0,5.5,160.0,3.2697,0.07303
+Yan_2023,Yan_2023_PP_virgin,PP 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PP,Single-ion,23.0,5.5,160.0,5.1995,0.08005
+Yan_2023,Yan_2023_PP_virgin,PP 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PP,Single-ion,23.0,5.5,160.0,7.052,0.0948
+Yan_2023,Yan_2023_PP_virgin,PP 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PP,Single-ion,23.0,5.5,160.0,9.1363,0.08637
+Yan_2023,Yan_2023_PP_virgin,PP 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PP,Single-ion,23.0,5.5,160.0,19.0731,0.09269
+Yan_2023,Yan_2023_PP_virgin,PP 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PP,Single-ion,23.0,5.5,160.0,38.8765,0.11235
+Yan_2023,Yan_2023_PP_virgin,PP 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PP,Single-ion,23.0,5.5,160.0,58.7992,0.12008
+Yan_2023,Yan_2023_PVC_virgin,PVC 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PVC,Single-ion,23.0,5.5,160.0,0.4208,0.05792
+Yan_2023,Yan_2023_PVC_virgin,PVC 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PVC,Single-ion,23.0,5.5,160.0,1.1975,0.08025
+Yan_2023,Yan_2023_PVC_virgin,PVC 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PVC,Single-ion,23.0,5.5,160.0,3.0091,0.09909
+Yan_2023,Yan_2023_PVC_virgin,PVC 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PVC,Single-ion,23.0,5.5,160.0,4.8208,0.11792
+Yan_2023,Yan_2023_PVC_virgin,PVC 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PVC,Single-ion,23.0,5.5,160.0,6.8208,0.11792
+Yan_2023,Yan_2023_PVC_virgin,PVC 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PVC,Single-ion,23.0,5.5,160.0,8.7859,0.12141
+Yan_2023,Yan_2023_PVC_virgin,PVC 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PVC,Single-ion,23.0,5.5,160.0,18.444,0.1556
+Yan_2023,Yan_2023_PVC_virgin,PVC 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PVC,Single-ion,23.0,5.5,160.0,38.2207,0.17793
+Yan_2023,Yan_2023_PVC_virgin,PVC 125um | virgin,none,freshwater,2023,10.1007/s11356-023-27906-1,Virgin,PVC,Single-ion,23.0,5.5,160.0,58.0323,0.19677
+LiuZhou_2025,LiuZhou_2025_PS_virgin,PS 150um | virgin (CK),none,freshwater,2025,10.1002/ldr.5392,Virgin,PS,Single-ion,25.0,,160.0,0.28047,0.21953
+LiuZhou_2025,LiuZhou_2025_PS_virgin,PS 150um | virgin (CK),none,freshwater,2025,10.1002/ldr.5392,Virgin,PS,Single-ion,25.0,,160.0,0.64721,0.35279
+LiuZhou_2025,LiuZhou_2025_PS_virgin,PS 150um | virgin (CK),none,freshwater,2025,10.1002/ldr.5392,Virgin,PS,Single-ion,25.0,,160.0,1.47441,0.52559
+LiuZhou_2025,LiuZhou_2025_PS_virgin,PS 150um | virgin (CK),none,freshwater,2025,10.1002/ldr.5392,Virgin,PS,Single-ion,25.0,,160.0,4.19207,0.80793
+LiuZhou_2025,LiuZhou_2025_PS_virgin,PS 150um | virgin (CK),none,freshwater,2025,10.1002/ldr.5392,Virgin,PS,Single-ion,25.0,,160.0,8.87336,1.12664
+LiuZhou_2025,LiuZhou_2025_PS_virgin,PS 150um | virgin (CK),none,freshwater,2025,10.1002/ldr.5392,Virgin,PS,Single-ion,25.0,,160.0,18.6883,1.3117
+LiuZhou_2025,LiuZhou_2025_PS_thermal,PS 150um | thermal 40 C/RT 30 d,thermal,freshwater,2025,10.1002/ldr.5392,Aged,PS,Single-ion,25.0,,160.0,0.24963,0.25037
+LiuZhou_2025,LiuZhou_2025_PS_thermal,PS 150um | thermal 40 C/RT 30 d,thermal,freshwater,2025,10.1002/ldr.5392,Aged,PS,Single-ion,25.0,,160.0,0.61637,0.38363
+LiuZhou_2025,LiuZhou_2025_PS_thermal,PS 150um | thermal 40 C/RT 30 d,thermal,freshwater,2025,10.1002/ldr.5392,Aged,PS,Single-ion,25.0,,160.0,1.48865,0.51135
+LiuZhou_2025,LiuZhou_2025_PS_thermal,PS 150um | thermal 40 C/RT 30 d,thermal,freshwater,2025,10.1002/ldr.5392,Aged,PS,Single-ion,25.0,,160.0,4.15965,0.84035
+LiuZhou_2025,LiuZhou_2025_PS_thermal,PS 150um | thermal 40 C/RT 30 d,thermal,freshwater,2025,10.1002/ldr.5392,Aged,PS,Single-ion,25.0,,160.0,8.83224,1.16776
+LiuZhou_2025,LiuZhou_2025_PS_thermal,PS 150um | thermal 40 C/RT 30 d,thermal,freshwater,2025,10.1002/ldr.5392,Aged,PS,Single-ion,25.0,,160.0,18.66497,1.33503
+LiuZhou_2025,LiuZhou_2025_PS_UV,PS 150um | UV 30 d,UV,freshwater,2025,10.1002/ldr.5392,Aged,PS,Single-ion,25.0,,160.0,0.25872,0.24128
+LiuZhou_2025,LiuZhou_2025_PS_UV,PS 150um | UV 30 d,UV,freshwater,2025,10.1002/ldr.5392,Aged,PS,Single-ion,25.0,,160.0,0.62546,0.37454
+LiuZhou_2025,LiuZhou_2025_PS_UV,PS 150um | UV 30 d,UV,freshwater,2025,10.1002/ldr.5392,Aged,PS,Single-ion,25.0,,160.0,1.40956,0.59044
+LiuZhou_2025,LiuZhou_2025_PS_UV,PS 150um | UV 30 d,UV,freshwater,2025,10.1002/ldr.5392,Aged,PS,Single-ion,25.0,,160.0,4.05526,0.94474
+LiuZhou_2025,LiuZhou_2025_PS_UV,PS 150um | UV 30 d,UV,freshwater,2025,10.1002/ldr.5392,Aged,PS,Single-ion,25.0,,160.0,8.72072,1.27928
+LiuZhou_2025,LiuZhou_2025_PS_UV,PS 150um | UV 30 d,UV,freshwater,2025,10.1002/ldr.5392,Aged,PS,Single-ion,25.0,,160.0,18.57125,1.42875
+LiuZhou_2025,LiuZhou_2025_PLA_virgin,PLA 150um | virgin (CK),none,freshwater,2025,10.1002/ldr.5392,Virgin,PLA,Single-ion,25.0,,160.0,0.30736,0.19264
+LiuZhou_2025,LiuZhou_2025_PLA_virgin,PLA 150um | virgin (CK),none,freshwater,2025,10.1002/ldr.5392,Virgin,PLA,Single-ion,25.0,,160.0,0.68569,0.31431
+LiuZhou_2025,LiuZhou_2025_PLA_virgin,PLA 150um | virgin (CK),none,freshwater,2025,10.1002/ldr.5392,Virgin,PLA,Single-ion,25.0,,160.0,1.4809,0.5191
+LiuZhou_2025,LiuZhou_2025_PLA_virgin,PLA 150um | virgin (CK),none,freshwater,2025,10.1002/ldr.5392,Virgin,PLA,Single-ion,25.0,,160.0,4.20229,0.79771
+LiuZhou_2025,LiuZhou_2025_PLA_virgin,PLA 150um | virgin (CK),none,freshwater,2025,10.1002/ldr.5392,Virgin,PLA,Single-ion,25.0,,160.0,8.84784,1.15216
+LiuZhou_2025,LiuZhou_2025_PLA_virgin,PLA 150um | virgin (CK),none,freshwater,2025,10.1002/ldr.5392,Virgin,PLA,Single-ion,25.0,,160.0,18.7205,1.2795
+LiuZhou_2025,LiuZhou_2025_PLA_thermal,PLA 150um | thermal 40 C/RT 30 d,thermal,freshwater,2025,10.1002/ldr.5392,Aged,PLA,Single-ion,25.0,,160.0,0.26518,0.23482
+LiuZhou_2025,LiuZhou_2025_PLA_thermal,PLA 150um | thermal 40 C/RT 30 d,thermal,freshwater,2025,10.1002/ldr.5392,Aged,PLA,Single-ion,25.0,,160.0,0.65812,0.34188
+LiuZhou_2025,LiuZhou_2025_PLA_thermal,PLA 150um | thermal 40 C/RT 30 d,thermal,freshwater,2025,10.1002/ldr.5392,Aged,PLA,Single-ion,25.0,,160.0,1.43831,0.56169
+LiuZhou_2025,LiuZhou_2025_PLA_thermal,PLA 150um | thermal 40 C/RT 30 d,thermal,freshwater,2025,10.1002/ldr.5392,Aged,PLA,Single-ion,25.0,,160.0,4.13213,0.86787
+LiuZhou_2025,LiuZhou_2025_PLA_thermal,PLA 150um | thermal 40 C/RT 30 d,thermal,freshwater,2025,10.1002/ldr.5392,Aged,PLA,Single-ion,25.0,,160.0,8.71523,1.28477
+LiuZhou_2025,LiuZhou_2025_PLA_thermal,PLA 150um | thermal 40 C/RT 30 d,thermal,freshwater,2025,10.1002/ldr.5392,Aged,PLA,Single-ion,25.0,,160.0,18.51043,1.48957
+LiuZhou_2025,LiuZhou_2025_PLA_UV,PLA 150um | UV 30 d,UV,freshwater,2025,10.1002/ldr.5392,Aged,PLA,Single-ion,25.0,,160.0,0.28181,0.21819
+LiuZhou_2025,LiuZhou_2025_PLA_UV,PLA 150um | UV 30 d,UV,freshwater,2025,10.1002/ldr.5392,Aged,PLA,Single-ion,25.0,,160.0,0.64311,0.35689
+LiuZhou_2025,LiuZhou_2025_PLA_UV,PLA 150um | UV 30 d,UV,freshwater,2025,10.1002/ldr.5392,Aged,PLA,Single-ion,25.0,,160.0,1.40871,0.59129
+LiuZhou_2025,LiuZhou_2025_PLA_UV,PLA 150um | UV 30 d,UV,freshwater,2025,10.1002/ldr.5392,Aged,PLA,Single-ion,25.0,,160.0,4.11915,0.88085
+LiuZhou_2025,LiuZhou_2025_PLA_UV,PLA 150um | UV 30 d,UV,freshwater,2025,10.1002/ldr.5392,Aged,PLA,Single-ion,25.0,,160.0,8.70388,1.29612
+LiuZhou_2025,LiuZhou_2025_PLA_UV,PLA 150um | UV 30 d,UV,freshwater,2025,10.1002/ldr.5392,Aged,PLA,Single-ion,25.0,,160.0,18.45852,1.54148
+LiuZhou_2025,LiuZhou_2025_PS_acid,PS 150um | acid HNO3 pH 5.6 30 d,acid,freshwater,2025,10.1016/j.jece.2025.120355,Aged,PS,Single-ion,25.0,,160.0,0.25671,0.24329
+LiuZhou_2025,LiuZhou_2025_PS_acid,PS 150um | acid HNO3 pH 5.6 30 d,acid,freshwater,2025,10.1016/j.jece.2025.120355,Aged,PS,Single-ion,25.0,,160.0,0.63323,0.36677
+LiuZhou_2025,LiuZhou_2025_PS_acid,PS 150um | acid HNO3 pH 5.6 30 d,acid,freshwater,2025,10.1016/j.jece.2025.120355,Aged,PS,Single-ion,25.0,,160.0,1.40867,0.59133
+LiuZhou_2025,LiuZhou_2025_PS_acid,PS 150um | acid HNO3 pH 5.6 30 d,acid,freshwater,2025,10.1016/j.jece.2025.120355,Aged,PS,Single-ion,25.0,,160.0,4.13114,0.86886
+LiuZhou_2025,LiuZhou_2025_PS_acid,PS 150um | acid HNO3 pH 5.6 30 d,acid,freshwater,2025,10.1016/j.jece.2025.120355,Aged,PS,Single-ion,25.0,,160.0,8.78124,1.21876
+LiuZhou_2025,LiuZhou_2025_PS_acid,PS 150um | acid HNO3 pH 5.6 30 d,acid,freshwater,2025,10.1016/j.jece.2025.120355,Aged,PS,Single-ion,25.0,,160.0,18.6227,1.3773
+LiuZhou_2025,LiuZhou_2025_PLA_acid,PLA 150um | acid HNO3 pH 5.6 30 d,acid,freshwater,2025,10.1016/j.jece.2025.120355,Aged,PLA,Single-ion,25.0,,160.0,0.26609,0.23391
+LiuZhou_2025,LiuZhou_2025_PLA_acid,PLA 150um | acid HNO3 pH 5.6 30 d,acid,freshwater,2025,10.1016/j.jece.2025.120355,Aged,PLA,Single-ion,25.0,,160.0,0.651,0.349
+LiuZhou_2025,LiuZhou_2025_PLA_acid,PLA 150um | acid HNO3 pH 5.6 30 d,acid,freshwater,2025,10.1016/j.jece.2025.120355,Aged,PLA,Single-ion,25.0,,160.0,1.46,0.54
+LiuZhou_2025,LiuZhou_2025_PLA_acid,PLA 150um | acid HNO3 pH 5.6 30 d,acid,freshwater,2025,10.1016/j.jece.2025.120355,Aged,PLA,Single-ion,25.0,,160.0,4.1634,0.8366
+LiuZhou_2025,LiuZhou_2025_PLA_acid,PLA 150um | acid HNO3 pH 5.6 30 d,acid,freshwater,2025,10.1016/j.jece.2025.120355,Aged,PLA,Single-ion,25.0,,160.0,8.77027,1.22973
+LiuZhou_2025,LiuZhou_2025_PLA_acid,PLA 150um | acid HNO3 pH 5.6 30 d,acid,freshwater,2025,10.1016/j.jece.2025.120355,Aged,PLA,Single-ion,25.0,,160.0,18.59536,1.40464
+Turner_2015,Turner_2015_PE_virgin,PE pellets ~4 mm | virgin,none,freshwater,2015,10.1071/EN14143,Virgin,PE,Mixed,19.0,6.4,150.0,0.0020233,1.142e-05
+Turner_2015,Turner_2015_PE_virgin,PE pellets ~4 mm | virgin,none,freshwater,2015,10.1071/EN14143,Virgin,PE,Mixed,19.0,6.4,150.0,0.003929,2.161e-05
+Turner_2015,Turner_2015_PE_virgin,PE pellets ~4 mm | virgin,none,freshwater,2015,10.1071/EN14143,Virgin,PE,Mixed,19.0,6.4,150.0,0.0079617,3.113e-05
+Turner_2015,Turner_2015_PE_virgin,PE pellets ~4 mm | virgin,none,freshwater,2015,10.1071/EN14143,Virgin,PE,Mixed,19.0,6.4,150.0,0.0113671,4.365e-05
+Turner_2015,Turner_2015_PE_virgin,PE pellets ~4 mm | virgin,none,freshwater,2015,10.1071/EN14143,Virgin,PE,Mixed,19.0,6.4,150.0,0.0156048,5.096e-05
+Turner_2015,Turner_2015_PE_beached,PE pellets 2-6 mm | beached (photo-oxidised),outdoor_weathering,freshwater,2015,10.1071/EN14143,Aged,PE,Mixed,19.0,6.4,150.0,0.0018138,9.65e-05
+Turner_2015,Turner_2015_PE_beached,PE pellets 2-6 mm | beached (photo-oxidised),outdoor_weathering,freshwater,2015,10.1071/EN14143,Aged,PE,Mixed,19.0,6.4,150.0,0.0029523,0.000202
+Turner_2015,Turner_2015_PE_beached,PE pellets 2-6 mm | beached (photo-oxidised),outdoor_weathering,freshwater,2015,10.1071/EN14143,Aged,PE,Mixed,19.0,6.4,150.0,0.0057749,0.0003175
+Turner_2015,Turner_2015_PE_beached,PE pellets 2-6 mm | beached (photo-oxidised),outdoor_weathering,freshwater,2015,10.1071/EN14143,Aged,PE,Mixed,19.0,6.4,150.0,0.0078988,0.000615
+Turner_2015,Turner_2015_PE_beached,PE pellets 2-6 mm | beached (photo-oxidised),outdoor_weathering,freshwater,2015,10.1071/EN14143,Aged,PE,Mixed,19.0,6.4,150.0,0.0109609,0.000589

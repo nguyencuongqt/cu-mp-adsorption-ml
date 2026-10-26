@@ -1,0 +1,5 @@
+case_id,stratum,ReT,AgS,AdC,Ce
+case_01,river_level,PA,Aged,Mixed,0.00178
+case_02,low_laboratory,PE,Virgin,Single-ion,0.0178
+case_03,in_range,PLA,Aged,Single-ion,25.7
+case_04,above_range,PP,Virgin,Mixed,347.0

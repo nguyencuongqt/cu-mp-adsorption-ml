@@ -1,0 +1,401 @@
+item_id,case_id,stratum,condition,facts,explanation,sources,regenerated_after_check,qe_stated,interval_stated,field_value_stated,range_warning_needed,range_warning_given,sparse_warning_needed,sparse_warning_given,n_unsupported_qe_values,n_citations,n_citations_in_corpus,citations_not_in_corpus,n_citations_naming_polymer,n_mechanisms_named,uses_non_input_variable,n_words
+item_030,case_01,river_level,C0,"Inputs: polymer PA; Aged particles; Mixed system; Ce = 0.00112 mg/L.
+Predicted laboratory-equilibrium qe: 0.006031 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.000251 to 0.145 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.00135 mg/g; with the confidence interval of the ratio it ranges from 0.00017 to 0.011 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 0.02; ageing status multiplies qe by 1.27; adsorption system multiplies qe by 0.82; polymer type multiplies qe by 0.83.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PA is represented by 6 studies.
+WARNING: Ce = 0.00112 mg/L is outside the laboratory range (0.00303-195 mg/L); the value is an extrapolation along the fitted isotherm.",lab_qe=0.006031 mg/g; 90% PI: 0.000251-0.145 mg/g; river_qe=0.00135 mg/g,,False,True,True,True,True,False,False,False,0,0,0,,0,0,False,8
+item_003,case_01,river_level,C1,"Inputs: polymer PA; Aged particles; Mixed system; Ce = 0.00112 mg/L.
+Predicted laboratory-equilibrium qe: 0.006031 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.000251 to 0.145 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.00135 mg/g; with the confidence interval of the ratio it ranges from 0.00017 to 0.011 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 0.02; ageing status multiplies qe by 1.27; adsorption system multiplies qe by 0.82; polymer type multiplies qe by 0.83.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PA is represented by 6 studies.
+WARNING: Ce = 0.00112 mg/L is outside the laboratory range (0.00303-195 mg/L); the value is an extrapolation along the fitted isotherm.","<section><h3>Rule-based local interpretation</h3><p>Predicted laboratory qe is <b>0.006031 mg/g</b> (90% interval for a new laboratory: 0.000251-0.145 mg/g, i.e. the prediction multiplied and divided by 24.1); one local measurement would narrow this to a factor of 2.5.</p><p>Field-scale value: <b>0.00135 mg/g</b> (range 0.00017-0.011), using a field-to-laboratory ratio of 0.22 from 4 field studies.</p><p>Drivers relative to the average laboratory observation:</p><ul><li>equilibrium concentration: decreases qe (factor 0.02)</li><li>ageing status: increases qe (factor 1.27)</li><li>adsorption system: decreases qe (factor 0.82)</li><li>polymer type: decreases qe (factor 0.83)</li></ul><p>PA is represented by 6 laboratory studies.</p><p>Validity checks:</p><ul><li>Ce = 0.00112 mg/L is outside the laboratory range (0.00303-195 mg/L); the value is an extrapolation along the fitted isotherm.</li></ul></section>",,False,True,True,True,True,True,False,False,0,0,0,,0,0,False,112
+item_014,case_01,river_level,C2,"Inputs: polymer PA; Aged particles; Mixed system; Ce = 0.00112 mg/L.
+Predicted laboratory-equilibrium qe: 0.006031 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.000251 to 0.145 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.00135 mg/g; with the confidence interval of the ratio it ranges from 0.00017 to 0.011 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 0.02; ageing status multiplies qe by 1.27; adsorption system multiplies qe by 0.82; polymer type multiplies qe by 0.83.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PA is represented by 6 studies.
+WARNING: Ce = 0.00112 mg/L is outside the laboratory range (0.00303-195 mg/L); the value is an extrapolation along the fitted isotherm.","<html>
+<body>
+<p>The predicted laboratory-equilibrium sorption capacity (qe) for Cu(II) on aged polyamide (PA) microplastics is 0.006031 mg/g, with a 90% prediction interval ranging from 0.000251 to 0.145 mg/g. This interval reflects uncertainty in the prediction, particularly since the equilibrium concentration (Ce) of 0.00112 mg/L is outside the laboratory range of 0.00303-195 mg/L, indicating that this value is an extrapolation along the fitted isotherm.</p>
+
+<p>The predicted qe is influenced by several factors: the equilibrium concentration reduces qe by a factor of 0.02, while the ageing status increases it by 1.27. The adsorption system and polymer type both decrease qe, with multipliers of 0.82 and 0.83, respectively. The aging of PA microplastics enhances their adsorption capacity due to increased surface area and oxygen-containing functional groups, as reported by Hu_2024 and Cheng_2025.</p>
+
+<p>The field-scale value, calculated as the laboratory qe multiplied by the field-to-laboratory ratio of 0.22, results in 0.00135 mg/g. This ratio indicates how laboratory findings may differ from field conditions, with a confidence interval ranging from 0.00017 to 0.011 mg/g.</p>
+
+<p>WARNING: The equilibrium concentration of 0.00112 mg/L is outside the laboratory range, meaning predictions may not be reliable. Additionally, one local measurement would narrow the prediction interval, improving the accuracy of the estimate.</p>
+</body>
+</html>",Cheng_2025; Dai_2025; Hu_2024; Tang_2022; Yang_2019,False,True,True,True,True,True,False,False,0,2,2,,2,1,False,201
+item_017,case_01,river_level,C3,"Inputs: polymer PA; Aged particles; Mixed system; Ce = 0.00112 mg/L.
+Predicted laboratory-equilibrium qe: 0.006031 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.000251 to 0.145 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.00135 mg/g; with the confidence interval of the ratio it ranges from 0.00017 to 0.011 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 0.02; ageing status multiplies qe by 1.27; adsorption system multiplies qe by 0.82; polymer type multiplies qe by 0.83.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PA is represented by 6 studies.
+WARNING: Ce = 0.00112 mg/L is outside the laboratory range (0.00303-195 mg/L); the value is an extrapolation along the fitted isotherm.","<div>
+    <p>The predicted laboratory-equilibrium <em>qe</em> for Cu(II) sorption on aged polyamide (PA) microplastics is 0.006031 mg/g, with a 90% prediction interval ranging from 0.000251 to 0.145 mg/g. This interval indicates uncertainty in the prediction, especially since it is based on extrapolation from a laboratory range of equilibrium concentrations.</p>
+    
+    <p>The predicted value is influenced by several factors: the equilibrium concentration (Ce = 0.00112 mg/L) reduces <em>qe</em> by a factor of 0.02; the polymer type (PA) reduces <em>qe</em> by 0.83; the ageing status increases <em>qe</em> by 1.27; and the adsorption system reduces <em>qe</em> by 0.82. The ageing process enhances the adsorption capacity by increasing the specific surface area and creating more adsorption sites, as reported by Dai_2025 and Hu_2024.</p>
+    
+    <p>The field-scale value, calculated as the laboratory <em>qe</em> multiplied by the field-to-laboratory ratio (0.22), results in 0.00135 mg/g. This ratio indicates that field conditions may lead to lower sorption capacities compared to laboratory settings.</p>
+    
+    <p>WARNING: The equilibrium concentration of 0.00112 mg/L is outside the laboratory range of 0.00303-195 mg/L, meaning the prediction is based on extrapolation. Additionally, one local measurement would narrow the prediction interval to a range based on a factor of 2.5, improving the estimate of <em>qe</em>.</p>
+</div>",Cheng_2025; Dai_2025; Hu_2024; Tang_2022; Yang_2019,False,True,True,True,True,True,False,False,0,2,2,,2,1,False,196
+item_007,case_02,river_level,C0,"Inputs: polymer PE; Virgin particles; Mixed system; Ce = 0.00101 mg/L.
+Predicted laboratory-equilibrium qe: 0.001521 mg/g.
+90% prediction interval for a laboratory not in the training data: 6.32e-05 to 0.0366 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.000341 mg/g; with the confidence interval of the ratio it ranges from 4.2e-05 to 0.0028 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 0.02; polymer type multiplies qe by 0.39; ageing status multiplies qe by 0.71; adsorption system multiplies qe by 0.82.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PE is represented by 8 studies.
+WARNING: Ce = 0.00101 mg/L is outside the laboratory range (0.00303-195 mg/L); the value is an extrapolation along the fitted isotherm.",lab_qe=0.001521 mg/g; 90% PI: 6.32e-05-0.0366 mg/g; river_qe=0.000341 mg/g,,False,True,True,True,True,False,False,False,0,0,0,,0,0,False,8
+item_031,case_02,river_level,C1,"Inputs: polymer PE; Virgin particles; Mixed system; Ce = 0.00101 mg/L.
+Predicted laboratory-equilibrium qe: 0.001521 mg/g.
+90% prediction interval for a laboratory not in the training data: 6.32e-05 to 0.0366 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.000341 mg/g; with the confidence interval of the ratio it ranges from 4.2e-05 to 0.0028 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 0.02; polymer type multiplies qe by 0.39; ageing status multiplies qe by 0.71; adsorption system multiplies qe by 0.82.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PE is represented by 8 studies.
+WARNING: Ce = 0.00101 mg/L is outside the laboratory range (0.00303-195 mg/L); the value is an extrapolation along the fitted isotherm.","<section><h3>Rule-based local interpretation</h3><p>Predicted laboratory qe is <b>0.001521 mg/g</b> (90% interval for a new laboratory: 6.32e-05-0.0366 mg/g, i.e. the prediction multiplied and divided by 24.1); one local measurement would narrow this to a factor of 2.5.</p><p>Field-scale value: <b>0.000341 mg/g</b> (range 4.2e-05-0.0028), using a field-to-laboratory ratio of 0.22 from 4 field studies.</p><p>Drivers relative to the average laboratory observation:</p><ul><li>equilibrium concentration: decreases qe (factor 0.02)</li><li>polymer type: decreases qe (factor 0.39)</li><li>ageing status: decreases qe (factor 0.71)</li><li>adsorption system: decreases qe (factor 0.82)</li></ul><p>PE is represented by 8 laboratory studies.</p><p>Validity checks:</p><ul><li>Ce = 0.00101 mg/L is outside the laboratory range (0.00303-195 mg/L); the value is an extrapolation along the fitted isotherm.</li></ul></section>",,False,True,True,True,True,True,False,False,0,0,0,,0,0,False,112
+item_024,case_02,river_level,C2,"Inputs: polymer PE; Virgin particles; Mixed system; Ce = 0.00101 mg/L.
+Predicted laboratory-equilibrium qe: 0.001521 mg/g.
+90% prediction interval for a laboratory not in the training data: 6.32e-05 to 0.0366 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.000341 mg/g; with the confidence interval of the ratio it ranges from 4.2e-05 to 0.0028 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 0.02; polymer type multiplies qe by 0.39; ageing status multiplies qe by 0.71; adsorption system multiplies qe by 0.82.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PE is represented by 8 studies.
+WARNING: Ce = 0.00101 mg/L is outside the laboratory range (0.00303-195 mg/L); the value is an extrapolation along the fitted isotherm.","<p>The predicted laboratory-equilibrium sorption capacity (qe) for Cu(II) on polyethylene (PE) microplastics is 0.001521 mg/g, with a 90% prediction interval ranging from 6.32e-05 to 0.0366 mg/g.</p>
+
+<p>This value is influenced by several factors: the equilibrium concentration (Ce) of 0.00101 mg/L reduces qe by a factor of 0.02; the polymer type (PE) decreases qe by a factor of 0.39; the ageing status of the microplastics increases qe by a factor of 0.71; and the adsorption system reduces qe by a factor of 0.82. The absence of surface changes in virgin particles, as reported by Sathyamoorthy_2022, results in lower sorption capacity compared to aged microplastics, which develop biofilms that enhance metal ion interactions.</p>
+
+<p>The field-scale value, calculated using the laboratory qe and the field-to-laboratory ratio of 0.22, is 0.000341 mg/g. This ratio indicates how laboratory results may differ from field conditions, suggesting that field measurements can be significantly lower than laboratory predictions.</p>
+
+<p>WARNING: The equilibrium concentration of 0.00101 mg/L is outside the laboratory range of 0.00303-195 mg/L, meaning this prediction is based on extrapolation. Additionally, one local measurement would narrow the prediction interval, improving the accuracy of the estimate.</p>",Sathyamoorthy_2022; Wang_2020b; Wang_2021,False,True,True,True,True,True,False,False,0,1,1,,1,0,False,187
+item_012,case_02,river_level,C3,"Inputs: polymer PE; Virgin particles; Mixed system; Ce = 0.00101 mg/L.
+Predicted laboratory-equilibrium qe: 0.001521 mg/g.
+90% prediction interval for a laboratory not in the training data: 6.32e-05 to 0.0366 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.000341 mg/g; with the confidence interval of the ratio it ranges from 4.2e-05 to 0.0028 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 0.02; polymer type multiplies qe by 0.39; ageing status multiplies qe by 0.71; adsorption system multiplies qe by 0.82.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PE is represented by 8 studies.
+WARNING: Ce = 0.00101 mg/L is outside the laboratory range (0.00303-195 mg/L); the value is an extrapolation along the fitted isotherm.","<div>
+    <p>The predicted laboratory-equilibrium <em>qe</em> for Cu(II) sorption on polyethylene (PE) microplastics is 0.001521 mg/g, with a 90% prediction interval ranging from 6.32e-05 to 0.0366 mg/g. This prediction is influenced by several factors: the equilibrium concentration (Ce) multiplies <em>qe</em> by 0.02, the polymer type (PE) by 0.39, the ageing status by 0.71, and the adsorption system by 0.82. The lower <em>qe</em> for virgin particles is due to the absence of surface changes that occur with ageing, which can enhance adsorption through mechanisms such as electrostatic attraction and surface complexation, as reported by Sathyamoorthy_2022 and Wang_2021.</p>
+    
+    <p>The field-scale value, calculated as the laboratory <em>qe</em> multiplied by the field-to-laboratory ratio of 0.22, is 0.000341 mg/g. This ratio indicates how much lower the sorption capacity is in natural environments compared to controlled laboratory conditions.</p>
+    
+    <p>WARNING: The equilibrium concentration of Cu(II) at 0.00101 mg/L is outside the laboratory range of 0.00303-195 mg/L, meaning this value is an extrapolation along the fitted isotherm. Additionally, one local measurement for the same material would narrow the prediction interval to the prediction multiplied and divided by 2.5.</p>
+</div>",Lin_2022; Lin_2023; Sathyamoorthy_2022; Wang_2020b; Wang_2021; Yu_2026,False,True,True,True,True,True,False,False,0,2,2,,2,3,False,178
+item_005,case_03,low_laboratory,C0,"Inputs: polymer PLA; Aged particles; Single-ion system; Ce = 0.0455 mg/L.
+Predicted laboratory-equilibrium qe: 0.07296 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.00303 to 1.76 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.0164 mg/g; with the confidence interval of the ratio it ranges from 0.002 to 0.13 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 0.11; ageing status multiplies qe by 1.27; polymer type multiplies qe by 1.17; adsorption system multiplies qe by 1.05.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PLA is represented by 8 studies.
+WARNING: Ce = 0.0455 mg/L is below 0.1 mg/L, where only 5% of the laboratory observations lie; the value relies on the isotherm form.",lab_qe=0.07296 mg/g; 90% PI: 0.00303-1.76 mg/g; river_qe=0.0164 mg/g,,False,True,True,True,True,False,False,False,0,0,0,,0,0,False,8
+item_011,case_03,low_laboratory,C1,"Inputs: polymer PLA; Aged particles; Single-ion system; Ce = 0.0455 mg/L.
+Predicted laboratory-equilibrium qe: 0.07296 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.00303 to 1.76 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.0164 mg/g; with the confidence interval of the ratio it ranges from 0.002 to 0.13 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 0.11; ageing status multiplies qe by 1.27; polymer type multiplies qe by 1.17; adsorption system multiplies qe by 1.05.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PLA is represented by 8 studies.
+WARNING: Ce = 0.0455 mg/L is below 0.1 mg/L, where only 5% of the laboratory observations lie; the value relies on the isotherm form.","<section><h3>Rule-based local interpretation</h3><p>Predicted laboratory qe is <b>0.07296 mg/g</b> (90% interval for a new laboratory: 0.00303-1.76 mg/g, i.e. the prediction multiplied and divided by 24.1); one local measurement would narrow this to a factor of 2.5.</p><p>Field-scale value: <b>0.0164 mg/g</b> (range 0.002-0.13), using a field-to-laboratory ratio of 0.22 from 4 field studies.</p><p>Drivers relative to the average laboratory observation:</p><ul><li>equilibrium concentration: decreases qe (factor 0.11)</li><li>ageing status: increases qe (factor 1.27)</li><li>polymer type: increases qe (factor 1.17)</li><li>adsorption system: increases qe (factor 1.05)</li></ul><p>PLA is represented by 8 laboratory studies.</p><p>Validity checks:</p><ul><li>Ce = 0.0455 mg/L is below 0.1 mg/L, where only 5% of the laboratory observations lie; the value relies on the isotherm form.</li></ul></section>",,False,True,True,True,True,True,False,False,0,0,0,,0,0,False,115
+item_015,case_03,low_laboratory,C2,"Inputs: polymer PLA; Aged particles; Single-ion system; Ce = 0.0455 mg/L.
+Predicted laboratory-equilibrium qe: 0.07296 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.00303 to 1.76 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.0164 mg/g; with the confidence interval of the ratio it ranges from 0.002 to 0.13 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 0.11; ageing status multiplies qe by 1.27; polymer type multiplies qe by 1.17; adsorption system multiplies qe by 1.05.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PLA is represented by 8 studies.
+WARNING: Ce = 0.0455 mg/L is below 0.1 mg/L, where only 5% of the laboratory observations lie; the value relies on the isotherm form.","<p>The predicted laboratory-equilibrium sorption capacity (qe) for Cu(II) on polylactic acid (PLA) microplastics is 0.07296 mg/g, with a 90% prediction interval ranging from 0.00303 to 1.76 mg/g. This interval reflects the uncertainty in the prediction, particularly as it is based on a single-ion system with an equilibrium concentration (Ce) of 0.0455 mg/L.</p>
+
+<p>The predicted value is influenced by several factors: the equilibrium concentration reduces qe by a factor of 0.11; the polymer type (PLA) increases qe by a factor of 1.17; the ageing status enhances qe by a factor of 1.27; and the adsorption system slightly increases qe by a factor of 1.05. The context indicates that aged PLA microplastics exhibit enhanced adsorption capacity due to increased specific surface area and oxygen-containing functional groups, which facilitate stronger interactions with Cu(II) pollutants [Source: Hu_2024][Source: Dai_2025].</p>
+
+<p>The field-scale value, calculated using the laboratory qe and the field-to-laboratory ratio of 0.22, results in a field-scale qe of 0.0164 mg/g. This ratio indicates how laboratory findings may differ from real-world conditions, reflecting the complexities of environmental interactions.</p>
+
+<p>WARNING: The equilibrium concentration of 0.0455 mg/L is below 0.1 mg/L, where only 5% of laboratory observations are found, suggesting that the prediction may be less reliable. Additionally, one local measurement would narrow the prediction interval, improving the accuracy of the estimate.</p>",Cheng_2025; Dai_2025; Hu_2024; Huang_2024,False,True,True,True,True,True,False,False,0,2,2,,2,2,False,215
+item_002,case_03,low_laboratory,C3,"Inputs: polymer PLA; Aged particles; Single-ion system; Ce = 0.0455 mg/L.
+Predicted laboratory-equilibrium qe: 0.07296 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.00303 to 1.76 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.0164 mg/g; with the confidence interval of the ratio it ranges from 0.002 to 0.13 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 0.11; ageing status multiplies qe by 1.27; polymer type multiplies qe by 1.17; adsorption system multiplies qe by 1.05.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PLA is represented by 8 studies.
+WARNING: Ce = 0.0455 mg/L is below 0.1 mg/L, where only 5% of the laboratory observations lie; the value relies on the isotherm form.","<div>
+    <p>The predicted laboratory-equilibrium <em>q<sub>e</sub></em> for Cu(II) sorption on aged polylactic acid (PLA) microplastics is 0.07296 mg/g, with a 90% prediction interval ranging from 0.00303 to 1.76 mg/g. This interval reflects the uncertainty in the prediction, particularly for laboratory conditions not included in the training data.</p>
+    
+    <p>The value of <em>q<sub>e</sub></em> is influenced by several factors: the equilibrium concentration (<em>C<sub>e</sub></em>) multiplies <em>q<sub>e</sub></em> by 0.11, indicating a lower sorption capacity at the given <em>C<sub>e</sub></em> of 0.0455 mg/L. The polymer type (PLA) increases <em>q<sub>e</sub></em> by 1.17, while the ageing status enhances it by 1.27, reflecting the increased surface area and oxygen-containing functional groups that improve adsorption capacity. The adsorption system contributes a multiplier of 1.05, suggesting a slight enhancement in sorption efficiency. Aged PLA exhibits mechanisms such as surface complexation and electrostatic attraction, which are enhanced by the ageing process, leading to improved adsorption characteristics [Source: Huang_2024][Source: Dai_2025].</p>
+    
+    <p>The field-scale value for Cu(II sorption is 0.0164 mg/g, derived from the laboratory <em>q<sub>e</sub></em> multiplied by the field-to-laboratory ratio of 0.22. This ratio indicates that field conditions may lead to lower sorption capacities compared to laboratory settings.</p>
+    
+    <p><strong>WARNING:</strong> The equilibrium concentration of 0.0455 mg/L is below 0.1 mg/L, where only 5% of laboratory observations occur, indicating potential limitations in the prediction's reliability. Additionally, one local measurement would narrow the prediction interval, multiplying and dividing the prediction by 2.5.</p>
+</div>",Cheng_2025; Dai_2025; Feng_2025; Hu_2024; Huang_2024,False,True,True,True,True,True,False,False,0,2,2,,2,3,False,231
+item_032,case_04,low_laboratory,C0,"Inputs: polymer PP; Virgin particles; Mixed system; Ce = 0.0522 mg/L.
+Predicted laboratory-equilibrium qe: 0.04771 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.00198 to 1.15 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.0107 mg/g; with the confidence interval of the ratio it ranges from 0.0013 to 0.088 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 0.12; polymer type multiplies qe by 1.63; ageing status multiplies qe by 0.71; adsorption system multiplies qe by 0.82.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PP is represented by 8 studies.
+WARNING: Ce = 0.0522 mg/L is below 0.1 mg/L, where only 5% of the laboratory observations lie; the value relies on the isotherm form.",lab_qe=0.04771 mg/g; 90% PI: 0.00198-1.15 mg/g; river_qe=0.0107 mg/g,,False,True,True,True,True,False,False,False,0,0,0,,0,0,False,8
+item_016,case_04,low_laboratory,C1,"Inputs: polymer PP; Virgin particles; Mixed system; Ce = 0.0522 mg/L.
+Predicted laboratory-equilibrium qe: 0.04771 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.00198 to 1.15 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.0107 mg/g; with the confidence interval of the ratio it ranges from 0.0013 to 0.088 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 0.12; polymer type multiplies qe by 1.63; ageing status multiplies qe by 0.71; adsorption system multiplies qe by 0.82.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PP is represented by 8 studies.
+WARNING: Ce = 0.0522 mg/L is below 0.1 mg/L, where only 5% of the laboratory observations lie; the value relies on the isotherm form.","<section><h3>Rule-based local interpretation</h3><p>Predicted laboratory qe is <b>0.04771 mg/g</b> (90% interval for a new laboratory: 0.00198-1.15 mg/g, i.e. the prediction multiplied and divided by 24.1); one local measurement would narrow this to a factor of 2.5.</p><p>Field-scale value: <b>0.0107 mg/g</b> (range 0.0013-0.088), using a field-to-laboratory ratio of 0.22 from 4 field studies.</p><p>Drivers relative to the average laboratory observation:</p><ul><li>equilibrium concentration: decreases qe (factor 0.12)</li><li>polymer type: increases qe (factor 1.63)</li><li>ageing status: decreases qe (factor 0.71)</li><li>adsorption system: decreases qe (factor 0.82)</li></ul><p>PP is represented by 8 laboratory studies.</p><p>Validity checks:</p><ul><li>Ce = 0.0522 mg/L is below 0.1 mg/L, where only 5% of the laboratory observations lie; the value relies on the isotherm form.</li></ul></section>",,False,True,True,True,True,True,False,False,0,0,0,,0,0,False,115
+item_022,case_04,low_laboratory,C2,"Inputs: polymer PP; Virgin particles; Mixed system; Ce = 0.0522 mg/L.
+Predicted laboratory-equilibrium qe: 0.04771 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.00198 to 1.15 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.0107 mg/g; with the confidence interval of the ratio it ranges from 0.0013 to 0.088 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 0.12; polymer type multiplies qe by 1.63; ageing status multiplies qe by 0.71; adsorption system multiplies qe by 0.82.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PP is represented by 8 studies.
+WARNING: Ce = 0.0522 mg/L is below 0.1 mg/L, where only 5% of the laboratory observations lie; the value relies on the isotherm form.","<p>The predicted laboratory-equilibrium sorption capacity (qe) for Cu(II) on virgin polypropylene (PP) microplastics is 0.04771 mg/g, with a 90% prediction interval ranging from 0.00198 to 1.15 mg/g. This wide interval reflects the uncertainty in predictions for laboratory conditions not included in the training data.</p>
+
+<p>The predicted value is influenced by several factors: the equilibrium concentration (Ce) of 0.0522 mg/L reduces qe by a factor of 0.12; the polymer type (PP) increases qe by a factor of 1.63; the ageing status decreases qe by a factor of 0.71; and the adsorption system reduces qe by a factor of 0.82. The context indicates that the adsorption mechanism for Cu(II) on aged microplastics involves complexation and electrostatic interactions due to increased oxygen-containing functional groups, which are absent in virgin particles [Source: Zhou_2022].</p>
+
+<p>The field-scale value, calculated as 0.0107 mg/g, is derived from the laboratory qe multiplied by the field-to-laboratory ratio of 0.22. This ratio indicates that field conditions may lead to lower sorption capacities compared to laboratory settings.</p>
+
+<p>WARNING: The equilibrium concentration of 0.0522 mg/L is below 0.1 mg/L, where only 5% of laboratory observations are found, indicating potential unreliability in predictions. Additionally, one local measurement would narrow the prediction interval significantly, improving the accuracy of the estimate.</p>",Muthuraja_2024; Sathyamoorthy_2022; Wang_2020b; Zhou_2022,False,True,True,True,True,True,False,False,0,1,1,,1,3,False,205
+item_009,case_04,low_laboratory,C3,"Inputs: polymer PP; Virgin particles; Mixed system; Ce = 0.0522 mg/L.
+Predicted laboratory-equilibrium qe: 0.04771 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.00198 to 1.15 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.0107 mg/g; with the confidence interval of the ratio it ranges from 0.0013 to 0.088 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 0.12; polymer type multiplies qe by 1.63; ageing status multiplies qe by 0.71; adsorption system multiplies qe by 0.82.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PP is represented by 8 studies.
+WARNING: Ce = 0.0522 mg/L is below 0.1 mg/L, where only 5% of the laboratory observations lie; the value relies on the isotherm form.","<div>
+    <p>The predicted laboratory-equilibrium <em>qe</em> for Cu(II) sorption on virgin polypropylene (PP) particles is 0.04771 mg/g, with a 90% prediction interval ranging from 0.00198 to 1.15 mg/g. This interval reflects the uncertainty in the prediction due to the model's reliance on the isotherm form and the limited data available for low equilibrium concentrations.</p>
+    
+    <p>The predicted value is influenced by several factors: the equilibrium concentration (Ce = 0.0522 mg/L) reduces <em>qe</em> by a factor of 0.12; the polymer type (PP) increases <em>qe</em> by a factor of 1.63; the ageing status decreases <em>qe</em> by a factor of 0.71; and the adsorption system reduces <em>qe</em> by a factor of 0.82. The ageing of microplastics enhances the formation of oxygen-containing functional groups, which can bind with heavy metal ions through complexation and electrostatic interactions, as reported by Zhou_2022 and Muthuraja_2024.</p>
+    
+    <p>The field-scale value, calculated as the laboratory <em>qe</em> multiplied by the field-to-laboratory ratio (0.22), results in 0.0107 mg/g. This ratio indicates that the sorption capacity in natural environments is significantly lower than in controlled laboratory settings, suggesting that environmental factors may limit the effectiveness of microplastics in adsorbing Cu(II).</p>
+    
+    <p><strong>WARNING:</strong> The equilibrium concentration of 0.0522 mg/L is below 0.1 mg/L, where only 5% of laboratory observations are found, indicating that the prediction may not be reliable. Additionally, one local measurement could narrow the prediction interval significantly, improving the accuracy of the estimate.</p>
+</div>",Feng_2025; Godoy_2019; Jiang_2026; Muthuraja_2024; Sathyamoorthy_2022; Wang_2020b; Yu_2026; Zhou_2022,False,True,True,True,True,True,False,False,0,2,2,,2,4,False,227
+item_028,case_05,in_range,C0,"Inputs: polymer PS; Aged particles; Single-ion system; Ce = 3.19 mg/L.
+Predicted laboratory-equilibrium qe: 0.9729 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.0404 to 23.4 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.218 mg/g; with the confidence interval of the ratio it ranges from 0.027 to 1.8 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: polymer type multiplies qe by 1.76; ageing status multiplies qe by 1.27; adsorption system multiplies qe by 1.05; equilibrium concentration multiplies qe by 0.99.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PS is represented by 8 studies.
+No validity warning applies to this input.",lab_qe=0.9729 mg/g; 90% PI: 0.0404-23.4 mg/g; river_qe=0.218 mg/g,,False,True,True,True,False,False,False,False,0,0,0,,0,0,False,8
+item_013,case_05,in_range,C1,"Inputs: polymer PS; Aged particles; Single-ion system; Ce = 3.19 mg/L.
+Predicted laboratory-equilibrium qe: 0.9729 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.0404 to 23.4 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.218 mg/g; with the confidence interval of the ratio it ranges from 0.027 to 1.8 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: polymer type multiplies qe by 1.76; ageing status multiplies qe by 1.27; adsorption system multiplies qe by 1.05; equilibrium concentration multiplies qe by 0.99.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PS is represented by 8 studies.
+No validity warning applies to this input.","<section><h3>Rule-based local interpretation</h3><p>Predicted laboratory qe is <b>0.9729 mg/g</b> (90% interval for a new laboratory: 0.0404-23.4 mg/g, i.e. the prediction multiplied and divided by 24.1); one local measurement would narrow this to a factor of 2.5.</p><p>Field-scale value: <b>0.218 mg/g</b> (range 0.027-1.8), using a field-to-laboratory ratio of 0.22 from 4 field studies.</p><p>Drivers relative to the average laboratory observation:</p><ul><li>polymer type: increases qe (factor 1.76)</li><li>ageing status: increases qe (factor 1.27)</li><li>adsorption system: increases qe (factor 1.05)</li><li>equilibrium concentration: decreases qe (factor 0.99)</li></ul><p>PS is represented by 8 laboratory studies.</p><p>Validity checks:</p><ul><li>No validity warning applies.</li></ul></section>",,False,True,True,True,False,False,False,False,0,0,0,,0,0,False,96
+item_010,case_05,in_range,C2,"Inputs: polymer PS; Aged particles; Single-ion system; Ce = 3.19 mg/L.
+Predicted laboratory-equilibrium qe: 0.9729 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.0404 to 23.4 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.218 mg/g; with the confidence interval of the ratio it ranges from 0.027 to 1.8 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: polymer type multiplies qe by 1.76; ageing status multiplies qe by 1.27; adsorption system multiplies qe by 1.05; equilibrium concentration multiplies qe by 0.99.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PS is represented by 8 studies.
+No validity warning applies to this input.","<p>The predicted laboratory-equilibrium sorption capacity (qe) for Cu(II) on aged polystyrene (PS) microplastics is 0.9729 mg/g, with a 90% prediction interval ranging from 0.0404 to 23.4 mg/g. This interval reflects the uncertainty in predictions for laboratory conditions not included in the training data.</p>
+
+<p>The value of qe is influenced by several factors: the equilibrium concentration (Ce = 3.19 mg/L) contributes a multiplier of 0.99, indicating a slight reduction in qe; the polymer type (PS) increases qe by a factor of 1.76; the ageing status enhances qe by 1.27; and the adsorption system adds a minor increase with a multiplier of 1.05. The mechanisms of adsorption for aged PS include electrostatic interactions, hydrogen bonding, surface complexation, and π-π interactions, as reported by Zhou_2022b.</p>
+
+<p>The field-scale value, calculated as the laboratory qe multiplied by the field-to-laboratory ratio (0.22), results in 0.218 mg/g. This ratio indicates that field conditions may yield lower sorption capacities compared to laboratory settings, with a 95% confidence interval ranging from 0.027 to 1.8 mg/g.</p>
+
+<p>No validity warning applies to this input. However, with one local measurement for the same material, the prediction interval would narrow, multiplying and dividing the prediction by 2.5.</p>",Huang_2024; Muthuraja_2024; Wang_2023; Zhou_2022b,False,True,True,True,False,False,False,False,0,1,1,,1,2,False,194
+item_019,case_05,in_range,C3,"Inputs: polymer PS; Aged particles; Single-ion system; Ce = 3.19 mg/L.
+Predicted laboratory-equilibrium qe: 0.9729 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.0404 to 23.4 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.218 mg/g; with the confidence interval of the ratio it ranges from 0.027 to 1.8 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: polymer type multiplies qe by 1.76; ageing status multiplies qe by 1.27; adsorption system multiplies qe by 1.05; equilibrium concentration multiplies qe by 0.99.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PS is represented by 8 studies.
+No validity warning applies to this input.","<html>
+<head>
+    <title>Cu(II) Sorption on Microplastics</title>
+</head>
+<body>
+    <h1>Predicted Cu(II Sorption on Aged Polystyrene Microplastics</h1>
+    <p>The predicted laboratory-equilibrium sorption capacity (qe) for Cu(II) on aged polystyrene (PS) is 0.9729 mg/g. The 90% prediction interval for a laboratory not in the training data ranges from 0.0404 to 23.4 mg/g.</p>
+    
+    <p>This value is influenced by several factors: the equilibrium concentration (Ce = 3.19 mg/L) slightly decreases qe by a multiplier of 0.99; the polymer type (PS) increases qe by 1.76; the ageing status enhances qe by 1.27; and the adsorption system contributes a minor increase with a multiplier of 1.05. The mechanisms involved include electrostatic attraction, surface complexation, and the introduction of oxygen-containing functional groups due to ageing, which enhance adsorption capacity [Source: Huang_2024][Source: Qiongjie_2022].</p>
+    
+    <p>The field-scale value, calculated as the laboratory qe multiplied by the field-to-laboratory ratio of 0.22, results in 0.218 mg/g. This ratio indicates that the sorption capacity in field conditions is generally lower than in laboratory settings, reflecting environmental complexities.</p>
+    
+    <p>No validity warning applies to this input. However, with one local measurement for the same material, the prediction interval would narrow, changing the prediction range to be multiplied and divided by 2.5.</p>
+</body>
+</html>",Huang_2024; Muthuraja_2024; Qiongjie_2022; Wang_2020b; Wang_2021; Wang_2023; Zhou_2022b,False,True,True,True,False,False,False,False,0,2,2,,2,3,False,190
+item_027,case_06,in_range,C0,"Inputs: polymer PVC; Virgin particles; Single-ion system; Ce = 16 mg/L.
+Predicted laboratory-equilibrium qe: 1.184 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.0492 to 28.5 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.266 mg/g; with the confidence interval of the ratio it ranges from 0.032 to 2.2 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 2.27; polymer type multiplies qe by 1.66; ageing status multiplies qe by 0.71; adsorption system multiplies qe by 1.05.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PVC is represented by 3 studies.
+No validity warning applies to this input.",lab_qe=1.184 mg/g; 90% PI: 0.0492-28.5 mg/g; river_qe=0.266 mg/g,,False,True,True,True,False,False,False,False,0,0,0,,0,0,False,8
+item_004,case_06,in_range,C1,"Inputs: polymer PVC; Virgin particles; Single-ion system; Ce = 16 mg/L.
+Predicted laboratory-equilibrium qe: 1.184 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.0492 to 28.5 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.266 mg/g; with the confidence interval of the ratio it ranges from 0.032 to 2.2 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 2.27; polymer type multiplies qe by 1.66; ageing status multiplies qe by 0.71; adsorption system multiplies qe by 1.05.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PVC is represented by 3 studies.
+No validity warning applies to this input.","<section><h3>Rule-based local interpretation</h3><p>Predicted laboratory qe is <b>1.184 mg/g</b> (90% interval for a new laboratory: 0.0492-28.5 mg/g, i.e. the prediction multiplied and divided by 24.1); one local measurement would narrow this to a factor of 2.5.</p><p>Field-scale value: <b>0.266 mg/g</b> (range 0.032-2.2), using a field-to-laboratory ratio of 0.22 from 4 field studies.</p><p>Drivers relative to the average laboratory observation:</p><ul><li>equilibrium concentration: increases qe (factor 2.27)</li><li>polymer type: increases qe (factor 1.66)</li><li>ageing status: decreases qe (factor 0.71)</li><li>adsorption system: increases qe (factor 1.05)</li></ul><p>PVC is represented by 3 laboratory studies.</p><p>Validity checks:</p><ul><li>No validity warning applies.</li></ul></section>",,False,True,True,True,False,False,False,False,0,0,0,,0,0,False,96
+item_023,case_06,in_range,C2,"Inputs: polymer PVC; Virgin particles; Single-ion system; Ce = 16 mg/L.
+Predicted laboratory-equilibrium qe: 1.184 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.0492 to 28.5 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.266 mg/g; with the confidence interval of the ratio it ranges from 0.032 to 2.2 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 2.27; polymer type multiplies qe by 1.66; ageing status multiplies qe by 0.71; adsorption system multiplies qe by 1.05.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PVC is represented by 3 studies.
+No validity warning applies to this input.","<p>The predicted laboratory-equilibrium sorption capacity (qe) for Cu(II) on virgin PVC particles is 1.184 mg/g, with a 90% prediction interval ranging from 0.0492 to 28.5 mg/g. This interval reflects the uncertainty in the prediction, which can be narrowed with additional local measurements.</p>
+
+<p>The value of qe is influenced by several factors: the equilibrium concentration (Ce) multiplies qe by 2.27, indicating a strong dependence on the concentration of Cu(II). The polymer type (PVC) contributes a multiplier of 1.66, while the ageing status reduces qe by a factor of 0.71, as virgin particles lack the surface changes that aged particles exhibit. The adsorption system adds a slight increase with a multiplier of 1.05. However, the context does not provide a specific mechanism for Cu(II) adsorption on virgin PVC.</p>
+
+<p>The field-scale value, calculated using the laboratory qe and the field-to-laboratory ratio of 0.22, results in 0.266 mg/g. This ratio indicates that the sorption capacity in field conditions is generally lower than in laboratory settings, reflecting real-world complexities.</p>
+
+<p>No validity warning applies to this input. However, with one local measurement, the prediction interval would narrow, multiplying and dividing the prediction by 2.5.</p>",Wang_2020b; Yang_2019; Zhou_2022b,False,True,True,True,False,False,False,False,0,0,0,,0,0,False,188
+item_008,case_06,in_range,C3,"Inputs: polymer PVC; Virgin particles; Single-ion system; Ce = 16 mg/L.
+Predicted laboratory-equilibrium qe: 1.184 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.0492 to 28.5 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.266 mg/g; with the confidence interval of the ratio it ranges from 0.032 to 2.2 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 2.27; polymer type multiplies qe by 1.66; ageing status multiplies qe by 0.71; adsorption system multiplies qe by 1.05.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PVC is represented by 3 studies.
+No validity warning applies to this input.","<p>The predicted laboratory-equilibrium sorption capacity (qe) for Cu(II) on virgin PVC particles is 1.184 mg/g. The 90% prediction interval for this value, when applied to a laboratory not included in the training data, ranges from 0.0492 to 28.5 mg/g.</p>
+
+<p>This value is influenced by several factors: the equilibrium concentration (Ce) multiplies qe by 2.27, the polymer type (PVC) multiplies qe by 1.66, the ageing status reduces qe by a factor of 0.71, and the adsorption system has a minor effect, multiplying qe by 1.05. The mechanisms of adsorption for PVC include electrostatic attraction and surface area effects, which are enhanced in aged particles due to increased surface complexity and functional groups [Source: Yang_2019].</p>
+
+<p>The field-scale value, calculated using the field-to-laboratory ratio of 0.22, results in a field-scale qe of 0.266 mg/g. This ratio indicates that the sorption capacity in natural environments is lower than that observed in controlled laboratory conditions.</p>
+
+<p>No validity warning applies to this input. However, with one local measurement for the same material, the prediction interval would narrow, multiplying and dividing the original prediction by 2.5.</p>",Feng_2025; Godoy_2019; Liu_2022; Wang_2020b; Yang_2019; Zhou_2022b,False,True,True,True,False,False,False,False,0,1,1,,1,1,False,179
+item_001,case_07,in_range,C0,"Inputs: polymer PA; Aged particles; Single-ion system; Ce = 17.7 mg/L.
+Predicted laboratory-equilibrium qe: 1.11 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.0461 to 26.7 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.249 mg/g; with the confidence interval of the ratio it ranges from 0.03 to 2 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 2.39; ageing status multiplies qe by 1.27; polymer type multiplies qe by 0.83; adsorption system multiplies qe by 1.05.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PA is represented by 6 studies.
+No validity warning applies to this input.",lab_qe=1.11 mg/g; 90% PI: 0.0461-26.7 mg/g; river_qe=0.249 mg/g,,False,True,True,True,False,False,False,False,0,0,0,,0,0,False,8
+item_026,case_07,in_range,C1,"Inputs: polymer PA; Aged particles; Single-ion system; Ce = 17.7 mg/L.
+Predicted laboratory-equilibrium qe: 1.11 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.0461 to 26.7 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.249 mg/g; with the confidence interval of the ratio it ranges from 0.03 to 2 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 2.39; ageing status multiplies qe by 1.27; polymer type multiplies qe by 0.83; adsorption system multiplies qe by 1.05.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PA is represented by 6 studies.
+No validity warning applies to this input.","<section><h3>Rule-based local interpretation</h3><p>Predicted laboratory qe is <b>1.11 mg/g</b> (90% interval for a new laboratory: 0.0461-26.7 mg/g, i.e. the prediction multiplied and divided by 24.1); one local measurement would narrow this to a factor of 2.5.</p><p>Field-scale value: <b>0.249 mg/g</b> (range 0.03-2), using a field-to-laboratory ratio of 0.22 from 4 field studies.</p><p>Drivers relative to the average laboratory observation:</p><ul><li>equilibrium concentration: increases qe (factor 2.39)</li><li>ageing status: increases qe (factor 1.27)</li><li>polymer type: decreases qe (factor 0.83)</li><li>adsorption system: increases qe (factor 1.05)</li></ul><p>PA is represented by 6 laboratory studies.</p><p>Validity checks:</p><ul><li>No validity warning applies.</li></ul></section>",,False,True,True,True,False,False,False,False,0,0,0,,0,0,False,96
+item_006,case_07,in_range,C2,"Inputs: polymer PA; Aged particles; Single-ion system; Ce = 17.7 mg/L.
+Predicted laboratory-equilibrium qe: 1.11 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.0461 to 26.7 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.249 mg/g; with the confidence interval of the ratio it ranges from 0.03 to 2 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 2.39; ageing status multiplies qe by 1.27; polymer type multiplies qe by 0.83; adsorption system multiplies qe by 1.05.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PA is represented by 6 studies.
+No validity warning applies to this input.","<p>The predicted laboratory-equilibrium adsorption capacity (qe) for Cu(II) on aged polyamide (PA) microplastics is 1.11 mg/g, with a 90% prediction interval ranging from 0.0461 to 26.7 mg/g. This interval reflects the uncertainty in the prediction, which can be narrowed with local measurements.</p>
+
+<p>The value of qe is influenced by several factors: the equilibrium concentration (Ce) multiplies qe by 2.39, indicating that higher concentrations enhance adsorption; the polymer type (PA) reduces qe by a factor of 0.83 compared to other polymers; the ageing status increases qe by 1.27, as aging enhances surface properties such as specific surface area and functional groups, which facilitate adsorption; and the adsorption system has a minor effect, multiplying qe by 1.05. The context indicates that aging leads to increased surface area and functional groups, enhancing Cu(II) adsorption capacity [Source: Hu_2024][Source: Cheng_2025].</p>
+
+<p>The field-scale value, calculated by multiplying the laboratory qe (1.11 mg/g) by the field-to-laboratory ratio (0.22), results in 0.249 mg/g. This ratio indicates that the adsorption capacity in natural environments is generally lower than in controlled laboratory settings, with a confidence interval ranging from 0.03 to 2 mg/g.</p>
+
+<p>No validity warning applies to this input. However, with one local measurement, the prediction interval would narrow, multiplying and dividing the prediction by 2.5.</p>",Cheng_2025; Dai_2025; Hu_2024; Tang_2022; Yang_2019,False,True,True,True,False,False,False,False,0,2,2,,2,1,False,207
+item_021,case_07,in_range,C3,"Inputs: polymer PA; Aged particles; Single-ion system; Ce = 17.7 mg/L.
+Predicted laboratory-equilibrium qe: 1.11 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.0461 to 26.7 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.249 mg/g; with the confidence interval of the ratio it ranges from 0.03 to 2 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 2.39; ageing status multiplies qe by 1.27; polymer type multiplies qe by 0.83; adsorption system multiplies qe by 1.05.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PA is represented by 6 studies.
+No validity warning applies to this input.","<p>The predicted laboratory-equilibrium adsorption capacity (qe) for Cu(II) on aged polyamide (PA) microplastics is 1.11 mg/g, with a 90% prediction interval ranging from 0.0461 to 26.7 mg/g. This interval reflects the uncertainty in the prediction, which is influenced by the equilibrium concentration (Ce) of 17.7 mg/L, contributing a multiplier of 2.39 to qe. The ageing status of the particles further enhances the qe by a multiplier of 1.27, as ageing leads to increased surface area and the formation of more adsorption sites. Conversely, the polymer type (PA) reduces qe by a factor of 0.83, and the adsorption system has a minor effect with a multiplier of 1.05. The mechanisms involved include surface complexation and electrostatic attraction, which are enhanced by the surface changes due to ageing, such as increased oxygen-containing functional groups and pore structures [Source: Dai_2025; Tang_2022].</p>
+
+<p>The field-scale value, calculated as 0.249 mg/g, is derived from the laboratory qe multiplied by the field-to-laboratory ratio of 0.22. This ratio indicates that the adsorption capacity in natural environments may be significantly lower than in controlled laboratory conditions.</p>
+
+<p>No validity warning applies to this input. However, with one local measurement, the prediction interval would narrow, changing the prediction to be multiplied and divided by 2.5, which would provide a more precise estimate of qe.</p>",Cheng_2025; Dai_2025; Hu_2024; Tang_2022; Yang_2019,False,True,True,True,False,False,False,False,0,2,2,,2,4,False,213
+item_025,case_08,above_range,C0,"Inputs: polymer PE; Virgin particles; Mixed system; Ce = 331 mg/L.
+Predicted laboratory-equilibrium qe: 1.035 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.043 to 24.9 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.232 mg/g; with the confidence interval of the ratio it ranges from 0.028 to 1.9 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 10.74; polymer type multiplies qe by 0.39; ageing status multiplies qe by 0.71; adsorption system multiplies qe by 0.82.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PE is represented by 8 studies.
+WARNING: Ce = 331 mg/L is outside the laboratory range (0.00303-195 mg/L); the value is an extrapolation along the fitted isotherm.",lab_qe=1.035 mg/g; 90% PI: 0.043-24.9 mg/g; river_qe=0.232 mg/g,,False,True,True,True,True,False,False,False,0,0,0,,0,0,False,8
+item_018,case_08,above_range,C1,"Inputs: polymer PE; Virgin particles; Mixed system; Ce = 331 mg/L.
+Predicted laboratory-equilibrium qe: 1.035 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.043 to 24.9 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.232 mg/g; with the confidence interval of the ratio it ranges from 0.028 to 1.9 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 10.74; polymer type multiplies qe by 0.39; ageing status multiplies qe by 0.71; adsorption system multiplies qe by 0.82.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PE is represented by 8 studies.
+WARNING: Ce = 331 mg/L is outside the laboratory range (0.00303-195 mg/L); the value is an extrapolation along the fitted isotherm.","<section><h3>Rule-based local interpretation</h3><p>Predicted laboratory qe is <b>1.035 mg/g</b> (90% interval for a new laboratory: 0.043-24.9 mg/g, i.e. the prediction multiplied and divided by 24.1); one local measurement would narrow this to a factor of 2.5.</p><p>Field-scale value: <b>0.232 mg/g</b> (range 0.028-1.9), using a field-to-laboratory ratio of 0.22 from 4 field studies.</p><p>Drivers relative to the average laboratory observation:</p><ul><li>equilibrium concentration: increases qe (factor 10.74)</li><li>polymer type: decreases qe (factor 0.39)</li><li>ageing status: decreases qe (factor 0.71)</li><li>adsorption system: decreases qe (factor 0.82)</li></ul><p>PE is represented by 8 laboratory studies.</p><p>Validity checks:</p><ul><li>Ce = 331 mg/L is outside the laboratory range (0.00303-195 mg/L); the value is an extrapolation along the fitted isotherm.</li></ul></section>",,False,True,True,True,True,True,False,False,0,0,0,,0,0,False,112
+item_020,case_08,above_range,C2,"Inputs: polymer PE; Virgin particles; Mixed system; Ce = 331 mg/L.
+Predicted laboratory-equilibrium qe: 1.035 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.043 to 24.9 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.232 mg/g; with the confidence interval of the ratio it ranges from 0.028 to 1.9 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 10.74; polymer type multiplies qe by 0.39; ageing status multiplies qe by 0.71; adsorption system multiplies qe by 0.82.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PE is represented by 8 studies.
+WARNING: Ce = 331 mg/L is outside the laboratory range (0.00303-195 mg/L); the value is an extrapolation along the fitted isotherm.","<p>The predicted laboratory-equilibrium sorption capacity (qe) for Cu(II) on polyethylene (PE) microplastics is 1.035 mg/g. The 90% prediction interval for this value, when applied to a laboratory not included in the training data, ranges from 0.043 to 24.9 mg/g.</p>
+
+<p>This prediction is influenced by several factors: the equilibrium concentration (Ce) multiplies qe by 10.74, significantly increasing the predicted value. The polymer type (PE) reduces qe by a factor of 0.39, while the ageing status decreases it further by 0.71, and the adsorption system reduces it by 0.82. The context indicates that virgin PE microplastics lack the surface changes that enhance sorption in aged particles, which may limit their interaction with Cu(II) ions [Source: Sathyamoorthy_2022].</p>
+
+<p>The field-scale value, calculated using the field-to-laboratory ratio of 0.22, results in a field-scale qe of 0.232 mg/g. This ratio indicates how laboratory results translate to field conditions, suggesting that laboratory findings may underestimate the sorption potential in natural environments.</p>
+
+<p>WARNING: The equilibrium concentration of 331 mg/L exceeds the laboratory range of 0.00303-195 mg/L, indicating that this value is an extrapolation and may not be reliable. Additionally, incorporating one local measurement for the same material would narrow the prediction interval, enhancing the reliability of the estimate.</p>",Sathyamoorthy_2022; Wang_2020b; Wang_2021,False,True,True,True,True,True,False,False,0,1,1,,1,0,False,200
+item_029,case_08,above_range,C3,"Inputs: polymer PE; Virgin particles; Mixed system; Ce = 331 mg/L.
+Predicted laboratory-equilibrium qe: 1.035 mg/g.
+90% prediction interval for a laboratory not in the training data: 0.043 to 24.9 mg/g (prediction multiplied and divided by 24.1).
+With one local measurement for the same material the interval narrows to the prediction multiplied and divided by 2.5.
+Field-to-laboratory ratio (dimensionless): 0.22, 95% confidence interval 0.027 to 1.8, from 4 field studies.
+Field-scale value (laboratory qe times that ratio): 0.232 mg/g; with the confidence interval of the ratio it ranges from 0.028 to 1.9 mg/g.
+Effect of each input on the prediction, as a multiplier of qe relative to the average laboratory observation: equilibrium concentration multiplies qe by 10.74; polymer type multiplies qe by 0.39; ageing status multiplies qe by 0.71; adsorption system multiplies qe by 0.82.
+Model: pooled Freundlich isotherm fitted to 871 observations from 29 studies; Freundlich exponent 0.51; laboratory Ce range 0.00303-195 mg/L; PE is represented by 8 studies.
+WARNING: Ce = 331 mg/L is outside the laboratory range (0.00303-195 mg/L); the value is an extrapolation along the fitted isotherm.","<p>The predicted laboratory-equilibrium <em>qe</em> for Cu(II) sorption on polyethylene (PE) microplastics is 1.035 mg/g, with a 90% prediction interval ranging from 0.043 to 24.9 mg/g. This interval reflects the uncertainty in the prediction, particularly because the equilibrium concentration (Ce) of 331 mg/L is outside the laboratory range of 0.00303-195 mg/L, indicating that this value is an extrapolation along the fitted isotherm.</p>
+
+<p>The predicted <em>qe</em> is influenced by several factors: the equilibrium concentration increases <em>qe</em> by a factor of 10.74, while the polymer type (PE) decreases <em>qe</em> by 0.39, the ageing status reduces <em>qe</em> by 0.71, and the adsorption system lowers <em>qe</em> by 0.82. The mechanisms involved include surface complexation and electrostatic attraction, which are enhanced in aged particles due to the development of oxygen-containing functional groups and surface area changes, as reported by Sathyamoorthy_2022 and Wang_2021.</p>
+
+<p>The field-scale value for Cu(II) sorption is 0.232 mg/g, derived from the laboratory <em>qe</em> multiplied by the field-to-laboratory ratio of 0.22. This ratio indicates that the sorption capacity in natural environments is generally lower than in controlled laboratory conditions.</p>
+
+<p>WARNING: The equilibrium concentration of 331 mg/L is outside the range of laboratory observations, meaning the prediction is based on extrapolation. Additionally, one local measurement would narrow the prediction interval, improving the accuracy of the estimate.</p>",Lin_2022; Lin_2023; Sathyamoorthy_2022; Wang_2020b; Wang_2021; Yu_2026,False,True,True,True,True,True,False,False,0,2,2,,2,3,False,211

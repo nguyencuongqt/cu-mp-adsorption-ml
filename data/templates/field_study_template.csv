@@ -1,0 +1,3 @@
+﻿field_study_id,reference,doi,site,country,water_body_type,matrix,sampling_period,n_mp_samples,ReT,Resin_pct,Ce,Ce_fraction,Ce_n_samples,real_qe,real_qe_statistic,real_qe_min,real_qe_max,metal_extraction_method,particle_size_range_um,biofilm_removed,co_located_water_and_mp,notes
+Author_2024_riverX,"(Author et al., 2024)",10.xxxx/xxxxx,River X,Country,river,freshwater,2023-03 to 2023-09,12,PE,45,0.0042,dissolved (<0.45 um),12,0.00061,mean,0.00012,0.0021,HNO3 digestion + ICP-MS,300-5000,no,yes,
+Author_2024_riverX,"(Author et al., 2024)",10.xxxx/xxxxx,River X,Country,river,freshwater,2023-03 to 2023-09,12,PP,55,0.0042,dissolved (<0.45 um),12,0.00061,mean,0.00012,0.0021,HNO3 digestion + ICP-MS,300-5000,no,yes,

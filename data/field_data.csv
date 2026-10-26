@@ -1,15 +1,35 @@
-﻿AgS,ReT,Resin_pct,Temp,pH,rpm,AdC,Ce,modeled_qe,lo_qe,hi_qe,real_qe,reference
-Aged,PP,37.0,25,7,167,Mixed,0.15776,0.39,0.07,0.8,0.000341,"(Zhang et al., 2025a)"
-Aged,PE,24.0,25,7,167,Mixed,0.15776,0.33,0.05,0.87,0.000341,"(Zhang et al., 2025a)"
-Aged,PET,18.0,25,7,167,Mixed,0.15776,0.3,0.05,0.64,0.000341,"(Zhang et al., 2025a)"
-Aged,PS,17.0,25,7,167,Mixed,0.15776,0.32,0.06,0.64,0.000341,"(Zhang et al., 2025a)"
-Aged,PET,100.0,25,7,167,Mixed,0.000218,0.34,0.01,3.31,0.0002905,"(Zhang et al., 2025b)"
-Aged,PP,52.22,25,7,167,Mixed,0.04,0.29,0.08,0.75,0.0005,"(Ta & Babel, 2023)"
-Aged,PE,21.0,25,7,167,Mixed,0.04,0.23,0.06,0.87,0.0005,"(Ta & Babel, 2023)"
-Aged,PS,19.0,25,7,167,Mixed,0.04,0.21,0.07,0.54,0.0005,"(Ta & Babel, 2023)"
-Aged,PE,50.0,25,7,167,Mixed,0.005,0.25,0.07,1.11,0.0145,"(Ta & Babel, 2020)"
-Aged,PP,21.0,25,7,167,Mixed,0.005,0.3,0.08,0.75,0.0145,"(Ta & Babel, 2020)"
-Aged,PS,7.0,25,7,167,Mixed,0.005,0.23,0.08,0.87,0.0145,"(Ta & Babel, 2020)"
-Aged,PP,36.6,25,7,167,Mixed,0.0138,0.29,0.08,0.75,9.1e-05,"(Purwiyanto et al., 2020)"
-Aged,PE,27.7,25,7,167,Mixed,0.0138,0.23,0.07,0.87,9.1e-05,"(Purwiyanto et al., 2020)"
-Aged,PVC,9.09,25,7,167,Mixed,0.0138,0.2,0.08,0.51,9.1e-05,"(Purwiyanto et al., 2020)"
+AgS,ReT,Resin_pct,Temp,pH,rpm,AdC,Ce,modeled_qe,lo_qe,hi_qe,real_qe,reference,study
+Aged,PP,37.0,25,7,167,Mixed,0.15776,,,,0.00341,"(Zhang et al., 2025b)",Zhang_2025b
+Aged,PE,24.0,25,7,167,Mixed,0.15776,,,,0.00341,"(Zhang et al., 2025b)",Zhang_2025b
+Aged,PET,18.0,25,7,167,Mixed,0.15776,,,,0.00341,"(Zhang et al., 2025b)",Zhang_2025b
+Aged,PS,17.0,25,7,167,Mixed,0.15776,,,,0.00341,"(Zhang et al., 2025b)",Zhang_2025b
+Aged,PET,82.97,25,7,167,Mixed,0.000239,,,,0.000378,"(Zhang et al., 2025a) dry season",Zhang_2025a
+Aged,PET,87.84,25,7,167,Mixed,0.000197,,,,0.000203,"(Zhang et al., 2025a) wet season",Zhang_2025a
+Aged,PP,44.0,25,7,167,Mixed,0.05,,,,0.0086,"(Ta & Babel, 2023a) Bangkok",Ta_Babel_2023
+Aged,PE,21.0,25,7,167,Mixed,0.05,,,,0.0086,"(Ta & Babel, 2023a) Bangkok",Ta_Babel_2023
+Aged,PS,28.0,25,7,167,Mixed,0.05,,,,0.0086,"(Ta & Babel, 2023a) Bangkok",Ta_Babel_2023
+Aged,PP,67.0,25,7,167,Mixed,0.03,,,,0.0274,"(Ta & Babel, 2023a) Samut Prakan",Ta_Babel_2023
+Aged,PE,26.0,25,7,167,Mixed,0.03,,,,0.0274,"(Ta & Babel, 2023a) Samut Prakan",Ta_Babel_2023
+Aged,PP,68.0,25,7,167,Mixed,0.005,,,,0.0145,"(Ta & Babel, 2020a)",Ta_Babel_2020
+Aged,PE,27.4,25,7,167,Mixed,0.005,,,,0.0145,"(Ta & Babel, 2020a)",Ta_Babel_2020
+Aged,PP,36.36,25,7,167,Mixed,0.0138,,,,9.1e-05,"(Purwiyanto et al., 2020)",Purwiyanto_2020
+Aged,PE,27.27,25,7,167,Mixed,0.0138,,,,9.1e-05,"(Purwiyanto et al., 2020)",Purwiyanto_2020
+Aged,PVC,9.09,25,7,167,Mixed,0.0138,,,,9.1e-05,"(Purwiyanto et al., 2020)",Purwiyanto_2020
+Aged,PA,9.09,25,7,167,Mixed,0.0138,,,,9.1e-05,"(Purwiyanto et al., 2020)",Purwiyanto_2020
+Aged,PP,44.5,25,7,167,Mixed,0.05,,,,0.01302,"(Ta & Babel, 2020b) Tha Pra Chan",Ta_Babel_2020b
+Aged,PS,28.0,25,7,167,Mixed,0.05,,,,0.01302,"(Ta & Babel, 2020b) Tha Pra Chan",Ta_Babel_2020b
+Aged,PE,20.8,25,7,167,Mixed,0.05,,,,0.01302,"(Ta & Babel, 2020b) Tha Pra Chan",Ta_Babel_2020b
+Aged,PP,55.0,25,7,167,Mixed,0.01,,,,0.03499,"(Ta & Babel, 2023b) Ang Thong rainy season",Ta_Babel_2023
+Aged,PE,31.0,25,7,167,Mixed,0.01,,,,0.03499,"(Ta & Babel, 2023b) Ang Thong rainy season",Ta_Babel_2023
+Aged,PP,55.0,25,7,167,Mixed,0.06,,,,0.00553,"(Ta & Babel, 2023b) Bangkok rainy season",Ta_Babel_2023
+Aged,PE,31.0,25,7,167,Mixed,0.06,,,,0.00553,"(Ta & Babel, 2023b) Bangkok rainy season",Ta_Babel_2023
+Aged,PP,55.0,25,7,167,Mixed,0.005,,,,0.0143,"(Ta & Babel, 2023b) Samut Prakan rainy season",Ta_Babel_2023
+Aged,PE,31.0,25,7,167,Mixed,0.005,,,,0.0143,"(Ta & Babel, 2023b) Samut Prakan rainy season",Ta_Babel_2023
+Aged,PP,46.4,25,7,167,Mixed,0.021,,,,0.027998,"(Ling et al., 2026) mining area",Ling_2026
+Aged,PE,33.4,25,7,167,Mixed,0.021,,,,0.027998,"(Ling et al., 2026) mining area",Ling_2026
+Aged,PE,47.58,25,7,167,Mixed,0.019,,,,0.017928,"(Ling et al., 2026) agricultural area",Ling_2026
+Aged,PP,32.2,25,7,167,Mixed,0.019,,,,0.017928,"(Ling et al., 2026) agricultural area",Ling_2026
+Aged,PE,46.62,25,7,167,Mixed,0.020,,,,0.017137,"(Ling et al., 2026) residential area",Ling_2026
+Aged,PP,25.0,25,7,167,Mixed,0.020,,,,0.017137,"(Ling et al., 2026) residential area",Ling_2026
+Aged,PET,13.33,25,7,167,Mixed,0.020,,,,0.017137,"(Ling et al., 2026) residential area",Ling_2026
+Aged,PA,5.55,25,7,167,Mixed,0.020,,,,0.017137,"(Ling et al., 2026) residential area",Ling_2026
