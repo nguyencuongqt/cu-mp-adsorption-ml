@@ -1,10 +1,9 @@
-# Cu adsorption on microplastics: laboratory isotherms, field scaling and LLM-assisted explanation
+# From laboratory isotherms to rivers: machine learning prediction of copper adsorption on microplastics, field scaling and LLM-assisted explanation
 
-Code, curated data and result tables for the manuscript *From laboratory isotherms to rivers: machine learning prediction of
-copper adsorption on microplastics, field scaling and LLM-assisted explanation* (Environmental Pollution, revision,
-ENVPOL-D-26-10175), and the web application described in Section 3.2.3.
+Code, curated data and result tables for the article above (Environmental Pollution, revision of ENVPOL-D-26-10175), and the
+web application described in Section 3.2.3 of the article.
 
-**Web application:** `streamlit run src/ui/app.py` (local), or the hosted version: *[add the Streamlit Community Cloud URL here]*.
+**Web application:** https://cu-mp-adsorption.streamlit.app (hosted; mode C1), or `streamlit run src/ui/app.py` (local; all modes).
 
 ## Contents
 

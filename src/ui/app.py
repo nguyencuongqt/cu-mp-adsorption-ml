@@ -1,10 +1,10 @@
-"""Streamlit interface for Cu(II)-microplastic sorption prediction and interpretation (revised model).
+"""Streamlit web application for the prediction and explanation of Cu adsorption on microplastics (revised model).
 
 Run with:
     streamlit run src/ui/app.py
 
-The application uses the model selected in the revision (pooled Freundlich isotherm with polymer, ageing
-status and adsorption system; ``src/analysis/predictor.py``) and the LLM Interpretation System of
+The application uses the model selected in the revision (isotherm-form model, i.e. a pooled Freundlich isotherm with polymer, aging
+status and adsorption system; ``src/analysis/predictor.py``) and the LLM explanation system of
 ``src/rag/llm_interpretation_v2.py``. The interface of the submitted version (Quantile Random Forest)
 is kept in ``src/ui/app_submitted_version.py``.
 """
@@ -40,7 +40,7 @@ from llm_clients import GENERATOR, available  # noqa: E402
 from llm_interpretation_v2 import LABELS, explain, graph_evidence, readable_text, retrieval_available  # noqa: E402
 from src.analysis.predictor import MIN_STUDIES, fmt_qe, fmt_range, model_summary, predict, sig  # noqa: E402
 
-st.set_page_config(page_title="Cu²⁺-MP Predictor", layout="wide", page_icon="\U0001f9ea", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Cu on microplastics", layout="wide", page_icon="\U0001f9ea", initial_sidebar_state="expanded")
 
 st.markdown("""
 <style>
@@ -49,12 +49,13 @@ st.markdown("""
     .section-header { border-left: 4px solid #4c78a8; padding-left: 10px; margin-bottom: 8px; }
     .badge-ok   { color: #16803c; font-weight: 700; }
     .badge-fail { color: #b42318; font-weight: 700; }
+    .badge-na { color: #667085; font-style: italic; }
 </style>
 """, unsafe_allow_html=True)
 
 INPUT_COLS = ["ReT", "AgS", "AdC", "Ce"]
-PARAM_LABELS = {"ReT": "Resin type (polymer)", "AgS": "Ageing status", "AdC": "Adsorption condition",
-                "Ce": "Equilibrium Cu²⁺ concentration, Ce (mg/L)"}
+PARAM_LABELS = {"ReT": "Polymer type (ReT)", "AgS": "Aging status (AgS)", "AdC": "Adsorption system (AdC)",
+                "Ce": "Equilibrium dissolved Cu concentration, Ce (mg/L)"}
 MODE_OPTIONS = ["C1 — Rule-based (no LLM)", "C2 — Retrieval", "C3 — Retrieval + knowledge graph"]
 REPOSITORY = "https://github.com/nguyencuongqt/cu-mp-adsorption-ml"
 CORPUS_LIST = config.MODELS_DIR / "corpus_v2_papers.csv"
@@ -251,22 +252,22 @@ def get_explanation(values: dict[str, Any], mode: int) -> dict[str, Any]:
 
 # ── Sidebar ──────────────────────────────────────────────────────────────────
 
-def status_badge(label: str, ok: bool) -> None:
-    css, text = ("badge-ok", "OK") if ok else ("badge-fail", "Missing")
+def status_badge(label: str, ok: bool, absent: str = "Missing") -> None:
+    css, text = ("badge-ok", "OK") if ok else (("badge-fail", "Missing") if absent == "Missing" else ("badge-na", absent))
     st.sidebar.markdown(f"{html.escape(label)}: <span class='{css}'>{text}</span>", unsafe_allow_html=True)
 
 
 def render_sidebar() -> tuple[dict[str, Any], bool]:
     s = model_summary()
-    st.sidebar.title("\U0001f9ea Cu²⁺-MP Predictor")
-    st.sidebar.caption("Pooled Freundlich model validated by study + LLM interpretation system")
+    st.sidebar.title("\U0001f9ea Cu on microplastics")
+    st.sidebar.caption("Isotherm-form model validated by study + LLM explanation system")
     st.sidebar.divider()
 
     with st.sidebar.expander("\U0001f4cb Model & component status", expanded=False):
         st.caption(f"{s['n_points']} observations, {s['n_studies']} laboratory studies; Freundlich exponent {s['exponent']:.2f}")
-        status_badge("Retrieval index (C2, C3)", retrieval_available())
+        status_badge("Retrieval index (C2, C3)", retrieval_available(), "local installation only")
         status_badge("Corpus list", CORPUS_LIST.exists())
-        status_badge(f"LLM key ({GENERATOR[1]})", available(GENERATOR[0]))
+        status_badge(f"LLM key ({GENERATOR[1]})", available(GENERATOR[0]), "local installation only")
 
     st.sidebar.subheader("Model inputs")
     counts = s["studies_per_polymer"]
@@ -421,7 +422,7 @@ def panel_drivers() -> None:
     st.caption("SHAP values of the machine-learning benchmark models and their stability across studies are reported in the manuscript.")
 
 
-# ── Panel D – LLM interpretation ─────────────────────────────────────────────
+# ── Panel D – LLM explanation ─────────────────────────────────────────────
 
 def show_explanation(result: dict[str, Any], key: str) -> None:
     st.html(safe_html(result["explanation_html"]))
@@ -469,7 +470,7 @@ def panel_llm() -> None:
         values = row_values(batch_ok, idx)
 
     api_ok, index_ok = available(GENERATOR[0]), retrieval_available()
-    mode = int(st.radio("Interpretation mode", MODE_OPTIONS, horizontal=True, key="llm_mode")[1])
+    mode = int(st.radio("Explanation mode", MODE_OPTIONS, horizontal=True, key="llm_mode")[1])
     if mode >= 2 and not index_ok:
         st.info("ℹ️ C2 and C3 need the retrieval index built from the 41 source articles, which cannot be redistributed. "
                 f"They run in a local installation (see the README of the [repository]({REPOSITORY})); the C2 and C3 explanations "
@@ -631,8 +632,8 @@ def panel_examples() -> None:
 
 
 def main() -> None:
-    st.title("Cu²⁺ – Microplastic Adsorption Predictor")
-    st.caption("Prediction with study-level uncertainty · Contributions of the inputs · Field-scale value · LLM interpretation (C1/C2/C3) · Evaluated explanations")
+    st.title("Cu adsorption on microplastics")
+    st.caption("Prediction with study-level uncertainty · Contributions of the inputs · Field-scale value · LLM explanation (C1/C2/C3) · Evaluated explanations")
     values, batch = render_sidebar()
     with st.expander("\U0001f4cb Panel A — Input summary", expanded=True):
         panel_input_summary(values, batch)

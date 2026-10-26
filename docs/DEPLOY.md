@@ -15,7 +15,7 @@ articles (`python src/rag/build_corpus_v2.py`, with the PDFs in `data/papers/`) 
 1. Push this repository to GitHub (public).
 2. Sign in at https://share.streamlit.io with the GitHub account and choose **Create app → Deploy a public app from GitHub**.
 3. Repository `nguyencuongqt/cu-mp-adsorption-ml`, branch `main`, main file path `src/ui/app.py`.
-4. Optional: choose a short App URL (e.g. `cu-mp-predictor`), giving `https://cu-mp-predictor.streamlit.app`.
+4. Optional: choose a short App URL (e.g. `cu-mp-adsorption`), giving `https://cu-mp-adsorption.streamlit.app`.
 5. Advanced settings: Python 3.12. No secrets are needed.
 6. Deploy. The first build takes a few minutes; later pushes to `main` redeploy automatically.
 
