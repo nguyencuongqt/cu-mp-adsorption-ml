@@ -517,7 +517,7 @@ def panel_llm() -> None:
     st.caption(f"**Limits.** The explanation does not change any number: values come from the model in panel B. Context is taken from "
                f"the {s['n_studies']} laboratory studies of the dataset and the field studies only. Mechanisms are linked to polymers "
                "by keyword matching; two authors checked a sample, and 83–85% of the relations were judged correct (manuscript, "
-               "Text S5). Citations name articles of the corpus; check the article before "
+               "Text S4). Citations name articles of the corpus; check the article before "
                "quoting a finding.")
 
 
