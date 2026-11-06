@@ -9,19 +9,21 @@ web application described in Section 3.2.3 of the article.
 
 | Path | Content |
 |---|---|
-| `data/raw_data_literature_master.xlsx` | Curated literature extraction: laboratory isotherms, sources, data corrections |
+| `data/raw_data_literature_master.xlsx` | Curated literature extraction: laboratory isotherms and their sources |
+| `data/change_log_vs_submitted_dataset.csv` | Row-level record of the data corrections: every observation of the first submission (789) with its status (unchanged, corrected, removed), old and new values and the reason |
+| `data/literature_screening/` | Screening decisions of the systematic search (PRISMA counts) and the reports excluded at full text with their reasons |
 | `data/dataset_grouped.csv` | 961 laboratory observations from 32 studies with study and isotherm identifiers (used by all revision analyses and the app) |
 | `data/field_data.csv`, `data/field_evidence_tiers.csv` | Field records: Cu on riverine microplastics with paired water Cu, and supporting records |
 | `data/river_data.csv`, `data/river_input_sources.csv`, `data/global_*.csv` | River and global inputs of the scale-up |
 | `data/expert_scores_by_item.csv` | Blinded expert scores (raters LVT and PB) of the 60 explanations of 15 cases, with case and condition |
-| `data/templates/` | Extraction templates for new laboratory, field and river data |
 | `src/analysis/` | Model training, study-grouped validation, conformal intervals, interpretation, field-to-laboratory ratio, river and global estimates |
 | `src/analysis/predictor.py` | The model used by the application (pooled Freundlich isotherm with polymer, aging status and adsorption system) |
 | `src/rag/` | LLM explanation system (C1 rule-based; C2 retrieval; C3 retrieval + knowledge graph), evaluation and LLM judges |
-| `src/ui/app.py` | Streamlit application (`src/ui/app_submitted_version.py`: interface of the first submission) |
-| `scripts/` | Data curation steps, figures and tables of the manuscript, expert-score analysis |
+| `src/ui/app.py` | Streamlit application |
+| `scripts/` | Dataset build, additional analyses of the SI, expert-score analysis, figures and tables |
 | `outputs/reports/` | Result tables behind every number, table and figure of the manuscript and SI |
 | `outputs/models/corpus_v2_papers.csv` | The 41 source articles of the retrieval corpus (keys and DOIs) |
+| `outputs/reports/kg_relation_check.csv` | Hand check of the knowledge-graph relations by two authors (three rounds, 239 judgments); `python scripts/kg_check_precision.py` gives the precision reported in Text S4 |
 
 Not included: full-text articles (`data/papers/`), the text chunks and retrieval index derived from them
 (`data/chunks.jsonl`, `outputs/models/faiss_index.bin`, `chunks_metadata.pkl`), trained model binaries, manuscript files and API
@@ -88,4 +90,4 @@ Code: MIT (`LICENSE`). Data in `data/` and result tables in `outputs/`: CC BY 4.
 ## Citation
 
 Please cite the article (details to be added on publication) and the archived version of this repository
-(Zenodo DOI: *[add after the first release]*). `CITATION.cff` gives the citation in machine-readable form.
+(Zenodo; the DOI is given on the Zenodo record and in the article). `CITATION.cff` gives the citation in machine-readable form.

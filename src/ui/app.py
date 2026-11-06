@@ -5,8 +5,7 @@ Run with:
 
 The application uses the model selected in the revision (isotherm-form model, i.e. a pooled Freundlich isotherm with polymer, aging
 status and adsorption system; ``src/analysis/predictor.py``) and the LLM explanation system of
-``src/rag/llm_interpretation_v2.py``. The interface of the submitted version (Quantile Random Forest)
-is kept in ``src/ui/app_submitted_version.py``.
+``src/rag/llm_interpretation_v2.py``.
 """
 
 from __future__ import annotations

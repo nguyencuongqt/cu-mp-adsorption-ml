@@ -4,7 +4,7 @@
 record for four laboratory models; (c) global MP-bound Cu flux scenarios; (d) the four rivers with measured inputs.
 Layout and data as in make_revised_figures.figure_5(); larger axis text, model names as in the text and Table 1
 (no "monotone"), two-line labels in panel b. Reads only outputs/reports; no model is refitted.
-Output: Revision/02_Figures/Fig_5_field_and_scaleup.png / .tiff (600 dpi)
+Output: Revision/02_Figures/Fig_5_field_and_scaleup.png / .tiff (600 dpi) / .pdf (vector)
 """
 
 from __future__ import annotations
@@ -35,6 +35,7 @@ SENSITIVITY_ONLY = {"Purwiyanto_2020"}
 
 AX, TICK, NOTE = 10, 9.5, 8      # axis labels, tick labels, notes (legends, value labels, annotations)
 plt.rcParams.update({
+    "pdf.fonttype": 42,
     "font.family": "serif", "font.serif": ["Times New Roman", "Liberation Serif", "DejaVu Serif"],
     "mathtext.fontset": "custom", "mathtext.rm": "Times New Roman", "mathtext.it": "Times New Roman:italic",
     "mathtext.bf": "Times New Roman:bold",
@@ -139,6 +140,7 @@ def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     fig.savefig(OUT / "Fig_5_field_and_scaleup.png", dpi=DPI)
     fig.savefig(OUT / "Fig_5_field_and_scaleup.tiff", dpi=DPI, pil_kwargs={"compression": "tiff_lzw"})
+    fig.savefig(OUT / "Fig_5_field_and_scaleup.pdf")    # vector, TrueType fonts embedded (journal: line drawings as EPS/PDF)
     plt.close(fig)
     print("saved Fig_5_field_and_scaleup")
 

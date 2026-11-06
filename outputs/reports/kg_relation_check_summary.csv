@@ -1,0 +1,9 @@
+part,checker,correct,n,precision,ci95_low,ci95_high,cohen_kappa
+round 1,1,73,100,0.73,0.636,0.807,0.85
+round 1,2,71,100,0.71,0.615,0.79,0.85
+round 2,1,87,100,0.87,0.79,0.922,0.67
+round 2,2,85,100,0.85,0.767,0.907,0.67
+round 3,1,30,39,0.769,0.617,0.874,1.0
+round 3,2,30,39,0.769,0.617,0.874,1.0
+"final graph (331 relations, weighted)",1,280.6,331,0.848,0.82,0.876,
+"final graph (331 relations, weighted)",2,274.5,331,0.829,0.799,0.859,

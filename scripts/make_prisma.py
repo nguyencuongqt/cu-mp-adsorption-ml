@@ -112,13 +112,27 @@ def first_version_keys() -> set[str]:
     return set()
 
 
-def box(ax, x, y, w, h, text, face="#f4f6f8", bold_first=False, fs=7.6):
-    ax.add_patch(FancyBboxPatch((x, y), w, h, boxstyle="round,pad=0.006,rounding_size=0.012", fc=face, ec="#34495e", lw=0.9))
-    ax.text(x + 0.012, y + h - 0.014, text, ha="left", va="top", fontsize=fs, linespacing=1.35)
+# Layout of the diagram in inches (axis units = inches, so text and boxes scale together)
+FS = 9.0                         # font size (pt); the figure is printed at about 85% of its size
+LINE = FS * 1.255 / 72           # line height (in)
+PAD = 0.09                       # inner padding of a box (in)
+
+
+def box_h(text: str) -> float:
+    return text.count("\n") * LINE + FS / 72 + 2 * PAD
+
+
+def box(ax, x, y_top, w, text, face="#f4f6f8", h=None):
+    """Box with its top edge at y_top; the height follows the number of lines unless h is given. Returns the bottom."""
+    h = h or box_h(text)
+    ax.add_patch(FancyBboxPatch((x, y_top - h), w, h, boxstyle="round,pad=0,rounding_size=0.06", fc=face, ec="#34495e", lw=0.9))
+    ax.text(x + PAD, y_top - PAD, text, ha="left", va="top", fontsize=FS, linespacing=1.32)
+    return y_top - h
 
 
 def arrow(ax, x0, y0, x1, y1):
-    ax.annotate("", xy=(x1, y1), xytext=(x0, y0), arrowprops={"arrowstyle": "-|>", "color": "#34495e", "lw": 0.9})
+    ax.annotate("", xy=(x1, y1), xytext=(x0, y0), arrowprops={"arrowstyle": "-|>", "color": "#34495e", "lw": 0.9,
+                                                              "shrinkA": 0, "shrinkB": 0, "mutation_scale": 9})
 
 
 def finalize_wos() -> pd.DataFrame:
@@ -191,67 +205,76 @@ def main() -> None:
     assert len(full) == len(excl) + len(incl)
 
     plt.rcParams.update({"font.family": "Times New Roman", "mathtext.fontset": "custom", "mathtext.rm": "Times New Roman", "mathtext.it": "Times New Roman:italic", "mathtext.bf": "Times New Roman:bold"})
-    fig, ax = plt.subplots(figsize=(10.6, 9.4))
-    ax.set_xlim(0, 1)
-    ax.set_ylim(0, 1)
-    ax.axis("off")
-    for y, h, label in [(0.765, 0.225, "Identification"), (0.30, 0.455, "Screening"), (0.02, 0.27, "Included")]:
-        ax.add_patch(FancyBboxPatch((0.005, y), 0.045, h, boxstyle="round,pad=0.004,rounding_size=0.01", fc="#d6e4f0", ec="none"))
-        ax.text(0.0275, y + h / 2, label, rotation=90, ha="center", va="center", fontsize=8.5, fontweight="bold", color="#1b4f72")
-
-    lx, lw, rx, rw = 0.055, 0.30, 0.375, 0.29
-    box(ax, lx, 0.82 if not n_other else 0.80, lw, 0.16 if not n_other else 0.18, f"Records identified (n = {n_identified})\n"
-                                   f"   Scopus, 6 October 2026 (n = {n_scopus})\n   PubMed, 7 October 2026 (n = {n_pubmed})\n"
-                                   f"   Web of Science, 14 October 2026\n      main search (n = {n_wos_main})\n"
-                                   f"      supplementary searches (n = {n_s2a} + {n_s2b})"
-                                   + (f"\n   Studies from an earlier title-only search\n   (2025) not retrieved again (n = {n_other})" if n_other else ""))
-    box(ax, rx, 0.8525, rw, 0.075, f"Records removed before screening\n   Duplicates across databases and\n   searches (n = {n_dup})")
-    box(ax, lx, 0.655, lw, 0.07, f"Records screened by title and abstract\n(n = {n_screened})")
-    box(ax, rx, 0.635, rw, 0.115, f"Records excluded (n = {len(ta)})\n   Not Cu sorption on plastic particles in water:\n   toxicity, engineered sorbents, soil, sediment,\n"
-                                  f"   other metals, field surveys, reviews (n = {len(ta) - n_ta_ne})\n"
-                                  f"   Not in English (n = {n_ta_ne})")
-    box(ax, lx, 0.525, lw, 0.06, f"Reports sought for retrieval (n = {len(sought)})")
-    box(ax, rx, 0.525, rw, 0.06, f"Reports not retrieved (n = {len(not_retrieved)})")
-    box(ax, lx, 0.415, lw, 0.06, f"Reports assessed for eligibility (n = {len(full)})")
     short = {"no equilibrium isotherm (single loading or kinetics only)": "No equilibrium isotherm",
              "seawater or marine medium": "Seawater or marine medium",
-             "figures or units not reconcilable with the Methods": "Figures not reconcilable with Methods",
+             "figures or units not reconcilable with the Methods": "Inconsistent figures",
              "Cu not studied": "Cu not studied",
              "not in English": "Not in English",
              "nano-sized particles": "Nano-sized particles",
-             "uptake not attributable to sorption on the particles": "Uptake not due to sorption on particles",
-             "functionalised polymers designed as sorbents": "Functionalized sorbent polymers",
-             "particle dose not determinable": "Particle dose not determinable",
-             "Ce and qe not reported and not calculable": "Ce and qe not reported or calculable",
-             "data not extractable (overlapping markers in the isotherm figure)": "Data not extractable from figures"}
-    lines = "\n".join(f"   {short[k]} (n = {v})" for k, v in reasons.items())
-    box(ax, rx, 0.245, rw, 0.26, f"Reports excluded (n = {len(excl)})\n{lines}")
-    box(ax, lx, 0.205, lw, 0.075, f"Studies included in the dataset\n(n = {n_studies + oth['lab_included']}; {len(incl) + oth['lab_included']} reports;\n"
-                                   f"{oth['lab_included']} from other methods)", face="#e8f1e4")
-    ox, ow = 0.69, 0.305
-    ax.text(ox + ow / 2, 0.995, "Identification of studies via other methods", ha="center", va="top", fontsize=8, fontweight="bold", color="#1b4f72")
-    box(ax, ox, 0.80, ow, 0.18, f"Field-study search, 16 October 2026\n   Scopus (n = {oth['records_scopus']})\n   Web of Science (n = {oth['records_wos']})\n"
-                                 f"   Duplicates (n = {oth['duplicates']})\n   Already screened in the database\n   searches (n = {oth['already_screened']})")
-    box(ax, ox, 0.655, ow, 0.07, f"New records screened (n = {oth['screened']})\n   Excluded (n = {oth['excluded_ta']})")
-    box(ax, ox, 0.525, ow, 0.06, f"Reports sought (n = {oth['sought']})\n   Not retrieved (n = {oth['not_retrieved']})")
-    olines = "\n".join(f"   {k} (n = {v})" for k, v in oth_reasons)
-    box(ax, ox, 0.245, ow, 0.26, f"Reports assessed (n = {oth['assessed']})\n"
-                                 f"Field comparison (Tables S1, S13)\n   Tier 1, paired Cu in water (n = {oth['field_tier1']})\n"
-                                 f"   Tier 2, Cu on MPs only (n = {oth['field_tier2']})\n"
-                                 f"Laboratory dataset (n = {oth['lab_included']})\nExcluded (n = {oth['excluded_ft']})\n{olines}", fs=6.9)
-    for y0, y1 in [(0.80, 0.725), (0.655, 0.585), (0.525, 0.505)]:
-        arrow(ax, ox + ow / 2, y0, ox + ow / 2, y1)
-    ax.plot([ox + ow / 2, ox + ow / 2, lx + lw + 0.03], [0.245, 0.225, 0.225], color="#34495e", lw=0.9)
-    arrow(ax, lx + lw + 0.03, 0.225, lx + lw, 0.225)
-    box(ax, lx, 0.055, lw, 0.08, f"Dataset after quality control\n   {len(dataset)} equilibrium observations\n   {dataset['curve_id'].nunique()} isotherms", face="#e8f1e4")
+             "uptake not attributable to sorption on the particles": "Uptake not by sorption",
+             "functionalised polymers designed as sorbents": "Functionalized sorbents",
+             "particle dose not determinable": "Particle dose unknown",
+             "Ce and qe not reported and not calculable": "Ce, qe not obtainable",
+             "data not extractable (overlapping markers in the isotherm figure)": "Data not extractable"}
+    i = "   "
+    left = [f"Records identified (n = {n_identified})\n{i}Scopus (n = {n_scopus})\n{i}PubMed (n = {n_pubmed})\n"
+            f"{i}Web of Science (n = {n_wos_main + n_s2a + n_s2b})" + (f"\n{i}Earlier search (n = {n_other})" if n_other else ""),
+            f"Records screened\n(n = {n_screened})",
+            f"Reports sought\n(n = {len(sought)})",
+            f"Reports assessed\n(n = {len(full)})"]
+    middle = [f"Duplicates removed\n(n = {n_dup})",
+              f"Records excluded (n = {len(ta)})\n{i}Off topic (n = {len(ta) - n_ta_ne})\n{i}Not in English (n = {n_ta_ne})",
+              f"Not retrieved (n = {len(not_retrieved)})",
+              f"Reports excluded (n = {len(excl)})\n" + "\n".join(f"{i}{short[k]} (n = {v})" for k, v in reasons.items())]
+    right = [f"Records identified (n = {oth['records_scopus'] + oth['records_wos']})\n{i}Scopus (n = {oth['records_scopus']})\n"
+             f"{i}Web of Science (n = {oth['records_wos']})\n{i}Duplicates or already\n{i}screened (n = {oth['duplicates'] + oth['already_screened']})",
+             f"Records screened (n = {oth['screened']})\n{i}Excluded (n = {oth['excluded_ta']})",
+             f"Reports sought (n = {oth['sought']})\n{i}Not retrieved (n = {oth['not_retrieved']})",
+             f"Reports assessed (n = {oth['assessed']})\n{i}Excluded (n = {oth['excluded_ft']})\n"
+             f"{i}Field, paired (n = {oth['field_tier1']})\n{i}Field, supporting (n = {oth['field_tier2']})\n"
+             f"{i}Laboratory study (n = {oth['lab_included']})"]
 
-    cx = lx + lw / 2
-    for y0, y1 in [(0.82 if not n_other else 0.80, 0.725), (0.655, 0.585), (0.525, 0.475), (0.415, 0.28), (0.205, 0.135)]:
-        arrow(ax, cx, y0, cx, y1)
-    arrow(ax, lx + lw, 0.89, rx, 0.89)
-    arrow(ax, lx + lw, 0.69, rx, 0.69)
-    arrow(ax, lx + lw, 0.555, rx, 0.555)
-    arrow(ax, lx + lw, 0.445, rx, 0.445)
+    W, band, gap = 7.6, 0.30, 0.22                 # figure width, stage band width, gap between columns (in)
+    cw = (W - band - 0.06 - 2 * gap) / 3           # column width
+    lx = band + 0.06
+    mx, rx = lx + cw + gap, lx + 2 * (cw + gap)
+    head, vgap = 0.32, 0.30                        # space for column headings, vertical gap between rows
+    heights = [max(box_h(t) for t in row) for row in zip(left, middle, right)]
+    inc = [f"Studies included\n(n = {n_studies + oth['lab_included']}; {len(incl) + oth['lab_included']} reports)",
+           f"Dataset after quality control\n{i}{len(dataset)} observations\n{i}{dataset['curve_id'].nunique()} isotherms"]
+    H = head + sum(heights) + len(heights) * vgap + sum(box_h(t) for t in inc) + vgap + 0.08
+    fig, ax = plt.subplots(figsize=(W, H))
+    fig.subplots_adjust(0, 0, 1, 1)
+    ax.set_xlim(0, W)
+    ax.set_ylim(0, H)
+    ax.axis("off")
+    ax.text(lx + cw / 2, H - 0.04, "Database search", ha="center", va="top", fontsize=FS, fontweight="bold", color="#1b4f72")
+    ax.text(rx + cw / 2, H - 0.04, "Field-study search", ha="center", va="top", fontsize=FS, fontweight="bold", color="#1b4f72")
+
+    tops, y, prev_l, prev_r = [], H - head, None, None
+    for k, h in enumerate(heights):                # rows: identification, screening, retrieval, eligibility
+        tops.append(y)
+        bl, bm, br = (box(ax, x, y, cw, t) for x, t in ((lx, left[k]), (mx, middle[k]), (rx, right[k])))
+        ya = y - min(y - bl, y - bm) / 2
+        arrow(ax, lx + cw, ya, mx, ya)
+        if prev_l is not None:
+            arrow(ax, lx + cw / 2, prev_l, lx + cw / 2, y)
+            arrow(ax, rx + cw / 2, prev_r, rx + cw / 2, y)
+        prev_l, prev_r = bl, br
+        y -= h + vgap
+    inc_top = y
+    bottom_inc = box(ax, lx, inc_top, cw, inc[0], face="#e8f1e4")
+    arrow(ax, lx + cw / 2, prev_l, lx + cw / 2, inc_top)
+    y_join = inc_top - box_h(inc[0]) / 2               # field-search study joins the included studies
+    ax.plot([rx + cw / 2, rx + cw / 2, mx], [prev_r, y_join, y_join], color="#34495e", lw=0.9)
+    arrow(ax, mx, y_join, lx + cw, y_join)
+    arrow(ax, lx + cw / 2, bottom_inc, lx + cw / 2, bottom_inc - vgap)
+    end = box(ax, lx, bottom_inc - vgap, cw, inc[1], face="#e8f1e4")
+    stages = [("Identification", tops[0], tops[0] - heights[0]), ("Screening", tops[1], tops[3] - heights[3]),
+              ("Included", inc_top, end)]
+    for label, top, bot in stages:
+        ax.add_patch(FancyBboxPatch((0.02, bot), band - 0.04, top - bot, boxstyle="round,pad=0,rounding_size=0.05", fc="#d6e4f0", ec="none"))
+        ax.text(band / 2, (top + bot) / 2, label, rotation=90, ha="center", va="center", fontsize=FS, fontweight="bold", color="#1b4f72")
     fig.savefig(OUT / "Fig_S1_PRISMA.png", dpi=600, bbox_inches="tight")
     fig.savefig(OUT / "Fig_S1_PRISMA.tiff", dpi=600, bbox_inches="tight", pil_kwargs={"compression": "tiff_lzw"})
     for ext in ("png", "tiff"):                                  # copy next to the other figures of the submission

@@ -1,0 +1,793 @@
+raw_row_id,source_id,doi,in_submitted_dataset,Ce_submitted,qe_submitted,Temp_submitted,pH_submitted,rpm_submitted,AgS_submitted,ReT_submitted,Ce_current,qe_current,Temp_current,pH_current,rpm_current,AgS_current,ReT_current,changed_fields,status,reason
+31,Yang_2019,10.1007/s11356-019-05643-8,True,0.07321,0.00379953,25.0,6.0,200.0,Virgin,PA,0.07321,0.00379953,25.0,6.0,200.0,Virgin,PA,,unchanged,
+32,Yang_2019,10.1007/s11356-019-05643-8,True,0.13948,0.02062459,25.0,6.0,200.0,Virgin,PA,0.13948,0.02062459,25.0,6.0,200.0,Virgin,PA,,unchanged,
+33,Yang_2019,10.1007/s11356-019-05643-8,True,0.2178,0.03615541000000001,25.0,6.0,200.0,Virgin,PA,0.2178,0.03615541000000001,25.0,6.0,200.0,Virgin,PA,,unchanged,
+34,Yang_2019,10.1007/s11356-019-05643-8,True,0.7138,0.07415046,25.0,6.0,200.0,Virgin,PA,0.7138,0.07415046,25.0,6.0,200.0,Virgin,PA,,unchanged,
+35,Yang_2019,10.1007/s11356-019-05643-8,True,2.14157,0.12897056,25.0,6.0,200.0,Virgin,PA,2.14157,0.12897056,25.0,6.0,200.0,Virgin,PA,,unchanged,
+36,Yang_2019,10.1007/s11356-019-05643-8,True,6.05339,0.21365052,25.0,6.0,200.0,Virgin,PA,6.05339,0.21365052,25.0,6.0,200.0,Virgin,PA,,unchanged,
+37,Yang_2019,10.1007/s11356-019-05643-8,True,0.06719,0.00426176,25.0,6.0,200.0,Aged,PA,0.06719,0.00426176,25.0,6.0,200.0,Aged,PA,,unchanged,
+38,Yang_2019,10.1007/s11356-019-05643-8,True,0.11739,0.02136415,25.0,6.0,200.0,Aged,PA,0.11739,0.02136415,25.0,6.0,200.0,Aged,PA,,unchanged,
+39,Yang_2019,10.1007/s11356-019-05643-8,True,0.25796,0.03948345,25.0,6.0,200.0,Aged,PA,0.25796,0.03948345,25.0,6.0,200.0,Aged,PA,,unchanged,
+40,Yang_2019,10.1007/s11356-019-05643-8,True,0.60536,0.07470513,25.0,6.0,200.0,Aged,PA,0.60536,0.07470513,25.0,6.0,200.0,Aged,PA,,unchanged,
+41,Yang_2019,10.1007/s11356-019-05643-8,True,2.40464,0.13599641,25.0,6.0,200.0,Aged,PA,2.40464,0.13599641,25.0,6.0,200.0,Aged,PA,,unchanged,
+42,Yang_2019,10.1007/s11356-019-05643-8,True,6.05339,0.21365052,25.0,6.0,200.0,Aged,PA,6.05339,0.21365052,25.0,6.0,200.0,Aged,PA,,unchanged,
+43,Yang_2019,10.1007/s11356-019-05643-8,True,0.04665999999999999,0.00131782,25.0,6.0,200.0,Virgin,PMMA,0.04665999999999999,0.00131782,25.0,6.0,200.0,Virgin,PMMA,,unchanged,
+44,Yang_2019,10.1007/s11356-019-05643-8,True,0.09238,0.00312163,25.0,6.0,200.0,Virgin,PMMA,0.09238,0.00312163,25.0,6.0,200.0,Virgin,PMMA,,unchanged,
+45,Yang_2019,10.1007/s11356-019-05643-8,True,0.4892,0.01093249,25.0,6.0,200.0,Virgin,PMMA,0.4892,0.01093249,25.0,6.0,200.0,Virgin,PMMA,,unchanged,
+46,Yang_2019,10.1007/s11356-019-05643-8,True,1.00522,0.01712673,25.0,6.0,200.0,Virgin,PMMA,1.00522,0.01712673,25.0,6.0,200.0,Virgin,PMMA,,unchanged,
+47,Yang_2019,10.1007/s11356-019-05643-8,True,2.01603,0.02626493,25.0,6.0,200.0,Virgin,PMMA,2.01603,0.02626493,25.0,6.0,200.0,Virgin,PMMA,,unchanged,
+48,Yang_2019,10.1007/s11356-019-05643-8,True,5.0501,0.03227197,25.0,6.0,200.0,Virgin,PMMA,5.0501,0.03227197,25.0,6.0,200.0,Virgin,PMMA,,unchanged,
+49,Yang_2019,10.1007/s11356-019-05643-8,True,0.06952,0.00145395,25.0,6.0,200.0,Aged,PMMA,0.06952,0.00145395,25.0,6.0,200.0,Aged,PMMA,,unchanged,
+50,Yang_2019,10.1007/s11356-019-05643-8,True,0.05483,0.00283234,25.0,6.0,200.0,Aged,PMMA,0.05483,0.00283234,25.0,6.0,200.0,Aged,PMMA,,unchanged,
+51,Yang_2019,10.1007/s11356-019-05643-8,True,0.37489,0.007069600000000001,25.0,6.0,200.0,Aged,PMMA,0.37489,0.007069600000000001,25.0,6.0,200.0,Aged,PMMA,,unchanged,
+52,Yang_2019,10.1007/s11356-019-05643-8,True,0.7913,0.01093249,25.0,6.0,200.0,Aged,PMMA,0.7913,0.01093249,25.0,6.0,200.0,Aged,PMMA,,unchanged,
+53,Yang_2019,10.1007/s11356-019-05643-8,True,1.6829,0.02046208,25.0,6.0,200.0,Aged,PMMA,1.6829,0.02046208,25.0,6.0,200.0,Aged,PMMA,,unchanged,
+54,Yang_2019,10.1007/s11356-019-05643-8,True,4.32343,0.03788762,25.0,6.0,200.0,Aged,PMMA,4.32343,0.03788762,25.0,6.0,200.0,Aged,PMMA,,unchanged,
+220,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.04884,0.01016227,25.0,4.0,150.0,Virgin,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+221,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.05831,0.00953919,25.0,4.0,150.0,Virgin,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+222,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.27839,0.02811839,25.0,4.0,150.0,Virgin,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+223,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.28966,0.02704216,25.0,4.0,150.0,Virgin,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+224,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.47276,0.04086328,25.0,4.0,150.0,Virgin,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+225,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.49531,0.04024019,25.0,4.0,150.0,Virgin,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+226,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.70457,0.05145569,25.0,4.0,150.0,Virgin,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+227,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.72171,0.05241864,25.0,4.0,150.0,Virgin,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+228,Mao_2020,10.1016/j.jhazmat.2020.122515,True,1.00312,0.07241394,25.0,4.0,150.0,Virgin,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+229,Mao_2020,10.1016/j.jhazmat.2020.122515,True,1.0365,0.07332024,25.0,4.0,150.0,Virgin,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+230,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.05019,0.01350426,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+231,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.05741,0.01231474,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+232,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.27659,0.03395272,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+233,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.28876,0.0327632,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+234,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.47186,0.04749061,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+235,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.49531,0.0495298,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+236,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.70457,0.05774316,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+237,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.72351,0.05966906,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+238,Mao_2020,10.1016/j.jhazmat.2020.122515,True,1.00222,0.08000423000000001,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+239,Mao_2020,10.1016/j.jhazmat.2020.122515,True,1.0356,0.08130704,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+240,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.05109,0.01526022,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+241,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.05741,0.01577002,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+242,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.27568,0.03990033,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+243,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.29057,0.03944718000000001,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+244,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.47096,0.05836625,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+245,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.49622,0.06012221,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+246,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.70457,0.07213072,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+247,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.71991,0.07332024,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+248,Mao_2020,10.1016/j.jhazmat.2020.122515,True,1.00042,0.08884068,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+249,Mao_2020,10.1016/j.jhazmat.2020.122515,True,1.0383,0.09201274,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+250,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.05199,0.01882879,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+251,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.0556,0.01837564,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+252,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.27749,0.04703746,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+253,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.28966,0.04596123,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+254,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.47276,0.06714606000000001,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+255,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.49712,0.06941181,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+256,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.70502,0.07915457000000001,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+257,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.72396,0.08119375,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+258,Mao_2020,10.1016/j.jhazmat.2020.122515,True,1.00222,0.10390796,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+259,Mao_2020,10.1016/j.jhazmat.2020.122515,True,1.03469,0.102152,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+410,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.05343,0.01538778,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+411,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.05478,0.01555445,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+412,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.27583,0.04055554,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+413,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.28729,0.04055554,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+414,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.47262,0.05747294,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+415,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.49486,0.05872299,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+416,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.70513,0.07305695,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+417,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.724,0.07289028,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+418,Mao_2020,10.1016/j.jhazmat.2020.122515,True,1.00233,0.09230779,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+419,Mao_2020,10.1016/j.jhazmat.2020.122515,True,1.03198,0.09330783,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+420,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.05343,0.01622114,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+421,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.05343,0.01663783,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+422,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.27515,0.043639,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+423,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.28594,0.04280564,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+424,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.47127,0.06072308000000001,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+425,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.49755,0.06130644,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+426,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.70243,0.07647377,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+427,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.72197,0.07589041,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+428,Mao_2020,10.1016/j.jhazmat.2020.122515,True,1.00368,0.09580794000000001,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+429,Mao_2020,10.1016/j.jhazmat.2020.122515,True,1.03603,0.09539126,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+430,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.04669,0.01922128,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+431,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.05141,0.01922128,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+432,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.27583,0.04713916,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+433,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.28863,0.04630579,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+434,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.47262,0.06730670000000001,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+435,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.49486,0.06972347000000001,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+436,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.70243,0.07939056,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+437,Mao_2020,10.1016/j.jhazmat.2020.122515,True,0.724,0.08122396999999999,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+438,Mao_2020,10.1016/j.jhazmat.2020.122515,True,1.00368,0.10439165,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+439,Mao_2020,10.1016/j.jhazmat.2020.122515,True,1.03603,0.10222489,25.0,4.0,150.0,Aged,PS,,,,,,,,,removed,"Study removed: polystyrene particles of 0.1 um (nano-sized), excluded by the inclusion criteria."
+540,Wang_2020,10.1016/j.jes.2019.07.006,True,1.06449693,0.03977775,15.0,7.0,150.0,Aged,PET,1.958047,0.039778,15.0,7.0,150.0,Aged,PET,"Ce, qe",corrected,"Ce recalibrated: x-axis of Fig. 8 starts at 1 mg/L, not 0."
+541,Wang_2020,10.1016/j.jes.2019.07.006,True,3.20942538,0.11174407,15.0,7.0,150.0,Aged,PET,3.888483,0.111744,15.0,7.0,150.0,Aged,PET,"Ce, qe",corrected,"Ce recalibrated: x-axis of Fig. 8 starts at 1 mg/L, not 0."
+542,Wang_2020,10.1016/j.jes.2019.07.006,True,4.30600798,0.13201794,15.0,7.0,150.0,Aged,PET,4.875407,0.132018,15.0,7.0,150.0,Aged,PET,"Ce, qe",corrected,"Ce recalibrated: x-axis of Fig. 8 starts at 1 mg/L, not 0."
+543,Wang_2020,10.1016/j.jes.2019.07.006,True,5.39615902,0.15122476,15.0,7.0,150.0,Aged,PET,5.856543,0.151225,15.0,7.0,150.0,Aged,PET,"Ce, qe",corrected,"Ce recalibrated: x-axis of Fig. 8 starts at 1 mg/L, not 0."
+544,Wang_2020,10.1016/j.jes.2019.07.006,True,7.59897159,0.16059105,15.0,7.0,150.0,Aged,PET,7.839074,0.160591,15.0,7.0,150.0,Aged,PET,"Ce, qe",corrected,"Ce recalibrated: x-axis of Fig. 8 starts at 1 mg/L, not 0."
+545,Wang_2020,10.1016/j.jes.2019.07.006,True,9.8146473,0.17221,15.0,7.0,150.0,Aged,PET,9.833183,0.17221,15.0,7.0,150.0,Aged,PET,Ce,corrected,"Ce recalibrated: x-axis of Fig. 8 starts at 1 mg/L, not 0."
+546,Wang_2020,10.1016/j.jes.2019.07.006,True,1.05806536,0.05969594,25.0,7.0,150.0,Aged,PET,1.952259,0.059696,25.0,7.0,150.0,Aged,PET,"Ce, qe",corrected,"Ce recalibrated: x-axis of Fig. 8 starts at 1 mg/L, not 0."
+547,Wang_2020,10.1016/j.jes.2019.07.006,True,3.17083596,0.15786416,25.0,7.0,150.0,Aged,PET,3.853752,0.157864,25.0,7.0,150.0,Aged,PET,"Ce, qe",corrected,"Ce recalibrated: x-axis of Fig. 8 starts at 1 mg/L, not 0."
+548,Wang_2020,10.1016/j.jes.2019.07.006,True,4.260987,0.17849371,25.0,7.0,150.0,Aged,PET,4.834888,0.178494,25.0,7.0,150.0,Aged,PET,"Ce, qe",corrected,"Ce recalibrated: x-axis of Fig. 8 starts at 1 mg/L, not 0."
+549,Wang_2020,10.1016/j.jes.2019.07.006,True,5.36078539,0.19212819,25.0,7.0,150.0,Aged,PET,5.824707,0.192128,25.0,7.0,150.0,Aged,PET,"Ce, qe",corrected,"Ce recalibrated: x-axis of Fig. 8 starts at 1 mg/L, not 0."
+550,Wang_2020,10.1016/j.jes.2019.07.006,True,7.5539506,0.20671115,25.0,7.0,150.0,Aged,PET,7.798556,0.206711,25.0,7.0,150.0,Aged,PET,"Ce, qe",corrected,"Ce recalibrated: x-axis of Fig. 8 starts at 1 mg/L, not 0."
+551,Wang_2020,10.1016/j.jes.2019.07.006,True,9.77927367,0.21263918,25.0,7.0,150.0,Aged,PET,9.801346,0.212639,25.0,7.0,150.0,Aged,PET,"Ce, qe",corrected,"Ce recalibrated: x-axis of Fig. 8 starts at 1 mg/L, not 0."
+552,Wang_2020,10.1016/j.jes.2019.07.006,True,1.05806536,0.07996981,35.0,7.0,150.0,Aged,PET,1.952259,0.07997,35.0,7.0,150.0,Aged,PET,"Ce, qe",corrected,"Ce recalibrated: x-axis of Fig. 8 starts at 1 mg/L, not 0."
+553,Wang_2020,10.1016/j.jes.2019.07.006,True,3.1193834,0.21761872,35.0,7.0,150.0,Aged,PET,3.807445,0.217619,35.0,7.0,150.0,Aged,PET,"Ce, qe",corrected,"Ce recalibrated: x-axis of Fig. 8 starts at 1 mg/L, not 0."
+554,Wang_2020,10.1016/j.jes.2019.07.006,True,4.19023973,0.24287214,35.0,7.0,150.0,Aged,PET,4.771216,0.242872,35.0,7.0,150.0,Aged,PET,"Ce, qe",corrected,"Ce recalibrated: x-axis of Fig. 8 starts at 1 mg/L, not 0."
+555,Wang_2020,10.1016/j.jes.2019.07.006,True,5.277174990000001,0.25840359,35.0,7.0,150.0,Aged,PET,5.749457,0.258404,35.0,7.0,150.0,Aged,PET,"Ce, qe",corrected,"Ce recalibrated: x-axis of Fig. 8 starts at 1 mg/L, not 0."
+556,Wang_2020,10.1016/j.jes.2019.07.006,True,7.48320334,0.27239374,35.0,7.0,150.0,Aged,PET,7.734883,0.272394,35.0,7.0,150.0,Aged,PET,"Ce, qe",corrected,"Ce recalibrated: x-axis of Fig. 8 starts at 1 mg/L, not 0."
+557,Wang_2020,10.1016/j.jes.2019.07.006,True,9.714957969999999,0.27772897,35.0,7.0,150.0,Aged,PET,9.743462,0.277729,35.0,7.0,150.0,Aged,PET,"Ce, qe",corrected,"Ce recalibrated: x-axis of Fig. 8 starts at 1 mg/L, not 0."
+576,Wang_2020b,10.1016/j.cej.2019.123808,True,1.08301,0.0012802,25.0,7.0,,Virgin,PE,0.263512,0.00128,25.0,5.8,,Virgin,PE,"Ce, qe, pH",corrected,"Ce recalibrated: x-axis of Fig. 3b starts at -1 mg/L, not 0. pH set to 5.8 as stated in the paper."
+577,Wang_2020b,10.1016/j.cej.2019.123808,True,1.28831,0.01515058,25.0,7.0,,Virgin,PE,0.503028,0.015151,25.0,5.8,,Virgin,PE,"Ce, qe, pH",corrected,"Ce recalibrated: x-axis of Fig. 3b starts at -1 mg/L, not 0. pH set to 5.8 as stated in the paper."
+578,Wang_2020b,10.1016/j.cej.2019.123808,True,1.45899,0.01849433,25.0,7.0,,Virgin,PE,0.702155,0.018494,25.0,5.8,,Virgin,PE,"Ce, qe, pH",corrected,"Ce recalibrated: x-axis of Fig. 3b starts at -1 mg/L, not 0. pH set to 5.8 as stated in the paper."
+579,Wang_2020b,10.1016/j.cej.2019.123808,True,2.15009,0.02233345,25.0,7.0,,Virgin,PE,1.508438,0.022333,25.0,5.8,,Virgin,PE,"Ce, qe, pH",corrected,"Ce recalibrated: x-axis of Fig. 3b starts at -1 mg/L, not 0. pH set to 5.8 as stated in the paper."
+580,Wang_2020b,10.1016/j.cej.2019.123808,True,2.76599,0.02386084,25.0,7.0,,Virgin,PE,2.226988,0.023861,25.0,5.8,,Virgin,PE,"Ce, qe, pH",corrected,"Ce recalibrated: x-axis of Fig. 3b starts at -1 mg/L, not 0. pH set to 5.8 as stated in the paper."
+581,Wang_2020b,10.1016/j.cej.2019.123808,True,3.87365,0.0272046,25.0,7.0,,Virgin,PE,3.519258,0.027205,25.0,5.8,,Virgin,PE,"Ce, qe, pH",corrected,"Ce recalibrated: x-axis of Fig. 3b starts at -1 mg/L, not 0. pH set to 5.8 as stated in the paper."
+582,Wang_2020b,10.1016/j.cej.2019.123808,True,5.03621,0.0291448,25.0,7.0,,Virgin,PE,4.875578,0.029145,25.0,5.8,,Virgin,PE,"Ce, qe, pH",corrected,"Ce recalibrated: x-axis of Fig. 3b starts at -1 mg/L, not 0. pH set to 5.8 as stated in the paper."
+583,Zou_2020,10.1016/j.chemosphere.2020.126064,True,13.3474065,4.424673833999999,25.0,6.5,20.0,Virgin,CPE,0.043981,0.77978,25.0,6.5,20.0,Virgin,CPE,"Ce, qe",corrected,Recomputed: log-log axes of Fig. 5 had been read as linear. HDPE and LDPE are coded as PE.
+584,Zou_2020,10.1016/j.chemosphere.2020.126064,True,19.633137,4.929928109,25.0,6.5,20.0,Virgin,CPE,0.109377,1.350523,25.0,6.5,20.0,Virgin,CPE,"Ce, qe",corrected,Recomputed: log-log axes of Fig. 5 had been read as linear. HDPE and LDPE are coded as PE.
+585,Zou_2020,10.1016/j.chemosphere.2020.126064,True,25.628444,5.410734699,25.0,6.5,20.0,Virgin,CPE,0.260801,2.277668,25.0,6.5,20.0,Virgin,CPE,"Ce, qe",corrected,Recomputed: log-log axes of Fig. 5 had been read as linear. HDPE and LDPE are coded as PE.
+586,Zou_2020,10.1016/j.chemosphere.2020.126064,True,34.49176249999999,5.7000339995,25.0,6.5,20.0,Virgin,CPE,0.942377,3.11938,25.0,6.5,20.0,Virgin,CPE,"Ce, qe",corrected,Recomputed: log-log axes of Fig. 5 had been read as linear. HDPE and LDPE are coded as PE.
+587,Zou_2020,10.1016/j.chemosphere.2020.126064,True,43.210187,5.842645919,25.0,6.5,20.0,Virgin,CPE,3.334413,3.642464,25.0,6.5,20.0,Virgin,CPE,"Ce, qe",corrected,Recomputed: log-log axes of Fig. 5 had been read as linear. HDPE and LDPE are coded as PE.
+588,Zou_2020,10.1016/j.chemosphere.2020.126064,True,14.274601,3.3082242565,25.0,6.5,20.0,Virgin,PVC,0.050307,0.231685,25.0,6.5,20.0,Virgin,PVC,"Ce, qe",corrected,Recomputed: log-log axes of Fig. 5 had been read as linear. HDPE and LDPE are coded as PE.
+589,Zou_2020,10.1016/j.chemosphere.2020.126064,True,24.267203,3.670866612,25.0,6.5,20.0,Virgin,PVC,0.214104,0.343637,25.0,6.5,20.0,Virgin,PVC,"Ce, qe",corrected,Recomputed: log-log axes of Fig. 5 had been read as linear. HDPE and LDPE are coded as PE.
+590,Zou_2020,10.1016/j.chemosphere.2020.126064,True,31.1897045,3.8420010425,25.0,6.5,20.0,Virgin,PVC,0.583945,0.413898,25.0,6.5,20.0,Virgin,PVC,"Ce, qe",corrected,Recomputed: log-log axes of Fig. 5 had been read as linear. HDPE and LDPE are coded as PE.
+591,Zou_2020,10.1016/j.chemosphere.2020.126064,True,37.6196935,3.8745983795,25.0,6.5,20.0,Virgin,PVC,1.482918,0.428827,25.0,6.5,20.0,Virgin,PVC,"Ce, qe",corrected,Recomputed: log-log axes of Fig. 5 had been read as linear. HDPE and LDPE are coded as PE.
+592,Zou_2020,10.1016/j.chemosphere.2020.126064,True,44.426534,3.8420010425,25.0,6.5,20.0,Virgin,PVC,3.977262,0.413898,25.0,6.5,20.0,Virgin,PVC,"Ce, qe",corrected,Recomputed: log-log axes of Fig. 5 had been read as linear. HDPE and LDPE are coded as PE.
+593,Zou_2020,10.1016/j.chemosphere.2020.126064,True,22.8481315,2.8192680145,25.0,6.5,20.0,Virgin,HPE,0.174301,0.136164,25.0,6.5,20.0,Virgin,PE,"Ce, qe, ReT",corrected,Recomputed: log-log axes of Fig. 5 had been read as linear. HDPE and LDPE are coded as PE.
+594,Zou_2020,10.1016/j.chemosphere.2020.126064,True,28.119604,2.8477905255,25.0,6.5,20.0,Virgin,HPE,0.374214,0.140452,25.0,6.5,20.0,Virgin,PE,"Ce, qe, ReT",corrected,Recomputed: log-log axes of Fig. 5 had been read as linear. HDPE and LDPE are coded as PE.
+595,Zou_2020,10.1016/j.chemosphere.2020.126064,True,32.8407335,3.027074608,25.0,6.5,20.0,Virgin,HPE,0.74182,0.170674,25.0,6.5,20.0,Virgin,PE,"Ce, qe, ReT",corrected,Recomputed: log-log axes of Fig. 5 had been read as linear. HDPE and LDPE are coded as PE.
+596,Zou_2020,10.1016/j.chemosphere.2020.126064,True,37.851651,3.3897169635,25.0,6.5,20.0,Virgin,HPE,1.533621,0.253145,25.0,6.5,20.0,Virgin,PE,"Ce, qe, ReT",corrected,Recomputed: log-log axes of Fig. 5 had been read as linear. HDPE and LDPE are coded as PE.
+597,Zou_2020,10.1016/j.chemosphere.2020.126064,True,44.62925849999999,3.691239471,25.0,6.5,20.0,Virgin,HPE,4.095859,0.351333,25.0,6.5,20.0,Virgin,PE,"Ce, qe, ReT",corrected,Recomputed: log-log axes of Fig. 5 had been read as linear. HDPE and LDPE are coded as PE.
+598,Zou_2020,10.1016/j.chemosphere.2020.126064,True,24.122309,1.3686985925,25.0,6.5,20.0,Virgin,LPE,0.209654,0.028135,25.0,6.5,20.0,Virgin,PE,"Ce, qe, ReT",corrected,Recomputed: log-log axes of Fig. 5 had been read as linear. HDPE and LDPE are coded as PE.
+599,Zou_2020,10.1016/j.chemosphere.2020.126064,True,29.1332265,1.62132573,25.0,6.5,20.0,Virgin,LPE,0.433435,0.037027,25.0,6.5,20.0,Virgin,PE,"Ce, qe, ReT",corrected,Recomputed: log-log axes of Fig. 5 had been read as linear. HDPE and LDPE are coded as PE.
+600,Zou_2020,10.1016/j.chemosphere.2020.126064,True,33.623034,1.710968089,25.0,6.5,20.0,Virgin,LPE,0.830886,0.040816,25.0,6.5,20.0,Virgin,PE,"Ce, qe, ReT",corrected,Recomputed: log-log axes of Fig. 5 had been read as linear. HDPE and LDPE are coded as PE.
+601,Zou_2020,10.1016/j.chemosphere.2020.126064,True,38.7788455,1.812833655,25.0,6.5,20.0,Virgin,LPE,1.754211,0.045596,25.0,6.5,20.0,Virgin,PE,"Ce, qe, ReT",corrected,Recomputed: log-log axes of Fig. 5 had been read as linear. HDPE and LDPE are coded as PE.
+602,Zou_2020,10.1016/j.chemosphere.2020.126064,True,44.83198299999999,2.024714439,25.0,6.5,20.0,Virgin,LPE,4.217993,0.057406,25.0,6.5,20.0,Virgin,PE,"Ce, qe, ReT",corrected,Recomputed: log-log axes of Fig. 5 had been read as linear. HDPE and LDPE are coded as PE.
+623,Chen_2021,10.1021/acs.est.1c04278,True,7.196880000000001e-07,0.001268673884328618,25.0,7.0,140.0,Virgin,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+624,Chen_2021,10.1021/acs.est.1c04278,True,1.232e-05,0.002618966842119519,25.0,7.0,140.0,Virgin,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+625,Chen_2021,10.1021/acs.est.1c04278,True,1.232e-05,0.004566673896495313,25.0,7.0,140.0,Virgin,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+626,Chen_2021,10.1021/acs.est.1c04278,True,9.667000000000001e-05,0.004566673896495313,25.0,7.0,140.0,Virgin,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+627,Chen_2021,10.1021/acs.est.1c04278,True,0.00015572,0.003857447286724762,25.0,7.0,140.0,Virgin,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+628,Chen_2021,10.1021/acs.est.1c04278,True,0.00018524,0.004751710793207398,25.0,7.0,140.0,Virgin,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+629,Chen_2021,10.1021/acs.est.1c04278,True,0.00038241,0.1150826887407716,25.0,7.0,140.0,Virgin,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+630,Chen_2021,10.1021/acs.est.1c04278,True,0.00041193,0.1335641793248794,25.0,7.0,140.0,Virgin,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+631,Chen_2021,10.1021/acs.est.1c04278,True,0.0006460099999999999,0.4529705842520483,25.0,7.0,140.0,Virgin,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+632,Chen_2021,10.1021/acs.est.1c04278,True,0.0006597199999999999,0.4529705842520483,25.0,7.0,140.0,Virgin,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+633,Chen_2021,10.1021/acs.est.1c04278,True,0.0006417899999999999,1.186697425011207,25.0,7.0,140.0,Virgin,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+634,Chen_2021,10.1021/acs.est.1c04278,True,0.00071665,1.022492191262249,25.0,7.0,140.0,Virgin,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+635,Chen_2021,10.1021/acs.est.1c04278,True,0.00071455,1.404882491197491,25.0,7.0,140.0,Virgin,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+636,Chen_2021,10.1021/acs.est.1c04278,True,1.713e-05,0.005093777843244421,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+637,Chen_2021,10.1021/acs.est.1c04278,True,1.292e-05,0.008536109941845841,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+638,Chen_2021,10.1021/acs.est.1c04278,True,1.713e-05,0.01444774274380102,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+639,Chen_2021,10.1021/acs.est.1c04278,True,0.00010128,0.002921191309824114,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+640,Chen_2021,10.1021/acs.est.1c04278,True,8.55e-05,0.02170650986736237,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+641,Chen_2021,10.1021/acs.est.1c04278,True,0.00018438,0.02595434062377881,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+642,Chen_2021,10.1021/acs.est.1c04278,True,0.00038214,0.1309392955200731,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+643,Chen_2021,10.1021/acs.est.1c04278,True,0.00040423,0.128363041812575,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+644,Chen_2021,10.1021/acs.est.1c04278,True,0.00045261,0.1258403738989727,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+645,Chen_2021,10.1021/acs.est.1c04278,True,0.0006703599999999999,0.4440685331432344,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+646,Chen_2021,10.1021/acs.est.1c04278,True,0.0006966499999999999,0.5416141474639717,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+647,Chen_2021,10.1021/acs.est.1c04278,True,0.00073137,1.377272893194194,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+648,Chen_2021,10.1021/acs.est.1c04278,True,0.00073557,1.747873508229715,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+649,Chen_2021,10.1021/acs.est.1c04278,True,1.11e-06,0.004658327306936916,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+650,Chen_2021,10.1021/acs.est.1c04278,True,1e-06,0.007502569030121841,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+651,Chen_2021,10.1021/acs.est.1c04278,True,6.68e-05,0.02421140541811282,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+652,Chen_2021,10.1021/acs.est.1c04278,True,0.00013778,0.04306455858266584,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+653,Chen_2021,10.1021/acs.est.1c04278,True,0.0001452,0.05357843204814131,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+654,Chen_2021,10.1021/acs.est.1c04278,True,0.00011553,0.06218276079857107,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+655,Chen_2021,10.1021/acs.est.1c04278,True,8.269e-05,0.1106012410019243,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+656,Chen_2021,10.1021/acs.est.1c04278,True,0.00010388,0.1209400099499209,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+657,Chen_2021,10.1021/acs.est.1c04278,True,0.00013354,0.3826220550869994,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+658,Chen_2021,10.1021/acs.est.1c04278,True,0.00013354,0.5635597917848865,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+659,Chen_2021,10.1021/acs.est.1c04278,True,0.00014944,1.022492191262249,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+660,Chen_2021,10.1021/acs.est.1c04278,True,0.00014732,1.350174806380491,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+661,Chen_2021,10.1021/acs.est.1c04278,True,0.00018334,1.022492191262249,25.0,7.0,140.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+662,Chen_2021,10.1021/acs.est.1c04278,True,1.01e-05,0.003008846276645726,25.0,7.0,140.0,Virgin,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+663,Chen_2021,10.1021/acs.est.1c04278,True,5.870000000000001e-06,0.006047696663852927,25.0,7.0,140.0,Virgin,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+664,Chen_2021,10.1021/acs.est.1c04278,True,5.977e-05,0.01443743360488605,25.0,7.0,140.0,Virgin,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+665,Chen_2021,10.1021/acs.est.1c04278,True,0.00015172,0.0161372675683917,25.0,7.0,140.0,Virgin,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+666,Chen_2021,10.1021/acs.est.1c04278,True,0.00014855,0.03446592987067876,25.0,7.0,140.0,Virgin,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+667,Chen_2021,10.1021/acs.est.1c04278,True,0.00038107,0.04911226909989318,25.0,7.0,140.0,Virgin,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+668,Chen_2021,10.1021/acs.est.1c04278,True,0.00039693,0.04911226909989318,25.0,7.0,140.0,Virgin,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+669,Chen_2021,10.1021/acs.est.1c04278,True,0.00074148,0.2108336852311198,25.0,7.0,140.0,Virgin,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+670,Chen_2021,10.1021/acs.est.1c04278,True,0.00078693,0.2108336852311198,25.0,7.0,140.0,Virgin,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+671,Chen_2021,10.1021/acs.est.1c04278,True,0.00080912,0.294408266424372,25.0,7.0,140.0,Virgin,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+672,Chen_2021,10.1021/acs.est.1c04278,True,0.00091376,1.011672628461534,25.0,7.0,140.0,Virgin,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+673,Chen_2021,10.1021/acs.est.1c04278,True,0.0009761100000000001,1.130758861764626,25.0,7.0,140.0,Virgin,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+674,Chen_2021,10.1021/acs.est.1c04278,True,0.00101205,1.17747040442694,25.0,7.0,140.0,Virgin,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+675,Chen_2021,10.1021/acs.est.1c04278,True,5.44e-06,0.004159201872999962,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+676,Chen_2021,10.1021/acs.est.1c04278,True,5.44e-06,0.00675974012472938,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+677,Chen_2021,10.1021/acs.est.1c04278,True,5.44e-06,0.01191242008027375,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+678,Chen_2021,10.1021/acs.est.1c04278,True,6.765e-05,0.02346442952687751,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+679,Chen_2021,10.1021/acs.est.1c04278,True,0.00014462,0.02786826938924004,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+680,Chen_2021,10.1021/acs.est.1c04278,True,0.00015833,0.03775200310026778,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+681,Chen_2021,10.1021/acs.est.1c04278,True,0.0003692,0.0774319149806031,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+682,Chen_2021,10.1021/acs.est.1c04278,True,0.00037131,0.1007325898799912,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+683,Chen_2021,10.1021/acs.est.1c04278,True,0.0006918499999999999,0.3192346324106495,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+684,Chen_2021,10.1021/acs.est.1c04278,True,0.00071505,0.2453917738552606,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+685,Chen_2021,10.1021/acs.est.1c04278,True,0.0007762,0.8869926069119134,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+686,Chen_2021,10.1021/acs.est.1c04278,True,0.00080362,0.7468097856637075,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+687,Chen_2021,10.1021/acs.est.1c04278,True,0.00083314,0.8692205794135311,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+688,Chen_2021,10.1021/acs.est.1c04278,True,1.372e-05,0.005691542720552266,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+689,Chen_2021,10.1021/acs.est.1c04278,True,8.3e-06,0.0116737395596142,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+690,Chen_2021,10.1021/acs.est.1c04278,True,6.252e-05,0.01518658062013601,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+691,Chen_2021,10.1021/acs.est.1c04278,True,7.427e-05,0.01955779996952409,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+692,Chen_2021,10.1021/acs.est.1c04278,True,0.0001285,0.0259627086633696,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+693,Chen_2021,10.1021/acs.est.1c04278,True,0.00017369,0.03178630161321441,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+694,Chen_2021,10.1021/acs.est.1c04278,True,0.00031016,0.1027921618686554,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+695,Chen_2021,10.1021/acs.est.1c04278,True,0.00034269,0.0790150828839864,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+696,Chen_2021,10.1021/acs.est.1c04278,True,0.0006797999999999999,0.294408266424372,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+697,Chen_2021,10.1021/acs.est.1c04278,True,0.0007620400000000001,1.471024818433523,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+698,Chen_2021,10.1021/acs.est.1c04278,True,0.00082621,1.384394929585153,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+699,Chen_2021,10.1021/acs.est.1c04278,True,0.00084338,1.108128181930399,25.0,7.0,140.0,Aged,PE,,,,,,,,,removed,"Study removed: experiments in filtered natural seawater, outside the freshwater scope of the dataset."
+700,Gao_2021,10.1016/j.marpolbul.2021.112480,True,0.01591,0.08104256,25.0,7.0,160.0,Virgin,PS,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+701,Gao_2021,10.1016/j.marpolbul.2021.112480,True,0.12931,0.16112278,25.0,7.0,160.0,Virgin,PS,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+702,Gao_2021,10.1016/j.marpolbul.2021.112480,True,0.2584,0.23504299,25.0,7.0,160.0,Virgin,PS,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+703,Gao_2021,10.1016/j.marpolbul.2021.112480,True,0.65933,0.3332409,25.0,7.0,160.0,Virgin,PS,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+704,Gao_2021,10.1016/j.marpolbul.2021.112480,True,1.02332,0.47129775,25.0,7.0,160.0,Virgin,PS,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+705,Gao_2021,10.1016/j.marpolbul.2021.112480,True,1.43438,0.56369801,25.0,7.0,160.0,Virgin,PS,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+706,Gao_2021,10.1016/j.marpolbul.2021.112480,True,0.01034,0.08285433,25.0,7.0,160.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+707,Gao_2021,10.1016/j.marpolbul.2021.112480,True,0.10703,0.18322637,25.0,7.0,160.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+708,Gao_2021,10.1016/j.marpolbul.2021.112480,True,0.14956,0.34338681,25.0,7.0,160.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+709,Gao_2021,10.1016/j.marpolbul.2021.112480,True,0.45532,0.54231913,25.0,7.0,160.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+710,Gao_2021,10.1016/j.marpolbul.2021.112480,True,0.78134,0.7147996000000001,25.0,7.0,160.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+711,Gao_2021,10.1016/j.marpolbul.2021.112480,True,1.03648,0.95830145,25.0,7.0,160.0,Aged,PS,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+712,Gao_2021,10.1016/j.marpolbul.2021.112480,True,0.02199,0.07596961,25.0,7.0,160.0,Virgin,PVC,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+713,Gao_2021,10.1016/j.marpolbul.2021.112480,True,0.13538,0.15677454,25.0,7.0,160.0,Virgin,PVC,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+714,Gao_2021,10.1016/j.marpolbul.2021.112480,True,0.21992,0.2734525,25.0,7.0,160.0,Virgin,PVC,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+715,Gao_2021,10.1016/j.marpolbul.2021.112480,True,0.6482,0.346648,25.0,7.0,160.0,Virgin,PVC,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+716,Gao_2021,10.1016/j.marpolbul.2021.112480,True,1.0461,0.44991887,25.0,7.0,160.0,Virgin,PVC,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+717,Gao_2021,10.1016/j.marpolbul.2021.112480,True,1.40451,0.59413574,25.0,7.0,160.0,Virgin,PVC,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+718,Gao_2021,10.1016/j.marpolbul.2021.112480,True,0.00174,0.09517437,25.0,7.0,160.0,Aged,PVC,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+719,Gao_2021,10.1016/j.marpolbul.2021.112480,True,0.12121,0.17126869,25.0,7.0,160.0,Aged,PVC,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+720,Gao_2021,10.1016/j.marpolbul.2021.112480,True,0.19056,0.3049773,25.0,7.0,160.0,Aged,PVC,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+721,Gao_2021,10.1016/j.marpolbul.2021.112480,True,0.36167,0.63870527,25.0,7.0,160.0,Aged,PVC,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+722,Gao_2021,10.1016/j.marpolbul.2021.112480,True,0.73021,0.76444209,25.0,7.0,160.0,Aged,PVC,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+723,Gao_2021,10.1016/j.marpolbul.2021.112480,True,1.14279,0.85575528,25.0,7.0,160.0,Aged,PVC,,,,,,,,,removed,"Study removed: experiments in seawater, outside the freshwater scope of the dataset."
+907,Wang_2021,10.1016/j.cej.2020.126412,True,0.6913,0.23430538,25.0,,,Virgin,PE,0.7188,0.00402,25.0,,,Virgin,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+908,Wang_2021,10.1016/j.cej.2020.126412,True,1.33874,0.23478679,25.0,,,Virgin,PE,1.3777,0.00453,25.0,,,Virgin,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+909,Wang_2021,10.1016/j.cej.2020.126412,True,1.96697,0.23729008,25.0,,,Virgin,PE,1.9967,0.0062,25.0,,,Virgin,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+910,Wang_2021,10.1016/j.cej.2020.126412,True,3.24264,0.23940825,25.0,,,Virgin,PE,3.2895,0.00838,25.0,,,Virgin,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+911,Wang_2021,10.1016/j.cej.2020.126412,True,4.96274,0.24479997,25.0,,,Virgin,PE,5.0017,0.01341,25.0,,,Virgin,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+912,Wang_2021,10.1016/j.cej.2020.126412,True,6.42496,0.24778466,25.0,,,Virgin,PE,6.4842,0.01693,25.0,,,Virgin,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+913,Wang_2021,10.1016/j.cej.2020.126412,True,0.08502,0.23160953,25.0,,,Aged,PE,0.0998,0.00134,25.0,,,Aged,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+914,Wang_2021,10.1016/j.cej.2020.126412,True,0.23042,0.23401654,25.0,,,Aged,PE,0.2596,0.00302,25.0,,,Aged,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+915,Wang_2021,10.1016/j.cej.2020.126412,True,0.68307,0.23806033,25.0,,,Aged,PE,0.7088,0.00637,25.0,,,Aged,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+916,Wang_2021,10.1016/j.cej.2020.126412,True,1.45396,0.24643674,25.0,,,Aged,PE,1.4676,0.01542,25.0,,,Aged,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+917,Wang_2021,10.1016/j.cej.2020.126412,True,2.19742,0.25211729,25.0,,,Aged,PE,2.2276,0.02059,25.0,,,Aged,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+918,Wang_2021,10.1016/j.cej.2020.126412,True,3.61849,0.26713706,25.0,,,Aged,PE,3.6739,0.03503,25.0,,,Aged,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+919,Wang_2021,10.1016/j.cej.2020.126412,True,4.81734,0.27310645,25.0,,,Aged,PE,4.8519,0.04056,25.0,,,Aged,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+920,Wang_2021,10.1016/j.cej.2020.126412,True,0.32369,0.24614789,25.0,,,Aged,PE,0.3394,0.01575,25.0,,,Aged,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+921,Wang_2021,10.1016/j.cej.2020.126412,True,0.54591,0.26039742,25.0,,,Aged,PE,0.5641,0.0295,25.0,,,Aged,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+922,Wang_2021,10.1016/j.cej.2020.126412,True,0.96839,0.2738767,25.0,,,Aged,PE,0.9915,0.0415,25.0,,,Aged,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+923,Wang_2021,10.1016/j.cej.2020.126412,True,1.89839,0.29525099,25.0,,,Aged,PE,1.9269,0.06204,25.0,,,Aged,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+924,Wang_2021,10.1016/j.cej.2020.126412,True,3.95867,0.31412198,25.0,,,Aged,PE,3.9983,0.08045,25.0,,,Aged,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+925,Wang_2021,10.1016/j.cej.2020.126412,True,5.42363,0.31758808,25.0,,,Aged,PE,5.4859,0.08363,25.0,,,Aged,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+926,Wang_2021,10.1016/j.cej.2020.126412,True,0.33741,0.25182845,25.0,,,Aged,PE,0.3444,0.01944,25.0,,,Aged,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+927,Wang_2021,10.1016/j.cej.2020.126412,True,0.53768,0.27522463,25.0,,,Aged,PE,0.5591,0.0424,25.0,,,Aged,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+928,Wang_2021,10.1016/j.cej.2020.126412,True,0.99033,0.31864717,25.0,,,Aged,PE,1.0033,0.08413,25.0,,,Aged,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+929,Wang_2021,10.1016/j.cej.2020.126412,True,1.81335,0.35831476,25.0,,,Aged,PE,1.8369,0.12168,25.0,,,Aged,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+930,Wang_2021,10.1016/j.cej.2020.126412,True,2.96556,0.38065186,25.0,,,Aged,PE,3.0003,0.1441,25.0,,,Aged,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+931,Wang_2021,10.1016/j.cej.2020.126412,True,4.4415,0.38989479,25.0,,,Aged,PE,4.4848,0.15298,25.0,,,Aged,PE,"Ce, qe",corrected,Single-ion rows re-digitized from Fig. 3a: they had been converted with the axis scale of panel c.
+932,Wang_2021,10.1016/j.cej.2020.126412,True,0.49104,0.00727579,25.0,,,Virgin,PE,0.49104,0.00727579,25.0,,,Virgin,PE,,unchanged,
+933,Wang_2021,10.1016/j.cej.2020.126412,True,0.99033,0.01103073,25.0,,,Virgin,PE,0.99033,0.01103073,25.0,,,Virgin,PE,,unchanged,
+934,Wang_2021,10.1016/j.cej.2020.126412,True,1.99166,0.01700013,25.0,,,Virgin,PE,1.99166,0.01700013,25.0,,,Virgin,PE,,unchanged,
+935,Wang_2021,10.1016/j.cej.2020.126412,True,2.74335,0.02104391,25.0,,,Virgin,PE,2.74335,0.02104391,25.0,,,Virgin,PE,,unchanged,
+936,Wang_2021,10.1016/j.cej.2020.126412,True,3.98884,0.0250877,25.0,,,Virgin,PE,3.98884,0.0250877,25.0,,,Virgin,PE,,unchanged,
+937,Wang_2021,10.1016/j.cej.2020.126412,True,5.85434,0.03019057,25.0,,,Virgin,PE,5.85434,0.03019057,25.0,,,Virgin,PE,,unchanged,
+938,Wang_2021,10.1016/j.cej.2020.126412,True,0.24688,0.00506134,25.0,,,Aged,PE,0.24688,0.00506134,25.0,,,Aged,PE,,unchanged,
+939,Wang_2021,10.1016/j.cej.2020.126412,True,0.68307,0.0126675,25.0,,,Aged,PE,0.68307,0.0126675,25.0,,,Aged,PE,,unchanged,
+940,Wang_2021,10.1016/j.cej.2020.126412,True,1.14396,0.02345093,25.0,,,Aged,PE,1.14396,0.02345093,25.0,,,Aged,PE,,unchanged,
+941,Wang_2021,10.1016/j.cej.2020.126412,True,1.71458,0.03827813,25.0,,,Aged,PE,1.71458,0.03827813,25.0,,,Aged,PE,,unchanged,
+942,Wang_2021,10.1016/j.cej.2020.126412,True,2.81193,0.05849706,25.0,,,Aged,PE,2.81193,0.05849706,25.0,,,Aged,PE,,unchanged,
+943,Wang_2021,10.1016/j.cej.2020.126412,True,3.98061,0.06629578,25.0,,,Aged,PE,3.98061,0.06629578,25.0,,,Aged,PE,,unchanged,
+944,Wang_2021,10.1016/j.cej.2020.126412,True,5.00115,0.07948622,25.0,,,Aged,PE,5.00115,0.07948622,25.0,,,Aged,PE,,unchanged,
+945,Wang_2021,10.1016/j.cej.2020.126412,True,0.20847,0.04395868999999999,25.0,,,Aged,PE,0.20847,0.04395868999999999,25.0,,,Aged,PE,,unchanged,
+946,Wang_2021,10.1016/j.cej.2020.126412,True,0.46086,0.06196316,25.0,,,Aged,PE,0.46086,0.06196316,25.0,,,Aged,PE,,unchanged,
+947,Wang_2021,10.1016/j.cej.2020.126412,True,0.7983,0.07900481999999999,25.0,,,Aged,PE,0.7983,0.07900481999999999,25.0,,,Aged,PE,,unchanged,
+948,Wang_2021,10.1016/j.cej.2020.126412,True,2.3291,0.0954688,25.0,,,Aged,PE,2.3291,0.0954688,25.0,,,Aged,PE,,unchanged,
+949,Wang_2021,10.1016/j.cej.2020.126412,True,3.88185,0.09999398,25.0,,,Aged,PE,3.88185,0.09999398,25.0,,,Aged,PE,,unchanged,
+950,Wang_2021,10.1016/j.cej.2020.126412,True,5.27823,0.10268984,25.0,,,Aged,PE,5.27823,0.10268984,25.0,,,Aged,PE,,unchanged,
+951,Wang_2021,10.1016/j.cej.2020.126412,True,0.29352,0.05474211,25.0,,,Aged,PE,0.29352,0.05474211,25.0,,,Aged,PE,,unchanged,
+952,Wang_2021,10.1016/j.cej.2020.126412,True,0.5678499999999999,0.09161757,25.0,,,Aged,PE,0.5678499999999999,0.09161757,25.0,,,Aged,PE,,unchanged,
+953,Wang_2021,10.1016/j.cej.2020.126412,True,0.98485,0.1197315,25.0,,,Aged,PE,0.98485,0.1197315,25.0,,,Aged,PE,,unchanged,
+954,Wang_2021,10.1016/j.cej.2020.126412,True,2.03007,0.14534213,25.0,,,Aged,PE,2.03007,0.14534213,25.0,,,Aged,PE,,unchanged,
+955,Wang_2021,10.1016/j.cej.2020.126412,True,3.48132,0.16498337,25.0,,,Aged,PE,3.48132,0.16498337,25.0,,,Aged,PE,,unchanged,
+956,Wang_2021,10.1016/j.cej.2020.126412,True,5.07248,0.18192875,25.0,,,Aged,PE,5.07248,0.18192875,25.0,,,Aged,PE,,unchanged,
+957,Xue_2021,10.1016/j.jhazmat.2020.124835,True,2.09389,0.11454,,,100.0,Virgin,TPU,2.09389,0.11454,,,100.0,Virgin,TPU,,unchanged,
+958,Xue_2021,10.1016/j.jhazmat.2020.124835,True,4.45659,0.18561,,,100.0,Virgin,TPU,4.45659,0.18561,,,100.0,Virgin,TPU,,unchanged,
+959,Xue_2021,10.1016/j.jhazmat.2020.124835,True,6.72085,0.24878,,,100.0,Virgin,TPU,6.72085,0.24878,,,100.0,Virgin,TPU,,unchanged,
+960,Xue_2021,10.1016/j.jhazmat.2020.124835,True,9.05893,0.27868,,,100.0,Virgin,TPU,9.05893,0.27868,,,100.0,Virgin,TPU,,unchanged,
+961,Xue_2021,10.1016/j.jhazmat.2020.124835,True,13.80895,0.34185,,,100.0,Virgin,TPU,13.80895,0.34185,,,100.0,Virgin,TPU,,unchanged,
+962,Xue_2021,10.1016/j.jhazmat.2020.124835,True,18.70662,0.37062,,,100.0,Virgin,TPU,18.70662,0.37062,,,100.0,Virgin,TPU,,unchanged,
+963,Xue_2021,10.1016/j.jhazmat.2020.124835,True,28.69887,0.39261,,,100.0,Virgin,TPU,28.69887,0.39261,,,100.0,Virgin,TPU,,unchanged,
+964,Xue_2021,10.1016/j.jhazmat.2020.124835,True,38.61729,0.38641,,,100.0,Virgin,TPU,38.61729,0.38641,,,100.0,Virgin,TPU,,unchanged,
+965,Xue_2021,10.1016/j.jhazmat.2020.124835,True,48.56032,0.3802,,,100.0,Virgin,TPU,48.56032,0.3802,,,100.0,Virgin,TPU,,unchanged,
+966,Xue_2021,10.1016/j.jhazmat.2020.124835,True,2.04467,0.18392,,,100.0,Aged,TPU,2.04467,0.18392,,,100.0,Aged,TPU,,unchanged,
+967,Xue_2021,10.1016/j.jhazmat.2020.124835,True,4.30892,0.23638,,,100.0,Aged,TPU,4.30892,0.23638,,,100.0,Aged,TPU,,unchanged,
+968,Xue_2021,10.1016/j.jhazmat.2020.124835,True,6.52396,0.28375,,,100.0,Aged,TPU,6.52396,0.28375,,,100.0,Aged,TPU,,unchanged,
+969,Xue_2021,10.1016/j.jhazmat.2020.124835,True,8.86204,0.32606,,,100.0,Aged,TPU,8.86204,0.32606,,,100.0,Aged,TPU,,unchanged,
+970,Xue_2021,10.1016/j.jhazmat.2020.124835,True,13.75972,0.40389,,,100.0,Aged,TPU,13.75972,0.40389,,,100.0,Aged,TPU,,unchanged,
+971,Xue_2021,10.1016/j.jhazmat.2020.124835,True,18.50973,0.43548,,,100.0,Aged,TPU,18.50973,0.43548,,,100.0,Aged,TPU,,unchanged,
+972,Xue_2021,10.1016/j.jhazmat.2020.124835,True,28.42815,0.46989,,,100.0,Aged,TPU,28.42815,0.46989,,,100.0,Aged,TPU,,unchanged,
+973,Xue_2021,10.1016/j.jhazmat.2020.124835,True,38.34656,0.47778,,,100.0,Aged,TPU,38.34656,0.47778,,,100.0,Aged,TPU,,unchanged,
+974,Xue_2021,10.1016/j.jhazmat.2020.124835,True,48.26498,0.48568,,,100.0,Aged,TPU,48.26498,0.48568,,,100.0,Aged,TPU,,unchanged,
+975,Xue_2021,10.1016/j.jhazmat.2020.124835,True,2.04467,0.1114,,,100.0,Virgin,TPU,2.04467,0.1114,,,100.0,Virgin,TPU,,unchanged,
+976,Xue_2021,10.1016/j.jhazmat.2020.124835,True,3.89053,0.2361,,,100.0,Virgin,TPU,3.89053,0.2361,,,100.0,Virgin,TPU,,unchanged,
+977,Xue_2021,10.1016/j.jhazmat.2020.124835,True,6.30245,0.29282,,,100.0,Virgin,TPU,6.30245,0.29282,,,100.0,Virgin,TPU,,unchanged,
+978,Xue_2021,10.1016/j.jhazmat.2020.124835,True,8.78821,0.32433,,,100.0,Virgin,TPU,8.78821,0.32433,,,100.0,Virgin,TPU,,unchanged,
+979,Xue_2021,10.1016/j.jhazmat.2020.124835,True,13.53822,0.39276,,,100.0,Virgin,TPU,13.53822,0.39276,,,100.0,Virgin,TPU,,unchanged,
+980,Xue_2021,10.1016/j.jhazmat.2020.124835,True,18.28823,0.45939,,,100.0,Virgin,TPU,18.28823,0.45939,,,100.0,Virgin,TPU,,unchanged,
+981,Xue_2021,10.1016/j.jhazmat.2020.124835,True,28.35431,0.4819,,,100.0,Virgin,TPU,28.35431,0.4819,,,100.0,Virgin,TPU,,unchanged,
+982,Xue_2021,10.1016/j.jhazmat.2020.124835,True,38.22351,0.4936,,,100.0,Virgin,TPU,38.22351,0.4936,,,100.0,Virgin,TPU,,unchanged,
+983,Xue_2021,10.1016/j.jhazmat.2020.124835,True,47.99425,0.53502,,,100.0,Virgin,TPU,47.99425,0.53502,,,100.0,Virgin,TPU,,unchanged,
+984,Xue_2021,10.1016/j.jhazmat.2020.124835,True,1.70011,0.21854,,,100.0,Aged,TPU,1.70011,0.21854,,,100.0,Aged,TPU,,unchanged,
+985,Xue_2021,10.1016/j.jhazmat.2020.124835,True,3.96436,0.30183,,,100.0,Aged,TPU,3.96436,0.30183,,,100.0,Aged,TPU,,unchanged,
+986,Xue_2021,10.1016/j.jhazmat.2020.124835,True,6.30245,0.34324,,,100.0,Aged,TPU,6.30245,0.34324,,,100.0,Aged,TPU,,unchanged,
+987,Xue_2021,10.1016/j.jhazmat.2020.124835,True,8.51748,0.39906,,,100.0,Aged,TPU,8.51748,0.39906,,,100.0,Aged,TPU,,unchanged,
+988,Xue_2021,10.1016/j.jhazmat.2020.124835,True,13.46438,0.45039,,,100.0,Aged,TPU,13.46438,0.45039,,,100.0,Aged,TPU,,unchanged,
+989,Xue_2021,10.1016/j.jhazmat.2020.124835,True,18.23901,0.4945,,,100.0,Aged,TPU,18.23901,0.4945,,,100.0,Aged,TPU,,unchanged,
+990,Xue_2021,10.1016/j.jhazmat.2020.124835,True,28.00975,0.52872,,,100.0,Aged,TPU,28.00975,0.52872,,,100.0,Aged,TPU,,unchanged,
+991,Xue_2021,10.1016/j.jhazmat.2020.124835,True,38.002,0.54492,,,100.0,Aged,TPU,38.002,0.54492,,,100.0,Aged,TPU,,unchanged,
+992,Xue_2021,10.1016/j.jhazmat.2020.124835,True,48.06809,0.55393,,,100.0,Aged,TPU,48.06809,0.55393,,,100.0,Aged,TPU,,unchanged,
+1446,Lin_2022,10.1016/j.watres.2022.119144,True,0.1126913085,0.232167215,15.0,,170.0,Virgin,PS,0.1126913085,0.232167215,15.0,5.0,170.0,Virgin,PS,pH,corrected,"pH set to 5.0 and adsorption system recoded from Mixed to Single-ion, as described in Text S2 of the source (separate single-metal solutions)."
+1447,Lin_2022,10.1016/j.watres.2022.119144,True,0.39034952,0.359931948,15.0,,170.0,Virgin,PS,0.39034952,0.359931948,15.0,5.0,170.0,Virgin,PS,pH,corrected,"pH set to 5.0 and adsorption system recoded from Mixed to Single-ion, as described in Text S2 of the source (separate single-metal solutions)."
+1448,Lin_2022,10.1016/j.watres.2022.119144,True,1.3423215295,0.6811689365,15.0,,170.0,Virgin,PS,1.3423215295,0.6811689365,15.0,5.0,170.0,Virgin,PS,pH,corrected,"pH set to 5.0 and adsorption system recoded from Mixed to Single-ion, as described in Text S2 of the source (separate single-metal solutions)."
+1449,Lin_2022,10.1016/j.watres.2022.119144,True,3.285930916499999,1.1776253495,15.0,,170.0,Virgin,PS,3.285930916499999,1.1776253495,15.0,5.0,170.0,Virgin,PS,pH,corrected,"pH set to 5.0 and adsorption system recoded from Mixed to Single-ion, as described in Text S2 of the source (separate single-metal solutions)."
+1450,Lin_2022,10.1016/j.watres.2022.119144,True,4.9221324305,1.509813274,15.0,,170.0,Virgin,PS,4.9221324305,1.509813274,15.0,5.0,170.0,Virgin,PS,pH,corrected,"pH set to 5.0 and adsorption system recoded from Mixed to Single-ion, as described in Text S2 of the source (separate single-metal solutions)."
+1451,Lin_2022,10.1016/j.watres.2022.119144,True,10.9512874315,1.7452653885,15.0,,170.0,Virgin,PS,10.9512874315,1.7452653885,15.0,5.0,170.0,Virgin,PS,pH,corrected,"pH set to 5.0 and adsorption system recoded from Mixed to Single-ion, as described in Text S2 of the source (separate single-metal solutions)."
+1452,Lin_2022,10.1016/j.watres.2022.119144,True,17.0597731685,1.847477302,15.0,,170.0,Virgin,PS,17.0597731685,1.847477302,15.0,5.0,170.0,Virgin,PS,pH,corrected,"pH set to 5.0 and adsorption system recoded from Mixed to Single-ion, as described in Text S2 of the source (separate single-metal solutions)."
+1453,Lin_2022,10.1016/j.watres.2022.119144,True,0.1126913085,0.263196138,25.0,,170.0,Virgin,PS,0.1126913085,0.263196138,25.0,5.0,170.0,Virgin,PS,pH,corrected,"pH set to 5.0 and adsorption system recoded from Mixed to Single-ion, as described in Text S2 of the source (separate single-metal solutions)."
+1454,Lin_2022,10.1016/j.watres.2022.119144,True,0.3407678099999999,0.4165136904999999,25.0,,170.0,Virgin,PS,0.3407678099999999,0.4165136904999999,25.0,5.0,170.0,Virgin,PS,pH,corrected,"pH set to 5.0 and adsorption system recoded from Mixed to Single-ion, as described in Text S2 of the source (separate single-metal solutions)."
+1455,Lin_2022,10.1016/j.watres.2022.119144,True,0.9754156044999999,0.8198846055,25.0,,170.0,Virgin,PS,0.9754156044999999,0.8198846055,25.0,5.0,170.0,Virgin,PS,pH,corrected,"pH set to 5.0 and adsorption system recoded from Mixed to Single-ion, as described in Text S2 of the source (separate single-metal solutions)."
+1456,Lin_2022,10.1016/j.watres.2022.119144,True,2.839693619999999,1.371097605,25.0,,170.0,Virgin,PS,2.839693619999999,1.371097605,25.0,5.0,170.0,Virgin,PS,pH,corrected,"pH set to 5.0 and adsorption system recoded from Mixed to Single-ion, as described in Text S2 of the source (separate single-metal solutions)."
+1457,Lin_2022,10.1016/j.watres.2022.119144,True,4.416397082,1.7507408565,25.0,,170.0,Virgin,PS,4.416397082,1.7507408565,25.0,5.0,170.0,Virgin,PS,pH,corrected,"pH set to 5.0 and adsorption system recoded from Mixed to Single-ion, as described in Text S2 of the source (separate single-metal solutions)."
+1458,Lin_2022,10.1016/j.watres.2022.119144,True,9.840653314499999,2.0884048845,25.0,,170.0,Virgin,PS,9.840653314499999,2.0884048845,25.0,5.0,170.0,Virgin,PS,pH,corrected,"pH set to 5.0 and adsorption system recoded from Mixed to Single-ion, as described in Text S2 of the source (separate single-metal solutions)."
+1459,Lin_2022,10.1016/j.watres.2022.119144,True,15.8598919735,2.2818765045,25.0,,170.0,Virgin,PS,15.8598919735,2.2818765045,25.0,5.0,170.0,Virgin,PS,pH,corrected,"pH set to 5.0 and adsorption system recoded from Mixed to Single-ion, as described in Text S2 of the source (separate single-metal solutions)."
+1460,Lin_2022,10.1016/j.watres.2022.119144,True,0.1126913085,0.3033502055,35.0,,170.0,Virgin,PS,0.1126913085,0.3033502055,35.0,5.0,170.0,Virgin,PS,pH,corrected,"pH set to 5.0 and adsorption system recoded from Mixed to Single-ion, as described in Text S2 of the source (separate single-metal solutions)."
+1461,Lin_2022,10.1016/j.watres.2022.119144,True,0.4795972335,0.5077740325,35.0,,170.0,Virgin,PS,0.4795972335,0.5077740325,35.0,5.0,170.0,Virgin,PS,pH,corrected,"pH set to 5.0 and adsorption system recoded from Mixed to Single-ion, as described in Text S2 of the source (separate single-metal solutions)."
+1462,Lin_2022,10.1016/j.watres.2022.119144,True,0.836586181,1.0352593685,35.0,,170.0,Virgin,PS,0.836586181,1.0352593685,35.0,5.0,170.0,Virgin,PS,pH,corrected,"pH set to 5.0 and adsorption system recoded from Mixed to Single-ion, as described in Text S2 of the source (separate single-metal solutions)."
+1463,Lin_2022,10.1016/j.watres.2022.119144,True,2.423205985,1.719712569,35.0,,170.0,Virgin,PS,2.423205985,1.719712569,35.0,5.0,170.0,Virgin,PS,pH,corrected,"pH set to 5.0 and adsorption system recoded from Mixed to Single-ion, as described in Text S2 of the source (separate single-metal solutions)."
+1464,Lin_2022,10.1016/j.watres.2022.119144,True,3.7817492875,2.205218046,35.0,,170.0,Virgin,PS,3.7817492875,2.205218046,35.0,5.0,170.0,Virgin,PS,pH,corrected,"pH set to 5.0 and adsorption system recoded from Mixed to Single-ion, as described in Text S2 of the source (separate single-metal solutions)."
+1465,Lin_2022,10.1016/j.watres.2022.119144,True,8.888681305,2.522804087,35.0,,170.0,Virgin,PS,8.888681305,2.522804087,35.0,5.0,170.0,Virgin,PS,pH,corrected,"pH set to 5.0 and adsorption system recoded from Mixed to Single-ion, as described in Text S2 of the source (separate single-metal solutions)."
+1466,Lin_2022,10.1016/j.watres.2022.119144,True,15.3640736025,2.741829162,35.0,,170.0,Virgin,PS,15.3640736025,2.741829162,35.0,5.0,170.0,Virgin,PS,pH,corrected,"pH set to 5.0 and adsorption system recoded from Mixed to Single-ion, as described in Text S2 of the source (separate single-metal solutions)."
+1603,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.195734,0.0477254145,25.0,6.0,,Virgin,PS,0.195734,0.0477254145,25.0,6.0,,Virgin,PS,,unchanged,
+1604,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.327918,0.1262795695,25.0,6.0,,Virgin,PS,0.327918,0.1262795695,25.0,6.0,,Virgin,PS,,unchanged,
+1605,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.6583779999999999,0.2472050515,25.0,6.0,,Virgin,PS,0.6583779999999999,0.2472050515,25.0,6.0,,Virgin,PS,,unchanged,
+1606,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,1.8270625,0.5471394445,25.0,6.0,,Virgin,PS,1.8270625,0.5471394445,25.0,6.0,,Virgin,PS,,unchanged,
+1607,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,4.487901,0.7466190815,25.0,6.0,,Virgin,PS,4.487901,0.7466190815,25.0,6.0,,Virgin,PS,,unchanged,
+1608,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.210986,0.041059655,25.0,6.0,,Virgin,PS,0.210986,0.041059655,25.0,6.0,,Virgin,PS,,unchanged,
+1609,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.3971875,0.09485790749999999,25.0,6.0,,Virgin,PS,0.3971875,0.09485790749999999,25.0,6.0,,Virgin,PS,,unchanged,
+1610,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.7873844999999999,0.197215986,25.0,6.0,,Virgin,PS,0.7873844999999999,0.197215986,25.0,6.0,,Virgin,PS,,unchanged,
+1611,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,2.0609265,0.4771543715,25.0,6.0,,Virgin,PS,2.0609265,0.4771543715,25.0,6.0,,Virgin,PS,,unchanged,
+1612,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,4.7490915,0.6409278055,25.0,6.0,,Virgin,PS,4.7490915,0.6409278055,25.0,6.0,,Virgin,PS,,unchanged,
+1613,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.2319575,0.0315379585,25.0,6.0,,Virgin,PS,0.2319575,0.0315379585,25.0,6.0,,Virgin,PS,,unchanged,
+1614,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.451205,0.07057735899999999,25.0,6.0,,Virgin,PS,0.451205,0.07057735899999999,25.0,6.0,,Virgin,PS,,unchanged,
+1615,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.856654,0.1643663555,25.0,6.0,,Virgin,PS,0.856654,0.1643663555,25.0,6.0,,Virgin,PS,,unchanged,
+1616,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,2.3761345,0.3552762749999999,25.0,6.0,,Virgin,PS,2.3761345,0.3552762749999999,25.0,6.0,,Virgin,PS,,unchanged,
+1617,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,4.974694,0.54618683,25.0,6.0,,Virgin,PS,4.974694,0.54618683,25.0,6.0,,Virgin,PS,,unchanged,
+1618,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.2230605,0.029158011,25.0,6.0,,Virgin,PS,0.2230605,0.029158011,25.0,6.0,,Virgin,PS,,unchanged,
+1619,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.477896,0.0620076415,25.0,6.0,,Virgin,PS,0.477896,0.0620076415,25.0,6.0,,Virgin,PS,,unchanged,
+1620,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.979941,0.11437729,25.0,6.0,,Virgin,PS,0.979941,0.11437729,25.0,6.0,,Virgin,PS,,unchanged,
+1621,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,2.658932,0.241967896,25.0,6.0,,Virgin,PS,2.658932,0.241967896,25.0,6.0,,Virgin,PS,,unchanged,
+1622,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,5.305154,0.4128830789999999,25.0,6.0,,Virgin,PS,5.305154,0.4128830789999999,25.0,6.0,,Virgin,PS,,unchanged,
+1623,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.270723,0.0196363145,25.0,6.0,,Virgin,PS,0.270723,0.0196363145,25.0,6.0,,Virgin,PS,,unchanged,
+1624,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.499503,0.0510579765,25.0,6.0,,Virgin,PS,0.499503,0.0510579765,25.0,6.0,,Virgin,PS,,unchanged,
+1625,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,1.048575,0.0891447625,25.0,6.0,,Virgin,PS,1.048575,0.0891447625,25.0,6.0,,Virgin,PS,,unchanged,
+1626,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,2.7879385,0.196264007,25.0,6.0,,Virgin,PS,2.7879385,0.196264007,25.0,6.0,,Virgin,PS,,unchanged,
+1627,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,5.559989499999999,0.313856927,25.0,6.0,,Virgin,PS,5.559989499999999,0.313856927,25.0,6.0,,Virgin,PS,,unchanged,
+1653,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.1124835,0.0776587355,25.0,6.0,,Aged,PS,0.1124835,0.0776587355,25.0,6.0,,Aged,PS,,unchanged,
+1654,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.130913,0.1906595325,25.0,6.0,,Aged,PS,0.130913,0.1906595325,25.0,6.0,,Aged,PS,,unchanged,
+1655,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.363506,0.321044432,25.0,6.0,,Aged,PS,0.363506,0.321044432,25.0,6.0,,Aged,PS,,unchanged,
+1656,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,1.456566,0.693367359,25.0,6.0,,Aged,PS,1.456566,0.693367359,25.0,6.0,,Aged,PS,,unchanged,
+1657,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,4.236243,0.889669496,25.0,6.0,,Aged,PS,4.236243,0.889669496,25.0,6.0,,Aged,PS,,unchanged,
+1658,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,9.758738,1.180863222,25.0,6.0,,Aged,PS,9.758738,1.180863222,25.0,6.0,,Aged,PS,,unchanged,
+1659,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.130913,0.0704153065,25.0,6.0,,Aged,PS,0.130913,0.0704153065,25.0,6.0,,Aged,PS,,unchanged,
+1660,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.1862015,0.1884861225,25.0,6.0,,Aged,PS,0.1862015,0.1884861225,25.0,6.0,,Aged,PS,,unchanged,
+1661,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.4734475,0.3282884965,25.0,6.0,,Aged,PS,0.4734475,0.3282884965,25.0,6.0,,Aged,PS,,unchanged,
+1662,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,1.7253825,0.586885521,25.0,6.0,,Aged,PS,1.7253825,0.586885521,25.0,6.0,,Aged,PS,,unchanged,
+1663,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,4.4682005,0.7600084309999999,25.0,6.0,,Aged,PS,4.4682005,0.7600084309999999,25.0,6.0,,Aged,PS,,unchanged,
+1664,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,10.2105785,1.002670293,25.0,6.0,,Aged,PS,10.2105785,1.002670293,25.0,6.0,,Aged,PS,,unchanged,
+1665,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.130913,0.05882505749999999,25.0,6.0,,Aged,PS,0.130913,0.05882505749999999,25.0,6.0,,Aged,PS,,unchanged,
+1666,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.2230605,0.1609600755,25.0,6.0,,Aged,PS,0.2230605,0.1609600755,25.0,6.0,,Aged,PS,,unchanged,
+1667,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.4912415,0.3159737775,25.0,6.0,,Aged,PS,0.4912415,0.3159737775,25.0,6.0,,Aged,PS,,unchanged,
+1668,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,1.933191,0.5057569555,25.0,6.0,,Aged,PS,1.933191,0.5057569555,25.0,6.0,,Aged,PS,,unchanged,
+1669,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,4.65186,0.691193949,25.0,6.0,,Aged,PS,4.65186,0.691193949,25.0,6.0,,Aged,PS,,unchanged,
+1670,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,10.4736755,0.9012591094999999,25.0,6.0,,Aged,PS,10.4736755,0.9012591094999999,25.0,6.0,,Aged,PS,,unchanged,
+1671,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.1798465,0.05013268849999999,25.0,6.0,,Aged,PS,0.1798465,0.05013268849999999,25.0,6.0,,Aged,PS,,unchanged,
+1672,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.2167055,0.177620979,25.0,6.0,,Aged,PS,0.2167055,0.177620979,25.0,6.0,,Aged,PS,,unchanged,
+1673,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.668546,0.2413648065,25.0,6.0,,Aged,PS,0.668546,0.2413648065,25.0,6.0,,Aged,PS,,unchanged,
+1674,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,2.159429,0.406519182,25.0,6.0,,Aged,PS,2.159429,0.406519182,25.0,6.0,,Aged,PS,,unchanged,
+1675,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,5.0185435,0.5369047169999999,25.0,6.0,,Aged,PS,5.0185435,0.5369047169999999,25.0,6.0,,Aged,PS,,unchanged,
+1676,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,11.053887,0.6651168419999999,25.0,6.0,,Aged,PS,11.053887,0.6651168419999999,25.0,6.0,,Aged,PS,,unchanged,
+1677,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.198276,0.04288925949999999,25.0,6.0,,Aged,PS,0.198276,0.04288925949999999,25.0,6.0,,Aged,PS,,unchanged,
+1678,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.265639,0.150094932,25.0,6.0,,Aged,PS,0.265639,0.150094932,25.0,6.0,,Aged,PS,,unchanged,
+1679,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.7174794999999999,0.229050723,25.0,6.0,,Aged,PS,0.7174794999999999,0.229050723,25.0,6.0,,Aged,PS,,unchanged,
+1680,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,2.281445,0.3587111525,25.0,6.0,,Aged,PS,2.281445,0.3587111525,25.0,6.0,,Aged,PS,,unchanged,
+1681,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,5.1952125,0.4644685205,25.0,6.0,,Aged,PS,5.1952125,0.4644685205,25.0,6.0,,Aged,PS,,unchanged,
+1682,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,11.1701835,0.6194822225,25.0,6.0,,Aged,PS,11.1701835,0.6194822225,25.0,6.0,,Aged,PS,,unchanged,
+1713,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.208444,0.301946386,25.0,6.0,,Aged,PS,0.208444,0.301946386,25.0,6.0,,Aged,PS,,unchanged,
+1714,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.995193,0.7827472565000001,25.0,6.0,,Aged,PS,0.995193,0.7827472565000001,25.0,6.0,,Aged,PS,,unchanged,
+1715,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,2.993205,1.268568577,25.0,6.0,,Aged,PS,2.993205,1.268568577,25.0,6.0,,Aged,PS,,unchanged,
+1716,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,5.7938535,1.446828869,25.0,6.0,,Aged,PS,5.7938535,1.446828869,25.0,6.0,,Aged,PS,,unchanged,
+1717,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,8.466766499999999,1.6690269955,25.0,6.0,,Aged,PS,8.466766499999999,1.6690269955,25.0,6.0,,Aged,PS,,unchanged,
+1718,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,14.052176,1.9878865785,25.0,6.0,,Aged,PS,14.052176,1.9878865785,25.0,6.0,,Aged,PS,,unchanged,
+1719,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.2484805,0.2843716335000001,25.0,6.0,,Aged,PS,0.2484805,0.2843716335000001,25.0,6.0,,Aged,PS,,unchanged,
+1720,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,1.0593785,0.755129062,25.0,6.0,,Aged,PS,1.0593785,0.755129062,25.0,6.0,,Aged,PS,,unchanged,
+1721,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,3.2022845,1.1857152645,25.0,6.0,,Aged,PS,3.2022845,1.1857152645,25.0,6.0,,Aged,PS,,unchanged,
+1722,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,5.898711,1.406657643,25.0,6.0,,Aged,PS,5.898711,1.406657643,25.0,6.0,,Aged,PS,,unchanged,
+1723,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,8.5951375,1.593705629,25.0,6.0,,Aged,PS,8.5951375,1.593705629,25.0,6.0,,Aged,PS,,unchanged,
+1724,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,14.284769,1.8899687385,25.0,6.0,,Aged,PS,14.284769,1.8899687385,25.0,6.0,,Aged,PS,,unchanged,
+1725,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.280891,0.265541133,25.0,6.0,,Aged,PS,0.280891,0.265541133,25.0,6.0,,Aged,PS,,unchanged,
+1726,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,1.2360475,0.6823185559999999,25.0,6.0,,Aged,PS,1.2360475,0.6823185559999999,25.0,6.0,,Aged,PS,,unchanged,
+1727,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,3.402467,1.1103945335,25.0,6.0,,Aged,PS,3.402467,1.1103945335,25.0,6.0,,Aged,PS,,unchanged,
+1728,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,6.179601999999999,1.281122244,25.0,6.0,,Aged,PS,6.179601999999999,1.281122244,25.0,6.0,,Aged,PS,,unchanged,
+1729,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,8.771171,1.53344879,25.0,6.0,,Aged,PS,8.771171,1.53344879,25.0,6.0,,Aged,PS,,unchanged,
+1730,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,14.6056965,1.746858587,25.0,6.0,,Aged,PS,14.6056965,1.746858587,25.0,6.0,,Aged,PS,,unchanged,
+1731,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.489335,0.177666735,25.0,6.0,,Aged,PS,0.489335,0.177666735,25.0,6.0,,Aged,PS,,unchanged,
+1732,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,1.58875,0.529165598,25.0,6.0,,Aged,PS,1.58875,0.529165598,25.0,6.0,,Aged,PS,,unchanged,
+1733,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,3.804103,0.942177048,25.0,6.0,,Aged,PS,3.804103,0.942177048,25.0,6.0,,Aged,PS,,unchanged,
+1734,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,6.5005295,1.144288926,25.0,6.0,,Aged,PS,6.5005295,1.144288926,25.0,6.0,,Aged,PS,,unchanged,
+1735,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,9.277028999999999,1.3602095835,25.0,6.0,,Aged,PS,9.277028999999999,1.3602095835,25.0,6.0,,Aged,PS,,unchanged,
+1736,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,14.918998,1.497043537,25.0,6.0,,Aged,PS,14.918998,1.497043537,25.0,6.0,,Aged,PS,,unchanged,
+1737,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,0.6742655,0.09983450799999999,25.0,6.0,,Aged,PS,0.6742655,0.09983450799999999,25.0,6.0,,Aged,PS,,unchanged,
+1738,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,1.837866,0.4136730055,25.0,6.0,,Aged,PS,1.837866,0.4136730055,25.0,6.0,,Aged,PS,,unchanged,
+1739,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,3.932474,0.8743876275,25.0,6.0,,Aged,PS,3.932474,0.8743876275,25.0,6.0,,Aged,PS,,unchanged,
+1740,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,6.7890465,1.011221581,25.0,6.0,,Aged,PS,6.7890465,1.011221581,25.0,6.0,,Aged,PS,,unchanged,
+1741,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,9.613844,1.2145885715,25.0,6.0,,Aged,PS,9.613844,1.2145885715,25.0,6.0,,Aged,PS,,unchanged,
+1742,Qiongjie_2022,10.1016/j.jhazmat.2021.127340,True,15.0950315,1.371508138,25.0,6.0,,Aged,PS,15.0950315,1.371508138,25.0,6.0,,Aged,PS,,unchanged,
+1843,Sathyamoorthy_2022,10.1002/wer.10809,False,0.0,0.0,30.0,5.0,160.0,Virgin,PE,,,,,,,,,not in submitted dataset (QC-excluded before submission),Excluded before submission: non-positive qe.
+1844,Sathyamoorthy_2022,10.1002/wer.10809,True,0.07531,0.38241,30.0,5.0,160.0,Virgin,PE,0.07531,0.38241,30.0,5.0,160.0,Virgin,PE,,unchanged,
+1845,Sathyamoorthy_2022,10.1002/wer.10809,True,0.45938,0.9032,30.0,5.0,160.0,Virgin,PE,0.45938,0.9032,30.0,5.0,160.0,Virgin,PE,,unchanged,
+1846,Sathyamoorthy_2022,10.1002/wer.10809,True,2.60029,1.07948,30.0,5.0,160.0,Virgin,PE,2.60029,1.07948,30.0,5.0,160.0,Virgin,PE,,unchanged,
+1847,Sathyamoorthy_2022,10.1002/wer.10809,True,4.38755,1.11856,30.0,5.0,160.0,Virgin,PE,4.38755,1.11856,30.0,5.0,160.0,Virgin,PE,,unchanged,
+1848,Sathyamoorthy_2022,10.1002/wer.10809,True,9.09528,1.18058,30.0,5.0,160.0,Virgin,PE,9.09528,1.18058,30.0,5.0,160.0,Virgin,PE,,unchanged,
+1849,Sathyamoorthy_2022,10.1002/wer.10809,True,14.00454,1.19969,30.0,5.0,160.0,Virgin,PE,14.00454,1.19969,30.0,5.0,160.0,Virgin,PE,,unchanged,
+1850,Sathyamoorthy_2022,10.1002/wer.10809,True,18.92522,1.21966,30.0,5.0,160.0,Virgin,PE,18.92522,1.21966,30.0,5.0,160.0,Virgin,PE,,unchanged,
+1851,Sun_2022,10.1016/j.cej.2021.132306,True,13.01324,0.00019794,,,150.0,Virgin,PLA,0.0828,0.030648,25.0,5.5,150.0,Virgin,PLA,"Ce, qe, Temp, pH",corrected,"Re-digitized from Fig. 1d: the two axis scales had been swapped (Ce x150, qe /150). Temp and pH added."
+1852,Sun_2022,10.1016/j.cej.2021.132306,True,118.6033,0.00072041,,,150.0,Virgin,PLA,0.7728,0.108482,25.0,5.5,150.0,Virgin,PLA,"Ce, qe, Temp, pH",corrected,"Re-digitized from Fig. 1d: the two axis scales had been swapped (Ce x150, qe /150). Temp and pH added."
+1853,Sun_2022,10.1016/j.cej.2021.132306,True,273.36707,0.00094315,,,150.0,Virgin,PLA,1.7917,0.13762,25.0,5.5,150.0,Virgin,PLA,"Ce, qe, Temp, pH",corrected,"Re-digitized from Fig. 1d: the two axis scales had been swapped (Ce x150, qe /150). Temp and pH added."
+1854,Sun_2022,10.1016/j.cej.2021.132306,True,755.95559,0.0009514,,,150.0,Virgin,PLA,5.0587,0.139615,25.0,5.5,150.0,Virgin,PLA,"Ce, qe, Temp, pH",corrected,"Re-digitized from Fig. 1d: the two axis scales had been swapped (Ce x150, qe /150). Temp and pH added."
+1855,Sun_2022,10.1016/j.cej.2021.132306,True,1225.58359,0.0009734,,,150.0,Virgin,PLA,8.1896,0.14201,25.0,5.5,150.0,Virgin,PLA,"Ce, qe, Temp, pH",corrected,"Re-digitized from Fig. 1d: the two axis scales had been swapped (Ce x150, qe /150). Temp and pH added."
+1856,Sun_2022,10.1016/j.cej.2021.132306,True,1552.26476,0.0009348999999999999,,,150.0,Virgin,PLA,10.366,0.14201,25.0,5.5,150.0,Virgin,PLA,"Ce, qe, Temp, pH",corrected,"Re-digitized from Fig. 1d: the two axis scales had been swapped (Ce x150, qe /150). Temp and pH added."
+1857,Sun_2022,10.1016/j.cej.2021.132306,True,18.34992,0.00293681,,,150.0,Aged,PLA,0.0951,0.437778,25.0,5.5,150.0,Aged,PLA,"Ce, qe, Temp, pH",corrected,"Re-digitized from Fig. 1d: the two axis scales had been swapped (Ce x150, qe /150). Temp and pH added."
+1858,Sun_2022,10.1016/j.cej.2021.132306,True,83.15248,0.00497171,,,150.0,Aged,PLA,0.5502,0.740332,25.0,5.5,150.0,Aged,PLA,"Ce, qe, Temp, pH",corrected,"Re-digitized from Fig. 1d: the two axis scales had been swapped (Ce x150, qe /150). Temp and pH added."
+1859,Sun_2022,10.1016/j.cej.2021.132306,True,486.83435,0.00714961,,,150.0,Aged,PLA,3.2533,1.067632,25.0,5.5,150.0,Aged,PLA,"Ce, qe, Temp, pH",corrected,"Re-digitized from Fig. 1d: the two axis scales had been swapped (Ce x150, qe /150). Temp and pH added."
+1860,Sun_2022,10.1016/j.cej.2021.132306,True,928.63536,0.00842005,,,150.0,Aged,PLA,6.2161,1.258823,25.0,5.5,150.0,Aged,PLA,"Ce, qe, Temp, pH",corrected,"Re-digitized from Fig. 1d: the two axis scales had been swapped (Ce x150, qe /150). Temp and pH added."
+1861,Sun_2022,10.1016/j.cej.2021.132306,True,1261.79679,0.00775733,,,150.0,Aged,PLA,8.4369,1.163427,25.0,5.5,150.0,Aged,PLA,"Ce, qe, Temp, pH",corrected,"Re-digitized from Fig. 1d: the two axis scales had been swapped (Ce x150, qe /150). Temp and pH added."
+1862,Sun_2022,10.1016/j.cej.2021.132306,True,1553.40833,0.00793607,,,150.0,Aged,PLA,10.366,1.18538,25.0,5.5,150.0,Aged,PLA,"Ce, qe, Temp, pH",corrected,"Re-digitized from Fig. 1d: the two axis scales had been swapped (Ce x150, qe /150). Temp and pH added."
+1863,Tang_2022,10.1016/j.gr.2022.06.017,False,0.0,0.0,25.0,,185.0,Virgin,PA,,,,,,,,,not in submitted dataset (QC-excluded before submission),Excluded before submission: non-positive qe.
+1864,Tang_2022,10.1016/j.gr.2022.06.017,True,0.26942,0.05951,25.0,,185.0,Virgin,PA,0.26942,0.05951,25.0,,185.0,Virgin,PA,,unchanged,
+1865,Tang_2022,10.1016/j.gr.2022.06.017,True,1.15386,0.11406,25.0,,185.0,Virgin,PA,1.15386,0.11406,25.0,,185.0,Virgin,PA,,unchanged,
+1866,Tang_2022,10.1016/j.gr.2022.06.017,True,2.15775,0.12018,25.0,,185.0,Virgin,PA,2.15775,0.12018,25.0,,185.0,Virgin,PA,,unchanged,
+1867,Tang_2022,10.1016/j.gr.2022.06.017,True,2.79478,0.1292,25.0,,185.0,Virgin,PA,2.79478,0.1292,25.0,,185.0,Virgin,PA,,unchanged,
+1868,Tang_2022,10.1016/j.gr.2022.06.017,True,3.66216,0.13034,25.0,,185.0,Virgin,PA,3.66216,0.13034,25.0,,185.0,Virgin,PA,,unchanged,
+1869,Tang_2022,10.1016/j.gr.2022.06.017,True,6.09083,0.13874,25.0,,185.0,Virgin,PA,6.09083,0.13874,25.0,,185.0,Virgin,PA,,unchanged,
+2051,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,1.51311,0.51313,25.0,,200.0,Virgin,PP,1.51311,0.51313,25.0,,200.0,Virgin,PP,,unchanged,
+2052,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,1.33393,0.80446,25.0,,200.0,Virgin,PP,1.33393,0.80446,25.0,,200.0,Virgin,PP,,unchanged,
+2053,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,1.51311,1.05342,25.0,,200.0,Virgin,PP,1.51311,1.05342,25.0,,200.0,Virgin,PP,,unchanged,
+2054,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,6.53012,1.92742,25.0,,200.0,Virgin,PP,6.53012,1.92742,25.0,,200.0,Virgin,PP,,unchanged,
+2055,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,11.90548,2.73256,25.0,,200.0,Virgin,PP,11.90548,2.73256,25.0,,200.0,Virgin,PP,,unchanged,
+2056,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,20.59566,3.99854,25.0,,200.0,Virgin,PP,20.59566,3.99854,25.0,,200.0,Virgin,PP,,unchanged,
+2057,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,32.69023,5.96372,25.0,,200.0,Virgin,PP,32.69023,5.96372,25.0,,200.0,Virgin,PP,,unchanged,
+2058,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,53.38539,6.73708,25.0,,200.0,Virgin,PP,53.38539,6.73708,25.0,,200.0,Virgin,PP,,unchanged,
+2059,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,68.6156,7.55811,25.0,,200.0,Virgin,PP,68.6156,7.55811,25.0,,200.0,Virgin,PP,,unchanged,
+2060,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,87.07102,7.31445,25.0,,200.0,Virgin,PP,87.07102,7.31445,25.0,,200.0,Virgin,PP,,unchanged,
+2061,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,131.32821,9.09424,25.0,,200.0,Virgin,PP,131.32821,9.09424,25.0,,200.0,Virgin,PP,,unchanged,
+2062,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,4.29038,1.00045,25.0,,200.0,Aged,PP,4.29038,1.00045,25.0,,200.0,Aged,PP,,unchanged,
+2063,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,11.63671,1.25471,25.0,,200.0,Aged,PP,11.63671,1.25471,25.0,,200.0,Aged,PP,,unchanged,
+2064,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,17.01208,1.9592,25.0,,200.0,Aged,PP,17.01208,1.9592,25.0,,200.0,Aged,PP,,unchanged,
+2065,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,29.28583,2.87029,25.0,,200.0,Aged,PP,29.28583,2.87029,25.0,,200.0,Aged,PP,,unchanged,
+2066,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,52.75827,3.35761,25.0,,200.0,Aged,PP,52.75827,3.35761,25.0,,200.0,Aged,PP,,unchanged,
+2067,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,75.06604,3.90849,25.0,,200.0,Aged,PP,75.06604,3.90849,25.0,,200.0,Aged,PP,,unchanged,
+2068,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,89.8483,4.76131,25.0,,200.0,Aged,PP,89.8483,4.76131,25.0,,200.0,Aged,PP,,unchanged,
+2069,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,101.22615,5.41284,25.0,,200.0,Aged,PP,101.22615,5.41284,25.0,,200.0,Aged,PP,,unchanged,
+2070,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,155.9653,5.59823,25.0,,200.0,Aged,PP,155.9653,5.59823,25.0,,200.0,Aged,PP,,unchanged,
+2071,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,8.68026,1.74203,25.0,,200.0,Aged,PP,8.68026,1.74203,25.0,,200.0,Aged,PP,,unchanged,
+2072,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,17.81839,1.9698,25.0,,200.0,Aged,PP,17.81839,1.9698,25.0,,200.0,Aged,PP,,unchanged,
+2073,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,35.55709,2.01747,25.0,,200.0,Aged,PP,35.55709,2.01747,25.0,,200.0,Aged,PP,,unchanged,
+2074,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,60.19419,2.30881,25.0,,200.0,Aged,PP,60.19419,2.30881,25.0,,200.0,Aged,PP,,unchanged,
+2075,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,82.05401,2.95504,25.0,,200.0,Aged,PP,82.05401,2.95504,25.0,,200.0,Aged,PP,,unchanged,
+2076,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,101.6741,3.13513,25.0,,200.0,Aged,PP,101.6741,3.13513,25.0,,200.0,Aged,PP,,unchanged,
+2077,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,116.9939,3.33642,25.0,,200.0,Aged,PP,116.9939,3.33642,25.0,,200.0,Aged,PP,,unchanged,
+2078,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,176.48128,3.08216,25.0,,200.0,Aged,PP,176.48128,3.08216,25.0,,200.0,Aged,PP,,unchanged,
+2079,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,2.31941,1.18055,25.0,,200.0,Aged,PP,2.31941,1.18055,25.0,,200.0,Aged,PP,,unchanged,
+2080,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,10.83041,1.40302,25.0,,200.0,Aged,PP,10.83041,1.40302,25.0,,200.0,Aged,PP,,unchanged,
+2081,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,12.71179,2.82261,25.0,,200.0,Aged,PP,12.71179,2.82261,25.0,,200.0,Aged,PP,,unchanged,
+2082,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,35.01956,2.80672,25.0,,200.0,Aged,PP,35.01956,2.80672,25.0,,200.0,Aged,PP,,unchanged,
+2083,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,55.98349,3.45825,25.0,,200.0,Aged,PP,55.98349,3.45825,25.0,,200.0,Aged,PP,,unchanged,
+2084,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,88.32527,2.30351,25.0,,200.0,Aged,PP,88.32527,2.30351,25.0,,200.0,Aged,PP,,unchanged,
+2085,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,108.4829,2.36707,25.0,,200.0,Aged,PP,108.4829,2.36707,25.0,,200.0,Aged,PP,,unchanged,
+2086,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,136.88275,2.37237,25.0,,200.0,Aged,PP,136.88275,2.37237,25.0,,200.0,Aged,PP,,unchanged,
+2087,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,182.39419,2.42004,25.0,,200.0,Aged,PP,182.39419,2.42004,25.0,,200.0,Aged,PP,,unchanged,
+2088,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,2.76736,0.29066,25.0,,200.0,Aged,PP,2.76736,0.29066,25.0,,200.0,Aged,PP,,unchanged,
+2089,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,7.60519,0.44957,25.0,,200.0,Aged,PP,7.60519,0.44957,25.0,,200.0,Aged,PP,,unchanged,
+2090,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,14.59317,0.88921,25.0,,200.0,Aged,PP,14.59317,0.88921,25.0,,200.0,Aged,PP,,unchanged,
+2091,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,21.58114,1.46659,25.0,,200.0,Aged,PP,21.58114,1.46659,25.0,,200.0,Aged,PP,,unchanged,
+2092,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,44.96399,0.7885699999999999,25.0,,200.0,Aged,PP,44.96399,0.7885699999999999,25.0,,200.0,Aged,PP,,unchanged,
+2093,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,68.6156,1.29179,25.0,,200.0,Aged,PP,68.6156,1.29179,25.0,,200.0,Aged,PP,,unchanged,
+2094,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,95.31325,1.20174,25.0,,200.0,Aged,PP,95.31325,1.20174,25.0,,200.0,Aged,PP,,unchanged,
+2095,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,115.65005,1.31827,25.0,,200.0,Aged,PP,115.65005,1.31827,25.0,,200.0,Aged,PP,,unchanged,
+2096,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,132.58246,1.25471,25.0,,200.0,Aged,PP,132.58246,1.25471,25.0,,200.0,Aged,PP,,unchanged,
+2097,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,189.20298,1.34475,25.0,,200.0,Aged,PP,189.20298,1.34475,25.0,,200.0,Aged,PP,,unchanged,
+2098,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,4.02161,1.04283,25.0,,200.0,Aged,PP,4.02161,1.04283,25.0,,200.0,Aged,PP,,unchanged,
+2099,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,8.05314,1.73143,25.0,,200.0,Aged,PP,8.05314,1.73143,25.0,,200.0,Aged,PP,,unchanged,
+2100,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,18.89346,2.01747,25.0,,200.0,Aged,PP,18.89346,2.01747,25.0,,200.0,Aged,PP,,unchanged,
+2101,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,37.70724,2.54187,25.0,,200.0,Aged,PP,37.70724,2.54187,25.0,,200.0,Aged,PP,,unchanged,
+2102,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,69.95944,1.67846,25.0,,200.0,Aged,PP,69.95944,1.67846,25.0,,200.0,Aged,PP,,unchanged,
+2103,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,89.04199,2.11811,25.0,,200.0,Aged,PP,89.04199,2.11811,25.0,,200.0,Aged,PP,,unchanged,
+2104,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,111.8873,2.01747,25.0,,200.0,Aged,PP,111.8873,2.01747,25.0,,200.0,Aged,PP,,unchanged,
+2105,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,138.31618,2.28232,25.0,,200.0,Aged,PP,138.31618,2.28232,25.0,,200.0,Aged,PP,,unchanged,
+2106,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,185.97776,1.95391,25.0,,200.0,Aged,PP,185.97776,1.95391,25.0,,200.0,Aged,PP,,unchanged,
+2107,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,2.76736,0.48135,25.0,,200.0,Aged,PP,2.76736,0.48135,25.0,,200.0,Aged,PP,,unchanged,
+2108,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,3.84243,0.86803,25.0,,200.0,Aged,PP,3.84243,0.86803,25.0,,200.0,Aged,PP,,unchanged,
+2109,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,6.35094,1.80559,25.0,,200.0,Aged,PP,6.35094,1.80559,25.0,,200.0,Aged,PP,,unchanged,
+2110,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,14.05563,2.11811,25.0,,200.0,Aged,PP,14.05563,2.11811,25.0,,200.0,Aged,PP,,unchanged,
+2111,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,28.38994,2.90736,25.0,,200.0,Aged,PP,28.38994,2.90736,25.0,,200.0,Aged,PP,,unchanged,
+2112,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,61.0005,2.54717,25.0,,200.0,Aged,PP,61.0005,2.54717,25.0,,200.0,Aged,PP,,unchanged,
+2113,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,83.66662,2.11811,25.0,,200.0,Aged,PP,83.66662,2.11811,25.0,,200.0,Aged,PP,,unchanged,
+2114,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,103.3763,2.17108,25.0,,200.0,Aged,PP,103.3763,2.17108,25.0,,200.0,Aged,PP,,unchanged,
+2115,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,139.66002,1.40302,25.0,,200.0,Aged,PP,139.66002,1.40302,25.0,,200.0,Aged,PP,,unchanged,
+2116,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,192.15944,1.02694,25.0,,200.0,Aged,PP,192.15944,1.02694,25.0,,200.0,Aged,PP,,unchanged,
+2117,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,9.46112,1.58817,25.0,,200.0,Virgin,PE,9.46112,1.58817,25.0,,200.0,Virgin,PE,,unchanged,
+2118,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,17.45339,1.79519,25.0,,200.0,Virgin,PE,17.45339,1.79519,25.0,,200.0,Virgin,PE,,unchanged,
+2119,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,24.37353,3.47545,25.0,,200.0,Virgin,PE,24.37353,3.47545,25.0,,200.0,Virgin,PE,,unchanged,
+2120,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,54.58821,6.30156,25.0,,200.0,Virgin,PE,54.58821,6.30156,25.0,,200.0,Virgin,PE,,unchanged,
+2121,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,68.42849,7.1778,25.0,,200.0,Virgin,PE,68.42849,7.1778,25.0,,200.0,Virgin,PE,,unchanged,
+2122,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,99.13051,6.6771,25.0,,200.0,Virgin,PE,99.13051,6.6771,25.0,,200.0,Virgin,PE,,unchanged,
+2123,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,146.79174,7.43779,25.0,,200.0,Virgin,PE,146.79174,7.43779,25.0,,200.0,Virgin,PE,,unchanged,
+2124,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,10.14339,1.33781,25.0,,200.0,Aged,PE,10.14339,1.33781,25.0,,200.0,Aged,PE,,unchanged,
+2125,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,14.23699,2.27183,25.0,,200.0,Aged,PE,14.23699,2.27183,25.0,,200.0,Aged,PE,,unchanged,
+2126,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,29.63673,2.80624,25.0,,200.0,Aged,PE,29.63673,2.80624,25.0,,200.0,Aged,PE,,unchanged,
+2127,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,49.71488,3.9906,25.0,,200.0,Aged,PE,49.71488,3.9906,25.0,,200.0,Aged,PE,,unchanged,
+2128,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,69.79302,4.31799,25.0,,200.0,Aged,PE,69.79302,4.31799,25.0,,200.0,Aged,PE,,unchanged,
+2129,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,81.78143,5.4831,25.0,,200.0,Aged,PE,81.78143,5.4831,25.0,,200.0,Aged,PE,,unchanged,
+2130,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,111.70372,5.05942,25.0,,200.0,Aged,PE,111.70372,5.05942,25.0,,200.0,Aged,PE,,unchanged,
+2131,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,155.36881,6.23416,25.0,,200.0,Aged,PE,155.36881,6.23416,25.0,,200.0,Aged,PE,,unchanged,
+2132,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,11.99526,1.15486,25.0,,200.0,Aged,PE,11.99526,1.15486,25.0,,200.0,Aged,PE,,unchanged,
+2133,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,16.38126,1.8963,25.0,,200.0,Aged,PE,16.38126,1.8963,25.0,,200.0,Aged,PE,,unchanged,
+2134,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,30.6114,2.74846,25.0,,200.0,Aged,PE,30.6114,2.74846,25.0,,200.0,Aged,PE,,unchanged,
+2135,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,55.27048,3.54767,25.0,,200.0,Aged,PE,55.27048,3.54767,25.0,,200.0,Aged,PE,,unchanged,
+2136,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,70.96262,3.91839,25.0,,200.0,Aged,PE,70.96262,3.91839,25.0,,200.0,Aged,PE,,unchanged,
+2137,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,80.90423,4.76092,25.0,,200.0,Aged,PE,80.90423,4.76092,25.0,,200.0,Aged,PE,,unchanged,
+2138,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,108.09745,4.95832,25.0,,200.0,Aged,PE,108.09745,4.95832,25.0,,200.0,Aged,PE,,unchanged,
+2139,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,159.46241,5.34348,25.0,,200.0,Aged,PE,159.46241,5.34348,25.0,,200.0,Aged,PE,,unchanged,
+2140,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,0.49418,0.50491,25.0,,200.0,Aged,PE,0.49418,0.50491,25.0,,200.0,Aged,PE,,unchanged,
+2141,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,2.44352,0.95265,25.0,,200.0,Aged,PE,2.44352,0.95265,25.0,,200.0,Aged,PE,,unchanged,
+2142,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,8.68139,1.55447,25.0,,200.0,Aged,PE,8.68139,1.55447,25.0,,200.0,Aged,PE,,unchanged,
+2143,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,18.13566,1.68927,25.0,,200.0,Aged,PE,18.13566,1.68927,25.0,,200.0,Aged,PE,,unchanged,
+2144,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,35.97207,2.0311,25.0,,200.0,Aged,PE,35.97207,2.0311,25.0,,200.0,Aged,PE,,unchanged,
+2145,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,62.87289,2.55588,25.0,,200.0,Aged,PE,62.87289,2.55588,25.0,,200.0,Aged,PE,,unchanged,
+2146,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,82.26876,2.45478,25.0,,200.0,Aged,PE,82.26876,2.45478,25.0,,200.0,Aged,PE,,unchanged,
+2147,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,95.32931,3.16732,25.0,,200.0,Aged,PE,95.32931,3.16732,25.0,,200.0,Aged,PE,,unchanged,
+2148,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,127.00599,2.98919,25.0,,200.0,Aged,PE,127.00599,2.98919,25.0,,200.0,Aged,PE,,unchanged,
+2149,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,174.66722,3.40805,25.0,,200.0,Aged,PE,174.66722,3.40805,25.0,,200.0,Aged,PE,,unchanged,
+2150,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,3.41818,0.32196,25.0,,200.0,Aged,PE,3.41818,0.32196,25.0,,200.0,Aged,PE,,unchanged,
+2151,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,5.95232,0.67823,25.0,,200.0,Aged,PE,5.95232,0.67823,25.0,,200.0,Aged,PE,,unchanged,
+2152,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,14.52939,0.77933,25.0,,200.0,Aged,PE,14.52939,0.77933,25.0,,200.0,Aged,PE,,unchanged,
+2153,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,25.73806,0.78896,25.0,,200.0,Aged,PE,25.73806,0.78896,25.0,,200.0,Aged,PE,,unchanged,
+2154,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,42.89221,0.98154,25.0,,200.0,Aged,PE,42.89221,0.98154,25.0,,200.0,Aged,PE,,unchanged,
+2155,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,65.69942,1.87222,25.0,,200.0,Aged,PE,65.69942,1.87222,25.0,,200.0,Aged,PE,,unchanged,
+2156,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,86.16743,2.17072,25.0,,200.0,Aged,PE,86.16743,2.17072,25.0,,200.0,Aged,PE,,unchanged,
+2157,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,109.94931,1.68927,25.0,,200.0,Aged,PE,109.94931,1.68927,25.0,,200.0,Aged,PE,,unchanged,
+2158,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,137.72733,1.5978,25.0,,200.0,Aged,PE,137.72733,1.5978,25.0,,200.0,Aged,PE,,unchanged,
+2159,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,191.4315,1.42929,25.0,,200.0,Aged,PE,191.4315,1.42929,25.0,,200.0,Aged,PE,,unchanged,
+2160,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,3.71058,0.27862,25.0,,200.0,Aged,PE,3.71058,0.27862,25.0,,200.0,Aged,PE,,unchanged,
+2161,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,6.82952,0.57231,25.0,,200.0,Aged,PE,6.82952,0.57231,25.0,,200.0,Aged,PE,,unchanged,
+2162,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,14.72432,0.736,25.0,,200.0,Aged,PE,14.72432,0.736,25.0,,200.0,Aged,PE,,unchanged,
+2163,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,20.76726,1.22227,25.0,,200.0,Aged,PE,20.76726,1.22227,25.0,,200.0,Aged,PE,,unchanged,
+2164,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,39.87074,1.54484,25.0,,200.0,Aged,PE,39.87074,1.54484,25.0,,200.0,Aged,PE,,unchanged,
+2165,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,90.9433,1.5641,25.0,,200.0,Aged,PE,90.9433,1.5641,25.0,,200.0,Aged,PE,,unchanged,
+2166,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,113.55558,1.32337,25.0,,200.0,Aged,PE,113.55558,1.32337,25.0,,200.0,Aged,PE,,unchanged,
+2167,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,139.5792,1.34744,25.0,,200.0,Aged,PE,139.5792,1.34744,25.0,,200.0,Aged,PE,,unchanged,
+2168,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,195.42763,0.99599,25.0,,200.0,Aged,PE,195.42763,0.99599,25.0,,200.0,Aged,PE,,unchanged,
+2169,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,1.37138,0.44713,25.0,,200.0,Aged,PE,1.37138,0.44713,25.0,,200.0,Aged,PE,,unchanged,
+2170,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,13.06739,0.87081,25.0,,200.0,Aged,PE,13.06739,0.87081,25.0,,200.0,Aged,PE,,unchanged,
+2171,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,23.98366,0.82748,25.0,,200.0,Aged,PE,23.98366,0.82748,25.0,,200.0,Aged,PE,,unchanged,
+2172,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,43.76941,0.95265,25.0,,200.0,Aged,PE,43.76941,0.95265,25.0,,200.0,Aged,PE,,unchanged,
+2173,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,74.17903,1.03932,25.0,,200.0,Aged,PE,74.17903,1.03932,25.0,,200.0,Aged,PE,,unchanged,
+2174,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,94.74451,0.99599,25.0,,200.0,Aged,PE,94.74451,0.99599,25.0,,200.0,Aged,PE,,unchanged,
+2175,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,115.69985,0.91895,25.0,,200.0,Aged,PE,115.69985,0.91895,25.0,,200.0,Aged,PE,,unchanged,
+2176,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,142.40573,0.90451,25.0,,200.0,Aged,PE,142.40573,0.90451,25.0,,200.0,Aged,PE,,unchanged,
+2177,Zhou_2022,10.1016/j.scitotenv.2022.155142,True,194.55043,1.01524,25.0,,200.0,Aged,PE,194.55043,1.01524,25.0,,200.0,Aged,PE,,unchanged,
+2178,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,0.7871,0.48767,25.0,,150.0,Aged,PS,0.7871,0.48767,25.0,,150.0,Aged,PS,,unchanged,
+2179,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,1.57981,0.9265,25.0,,150.0,Aged,PS,1.57981,0.9265,25.0,,150.0,Aged,PS,,unchanged,
+2180,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,2.53686,0.96025,25.0,,150.0,Aged,PS,2.53686,0.96025,25.0,,150.0,Aged,PS,,unchanged,
+2181,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,2.93321,2.27298,25.0,,150.0,Aged,PS,2.93321,2.27298,25.0,,150.0,Aged,PS,,unchanged,
+2182,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,4.87631,2.27298,25.0,,150.0,Aged,PS,4.87631,2.27298,25.0,,150.0,Aged,PS,,unchanged,
+2183,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,8.0858,3.75073,25.0,,150.0,Aged,PS,8.0858,3.75073,25.0,,150.0,Aged,PS,,unchanged,
+2184,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,13.97309,4.06204,25.0,,150.0,Aged,PS,13.97309,4.06204,25.0,,150.0,Aged,PS,,unchanged,
+2185,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,17.26959,5.47978,25.0,,150.0,Aged,PS,17.26959,5.47978,25.0,,150.0,Aged,PS,,unchanged,
+2186,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,0.87411,0.10135,25.0,,150.0,Aged,PS,0.87411,0.10135,25.0,,150.0,Aged,PS,,unchanged,
+2187,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,1.85049,0.35265,25.0,,150.0,Aged,PS,1.85049,0.35265,25.0,,150.0,Aged,PS,,unchanged,
+2188,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,3.08788,0.19512,25.0,,150.0,Aged,PS,3.08788,0.19512,25.0,,150.0,Aged,PS,,unchanged,
+2189,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,3.86126,0.98651,25.0,,150.0,Aged,PS,3.86126,0.98651,25.0,,150.0,Aged,PS,,unchanged,
+2190,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,5.21466,1.57911,25.0,,150.0,Aged,PS,5.21466,1.57911,25.0,,150.0,Aged,PS,,unchanged,
+2191,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,9.64221,2.17921,25.0,,150.0,Aged,PS,9.64221,2.17921,25.0,,150.0,Aged,PS,,unchanged,
+2192,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,11.32429,2.05169,25.0,,150.0,Aged,PS,11.32429,2.05169,25.0,,150.0,Aged,PS,,unchanged,
+2193,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,15.10415,2.56553,25.0,,150.0,Aged,PS,15.10415,2.56553,25.0,,150.0,Aged,PS,,unchanged,
+2194,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,19.57037,2.49052,25.0,,150.0,Aged,PS,19.57037,2.49052,25.0,,150.0,Aged,PS,,unchanged,
+2195,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,0.83807,0.42729,25.0,,150.0,Aged,PVC,0.83807,0.42729,25.0,,150.0,Aged,PVC,,unchanged,
+2196,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,1.73315,0.59836,25.0,,150.0,Aged,PVC,1.73315,0.59836,25.0,,150.0,Aged,PVC,,unchanged,
+2197,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,2.47027,1.11427,25.0,,150.0,Aged,PVC,2.47027,1.11427,25.0,,150.0,Aged,PVC,,unchanged,
+2198,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,2.97423,2.11133,25.0,,150.0,Aged,PVC,2.97423,2.11133,25.0,,150.0,Aged,PVC,,unchanged,
+2199,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,4.76439,2.50963,25.0,,150.0,Aged,PVC,4.76439,2.50963,25.0,,150.0,Aged,PVC,,unchanged,
+2200,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,8.54779,2.90792,25.0,,150.0,Aged,PVC,8.54779,2.90792,25.0,,150.0,Aged,PVC,,unchanged,
+2201,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,14.24923,3.54411,25.0,,150.0,Aged,PVC,14.24923,3.54411,25.0,,150.0,Aged,PVC,,unchanged,
+2202,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,0.89072,0.12255,25.0,,150.0,Aged,PVC,0.89072,0.12255,25.0,,150.0,Aged,PVC,,unchanged,
+2203,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,1.92119,0.18403,25.0,,150.0,Aged,PVC,1.92119,0.18403,25.0,,150.0,Aged,PVC,,unchanged,
+2204,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,2.80123,0.77211,25.0,,150.0,Aged,PVC,2.80123,0.77211,25.0,,150.0,Aged,PVC,,unchanged,
+2205,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,3.764,1.13833,25.0,,150.0,Aged,PVC,3.764,1.13833,25.0,,150.0,Aged,PVC,,unchanged,
+2206,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,5.27586,1.49385,25.0,,150.0,Aged,PVC,5.27586,1.49385,25.0,,150.0,Aged,PVC,,unchanged,
+2207,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,9.68357,2.0258,25.0,,150.0,Aged,PVC,9.68357,2.0258,25.0,,150.0,Aged,PVC,,unchanged,
+2208,Zhou_2022b,10.1016/j.chemosphere.2021.132794,True,14.97131,2.82238,25.0,,150.0,Aged,PVC,14.97131,2.82238,25.0,,150.0,Aged,PVC,,unchanged,
+2288,Sun_2023,10.1016/j.cej.2023.142714,True,0.13484,0.01184204,,5.5,200.0,Virgin,PBAT,0.13484,0.01184204,25.0,5.5,200.0,Virgin,PBAT,Temp,corrected,Temp set to 25 C as stated in the paper (was blank).
+2289,Sun_2023,10.1016/j.cej.2023.142714,True,0.85373,0.03497362,,5.5,200.0,Virgin,PBAT,0.85373,0.03497362,25.0,5.5,200.0,Virgin,PBAT,Temp,corrected,Temp set to 25 C as stated in the paper (was blank).
+2290,Sun_2023,10.1016/j.cej.2023.142714,True,1.81836,0.05634666,,5.5,200.0,Virgin,PBAT,1.81836,0.05634666,25.0,5.5,200.0,Virgin,PBAT,Temp,corrected,Temp set to 25 C as stated in the paper (was blank).
+2291,Sun_2023,10.1016/j.cej.2023.142714,True,4.75407,0.0904353,,5.5,200.0,Virgin,PBAT,4.75407,0.0904353,25.0,5.5,200.0,Virgin,PBAT,Temp,corrected,Temp set to 25 C as stated in the paper (was blank).
+2292,Sun_2023,10.1016/j.cej.2023.142714,True,7.59567,0.1024069,,5.5,200.0,Virgin,PBAT,7.59567,0.1024069,25.0,5.5,200.0,Virgin,PBAT,Temp,corrected,Temp set to 25 C as stated in the paper (was blank).
+2293,Sun_2023,10.1016/j.cej.2023.142714,True,9.67393,0.11282288,,5.5,200.0,Virgin,PBAT,9.67393,0.11282288,25.0,5.5,200.0,Virgin,PBAT,Temp,corrected,Temp set to 25 C as stated in the paper (was blank).
+2294,Sun_2023,10.1016/j.cej.2023.142714,True,0.0,0.01333004,,5.5,200.0,Aged,PBAT,,,,,,,,,removed,Ce not resolvable on Fig. 1d (marker on the axis).
+2295,Sun_2023,10.1016/j.cej.2023.142714,True,0.46422,0.06601863,,5.5,200.0,Aged,PBAT,0.46422,0.06601863,25.0,5.5,200.0,Aged,PBAT,Temp,corrected,Temp set to 25 C as stated in the paper (was blank).
+2296,Sun_2023,10.1016/j.cej.2023.142714,True,1.37918,0.09537274,,5.5,200.0,Aged,PBAT,1.37918,0.09537274,25.0,5.5,200.0,Aged,PBAT,Temp,corrected,Temp set to 25 C as stated in the paper (was blank).
+2297,Sun_2023,10.1016/j.cej.2023.142714,True,4.02995,0.13000247,,5.5,200.0,Aged,PBAT,4.02995,0.13000247,25.0,5.5,200.0,Aged,PBAT,Temp,corrected,Temp set to 25 C as stated in the paper (was blank).
+2298,Sun_2023,10.1016/j.cej.2023.142714,True,7.3238,0.16206203,,5.5,200.0,Aged,PBAT,7.3238,0.16206203,25.0,5.5,200.0,Aged,PBAT,Temp,corrected,Temp set to 25 C as stated in the paper (was blank).
+2299,Sun_2023,10.1016/j.cej.2023.142714,True,8.99948,0.17356018,,5.5,200.0,Aged,PBAT,8.99948,0.17356018,25.0,5.5,200.0,Aged,PBAT,Temp,corrected,Temp set to 25 C as stated in the paper (was blank).
+2373,Huang_2024,10.1016/j.envpol.2023.123061,True,0.96691,0.16907,25.0,6.0,160.0,Virgin,PLA,0.83093,0.16907,25.0,6.0,160.0,Virgin,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2374,Huang_2024,10.1016/j.envpol.2023.123061,True,2.99162,0.59149,25.0,6.0,160.0,Virgin,PLA,2.40851,0.59149,25.0,6.0,160.0,Virgin,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2375,Huang_2024,10.1016/j.envpol.2023.123061,True,4.97783,0.94532,25.0,6.0,160.0,Virgin,PLA,4.05468,0.94532,25.0,6.0,160.0,Virgin,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2376,Huang_2024,10.1016/j.envpol.2023.123061,True,9.95875,1.27266,25.0,6.0,160.0,Virgin,PLA,8.72734,1.27266,25.0,6.0,160.0,Virgin,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2377,Huang_2024,10.1016/j.envpol.2023.123061,True,14.98587,1.81354,25.0,6.0,160.0,Virgin,PLA,13.18646,1.81354,25.0,6.0,160.0,Virgin,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2378,Huang_2024,10.1016/j.envpol.2023.123061,True,20.02838,2.28116,25.0,6.0,160.0,Virgin,PLA,17.71884,2.28116,25.0,6.0,160.0,Virgin,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2379,Huang_2024,10.1016/j.envpol.2023.123061,True,25.0093,2.57421,25.0,6.0,160.0,Virgin,PLA,22.42579,2.57421,25.0,6.0,160.0,Virgin,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2380,Huang_2024,10.1016/j.envpol.2023.123061,True,30.01332,2.72696,25.0,6.0,160.0,Virgin,PLA,27.27304,2.72696,25.0,6.0,160.0,Virgin,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2381,Huang_2024,10.1016/j.envpol.2023.123061,True,1.0131,0.38729,25.0,6.0,160.0,Aged,PLA,0.61271,0.38729,25.0,6.0,160.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2382,Huang_2024,10.1016/j.envpol.2023.123061,True,2.99162,1.05443,25.0,6.0,160.0,Aged,PLA,1.94557,1.05443,25.0,6.0,160.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2383,Huang_2024,10.1016/j.envpol.2023.123061,True,4.97783,1.52206,25.0,6.0,160.0,Aged,PLA,3.47794,1.52206,25.0,6.0,160.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2384,Huang_2024,10.1016/j.envpol.2023.123061,True,14.96277,2.79243,25.0,6.0,160.0,Aged,PLA,12.20757,2.79243,25.0,6.0,160.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2385,Huang_2024,10.1016/j.envpol.2023.123061,True,20.05148,3.56401,25.0,6.0,160.0,Aged,PLA,16.43599,3.56401,25.0,6.0,160.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2386,Huang_2024,10.1016/j.envpol.2023.123061,True,25.0324,4.17503,25.0,6.0,160.0,Aged,PLA,20.82497,4.17503,25.0,6.0,160.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2387,Huang_2024,10.1016/j.envpol.2023.123061,True,30.03642,4.402610000000001,25.0,6.0,160.0,Aged,PLA,25.59739,4.40261,25.0,6.0,160.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2388,Huang_2024,10.1016/j.envpol.2023.123061,True,1.0516,0.12075,25.0,6.0,160.0,Virgin,PS,0.87925,0.12075,25.0,6.0,160.0,Virgin,PS,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2389,Huang_2024,10.1016/j.envpol.2023.123061,True,2.97622,0.18622,25.0,6.0,160.0,Virgin,PS,2.81378,0.18622,25.0,6.0,160.0,Virgin,PS,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2390,Huang_2024,10.1016/j.envpol.2023.123061,True,5.00092,0.22986,25.0,6.0,160.0,Virgin,PS,4.77014,0.22986,25.0,6.0,160.0,Virgin,PS,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2391,Huang_2024,10.1016/j.envpol.2023.123061,True,9.98185,0.26415,25.0,6.0,160.0,Virgin,PS,9.73585,0.26415,25.0,6.0,160.0,Virgin,PS,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2392,Huang_2024,10.1016/j.envpol.2023.123061,True,15.00896,0.30312,25.0,6.0,160.0,Virgin,PS,14.69688,0.30312,25.0,6.0,160.0,Virgin,PS,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2393,Huang_2024,10.1016/j.envpol.2023.123061,True,20.00528,0.33897,25.0,6.0,160.0,Virgin,PS,19.66103,0.33897,25.0,6.0,160.0,Virgin,PS,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2394,Huang_2024,10.1016/j.envpol.2023.123061,True,24.98621,0.37326,25.0,6.0,160.0,Virgin,PS,24.62674,0.37326,25.0,6.0,160.0,Virgin,PS,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2395,Huang_2024,10.1016/j.envpol.2023.123061,True,30.05952,0.38729,25.0,6.0,160.0,Virgin,PS,29.61271,0.38729,25.0,6.0,160.0,Virgin,PS,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2396,Huang_2024,10.1016/j.envpol.2023.123061,True,1.0131,0.13322,25.0,6.0,160.0,Aged,PS,0.86678,0.13322,25.0,6.0,160.0,Aged,PS,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2397,Huang_2024,10.1016/j.envpol.2023.123061,True,2.97622,0.22986,25.0,6.0,160.0,Aged,PS,2.77014,0.22986,25.0,6.0,160.0,Aged,PS,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2398,Huang_2024,10.1016/j.envpol.2023.123061,True,4.97783,0.30312,25.0,6.0,160.0,Aged,PS,4.69688,0.30312,25.0,6.0,160.0,Aged,PS,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2399,Huang_2024,10.1016/j.envpol.2023.123061,True,10.02804,0.37794,25.0,6.0,160.0,Aged,PS,9.62206,0.37794,25.0,6.0,160.0,Aged,PS,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2400,Huang_2024,10.1016/j.envpol.2023.123061,True,15.02436,0.45588,25.0,6.0,160.0,Aged,PS,14.54412,0.45588,25.0,6.0,160.0,Aged,PS,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2401,Huang_2024,10.1016/j.envpol.2023.123061,True,20.02838,0.51823,25.0,6.0,160.0,Aged,PS,19.48177,0.51823,25.0,6.0,160.0,Aged,PS,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2402,Huang_2024,10.1016/j.envpol.2023.123061,True,25.0093,0.57902,25.0,6.0,160.0,Aged,PS,24.42098,0.57902,25.0,6.0,160.0,Aged,PS,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2403,Huang_2024,10.1016/j.envpol.2023.123061,True,30.05952,0.60552,25.0,6.0,160.0,Aged,PS,29.39448,0.60552,25.0,6.0,160.0,Aged,PS,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2 holds the nominal initial concentrations.
+2658,Hu_2024,10.1007/s11356-024-33131-1,True,0.6086,0.11387,25.0,5.0,200.0,Virgin,PA,0.6086,0.11387,25.0,5.0,200.0,Virgin,PA,,unchanged,
+2659,Hu_2024,10.1007/s11356-024-33131-1,True,1.30219,0.20443,25.0,5.0,200.0,Virgin,PA,1.30219,0.20443,25.0,5.0,200.0,Virgin,PA,,unchanged,
+2660,Hu_2024,10.1007/s11356-024-33131-1,True,3.62242,0.32728,25.0,5.0,200.0,Virgin,PA,3.62242,0.32728,25.0,5.0,200.0,Virgin,PA,,unchanged,
+2661,Hu_2024,10.1007/s11356-024-33131-1,True,6.41742,0.5522699999999999,25.0,5.0,200.0,Virgin,PA,6.41742,0.5522699999999999,25.0,5.0,200.0,Virgin,PA,,unchanged,
+2662,Hu_2024,10.1007/s11356-024-33131-1,True,13.73315,0.67898,25.0,5.0,200.0,Virgin,PA,13.73315,0.67898,25.0,5.0,200.0,Virgin,PA,,unchanged,
+2663,Hu_2024,10.1007/s11356-024-33131-1,True,0.50126,0.14722,25.0,5.0,200.0,Aged,PA,0.50126,0.14722,25.0,5.0,200.0,Aged,PA,,unchanged,
+2664,Hu_2024,10.1007/s11356-024-33131-1,True,1.07926,0.28691,25.0,5.0,200.0,Aged,PA,1.07926,0.28691,25.0,5.0,200.0,Aged,PA,,unchanged,
+2665,Hu_2024,10.1007/s11356-024-33131-1,True,3.03204,0.5807,25.0,5.0,200.0,Aged,PA,3.03204,0.5807,25.0,5.0,200.0,Aged,PA,,unchanged,
+2666,Hu_2024,10.1007/s11356-024-33131-1,True,6.25641,0.93626,25.0,5.0,200.0,Aged,PA,6.25641,0.93626,25.0,5.0,200.0,Aged,PA,,unchanged,
+2667,Hu_2024,10.1007/s11356-024-33131-1,True,12.63497,1.01874,25.0,5.0,200.0,Aged,PA,12.63497,1.01874,25.0,5.0,200.0,Aged,PA,,unchanged,
+2668,Hu_2024,10.1007/s11356-024-33131-1,True,0.71762,0.09808,25.0,5.0,200.0,Virgin,PLA,0.71762,0.09808,25.0,5.0,200.0,Virgin,PLA,,unchanged,
+2669,Hu_2024,10.1007/s11356-024-33131-1,True,1.43502,0.16687,25.0,5.0,200.0,Virgin,PLA,1.43502,0.16687,25.0,5.0,200.0,Virgin,PLA,,unchanged,
+2670,Hu_2024,10.1007/s11356-024-33131-1,True,3.60662,0.31815,25.0,5.0,200.0,Virgin,PLA,3.60662,0.31815,25.0,5.0,200.0,Virgin,PLA,,unchanged,
+2671,Hu_2024,10.1007/s11356-024-33131-1,True,6.76319,0.43714,25.0,5.0,200.0,Virgin,PLA,6.76319,0.43714,25.0,5.0,200.0,Virgin,PLA,,unchanged,
+2672,Hu_2024,10.1007/s11356-024-33131-1,True,13.01429,0.63756,25.0,5.0,200.0,Virgin,PLA,13.01429,0.63756,25.0,5.0,200.0,Virgin,PLA,,unchanged,
+2673,Hu_2024,10.1007/s11356-024-33131-1,True,0.5974,0.11773,25.0,5.0,200.0,Aged,PLA,0.5974,0.11773,25.0,5.0,200.0,Aged,PLA,,unchanged,
+2674,Hu_2024,10.1007/s11356-024-33131-1,True,1.29154,0.2111,25.0,5.0,200.0,Aged,PLA,1.29154,0.2111,25.0,5.0,200.0,Aged,PLA,,unchanged,
+2675,Hu_2024,10.1007/s11356-024-33131-1,True,3.1374,0.55893,25.0,5.0,200.0,Aged,PLA,3.1374,0.55893,25.0,5.0,200.0,Aged,PLA,,unchanged,
+2676,Hu_2024,10.1007/s11356-024-33131-1,True,6.04579,0.88115,25.0,5.0,200.0,Aged,PLA,6.04579,0.88115,25.0,5.0,200.0,Aged,PLA,,unchanged,
+2677,Hu_2024,10.1007/s11356-024-33131-1,True,12.07973,0.95486,25.0,5.0,200.0,Aged,PLA,12.07973,0.95486,25.0,5.0,200.0,Aged,PLA,,unchanged,
+2702,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.01364,0.10844,25.0,6.0,150.0,Virgin,PP,0.01364,0.10844,25.0,6.0,150.0,Virgin,PP,,unchanged,
+2703,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.09333,0.43854,25.0,6.0,150.0,Virgin,PP,0.09333,0.43854,25.0,6.0,150.0,Virgin,PP,,unchanged,
+2704,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.33241,0.72148,25.0,6.0,150.0,Virgin,PP,0.33241,0.72148,25.0,6.0,150.0,Virgin,PP,,unchanged,
+2705,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.42254,1.66461,25.0,6.0,150.0,Virgin,PP,0.42254,1.66461,25.0,6.0,150.0,Virgin,PP,,unchanged,
+2706,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,1.92912,3.21841,25.0,6.0,150.0,Virgin,PP,1.92912,3.21841,25.0,6.0,150.0,Virgin,PP,,unchanged,
+2707,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.00514,0.07543,25.0,6.0,150.0,Virgin,PP,0.00514,0.07543,25.0,6.0,150.0,Virgin,PP,,unchanged,
+2708,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.16683,0.38431,25.0,6.0,150.0,Virgin,PP,0.16683,0.38431,25.0,6.0,150.0,Virgin,PP,,unchanged,
+2709,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.46865,0.69554,25.0,6.0,150.0,Virgin,PP,0.46865,0.69554,25.0,6.0,150.0,Virgin,PP,,unchanged,
+2710,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.50687,1.65282,25.0,6.0,150.0,Virgin,PP,0.50687,1.65282,25.0,6.0,150.0,Virgin,PP,,unchanged,
+2711,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,1.59951,3.9234,25.0,6.0,150.0,Virgin,PP,1.59951,3.9234,25.0,6.0,150.0,Virgin,PP,,unchanged,
+2712,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.00738,0.10844,25.0,6.0,150.0,Aged,PP,0.00738,0.10844,25.0,6.0,150.0,Aged,PP,,unchanged,
+2713,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.16115,0.41024,25.0,6.0,150.0,Aged,PP,0.16115,0.41024,25.0,6.0,150.0,Aged,PP,,unchanged,
+2714,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.40361,0.74741,25.0,6.0,150.0,Aged,PP,0.40361,0.74741,25.0,6.0,150.0,Aged,PP,,unchanged,
+2715,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.52779,1.65282,25.0,6.0,150.0,Aged,PP,0.52779,1.65282,25.0,6.0,150.0,Aged,PP,,unchanged,
+2716,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,1.61785,3.93755,25.0,6.0,150.0,Aged,PP,1.61785,3.93755,25.0,6.0,150.0,Aged,PP,,unchanged,
+2717,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.00303,0.08077,25.0,6.0,150.0,Virgin,PS,0.00303,0.08077,25.0,6.0,150.0,Virgin,PS,,unchanged,
+2718,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.04832,0.46776,25.0,6.0,150.0,Virgin,PS,0.04832,0.46776,25.0,6.0,150.0,Virgin,PS,,unchanged,
+2719,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.1304,0.89986,25.0,6.0,150.0,Virgin,PS,0.1304,0.89986,25.0,6.0,150.0,Virgin,PS,,unchanged,
+2720,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.40968,1.66434,25.0,6.0,150.0,Virgin,PS,0.40968,1.66434,25.0,6.0,150.0,Virgin,PS,,unchanged,
+2721,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,1.83437,3.32626,25.0,6.0,150.0,Virgin,PS,1.83437,3.32626,25.0,6.0,150.0,Virgin,PS,,unchanged,
+2722,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.0072,0.10791,25.0,6.0,150.0,Virgin,PS,0.0072,0.10791,25.0,6.0,150.0,Virgin,PS,,unchanged,
+2723,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.03959,0.50585,25.0,6.0,150.0,Virgin,PS,0.03959,0.50585,25.0,6.0,150.0,Virgin,PS,,unchanged,
+2724,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.11962,0.95686,25.0,6.0,150.0,Virgin,PS,0.11962,0.95686,25.0,6.0,150.0,Virgin,PS,,unchanged,
+2725,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.45306,1.68763,25.0,6.0,150.0,Virgin,PS,0.45306,1.68763,25.0,6.0,150.0,Virgin,PS,,unchanged,
+2726,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,1.94115,3.32041,25.0,6.0,150.0,Virgin,PS,1.94115,3.32041,25.0,6.0,150.0,Virgin,PS,,unchanged,
+2727,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.00483,0.10689,25.0,6.0,150.0,Aged,PS,0.00483,0.10689,25.0,6.0,150.0,Aged,PS,,unchanged,
+2728,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.03212,0.49388,25.0,6.0,150.0,Aged,PS,0.03212,0.49388,25.0,6.0,150.0,Aged,PS,,unchanged,
+2729,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.10981,0.9331,25.0,6.0,150.0,Aged,PS,0.10981,0.9331,25.0,6.0,150.0,Aged,PS,,unchanged,
+2730,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,0.43004,1.63111,25.0,6.0,150.0,Aged,PS,0.43004,1.63111,25.0,6.0,150.0,Aged,PS,,unchanged,
+2731,Muthuraja_2024,10.1016/j.chemosphere.2024.143843,True,1.70905,3.40461,25.0,6.0,150.0,Aged,PS,1.70905,3.40461,25.0,6.0,150.0,Aged,PS,,unchanged,
+2770,Chen_2025,10.1016/j.envpol.2024.125538,True,0.05543,0.08059473,25.0,,180.0,Virgin,PBAT,0.05543,0.08059473,25.0,5.5,180.0,Virgin,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2771,Chen_2025,10.1016/j.envpol.2024.125538,True,0.31618,0.35959355,25.0,,180.0,Virgin,PBAT,0.31618,0.35959355,25.0,5.5,180.0,Virgin,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2772,Chen_2025,10.1016/j.envpol.2024.125538,True,0.48837,0.76596141,25.0,,180.0,Virgin,PBAT,0.48837,0.76596141,25.0,5.5,180.0,Virgin,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2773,Chen_2025,10.1016/j.envpol.2024.125538,True,1.98398,1.5150126,25.0,,180.0,Virgin,PBAT,1.98398,1.5150126,25.0,5.5,180.0,Virgin,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2774,Chen_2025,10.1016/j.envpol.2024.125538,True,5.08836,2.65223608,25.0,,180.0,Virgin,PBAT,5.08836,2.65223608,25.0,5.5,180.0,Virgin,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2775,Chen_2025,10.1016/j.envpol.2024.125538,True,0.08249,0.38385432,25.0,,180.0,Aged,PBAT,0.08249,0.38385432,25.0,5.5,180.0,Aged,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2776,Chen_2025,10.1016/j.envpol.2024.125538,True,0.25468,0.89333044,25.0,,180.0,Aged,PBAT,0.25468,0.89333044,25.0,5.5,180.0,Aged,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2777,Chen_2025,10.1016/j.envpol.2024.125538,True,0.73682,2.3368461,25.0,,180.0,Aged,PBAT,0.73682,2.3368461,25.0,5.5,180.0,Aged,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2778,Chen_2025,10.1016/j.envpol.2024.125538,True,1.41083,3.54078668,25.0,,180.0,Aged,PBAT,1.41083,3.54078668,25.0,5.5,180.0,Aged,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2779,Chen_2025,10.1016/j.envpol.2024.125538,True,3.09093,3.71061206,25.0,,180.0,Aged,PBAT,3.09093,3.71061206,25.0,5.5,180.0,Aged,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2780,Chen_2025,10.1016/j.envpol.2024.125538,True,0.02837,0.08665992,25.0,,180.0,Aged,PBAT,0.02837,0.08665992,25.0,5.5,180.0,Aged,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2781,Chen_2025,10.1016/j.envpol.2024.125538,True,0.62612,0.65678795,25.0,,180.0,Aged,PBAT,0.62612,0.65678795,25.0,5.5,180.0,Aged,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2782,Chen_2025,10.1016/j.envpol.2024.125538,True,2.81542,0.9266889899999999,25.0,,180.0,Aged,PBAT,2.81542,0.9266889899999999,25.0,5.5,180.0,Aged,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2783,Chen_2025,10.1016/j.envpol.2024.125538,True,5.37617,1.34518723,25.0,,180.0,Aged,PBAT,5.37617,1.34518723,25.0,5.5,180.0,Aged,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2784,Chen_2025,10.1016/j.envpol.2024.125538,True,7.01446,1.70909874,25.0,,180.0,Aged,PBAT,7.01446,1.70909874,25.0,5.5,180.0,Aged,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2785,Chen_2025,10.1016/j.envpol.2024.125538,True,0.05811,0.06690438,25.0,,180.0,Virgin,PBAT,0.05811,0.06690438,25.0,5.5,180.0,Virgin,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2786,Chen_2025,10.1016/j.envpol.2024.125538,True,0.2669,0.37504329,25.0,,180.0,Virgin,PBAT,0.2669,0.37504329,25.0,5.5,180.0,Virgin,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2787,Chen_2025,10.1016/j.envpol.2024.125538,True,0.41851,0.75705112,25.0,,180.0,Virgin,PBAT,0.41851,0.75705112,25.0,5.5,180.0,Virgin,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2788,Chen_2025,10.1016/j.envpol.2024.125538,True,1.40777,1.68568894,25.0,,180.0,Virgin,PBAT,1.40777,1.68568894,25.0,5.5,180.0,Virgin,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2789,Chen_2025,10.1016/j.envpol.2024.125538,True,3.54286,2.2935246,25.0,,180.0,Virgin,PBAT,3.54286,2.2935246,25.0,5.5,180.0,Virgin,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2790,Chen_2025,10.1016/j.envpol.2024.125538,True,4.33575,2.64809541,25.0,,180.0,Virgin,PBAT,4.33575,2.64809541,25.0,5.5,180.0,Virgin,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2791,Chen_2025,10.1016/j.envpol.2024.125538,True,0.1625,0.28640059,25.0,,180.0,Aged,PBAT,0.1625,0.28640059,25.0,5.5,180.0,Aged,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2792,Chen_2025,10.1016/j.envpol.2024.125538,True,0.29424,0.79926193,25.0,,180.0,Aged,PBAT,0.29424,0.79926193,25.0,5.5,180.0,Aged,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2793,Chen_2025,10.1016/j.envpol.2024.125538,True,0.42597,1.50840354,25.0,,180.0,Aged,PBAT,0.42597,1.50840354,25.0,5.5,180.0,Aged,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2794,Chen_2025,10.1016/j.envpol.2024.125538,True,1.15672,3.06809296,25.0,,180.0,Aged,PBAT,1.15672,3.06809296,25.0,5.5,180.0,Aged,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2795,Chen_2025,10.1016/j.envpol.2024.125538,True,2.2976,3.5809543,25.0,,180.0,Aged,PBAT,2.2976,3.5809543,25.0,5.5,180.0,Aged,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2796,Chen_2025,10.1016/j.envpol.2024.125538,True,0.05811,0.09012033,25.0,,180.0,Aged,PBAT,0.05811,0.09012033,25.0,5.5,180.0,Aged,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2797,Chen_2025,10.1016/j.envpol.2024.125538,True,0.14759,0.43835951,25.0,,180.0,Aged,PBAT,0.14759,0.43835951,25.0,5.5,180.0,Aged,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2798,Chen_2025,10.1016/j.envpol.2024.125538,True,0.68447,0.72328248,25.0,,180.0,Aged,PBAT,0.68447,0.72328248,25.0,5.5,180.0,Aged,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2799,Chen_2025,10.1016/j.envpol.2024.125538,True,2.81956,1.0947376,25.0,,180.0,Aged,PBAT,2.81956,1.0947376,25.0,5.5,180.0,Aged,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2800,Chen_2025,10.1016/j.envpol.2024.125538,True,4.74587,1.52528786,25.0,,180.0,Aged,PBAT,4.74587,1.52528786,25.0,5.5,180.0,Aged,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2801,Chen_2025,10.1016/j.envpol.2024.125538,True,6.86108,1.7511157,25.0,,180.0,Aged,PBAT,6.86108,1.7511157,25.0,5.5,180.0,Aged,PBAT,pH,corrected,pH set to 5.5 as stated in the paper (was blank).
+2802,Dai_2025,10.1016/j.envres.2025.121169,True,0.22147,0.01465,25.0,,250.0,Virgin,PA,0.192675,0.01465,25.0,,250.0,Virgin,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2803,Dai_2025,10.1016/j.envres.2025.121169,True,1.00787,0.06364,25.0,,250.0,Virgin,PA,0.96818,0.06364,25.0,,250.0,Virgin,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2804,Dai_2025,10.1016/j.envres.2025.121169,True,2.04362,0.06037,25.0,,250.0,Virgin,PA,1.969815,0.06037,25.0,,250.0,Virgin,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2805,Dai_2025,10.1016/j.envres.2025.121169,True,10.00356,0.08433,25.0,,250.0,Virgin,PA,9.957835,0.08433,25.0,,250.0,Virgin,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2806,Dai_2025,10.1016/j.envres.2025.121169,True,19.95828,0.08759,25.0,,250.0,Virgin,PA,19.956205,0.08759,25.0,,250.0,Virgin,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2807,Dai_2025,10.1016/j.envres.2025.121169,True,0.24065,0.40876,25.0,,250.0,Aged,PA,,,,,,,,,removed,"Removal above 90% of C0, Ce not recoverable from the mass balance."
+2808,Dai_2025,10.1016/j.envres.2025.121169,True,0.96951,1.03475,25.0,,250.0,Aged,PA,0.482625,1.03475,25.0,,250.0,Aged,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2809,Dai_2025,10.1016/j.envres.2025.121169,True,2.00526,1.05544,25.0,,250.0,Aged,PA,1.47228,1.05544,25.0,,250.0,Aged,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2810,Dai_2025,10.1016/j.envres.2025.121169,True,9.98438,1.06741,25.0,,250.0,Aged,PA,9.466295,1.06741,25.0,,250.0,Aged,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2811,Dai_2025,10.1016/j.envres.2025.121169,True,19.95828,0.9531,25.0,,250.0,Aged,PA,19.52345,0.9531,25.0,,250.0,Aged,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2812,Dai_2025,10.1016/j.envres.2025.121169,True,0.32696,0.18775,25.0,,250.0,Aged,PA,0.106125,0.18775,25.0,,250.0,Aged,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2813,Dai_2025,10.1016/j.envres.2025.121169,True,1.06541,0.29662,25.0,,250.0,Aged,PA,0.85169,0.29662,25.0,,250.0,Aged,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2814,Dai_2025,10.1016/j.envres.2025.121169,True,2.08198,0.36412,25.0,,250.0,Aged,PA,1.81794,0.36412,25.0,,250.0,Aged,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2815,Dai_2025,10.1016/j.envres.2025.121169,True,9.94602,0.42835,25.0,,250.0,Aged,PA,9.785825,0.42835,25.0,,250.0,Aged,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2816,Dai_2025,10.1016/j.envres.2025.121169,True,20.02542,0.5873,25.0,,250.0,Aged,PA,19.70635,0.5873,25.0,,250.0,Aged,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2817,Dai_2025,10.1016/j.envres.2025.121169,True,0.18311,0.19755,25.0,,250.0,Aged,PA,0.101225,0.19755,25.0,,250.0,Aged,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2818,Dai_2025,10.1016/j.envres.2025.121169,True,0.98869,0.1834,25.0,,250.0,Aged,PA,0.9083,0.1834,25.0,,250.0,Aged,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2819,Dai_2025,10.1016/j.envres.2025.121169,True,1.98608,0.25307,25.0,,250.0,Aged,PA,1.873465,0.25307,25.0,,250.0,Aged,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2820,Dai_2025,10.1016/j.envres.2025.121169,True,10.03233,0.27702,25.0,,250.0,Aged,PA,9.86149,0.27702,25.0,,250.0,Aged,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2821,Dai_2025,10.1016/j.envres.2025.121169,True,19.97746,0.36303,25.0,,250.0,Aged,PA,19.818485,0.36303,25.0,,250.0,Aged,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2822,Dai_2025,10.1016/j.envres.2025.121169,True,0.24065,0.1834,25.0,,250.0,Aged,PA,0.1083,0.1834,25.0,,250.0,Aged,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2823,Dai_2025,10.1016/j.envres.2025.121169,True,1.06541,0.93133,25.0,,250.0,Aged,PA,0.534335,0.93133,25.0,,250.0,Aged,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2824,Dai_2025,10.1016/j.envres.2025.121169,True,2.04362,1.03911,25.0,,250.0,Aged,PA,1.480445,1.03911,25.0,,250.0,Aged,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2825,Dai_2025,10.1016/j.envres.2025.121169,True,10.00356,1.18826,25.0,,250.0,Aged,PA,9.40587,1.18826,25.0,,250.0,Aged,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2826,Dai_2025,10.1016/j.envres.2025.121169,True,20.01583,1.30148,25.0,,250.0,Aged,PA,19.34926,1.30148,25.0,,250.0,Aged,PA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2827,Dai_2025,10.1016/j.envres.2025.121169,True,0.24033,0.40446,25.0,,250.0,Virgin,PLA,,,,,,,,,removed,"Removal above 90% of C0, Ce not recoverable from the mass balance."
+2828,Dai_2025,10.1016/j.envres.2025.121169,True,1.05803,1.19744,25.0,,250.0,Virgin,PLA,0.40128,1.19744,25.0,,250.0,Virgin,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2829,Dai_2025,10.1016/j.envres.2025.121169,True,2.0489,1.22141,25.0,,250.0,Virgin,PLA,1.389295,1.22141,25.0,,250.0,Virgin,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2830,Dai_2025,10.1016/j.envres.2025.121169,True,10.03356,1.31329,25.0,,250.0,Virgin,PLA,9.343355,1.31329,25.0,,250.0,Virgin,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2831,Dai_2025,10.1016/j.envres.2025.121169,True,19.9711,1.46709,25.0,,250.0,Virgin,PLA,19.266455,1.46709,25.0,,250.0,Virgin,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2832,Dai_2025,10.1016/j.envres.2025.121169,True,0.18261,0.41245,25.0,,250.0,Aged,PLA,,,,,,,,,removed,"Removal above 90% of C0, Ce not recoverable from the mass balance."
+2833,Dai_2025,10.1016/j.envres.2025.121169,True,1.02917,1.62689,25.0,,250.0,Aged,PLA,0.186555,1.62689,25.0,,250.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2834,Dai_2025,10.1016/j.envres.2025.121169,True,2.02966,2.30601,25.0,,250.0,Aged,PLA,0.846995,2.30601,25.0,,250.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2835,Dai_2025,10.1016/j.envres.2025.121169,True,10.06242,2.25208,25.0,,250.0,Aged,PLA,8.87396,2.25208,25.0,,250.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2836,Dai_2025,10.1016/j.envres.2025.121169,True,20.03844,2.32798,25.0,,250.0,Aged,PLA,18.83601,2.32798,25.0,,250.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2837,Dai_2025,10.1016/j.envres.2025.121169,True,0.05754,0.19673,25.0,,250.0,Aged,PLA,0.101635,0.19673,25.0,,250.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2838,Dai_2025,10.1016/j.envres.2025.121169,True,1.02917,1.01368,25.0,,250.0,Aged,PLA,0.49316,1.01368,25.0,,250.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2839,Dai_2025,10.1016/j.envres.2025.121169,True,1.99118,1.11355,25.0,,250.0,Aged,PLA,1.443225,1.11355,25.0,,250.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2840,Dai_2025,10.1016/j.envres.2025.121169,True,10.03356,1.08758,25.0,,250.0,Aged,PLA,9.45621,1.08758,25.0,,250.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2841,Dai_2025,10.1016/j.envres.2025.121169,True,19.98072,1.18546,25.0,,250.0,Aged,PLA,19.40727,1.18546,25.0,,250.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2842,Dai_2025,10.1016/j.envres.2025.121169,True,0.18261,0.20072,25.0,,250.0,Aged,PLA,0.09964,0.20072,25.0,,250.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2843,Dai_2025,10.1016/j.envres.2025.121169,True,0.97145,0.6082,25.0,,250.0,Aged,PLA,0.6959,0.6082,25.0,,250.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2844,Dai_2025,10.1016/j.envres.2025.121169,True,1.96232,0.71406,25.0,,250.0,Aged,PLA,1.64297,0.71406,25.0,,250.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2845,Dai_2025,10.1016/j.envres.2025.121169,True,10.03356,1.11954,25.0,,250.0,Aged,PLA,9.44023,1.11954,25.0,,250.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2846,Dai_2025,10.1016/j.envres.2025.121169,False,19.98072,1.18546,25.0,,250.0,Aged,PLA,,,,,,,,,not in submitted dataset (QC-excluded before submission),Excluded before submission: duplicate record.
+2847,Dai_2025,10.1016/j.envres.2025.121169,True,0.11526,0.20072,25.0,,250.0,Aged,PLA,0.09964,0.20072,25.0,,250.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2848,Dai_2025,10.1016/j.envres.2025.121169,True,0.99069,0.19673,25.0,,250.0,Aged,PLA,0.901635,0.19673,25.0,,250.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2849,Dai_2025,10.1016/j.envres.2025.121169,True,1.96232,0.32856,25.0,,250.0,Aged,PLA,1.83572,0.32856,25.0,,250.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2850,Dai_2025,10.1016/j.envres.2025.121169,True,9.99508,0.53629,25.0,,250.0,Aged,PLA,9.731855,0.53629,25.0,,250.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.
+2851,Dai_2025,10.1016/j.envres.2025.121169,True,20.05768,0.48036,25.0,,250.0,Aged,PLA,19.75982,0.48036,25.0,,250.0,Aged,PLA,Ce,corrected,Ce recomputed as C0 - dose x qe: the x-axis of Fig. 2e-f holds the nominal initial concentrations.

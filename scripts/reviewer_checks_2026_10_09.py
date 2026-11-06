@@ -1,4 +1,4 @@
-"""Additional checks made after the internal review of 9 October 2026 (rerun 17 Oct 2026 on the 961-point dataset; nothing else is refitted).
+"""Additional checks of 9 October 2026 (rerun 17 Oct 2026 on the 961-point dataset; nothing else is refitted).
 
 A - Field-to-laboratory ratio for alternative sets of field records (isotherm-form model): without the study whose
     water Cu fraction is not stated, without the estuarine records, without the PET-dominated study.

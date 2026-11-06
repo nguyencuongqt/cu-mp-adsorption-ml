@@ -6,7 +6,7 @@
 
 Layout of the revision (Oct 2026): a and b on the top row, c centred on the bottom row; one legend for the
 four conditions at the top. Reads only outputs/reports; no model or judge is rerun.
-Output: Revision/02_Figures/Fig_4_llm_evaluation.png / .tiff (600 dpi)
+Output: Revision/02_Figures/Fig_4_llm_evaluation.png / .tiff (600 dpi) / .pdf (vector)
 """
 
 from __future__ import annotations
@@ -37,6 +37,7 @@ JUDGES = {"independent_provider": "Independent judge\n(Claude Haiku 4.5)",
 BASE = 0.85            # bars start slightly below the lowest score (1) so that a score of 1 remains visible
 
 plt.rcParams.update({
+    "pdf.fonttype": 42,
     "font.family": "serif", "font.serif": ["Times New Roman", "Liberation Serif", "DejaVu Serif"],
     "mathtext.fontset": "custom", "mathtext.rm": "Times New Roman", "mathtext.it": "Times New Roman:italic",
     "mathtext.bf": "Times New Roman:bold",
@@ -132,6 +133,7 @@ def main() -> None:
     OUT.mkdir(parents=True, exist_ok=True)
     fig.savefig(OUT / "Fig_4_llm_evaluation.png", dpi=DPI)
     fig.savefig(OUT / "Fig_4_llm_evaluation.tiff", dpi=DPI, pil_kwargs={"compression": "tiff_lzw"})
+    fig.savefig(OUT / "Fig_4_llm_evaluation.pdf")    # vector, TrueType fonts embedded (journal: line drawings as EPS/PDF)
     plt.close(fig)
     print("saved Fig_4_llm_evaluation")
 

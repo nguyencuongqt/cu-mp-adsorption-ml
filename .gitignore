@@ -4,7 +4,6 @@ __pycache__/
 venv/
 .pytest_cache/
 .ipynb_checkpoints/
-.claude/
 tmp/
 tmp_*/
 logs/

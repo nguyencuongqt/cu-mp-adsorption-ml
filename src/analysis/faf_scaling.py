@@ -17,8 +17,7 @@ with several laboratory models, so the dependence of the factor on that choice i
 reported explicitly. ``freundlich_pooled`` (linear model of log10 qe on log10 Ce,
 polymer, ageing status and system) is the model selected by study-grouped validation
 (decision of 2026-10-07): it is as accurate as the tree ensembles for a new laboratory
-and the least biased below the laboratory Ce range (``model_role_comparison.py``,
-``splice_anchor_test.py``). ``lgbm_splice`` (monotone LightGBM with a Freundlich tail),
+and the least biased below the laboratory Ce range. ``lgbm_splice`` (monotone LightGBM with a Freundlich tail),
 the monotone boosted models and the unconstrained ``rf_raw`` are the ML benchmarks.
 
 Outputs

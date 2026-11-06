@@ -4,8 +4,8 @@ Layout: (a) global SHAP importance and (b) SHAP effect of Ce on the top row; (c)
 the isotherm-anchored XGBoost centred on the bottom row. Reads only outputs/reports (written by
 src/analysis/interpretation_main_model.py); no model is refitted.
 
-Outputs: outputs/figures/interpretation_main_model.{png,tiff} and
-Manuscript/Submission_Env pollution/Revision/02_Figures/Fig_3_interpretation.{png,tiff} (600 dpi).
+Outputs: outputs/figures/interpretation_main_model.{png,tiff,pdf} and
+Manuscript/Submission_Env pollution/Revision/02_Figures/Fig_3_interpretation.{png,tiff,pdf} (600 dpi; PDF vector).
 """
 
 from __future__ import annotations
@@ -32,6 +32,7 @@ BLEND_PCT = (5, 25)                # transition zone of the isotherm-anchored mo
 POLY_COLORS = {"PA": "#1b9e77", "PE": "#d95f02", "PLA": "#7570b3", "PP": "#e7298a", "PS": "#66a61e", "PVC": "#a6761d"}
 
 plt.rcParams.update({
+    "pdf.fonttype": 42,
     "font.family": "serif", "font.serif": ["Times New Roman", "Liberation Serif", "DejaVu Serif"],
     "mathtext.fontset": "custom", "mathtext.rm": "Times New Roman", "mathtext.it": "Times New Roman:italic",
     "mathtext.bf": "Times New Roman:bold",
@@ -122,7 +123,8 @@ def main() -> None:
     for d, n in zip(FIG_DIRS, NAMES):
         fig.savefig(d / f"{n}.png", dpi=DPI)
         fig.savefig(d / f"{n}.tiff", dpi=DPI, pil_kwargs={"compression": "tiff_lzw"})
-        print(f"saved {d / n}.png/.tiff")
+        fig.savefig(d / f"{n}.pdf")    # vector, TrueType fonts embedded (journal: line drawings as EPS/PDF)
+        print(f"saved {d / n}.png/.tiff/.pdf")
     plt.close(fig)
 
 

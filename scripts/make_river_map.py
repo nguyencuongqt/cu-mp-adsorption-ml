@@ -48,10 +48,11 @@ FIELD = [("Ta and Babel\n(2020a, b; 2023a, b)\nChao Phraya", 100.55, 13.65, True
          ("Zhang et al. (2025b)\nZao River", 108.8, 34.3, True), ("Purwiyanto et al. (2020)\nMusi River", 104.8, -2.98, False),
          ("Ling et al.\n(2026) Huaibei", 116.75, 33.6, True)]
 # label offsets in panel b (points) so that names do not overlap
-OFFSETS_B = {"Yangtze": (0, 14), "Huangpu": (8, -8), "Tamsui": (7, -1), "Hanjiang": (6, -8), "Pearl": (-6, -11), "Pasig": (7, -1),
-             "Mekong": (7, -4), "Irrawaddy": (-7, 2), "Ganges": (-8, 8), "Brantas": (7, -2), "Solo": (0, 8), "Serayu": (-7, -7),
-             "Progo": (5, -10)}
-FIELD_OFFSETS = [(-8, -5, "right"), (-9, -9, "right"), (-8, 2, "right"), (-8, 0, "right"), (-4, 14, "right")]   # dx, dy (points), alignment
+OFFSETS_B = {"Yangtze": (9, 9), "Huangpu": (9, -9), "Tamsui": (8, -1), "Hanjiang": (7, -9), "Pearl": (-7, -13), "Pasig": (8, -1),
+             "Mekong": (8, -4), "Irrawaddy": (-8, 2), "Ganges": (-8, 10), "Brantas": (8, -3), "Solo": (0, 10), "Serayu": (-8, -8),
+             "Progo": (5, -12)}
+FIELD_OFFSETS = [(-9, -6, "right"), (-10, -11, "right"), (-9, 3, "right"), (-9, 0, "right"), (0, 17, "center")]   # dx, dy (points), alignment
+FS_LABEL = 7.6                                              # label size (pt); the figure is printed at about its own size
 ASIA = (82, 133, -13, 40)                                   # lon min, lon max, lat min, lat max of panel b
 
 
@@ -78,7 +79,7 @@ def draw_base(ax, rings, extent) -> None:
         ax.add_patch(Polygon(ring, closed=True, facecolor=LAND, edgecolor=EDGE, linewidth=0.3, zorder=1))
     ax.set_xlim(extent[0], extent[1]); ax.set_ylim(extent[2], extent[3])
     ax.set_aspect("equal"); ax.set_facecolor("white")
-    ax.tick_params(labelsize=6.5, length=2)
+    ax.tick_params(labelsize=7.2, length=2)
     ax.xaxis.set_major_formatter(lambda v, _: f"{abs(v):.0f}°{'E' if v > 0 else 'W' if v < 0 else ''}")
     ax.yaxis.set_major_formatter(lambda v, _: f"{abs(v):.0f}°{'N' if v > 0 else 'S' if v < 0 else ''}")
     for side in ax.spines.values():
@@ -88,18 +89,18 @@ def draw_base(ax, rings, extent) -> None:
 def draw_points(ax, rivers: pd.DataFrame, labels: bool, values: bool) -> None:
     for _, r in rivers.iterrows():
         measured = bool(r["in_main_table"])
-        ax.plot(r["lon"], r["lat"], "o", ms=5.2 if measured else 4.2, mfc=NAVY if measured else "white", mec=NAVY, mew=0.9, zorder=4)
+        ax.plot(r["lon"], r["lat"], "o", ms=6.0 if measured else 4.8, mfc=NAVY if measured else "white", mec=NAVY, mew=1.0, zorder=4)
         if labels:
             dx, dy = OFFSETS_B.get(r["label"], (7, -3))
             text = r["label"] + (f"\n{r['Cu_kg_yr_12.5ug']:.2g} kg yr$^{{-1}}$" if measured and values else "")
-            ax.annotate(text, (r["lon"], r["lat"]), xytext=(dx, dy), textcoords="offset points", fontsize=6.3,
+            ax.annotate(text, (r["lon"], r["lat"]), xytext=(dx, dy), textcoords="offset points", fontsize=FS_LABEL,
                         ha="left" if dx > 0 else "right" if dx < 0 else "center", va="center", color=NAVY,
                         fontweight="bold" if measured else "normal", zorder=5)
     for (label, lon, lat, filtered), (dx, dy, ha) in zip(FIELD, FIELD_OFFSETS):
-        ax.plot(lon, lat, "^", ms=5.6, mfc=RED if filtered else "white", mec=RED, mew=0.9, zorder=6)
+        ax.plot(lon, lat, "^", ms=6.4, mfc=RED if filtered else "white", mec=RED, mew=1.0, zorder=6)
         if labels:
-            ax.annotate(label, (lon, lat), xytext=(dx, dy), textcoords="offset points", fontsize=6.0, ha=ha, va="center",
-                        color=RED, zorder=6, linespacing=0.95)
+            ax.annotate(label, (lon, lat), xytext=(dx, dy), textcoords="offset points", fontsize=FS_LABEL - 0.4, ha=ha, va="center",
+                        color=RED, zorder=6, linespacing=1.0)
 
 
 def main() -> None:
@@ -112,31 +113,40 @@ def main() -> None:
     table["lon"], table["lat"] = table["river"].map(lambda k: RIVERS[k][1]), table["river"].map(lambda k: RIVERS[k][2])
     rings = land_polygons()
 
-    world = (-125, 150, -40, 62)
-    ratios = [(e[1] - e[0]) / (e[3] - e[2]) for e in (world, ASIA)]            # equal panel heights
-    fig, (ax_a, ax_b) = plt.subplots(1, 2, figsize=(11.0, 3.9), gridspec_kw={"width_ratios": ratios, "wspace": 0.10})
+    # Layout (inches): panel a (world) above the legend in the left column, panel b (East and South-East Asia) enlarged on
+    # the right, so that the figure fills the width of a landscape page at a height of about 12 cm.
+    world = (-100, 150, -40, 62)
+    W, H = 8.8, 4.85
+    bw = 4.2                                                  # width of panel b; its height follows the equal aspect
+    bh = bw * (ASIA[3] - ASIA[2]) / (ASIA[1] - ASIA[0])
+    aw = W - bw - 0.95
+    ah = aw * (world[3] - world[2]) / (world[1] - world[0])
+    fig = plt.figure(figsize=(W, H))
+    ax_b = fig.add_axes([(W - bw - 0.05) / W, (H - bh - 0.3) / H, bw / W, bh / H])
+    ax_a = fig.add_axes([0.42 / W, (H - ah - 0.3) / H, aw / W, ah / H])
     draw_base(ax_a, rings, world)
     draw_points(ax_a, table, labels=False, values=False)
     ax_a.add_patch(Rectangle((ASIA[0], ASIA[2]), ASIA[1] - ASIA[0], ASIA[3] - ASIA[2], fill=False, edgecolor="0.35", linewidth=0.7,
                              linestyle="--", zorder=7))
-    ax_a.text(ASIA[0] + 1.5, ASIA[3] + 1.8, "panel b", fontsize=6.5, color="0.3")
-    for name, dx, dy, ha in [("Amazon", 7, 4, "left"), ("Magdalena", 7, 4, "left")]:
+    ax_a.text(ASIA[0] + 1.5, ASIA[3] + 2.5, "panel b", fontsize=7.2, color="0.3")
+    for name, dx, dy, ha in [("Amazon", 7, 2, "left"), ("Magdalena", 0, 6, "center")]:
         r = table[table["label"] == name].iloc[0]
         text = name + (f"\n{r['Cu_kg_yr_12.5ug']:.2g} kg yr$^{{-1}}$" if r["in_main_table"] else "")
-        ax_a.annotate(text, (r["lon"], r["lat"]), xytext=(dx, dy), textcoords="offset points", fontsize=6.3, ha=ha, va="bottom",
+        ax_a.annotate(text, (r["lon"], r["lat"]), xytext=(dx, dy), textcoords="offset points", fontsize=FS_LABEL - 0.4, ha=ha, va="bottom",
                       color=NAVY, fontweight="bold" if r["in_main_table"] else "normal")
-    ax_a.annotate("Imo, Kwa Ibo, Cross", (8.0, 4.7), xytext=(0, -11), textcoords="offset points", fontsize=6.3, ha="center", color=NAVY)
+    ax_a.annotate("Imo, Kwa Ibo, Cross", (8.0, 4.7), xytext=(0, -12), textcoords="offset points", fontsize=FS_LABEL - 0.4, ha="center",
+                  color=NAVY)
     draw_base(ax_b, rings, ASIA)
     draw_points(ax_b, table, labels=True, values=True)
     for ax, letter in [(ax_a, "a"), (ax_b, "b")]:
-        ax.text(0.0, 1.03, letter, transform=ax.transAxes, fontsize=11, fontweight="bold", va="bottom")
-    handles = [Line2D([], [], marker="o", ls="", ms=5.2, mfc=NAVY, mec=NAVY, label="River with measured MP abundance and dissolved Cu (Table 3);\n"
-                      "value: MP-bound Cu for 12.5 µg per particle"),
-               Line2D([], [], marker="o", ls="", ms=4.2, mfc="white", mec=NAVY, label="River with at least one default input (Table S12)"),
-               Line2D([], [], marker="^", ls="", ms=5.6, mfc=RED, mec=RED, label="Field study with Cu on MPs and dissolved Cu in water (Table S1)"),
-               Line2D([], [], marker="^", ls="", ms=5.6, mfc="white", mec=RED, label="Field study with Cu in unfiltered water (sensitivity analysis only)")]
-    fig.legend(handles=handles, loc="lower center", bbox_to_anchor=(0.5, 0.0), ncol=2, fontsize=6.6, frameon=False, columnspacing=2.5,
-               labelspacing=0.8)
+        ax.text(0.0, 1.02, letter, transform=ax.transAxes, fontsize=12, fontweight="bold", va="bottom")
+    handles = [Line2D([], [], marker="o", ls="", ms=6.0, mfc=NAVY, mec=NAVY, label="River with measured MP abundance and\n"
+                      "dissolved Cu (Table 3); value: MP-bound Cu\nfor 12.5 µg per particle"),
+               Line2D([], [], marker="o", ls="", ms=4.8, mfc="white", mec=NAVY, label="River with at least one default input\n(Table S11)"),
+               Line2D([], [], marker="^", ls="", ms=6.4, mfc=RED, mec=RED, label="Field study with Cu on MPs and dissolved\nCu in water (Table S1)"),
+               Line2D([], [], marker="^", ls="", ms=6.4, mfc="white", mec=RED, label="Field study with Cu in unfiltered water\n(sensitivity analysis only)")]
+    fig.legend(handles=handles, loc="upper left", bbox_to_anchor=(0.42 / W, (H - ah - 0.75) / H), ncol=1, fontsize=8.2, frameon=False,
+               labelspacing=1.1, handletextpad=0.8, borderaxespad=0)
     for ext, kw in [("png", {}), ("tiff", {"pil_kwargs": {"compression": "tiff_lzw"}})]:
         fig.savefig(OUT / f"Fig_S3_river_map.{ext}", dpi=600, bbox_inches="tight", facecolor="white", **kw)
     print(f"saved Fig_S3_river_map ({len(rings)} land polygons, {len(table)} rivers, {len(FIELD)} field study areas)")
