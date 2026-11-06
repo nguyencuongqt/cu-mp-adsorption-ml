@@ -1,5 +1,7 @@
 # From laboratory isotherms to rivers: machine learning prediction of copper adsorption on microplastics, field scaling and LLM-assisted explanation
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23997656.svg)](https://doi.org/10.5281/zenodo.23997656)
+
 Code, curated data and result tables for the article above (Environmental Pollution, revision of ENVPOL-D-26-10175), and the
 web application described in Section 3.2.3 of the article.
 
@@ -90,4 +92,4 @@ Code: MIT (`LICENSE`). Data in `data/` and result tables in `outputs/`: CC BY 4.
 ## Citation
 
 Please cite the article (details to be added on publication) and the archived version of this repository
-(Zenodo; the DOI is given on the Zenodo record and in the article). `CITATION.cff` gives the citation in machine-readable form.
+(Zenodo, version v2.0.0: https://doi.org/10.5281/zenodo.23997656; all versions: https://doi.org/10.5281/zenodo.23997655). `CITATION.cff` gives the citation in machine-readable form.
